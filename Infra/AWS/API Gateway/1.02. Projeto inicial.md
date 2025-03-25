@@ -1,0 +1,1 @@
+Para ter acesso aos códigos que desenvolvemos, você pode [baixar o projeto em zip](https://github.com/alura-cursos/3630-API_Gateway/archive/refs/heads/Projeto_inicial.zip) ou [acessar o link do repositório no GitHub](https://github.com/alura-cursos/3630-API_Gateway/tree/Projeto_inicial)!

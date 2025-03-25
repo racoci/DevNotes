@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "3c2396c1e50aebbf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d6882fdce3b004a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c2cbabf07b5a7bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/KotlinSpring/0 Intro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0 Intro"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a79b83142600142c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "161191cd6275a9d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infra/Custos AWS/2  Apagando serviços/05 aws-nuke.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05 aws-nuke"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37c04dffdb68444c",
+    "type": "split",
+    "children": [
+      {
+        "id": "54a49d5e231b965a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "136b65c4bb4a1d44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "f0f01073b6070477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "1200950d7e82c30e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ed5c23ef13420e73",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd5d1f0e1bde8397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4591da669db22a6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bem-vindo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Bem-vindo"
+            }
+          },
+          {
+            "id": "772fa79470a38acc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bem-vindo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Bem-vindo"
+            }
+          },
+          {
+            "id": "a2e2c9d447b70e46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "013348a8900dc1c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bem-vindo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Bem-vindo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "161191cd6275a9d7",
+  "lastOpenFiles": [
+    "Cisco/Defesa de rede - PUC Minas Coração Eucarístico/Bem-vindo.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.13 Crédito.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.12 Conclusão.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.11 O que aprendemos_.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.10 Referências.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.09 Lista de exercícios.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.08 Arrow function.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.07 Arrow functions.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.06 Escrevendo funções.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.05 Expressão de função.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.04 Estrutura da função.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.03 Parâmetros e retorno.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.02 Relembrando funções.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/5.01 Projeto da aula anterior.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.16 Lista de exercícios.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.15 links da aula.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.14 Operadores lógicos.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.13 Number vs String.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.11 Aprendendo com memes.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.12 Operador ternário.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.10 Operadores de Comparação.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.09 Truthy e Falsy.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.08 tabela da verdade.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.07 Operadores lógicos.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.06 Controle de estoque.md",
+    "General Languages/JS Basics/JS Types, Operators and Functions/4.05 Operador de incremento.md",
+    "General Languages/JS Basics/JS Arrays/3530-js-arrays",
+    "General Languages/JS Basics/JS Types, Operators and Functions",
+    "General Languages/JS Basics/JS Arrays",
+    "General Languages/JS Basics",
+    "General Languages/Go/5 Interface e novo tipo de conta",
+    "General Languages/Go/4 Composição e encapsulamento",
+    "General Languages/Go/3 Retornos, pacotes e visibilidade",
+    "General Languages/Go/2 Referência, ponteiro e métodos",
+    "General Languages/Go/1 Minha primeira struct",
+    "General Languages/Go"
+  ]
+}

@@ -1,0 +1,111 @@
+Agora que já temos um planejamento e sabemos tudo o que precisaremos criar, vamos começar realmente a trabalhar com a AWS e criar todos os recursos.
+
+Para isso, sugerimos comecemos pelo S3, que é onde serão armazenadas todas as imagens que a equipe de front-end vai inserir. Nossa API vai interagir com ele.
+
+## Criando _bucket_ no S3
+
+Na parte superior da página inicial do console da AWS, vamos clicar na barra de pesquisa ou usar o atalho "Alt + S" para acessá-la. Basta digitar "S3" e clicar, dentro de _Services_ (Serviços em português), na opção do S3.
+
+Descendo um pouco a tela na área do S3, temos uma seção de "Buckets de uso geral", que é o tipo de _buckets_ que vamos criar. Por isso, clicaremos em um botão laranja escrito "Criar Bucket" logo à direita para entrar na parte de criação dos _buckets_.
+
+A primeira configuração que a AWS solicita é a **região** em que vamos criar esse _bucket_.
+
+> Precisaremos criar todos os nossos recursos em **uma mesma região**. Ou seja, o _bucket_, a API e qualquer outro recurso criado devem estar sempre na mesma região.
+
+Além disso, se você tem uma aplicação que precisa responder muito rápido para as pessoas usuárias, é importante selecionar uma região que esteja **fisicamente próxima** delas.
+
+Por exemplo, estamos na América do Sul. Se temos uma aplicação que precisa responder rápido, é interessante escolher o _datacenter_ da AWS com a região disponibilizada da América do Sul (`sa-east-1`). Com isso, a distância que a informação tem que percorrer é menor e ela chega mais rápido.
+
+No nosso caso, vamos manter no **leste dos Estados Unidos**, porque é mais barato e também vai nos permitir utilizar o **_tier_ gratuito** que a AWS fornece. Então, vamos manter tudo que criarmos no `us-east-1`, que é o Norte da Virgínia.
+
+Temos dois **tipos de _buckets_** diferentes: o de propósito geral e o _bucket_ de diretório. No nosso caso, vamos usar o **propósito geral**, pois ele já vai ser suficiente, além de estar no _tier_ gratuito. Não precisamos do diretório.
+
+O _bucket_ de diretório tem algumas vantagens, como diminuir a latência, ou seja, responder mais rápido - apesar de ser uma diferença pequena. Só que ele consome do S3 Express One Zone, que é um serviço bem mais caro. Por isso, só use o diretório se você realmente precisar.
+
+Para o **nome do _bucket_**, podemos começar com o nome da nossa aplicação. A nossa aplicação é uma API cujo nome é coleção de fotos. Então, vamos dar esse nome do _bucket_: `colecaodefotos`.
+
+> **Atenção**: o nome _bucket_ não pode ter nenhum tipo de acentuação!
+
+Como estamos numa conta compartilhada com várias pessoas, pois é uma conta de empresa, também é comum colocar quem gere esse _bucket_. Nesse caso, ficará `colecaodefotos-leo`.
+
+Logo abaixo, chegamos na seção de "propriedade de objeto". Vamos manter o padrão, que é "**ACLs desabilitadas**". Isso significa que todos os arquivos que estão no _bucket_ são da nossa conta. Só a nossa conta pode colocar e tirar arquivos. No nosso caso, será através da API, mas tudo será nossa propriedade.
+
+Em "configuração de bloqueio do acesso público deste bucket", podemos manter a opção "**bloquear todo o acesso público**". Não precisamos do acesso público no momento, já que a API é para a nossa empresa.
+
+Também podemos deixar o **versionamento desativado**. Para que serve o versionamento? Suponha que você queira subir uma nova versão de uma imagem, ou seja, uma mesma imagem que já foi enviada, mas algumas diferenças. Podemos subi-la e o _bucket_ vai guardar as duas versões. Isso é interessante em alguns casos, mas geralmente podemos deixar desativado.
+
+Além disso, não precisamos adicionar nenhuma _**tag**_, isto é, não precisamos de nenhum comentário dentro do nosso _bucket_.
+
+Na parte de "criptografia padrão", vamos deixar a cargo da AWS. Não precisamos mexer nas opções já marcadas, que selecionam uma criptografia ao lado do servidor com chaves gerenciadas do Amazon S3 e ativam a chave do bucket.
+
+No final da página, podemos clicar em "Criar bucket". Nesse momento vai aparecer uma mensagem de sucesso:
+
+> Bucket criado com êxito "colecaodefotos-leo"
+
+Nosso _bucket_ vai estar listado entre os buckets de uso geral. Ao clicar em seu nome, podemos acessar os objetos dentro dele. No momento, ele está vazio, como esperado.
+
+## Especificando permissões no IAM
+
+Podemos agora começar a criar os recursos. Então, vamos criar a API? Ainda não. Precisamos passar primeiro pela parte de permissionamento, já que estamos em um ambiente de _cloud_ (nuvem).
+
+> É através das **permissões** que os serviços podem se comunicar.
+
+É preciso criar as permissões, porque senão a API não vai conseguir acessar os arquivos do S3.
+
+Na barra de pesquisa, na parte superior da tela, vamos digitar "IAM", que é o _Identity and Access Management_ (Gerenciamento de acesso e identidade).
+
+No painel do IAM, vamos ao menu da esquerda para selecionar a opção "Gerenciamento de acesso > Políticas". No lado direito, vamos clicar no botão laranja "Criar política".
+
+Nesse momento, vamos ter que começar a **especificar as permissões**. Primeiramente, é preciso selecionar um **serviço**. Qual serviço a nossa API vai acessar? Ela vai acessar o serviço do **S3**.
+
+Quais **ações** que ela pode fazer? No primeiro momento, vamos querer ler. Mas depois também vamos querer apagar, listar e muito mais. Por isso, em "ações permitidas", vamos marcar "todas as ações do S3". Assim, todas as ações do S3 estarão disponíveis para a nossa API.
+
+Em "Recursos", podemos especificar um pouco melhor o que essa API vai poder acessar. No nosso caso, vamos ter que acessar um _**bucket**_. Na parte de _bucket_, vamos clicar em "adicionar ARNs" para restringir o acesso só para o _bucket_ que queremos.
+
+A API pode acessar o S3 inteiro? Não, ela tem que acessar um único local, que é o _bucket_ da coleção de fotos. E o que precisamos para especificar? Podemos colocar o nome do _bucket_ ou o ARN (nome do recurso da Amazon).
+
+> A melhor opção é sempre especificar o **ARN**, pois é um número único e exclusivo para cada recurso que criamos. Nunca existirão dois ARNs iguais.
+
+Para pegar o ARN do nosso _bucket_, vamos voltar no S3 em outra aba. Dentro do _bucket_ `colecaodefotos-leo`, vamos abrir a opção de "propriedades". Em "visão geral do bucket", do lado direito, já temos o nome de recurso da Amazon (ARN).
+
+Podemos copiar o ARN e colá-lo no campo "ARN do recurso" no IAM. Com isso, já aparece o nome do _bucket_ automaticamente. Na parte inferior direita, pressionamos "Adicionar ARNs".
+
+Na parte de permissões, podemos rolar até o final e clicar em "Próximo" para ir à parte de "revisar e criar".
+
+Em "Detalhes da política", precisamos colocar um **nome** nessa política. Para manter uma organização, vamos começar com o nome da nossa aplicação, depois o que essa política dá acesso e, por fim, informar que é uma política.
+
+Desse modo, teremos o nome `colecaodefotos-S3-policy`. Assim saberemos que é uma política que dá acesso ao S3.
+
+Para **descrição**, vamos copiar e colar o nome. Apesar de ser opcional, é sempre bom preencher com algo.
+
+Na próxima seção, a AWS nos dá um resumo das permissões definidas nesta política. Na parte inferior direita, clicamos em "criar política".
+
+> Política colecaodefotos-S3-policy criada.
+
+## Criando funções
+
+Só que os serviços não usam políticas diretamente, eles usam funções. No menu do IAM, do lado esquerdo, vamos entrar em "Funções". Na parte superior direita, apertamos o botão "Criar perfil".
+
+A AWS tem inconsistências na tradução, às vezes chamam de funções em um lugar e perfil no outro, mas ambos significam _role_.
+
+Na primeira etapa para criar um perfil, é preciso selecionar um tipo de **entidade confiável**. Vamos manter o "serviço da AWS".
+
+Logo abaixo, devemos escolher um **serviço ou caso de uso**. Quem vai usar nossa política? No nosso caso, a API, pois ela é quem vai acessar o S3. Por isso, vamos buscar por "API Gateway". Após selecioná-lo, clicamos em "Próximo".
+
+Não precisamos modificar nada na etapa de adicionar permissões. Vamos fazer isso mais tarde. Basta clicar em "Próximo".
+
+Na última etapa, vamos definir o **nome da função**. De novo, vamos começar com o nome da nossa aplicação, coleção de fotos. Quem que vai usar essa função? O API Gateway. E ela terá acesso ao quê? Ela terá acesso ao S3. Então, será chamada `colecaodefotos-APIgateway-S3`.
+
+Vamos alterar a descrição dela também, colocando a descrição igual ao nome. Podemos ir até o final da página e clicar em "Criar perfil".
+
+> Perfil colecaodefotos-APIgateway-S3 criado.
+
+Já vamos aproveitar a notificação verde na parte superior da tela e clicar em "Visualizar função".
+
+Na área de permissões dessa função, vamos clicar em "Adicionar permissões > anexar políticas". Em "outras políticas de permissões", buscamos pela política que acabamos de criar com o nome da nossa aplicação.
+
+Colocar o nome da aplicação facilitar encontrar o que buscamos. Temos 900 políticas disponíveis, mas só uma com o nome da nossa aplicação. Selecionamos a `colecaodefotos-S3-policy` e clicamos em "Adicionar permissão" na parte inferior direita. Nosso permissionamento está feito.
+
+> Êxito ao anexar a política ao perfil.
+
+A seguir, vamos começar a mexer no API Gateway.
