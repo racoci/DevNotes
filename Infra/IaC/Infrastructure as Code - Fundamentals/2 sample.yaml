@@ -1,0 +1,174 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Sample Connect Instance Creation CFT
+#
+# Copyright 2023 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this
+# software and associated documentation files (the "Software"), to deal in the Software
+# without restriction, including without limitation the rights to use, copy, modify,
+# merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+# INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+# PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+# HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+
+#=================================================================================================
+# Resources created below
+#=================================================================================================
+Parameters:
+  InstanceAlias:
+    Type: String
+    Description: the alias of the Amazon Connect instance
+Resources:
+  # Create Amazon Connect instance
+  AmazonConnectInstance:
+    Type: AWS::Connect::Instance
+    Properties:
+      Attributes:
+        AutoResolveBestVoices: true
+        ContactflowLogs: true
+        ContactLens: true
+        EarlyMedia: true
+        InboundCalls: true
+        OutboundCalls: true
+        UseCustomTTSVoices: false
+      IdentityManagementType: CONNECT_MANAGED
+      InstanceAlias: !Ref InstanceAlias
+
+  # S3 Bucket for Amazon Connect call recordings
+  AmazonConnectS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  # KMS Key
+  AmazonConnectKey:
+    Type: AWS::KMS::Key
+    Properties:
+      Description: KMSKeyForConnect
+      Enabled: true
+      KeyPolicy:
+        Version: '2012-10-17'
+        Id: connectkey1
+        Statement:
+          - Sid: Enable IAM User Permissions
+            Effect: Allow
+            Principal:
+              AWS: !Sub arn:aws:iam::${AWS::AccountId}:root
+            Action:
+              - kms:*
+            Resource: '*'
+
+  # Associate recordings storage for Amazon Connect
+  AmazonConnectStorage:
+    Type: AWS::Connect::InstanceStorageConfig
+    # DependsOn:
+    #   - AmazonConnectInstance
+    #   - AmazonConnectS3Bucket
+    Properties:
+      InstanceArn: !GetAtt AmazonConnectInstance.Arn
+      ResourceType: CALL_RECORDINGS
+      S3Config:
+        BucketName: !Ref AmazonConnectS3Bucket
+        BucketPrefix: recordings
+        EncryptionConfig:
+          EncryptionType: KMS
+          KeyId: !GetAtt AmazonConnectKey.Arn
+      StorageType: S3
+
+  # Create a routing profile for agents
+  AgentRoutingProfile:
+    Type: AWS::Connect::RoutingProfile
+    Properties:
+      AgentAvailabilityTimer: TIME_SINCE_LAST_INBOUND
+      DefaultOutboundQueueArn: !GetAtt Queue.QueueArn
+      Description: Routing profile for agents
+      InstanceArn: !Ref AmazonConnectInstance
+      MediaConcurrencies:
+        - Channel: VOICE
+          Concurrency: 1
+        - Channel: CHAT
+          Concurrency: 2
+      Name: Agent routing profile
+      QueueConfigs:
+        - Delay: 0
+          Priority: 1
+          QueueReference:
+            Channel: VOICE
+            QueueArn: !GetAtt Queue.QueueArn
+        - Delay: 0
+          Priority: 1
+          QueueReference:
+            Channel: CHAT
+            QueueArn: !GetAtt Queue.QueueArn
+
+  # Create hours of operation
+  OperatingHours:
+    Type: AWS::Connect::HoursOfOperation
+    Properties:
+      Name: WorkshopHoursOfOperation
+      Description: hours of operation for workshop module 3
+      InstanceArn: !Ref AmazonConnectInstance
+      TimeZone: America/New_York
+      Config:
+        - Day: MONDAY
+          StartTime:
+            Hours: 8
+            Minutes: 0
+          EndTime:
+            Hours: 16
+            Minutes: 0
+        - Day: TUESDAY
+          StartTime:
+            Hours: 8
+            Minutes: 0
+          EndTime:
+            Hours: 16
+            Minutes: 0
+        - Day: WEDNESDAY
+          StartTime:
+            Hours: 8
+            Minutes: 0
+          EndTime:
+            Hours: 16
+            Minutes: 0
+        - Day: THURSDAY
+          StartTime:
+            Hours: 8
+            Minutes: 0
+          EndTime:
+            Hours: 16
+            Minutes: 0
+        - Day: FRIDAY
+          StartTime:
+            Hours: 8
+            Minutes: 0
+          EndTime:
+            Hours: 16
+            Minutes: 0
+
+  # Claim a phone number
+  PhoneNumber:
+    Type: AWS::Connect::PhoneNumber
+    Properties:
+      CountryCode: US
+      TargetArn: !GetAtt AmazonConnectInstance.Arn
+      Type: DID
+
+  # Create a queue
+  Queue:
+    Type: AWS::Connect::Queue
+    Properties:
+      Description: Queue for sample cfn template
+      HoursOfOperationArn: !GetAtt OperatingHours.HoursOfOperationArn
+      InstanceArn: !GetAtt AmazonConnectInstance.Arn
+      Name: SampleQueue
