@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infra/AWS/DVA-C02 - Certificação AWS Developer – Associate.md",
+                "file": "Backend/Nest/0. NestJS - A Plataforma Back-End Definitiva.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DVA-C02 - Certificação AWS Developer – Associate"
+              "title": "0. NestJS - A Plataforma Back-End Definitiva"
+            }
+          },
+          {
+            "id": "f2047b447050aefc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0 Desenvolvendo validações e tratando erros"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 310.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -169,20 +184,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f86fc3ec93cbba11",
+  "active": "f2047b447050aefc",
   "lastOpenFiles": [
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/test/iac-100.test.ts",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/test/iac-100.test.js",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/lib/iac-100-stack.ts",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/test/iac-100.test.d.ts",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/bin/iac-100.ts",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/tsconfig.json",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/package.json",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/test",
+    "Backend/Nest/0 NestJS - A Plataforma Back-End Definitiva.md",
+    "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/0 Node.JS - melhorando o fluxo de desenvolvimento e integração de sua equipe.md",
+    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest/0 Implementando testes em uma API Rest.md",
+    "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe",
+    "Backend/Node JS/Autenticação, testes e segurança/2.4 Autenticação, Passport e OAuth 2.0",
+    "Backend/Node JS/Autenticação, testes e segurança/2.3 Criando API Rest com autenticação, perfis de usuários e permissões",
+    "Backend/Node JS/Autenticação, testes e segurança/2.1 Criptografia e tokens JWT",
+    "Backend/Node JS/Autenticação, testes e segurança",
+    "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
+    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest",
+    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração/0 Node JS testes unitários e de integração.md",
+    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração",
+    "Backend/Node JS",
+    "Backend/Nest/1.1 Construção de uma API com tipagem segura/0 Construção de uma API com tipagem segura.md",
+    "2025-04-14 Lobos e Ovelhas.md",
+    "Estudo do ser.md",
+    "Sem título.md",
+    "message.md",
+    "Sem título 1.md",
+    "message 1.txt",
+    "message.txt",
+    "Backend/Nest/0. NestJS - A Plataforma Back-End Definitiva.md",
+    "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
+    "Infra/AWS/DVA-C02 - Certificação AWS Developer – Associate.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/README.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/package-lock.json",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/cdk.json",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/jest.config.js",
     "Infra/IaC/Infrastructure as Code - Fundamentals/iac-100/README.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
@@ -196,19 +224,6 @@
     "Infra/IaC/Infrastructure as Code - Fundamentals/1 Introduction to IaC for Amazon Connect.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
     "Security/JWT/0 Índice.md",
-    "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md",
-    "Security/Cisco/First Time in This Course.md",
-    "Frontend/Angular/0 Formação.md",
-    "Backend/KotlinSpring/0 Intro.md",
-    "Infra/Custos AWS/2  Apagando serviços/05 aws-nuke.md",
-    "Cisco/Defesa de rede - PUC Minas Coração Eucarístico/Bem-vindo.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.13 Crédito.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.12 Conclusão.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.11 O que aprendemos_.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.10 Referências.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.09 Lista de exercícios.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.08 Arrow function.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.07 Arrow functions.md",
-    "General Languages/JS Basics/JS Types, Operators and Functions/5.06 Escrevendo funções.md"
+    "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md"
   ]
 }

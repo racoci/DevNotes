@@ -1,0 +1,71 @@
+## Faça esse curso de Node.JS e:
+
+- Entenda como instalar um projeto com ambientes e configurações específicas
+- Pratique como adicionar features a um produto e testá-las
+- Aprenda conceitos importantes de Integração Contínua e como utilizá-los
+- Utilize as ferramentas do GitHub para versionar e incorporar código a uma base
+- Aprenda o que são feature flags e como incluir esse recurso em seu código
+
+## Aulas
+
+### O fluxo de trabalho
+- Apresentação
+- Preparando o ambiente
+- Entendendo o setup
+- Padronização de projetos
+- Para saber mais: executando comandos no Docker
+- Mais sobre Workflows
+- GH Actions
+- Para saber mais: o formato YAML
+- Para saber mais: deploy com GH Actions
+- Para saber mais: outras ferramentas de CI
+- O que aprendemos?
+
+### Trabalhando em uma feat
+- Primeiras implementações
+- Para saber mais: testes e DoD
+- Testando o CI
+- Para saber mais: padronização de branches e commits
+- Adicionando os testes
+- Incorporando o código
+- Para saber mais: testando PRs
+- Faça como eu fiz: incrementando os testes
+- Os recursos do Github Actions
+- O que aprendemos?
+
+### Workflows de projeto
+- Projeto da aula anterior
+- Trabalhando com branches
+- Para saber mais: GitHub Flow
+- Continuous Integration
+- Estratégias de CI
+- Para saber mais: mais sobre feature flags
+- Mais sobre estratégias de CI
+- O que aprendemos?
+
+### Implementando novas feats
+- Criando uma nova feature
+- Escrevendo testes
+- Fazendo o commit
+- Finalizando a implementação
+- Finalizando os testes
+- Para saber mais: mais sobre testes
+- Para saber mais: GitHub tags
+- Testando caminhos
+- O que aprendemos?
+
+### Criando feature flags
+- Projeto da aula anterior
+- Feature flags no código
+- Para saber mais: variáveis e ambientes
+- Testes para feature flag
+- Preparando o ambiente
+- Instalando o Unleash
+- Para saber mais: documentação do Unleash
+- Primeiros testes com Unleash
+- Usando o Unleash com uma FF
+- Faça como eu fiz: atualizando os testes
+- Feature Flags com Unleash
+- Projeto final do curso
+- O que aprendemos?
+- Conclusão
