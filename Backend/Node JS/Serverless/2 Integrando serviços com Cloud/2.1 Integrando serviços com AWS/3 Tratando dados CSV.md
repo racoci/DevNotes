@@ -1,0 +1,13 @@
+# 3 Tratando dados CSV
+- [[Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.01 Projeto da aula anterior |3.01 Projeto da aula anterior]]
+- [[3.02 Preparando o ambiente - Baixe o arquivo CSV]]
+- [[3.03 Utilizando um arquivo CSV]]
+- [[3.04 Instalando e utilizando o fast-csv]]
+- [[3.05 Tratando callbacks com Promises]]
+- [[3.06 Preparando o ambiente - ligando a Infraestrutura da API]]
+- [[3.07 Para saber mais - paginação da API]]
+- [[3.08 Para saber mais - validando os dados CSV]]
+- [[3.09 Cadastrando os alunos em batch]]
+- [[3.10 Para saber mais - arquitetura do Node.jss]]
+- [[3.11 Tratando funções assíncronas]]
+- [[3.12 O que aprendemos]]?

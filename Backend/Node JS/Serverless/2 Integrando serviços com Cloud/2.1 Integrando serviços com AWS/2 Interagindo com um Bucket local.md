@@ -1,0 +1,12 @@
+# 2 Interagindo com um Bucket local
+- [[Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.01 Projeto da aula anterior |2.01 Projeto da aula anterior]]
+- [[2.03 Criando o projeto Serverless]]
+- [[2.04 Para saber mais - fluxo de cadastro de alunos]]
+- [[2.05 Simulando um servidor S3 local]]
+- [[2.06 Fazendo upload no Bucket local]]
+- [[2.07 Para saber mais - versões 2 e 3 do AWS SDK]]
+- [[2.08 Obtendo dados do arquivo]]
+- [[2.09 Para saber mais - evento S3 e documentações da AWS]]
+- [[2.10 Para saber mais - entendendo o decodeURIComponent]]
+- [[2.11 Interagindo com um Bucket S3]]
+- [[2.12 O que aprendemos]]?

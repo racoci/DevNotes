@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0654e4842015d931",
+        "id": "d23f293ad24548b4",
         "type": "tabs",
         "children": [
           {
-            "id": "f2047b447050aefc",
+            "id": "f9626538bfb62241",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud/0 Aplicações eficientes na Cloud.md",
+                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Aplicações eficientes na Cloud"
-            }
-          },
-          {
-            "id": "ede382d2b950b9f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0 APIs com Node.js e Express"
+              "title": "2.1 Integrando serviços com AWS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,44 +169,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ede382d2b950b9f7",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud/0 Aplicações eficientes na Cloud.md",
-    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS/0 Integrando serviços com AWS.md",
-    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria/0 Integrando serviços com mensageria.md",
-    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud.md",
-    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS.md",
-    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria.md",
-    "Backend/Node JS/Serverless/0 Serverless.md",
-    "Backend/Node JS/Serverless/1.2 Serverless Framework Documentation.md",
-    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria",
-    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS",
-    "3.1 CursoServerless com Node JS - integrando serviços com mensageria.md",
-    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud",
-    "Backend/Node JS/Serverless/1.3 CursoServerless com Node.js - aplicações eficientes na Cloud.md",
-    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest/0 Implementando testes em uma API Rest.md",
-    "Backend/Node JS/Serverless",
-    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração/0 Node JS testes unitários e de integração.md",
-    "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
-    "Backend/Nest/0 NestJS - A Plataforma Back-End Definitiva.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/0 Node.JS - melhorando o fluxo de desenvolvimento e integração de sua equipe.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe",
-    "Backend/Node JS/Autenticação, testes e segurança/2.4 Autenticação, Passport e OAuth 2.0",
-    "Backend/Node JS/Autenticação, testes e segurança/2.3 Criando API Rest com autenticação, perfis de usuários e permissões",
-    "Backend/Node JS/Autenticação, testes e segurança/2.1 Criptografia e tokens JWT",
-    "Backend/Node JS/Autenticação, testes e segurança",
-    "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
-    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest",
-    "Backend/Nest/1.1 Construção de uma API com tipagem segura/0 Construção de uma API com tipagem segura.md",
-    "2025-04-14 Lobos e Ovelhas.md",
-    "Estudo do ser.md",
-    "Sem título.md",
-    "message.md",
-    "Sem título 1.md",
-    "Backend/Nest/0. NestJS - A Plataforma Back-End Definitiva.md",
-    "Infra/AWS/DVA-C02 - Certificação AWS Developer – Associate.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/README.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/iac-100/README.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.15 Conclusão.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.14 O que aprendemos.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.13 Projeto final do curso.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.12 Integrando o front ao S3.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.11 Para saber mais - desligando a infraestrutura da API.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.10 Para saber mais - funções do front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.09 Para saber mais - chaves secretas e deploy do front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.08 Usando a URL no front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.07 Para saber mais - URLs pré-assinadas da AWS.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.06 Gerando uma URL pré-assinada.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.05 Para saber mais - variáveis de ambiente.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.04 Criando o ambiente dev.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.03 Conhecendo o front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.02 Preparando o ambiente.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/Sem título",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.10 O que aprendemos.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.09 Configurando a Lambda e o Bucket.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.08 Para saber mais - configurando recursos no Serverless.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.07 Para saber mais - entendendo o CORS.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.06 Adicionando permissões de CORS.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.05 Nomeação de Bucket na AWS S3.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.04 Realizando o deploy.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.03 Preparando o ambiente - migrando do Dashboard para o Console.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema",
+    "Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/5 Testando rotas/Sem título",
+    "Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/3 Implementando testes/Sem título",
+    "Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/5 Testando rotas",
+    "Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/4 Testando uma API",
+    "ae8d9f75-3c64-427e-b7b9-d37dcca871c0.webp",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer-template.jpg"

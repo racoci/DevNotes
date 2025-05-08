@@ -1,0 +1,12 @@
+# 1 Projeto e problema
+- [[Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.01 Apresentação |1.01 Apresentação]]
+- [[Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.02 Preparando o ambiente |1.02 Preparando o ambiente]]
+- [[1.03 Para saber mais - definir orçamento na AWS]]
+- [[1.04 Conhecendo o projeto base]]
+- [[1.05 Para saber mais - mais sobre infraestrutura]]
+- [[1.06 Entendendo o problema]]
+- [[1.07 Para saber mais - tipos de dados e servidores1.06 Entendendo o problema]]
+- [[1.08 Soluções com Serverless]]
+- [[1.09 Para saber mais - desligando a infraestrutura da API]]
+- [[1.10 Vantagens e desvantagens]]
+- [[1.11 O que aprendemos]]?
