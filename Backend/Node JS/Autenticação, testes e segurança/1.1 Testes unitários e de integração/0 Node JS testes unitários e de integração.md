@@ -9,45 +9,45 @@
 ## Aulas
 
 ### 1 Conceituando testes
-- 1.01 Apresentação
-- 1.02 Tipos de testes
-- 1.03 Cultura de testes
-- 1.04 Preparando o ambiente
-- 1.05 Introduzindo testes estáticos
-- 1.06 Para saber mais: usando o Eslint
-- 1.07 Diferencie os testes
-- 1.08 Para saber mais: conteúdos sobre testes
-- 1.09 Faça como eu fiz: implementando testes unitários
-- 1.10 O que aprendemos?
+- Apresentação
+- Tipos de testes
+- Cultura de testes
+- Preparando o ambiente
+- Introduzindo testes estáticos
+- Para saber mais: usando o Eslint
+- Diferencie os testes
+- Para saber mais: conteúdos sobre testes
+- Faça como eu fiz: implementando testes unitários
+- O que aprendemos?
 ### 2 Asserções e Jest
-- 2.01 Projeto da aula anterior
-- 2.02 Asserções
-- 2.03 Para saber mais: Assert nativo do Node.js
-- 2.03 Apresentando o Jest
-- 2.04 Para saber mais: utilizando o Jest com ESM
-- 2.05 Como ficaria a função?
-- 2.06 Para saber mais: estrutura de pastas e nomenclatura
-- 2.07 Relatórios
-- 2.08 Para saber mais: cobertura de testes
-- 2.09 Faça como eu fiz: refazendo testes com o Jest
-- 2.10 O que aprendemos?
+- Projeto da aula anterior
+- Asserções
+- Para saber mais: Assert nativo do Node.js
+- Apresentando o Jest
+- Para saber mais: utilizando o Jest com ESM
+- Como ficaria a função?
+- Para saber mais: estrutura de pastas e nomenclatura
+- Relatórios
+- Para saber mais: cobertura de testes
+- Faça como eu fiz: refazendo testes com o Jest
+- O que aprendemos?
 ### 3 Implementando testes
-- 3.01 Projeto da aula anterior
-- 3.02 Mais matchers
-- 3.03 Para saber mais: funções adicionais
-- 3.04 Preparando o ambiente
-- 3.05 Utilizando os matchers
-- 3.06 Para saber mais: lista de matchers
-- 3.07 Testando exceções
-- 3.08 Capture e teste uma exceção
-- 3.09 Falso positivos
-- 3.10 Faça como eu fiz: implementando o projeto
-- 3.11 O que aprendemos?
+- Projeto da aula anterior
+- Mais matchers
+- Para saber mais: funções adicionais
+- Preparando o ambiente
+- Utilizando os matchers
+- Para saber mais: lista de matchers
+- Testando exceções
+- Capture e teste uma exceção
+- Falso positivos
+- Faça como eu fiz: implementando o projeto
+- O que aprendemos?
 ### 4 Testando uma API
-- 4.01 Projeto da aula anterior
-- 4.02 Preparando o ambiente
-- 4.03 Aplicando em uma API
-- 4.04 Para saber mais: cursos de API
+- Projeto da aula anterior
+- Preparando o ambiente
+- Aplicando em uma API
+- Para saber mais: cursos de API
 - Para saber mais: ferramentas para API
 - Testando código assíncrono
 - Para saber mais: código assíncrono com JS

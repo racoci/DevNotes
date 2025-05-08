@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f86fc3ec93cbba11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Nest/0. NestJS - A Plataforma Back-End Definitiva.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. NestJS - A Plataforma Back-End Definitiva"
-            }
-          },
-          {
             "id": "f2047b447050aefc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
+                "file": "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud/0 Aplicações eficientes na Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Desenvolvendo validações e tratando erros"
+              "title": "0 Aplicações eficientes na Cloud"
+            }
+          },
+          {
+            "id": "ede382d2b950b9f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0 APIs com Node.js e Express"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 399.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -184,11 +184,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2047b447050aefc",
+  "active": "ede382d2b950b9f7",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud/0 Aplicações eficientes na Cloud.md",
+    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS/0 Integrando serviços com AWS.md",
+    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria/0 Integrando serviços com mensageria.md",
+    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud.md",
+    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS.md",
+    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria.md",
+    "Backend/Node JS/Serverless/0 Serverless.md",
+    "Backend/Node JS/Serverless/1.2 Serverless Framework Documentation.md",
+    "Backend/Node JS/Serverless/3.1 Integrando serviços com mensageria",
+    "Backend/Node JS/Serverless/2.1 Integrando serviços com AWS",
+    "3.1 CursoServerless com Node JS - integrando serviços com mensageria.md",
+    "Backend/Node JS/Serverless/1.3 Aplicações eficientes na Cloud",
+    "Backend/Node JS/Serverless/1.3 CursoServerless com Node.js - aplicações eficientes na Cloud.md",
+    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest/0 Implementando testes em uma API Rest.md",
+    "Backend/Node JS/Serverless",
+    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração/0 Node JS testes unitários e de integração.md",
+    "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
     "Backend/Nest/0 NestJS - A Plataforma Back-End Definitiva.md",
     "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/0 Node.JS - melhorando o fluxo de desenvolvimento e integração de sua equipe.md",
-    "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest/0 Implementando testes em uma API Rest.md",
     "Backend/Node JS/Autenticação, testes e segurança/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe",
     "Backend/Node JS/Autenticação, testes e segurança/2.4 Autenticação, Passport e OAuth 2.0",
     "Backend/Node JS/Autenticação, testes e segurança/2.3 Criando API Rest com autenticação, perfis de usuários e permissões",
@@ -196,34 +212,18 @@
     "Backend/Node JS/Autenticação, testes e segurança",
     "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
     "Backend/Node JS/Autenticação, testes e segurança/1.3 Implementando testes em uma API Rest",
-    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração/0 Node JS testes unitários e de integração.md",
-    "Backend/Node JS/Autenticação, testes e segurança/1.1 Testes unitários e de integração",
-    "Backend/Node JS",
     "Backend/Nest/1.1 Construção de uma API com tipagem segura/0 Construção de uma API com tipagem segura.md",
     "2025-04-14 Lobos e Ovelhas.md",
     "Estudo do ser.md",
     "Sem título.md",
     "message.md",
     "Sem título 1.md",
-    "message 1.txt",
-    "message.txt",
     "Backend/Nest/0. NestJS - A Plataforma Back-End Definitiva.md",
-    "Backend/Nest/1.2 Desenvolvendo validações e tratando erros/0 Desenvolvendo validações e tratando erros.md",
     "Infra/AWS/DVA-C02 - Certificação AWS Developer – Associate.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/3 - iac-100/README.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/iac-100/README.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer-template.jpg",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/7 Contact.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/5 Quiz.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/6 Learn More.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/4 Summary.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/3 Using AWS CDK for Amazon Connect Deployments.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/2 Using CloudFormation for Amazon Connect Deployments.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/1 Introduction to IaC for Amazon Connect.md",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
-    "Security/JWT/0 Índice.md",
-    "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md"
+    "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer-template.jpg"
   ]
 }

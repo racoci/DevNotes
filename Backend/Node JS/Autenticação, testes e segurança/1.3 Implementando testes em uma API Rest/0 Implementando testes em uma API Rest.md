@@ -10,7 +10,7 @@
 
 ## Aulas
 
-### Boas práticas com testes unitários
+### 1 Boas práticas com testes unitários
 - Apresentação
 - Preparando o ambiente
 - Aplicando o padrão triple A
@@ -19,7 +19,7 @@
 - Desafio: implementando outros testes unitários
 - Faça como eu fiz: boas práticas com testes unitários
 - O que aprendemos?
-### Testes de integração
+### 2 Testes de integração
 - Projeto da aula anterior
 - Testando rota de login
 - Testes de caixa preta
@@ -30,7 +30,7 @@
 - Faça como eu fiz: validando retornos da API
 - O que aprendemos?
     
-### Testes E2E
+### 3 Testes E2E
 - Projeto da aula anterior
 - Testando a conexão com o de banco de dados
 - Limpando a base de dados
@@ -40,7 +40,7 @@
 - Faça como eu fiz: implementando testes no banco de dados
 - O que aprendemos?
 
-### Testando outras funcionalidades
+### 4 Testando outras funcionalidades
 - Projeto da aula anterior
 - Testando imagens
 - Desafio: implementando outros testes de imagem
@@ -49,7 +49,7 @@
 - Faça como eu fiz: testando outras funcionalidades
 - O que aprendemos?
 
-### Desenvolver orientado a testes
+### 5 Desenvolver orientado a testes
 - Projeto da aula anterior
 - Criando testes para implementar funcionalidades
 - Finalizando o Test-Driven Development
