@@ -6,6 +6,6 @@
 - [[1.05 Classificando testes de caixa branca]]
 - [[1.06 Desafio -implementando outros testes unitários]]
 - [[1.07 Boas práticas com testes unitários]]
-- [[1.08 O que aprendemos]]?
+- [[Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.3 Implementando testes em uma API Rest/1 Boas práticas com testes unitários/1.08 O que aprendemos]]?
 
 Curso: [[0 Implementando testes em uma API Rest]]
