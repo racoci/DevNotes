@@ -9,4 +9,4 @@
 - [[1.08 Soluções com Serverless]]
 - [[1.09 Para saber mais - desligando a infraestrutura da API]]
 - [[1.10 Vantagens e desvantagens]]
-- [[1.11 O que aprendemos]]?
+- [[Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.11 O que aprendemos]]?

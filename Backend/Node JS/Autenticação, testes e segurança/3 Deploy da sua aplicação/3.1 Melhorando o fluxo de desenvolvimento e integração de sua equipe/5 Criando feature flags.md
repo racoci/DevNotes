@@ -1,0 +1,17 @@
+# 5 Criando feature flags
+- [[5.01  Projeto da aula anterior]]
+- [[5.02  Feature flags no código]]
+- [[5.03  Variáveis e ambientes]]
+- [[5.04 Testes para feature flag]]
+- [[5.05 Preparando o ambiente]]
+- [[5.06  Instalando o Unleash]]
+- [[5.07 Documentação do Unleash]]
+- [[5.08 Primeiros testes com Unleash]]
+- [[5.09 Usando o Unleash com uma FF]]
+- [[5.10 Atualizando os testes]]
+- [[5.11  Feature Flags com Unleash]]
+- [[5.12 Projeto final do curso]]
+- [[5.13 O que aprendemos]]
+- [[5.14 Conclusão]]
+
+[[3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe]]
