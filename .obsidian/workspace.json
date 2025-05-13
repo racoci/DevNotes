@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud.md",
+                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Aplicações eficientes na Cloud"
+              "title": "3 Secrets e bancos de dados"
             }
           }
         ]
@@ -170,10 +170,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "54029bbe516c652c",
   "lastOpenFiles": [
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.2 Serverless Framework Documentation.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless.md",
     "Backend/Node JS/Serverless/0 Serverless Framework.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação.md",
@@ -195,9 +199,6 @@
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.13 O que aprendemos.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.12 Projeto final do curso.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.10 Atualizando os testes.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.09 Usando o Unleash com uma FF.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.08 Primeiros testes com Unleash.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags/5.07 Documentação do Unleash.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/4 Implementando novas feats",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/3 Workflows de projeto",
@@ -207,7 +208,6 @@
     "Backend/Node JS/Autenticação, testes e segurança/2 Segurança com JWT e autenticação/2.4 Autenticação, Passport e OAuth 2.0/Sem título",
     "Backend/Node JS/Autenticação, testes e segurança/2 Segurança com JWT e autenticação/2.4 Autenticação, Passport e OAuth 2.0/5",
     "Backend/Node JS/Autenticação, testes e segurança/2 Segurança com JWT e autenticação/2.4 Autenticação, Passport e OAuth 2.0/5 OAuth com GitHub",
-    "Backend/Node JS/Autenticação, testes e segurança/2 Segurança com JWT e autenticação/2.4 Autenticação, Passport e OAuth 2.0/4 Boas práticas de programação",
     "ae8d9f75-3c64-427e-b7b9-d37dcca871c0.webp",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
