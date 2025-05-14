@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.05 Arquitetura em VMs.md",
+                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.06 Arquitetura Serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.05 Arquitetura em VMs"
+              "title": "1.06 Arquitetura Serverless"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "54029bbe516c652c",
   "lastOpenFiles": [
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.04 Arquiteturas atuais.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.05 Arquitetura em VMs.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.06 Arquitetura Serverless.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.04 Arquiteturas atuais.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.03 Para saber mais - definir orçamento na AWS.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.02  Preparando o ambiente.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.01  Apresentação.md",
@@ -204,7 +205,6 @@
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/4 Implementando novas feats.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/1 O fluxo de trabalho.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/2 Trabalhando em uma feat.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/4 Implementando novas feats",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/3 Workflows de projeto",
