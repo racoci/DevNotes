@@ -1,0 +1,12 @@
+# 1 A arquitetura Serverless
+- 1.01 Apresentação
+- 1.02 Preparando o ambiente
+- 1.03 Para saber mais: definir orçamento na AWS
+- 1.04 Arquiteturas atuais
+- 1.05 Arquitetura em VMs
+- 1.06 Arquitetura Serverless
+- Vantagens e desvantagens do Serverless
+- Serverless Framework
+- Soluções com Serverless
+- Para saber mais: estudo complementar
+- O que aprendemos?
