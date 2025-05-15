@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.11 Obtendo resultados.md",
+                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.10 Funções Serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.11 Obtendo resultados"
+              "title": "2.10 Funções Serverless"
             }
           }
         ]
@@ -172,17 +172,17 @@
   },
   "active": "54029bbe516c652c",
   "lastOpenFiles": [
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.10.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.11 Obtendo resultados.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.09 Migrando a lógica da função.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.08 Para saber mais - estrutura de um projeto Serverless.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.07 Para saber mais - estrutura de um projeto Serverless.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.06 Faça como eu fiz - crie seu projeto.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.05 Criando um projeto.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.04 Para saber mais - mudanças no Serverless.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.03 Preparando o ambiente - migrando do Dashboard para o Console.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.02 Criando sua conta na AWS.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.08 Para saber mais - estrutura de um projeto Serverless.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.09 Migrando a lógica da função.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.10 Funções Serverless.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.11 Obtendo resultados.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.02 Criando sua conta na AWS.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.03 Preparando o ambiente - migrando do Dashboard para o Console.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.04 Para saber mais - mudanças no Serverless.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.05 Criando um projeto.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.06 Faça como eu fiz - crie seu projeto.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.01  Apresentação.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.02  Preparando o ambiente.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.03 Para saber mais - definir orçamento na AWS.md",
