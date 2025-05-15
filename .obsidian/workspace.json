@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/Untitled.md",
+                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.11 O que aprendemos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "1.11 O que aprendemos"
             }
           }
         ]
@@ -172,9 +172,11 @@
   },
   "active": "54029bbe516c652c",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.10 Para saber mais - estudo complementar.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.11 O que aprendemos.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.09  Soluções com Serverless.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.07  Vantagens e desvantagens do Serverless.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/Untitled.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/108 Serverless Framework.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.08 Serverless Framework.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.06 Arquitetura Serverless.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.05 Arquitetura em VMs.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless/1.04 Arquiteturas atuais.md",
@@ -203,8 +205,6 @@
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação.md",
     "Backend/Node JS/Autenticação, testes e segurança/2 Segurança com JWT e autenticação.md",
     "Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração.md",
-    "Backend/Node JS/Autenticação, testes e segurança/0 Autenticação, testes e segurança.md",
-    "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe.md",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/5 Criando feature flags",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/4 Implementando novas feats",
     "Backend/Node JS/Autenticação, testes e segurança/3 Deploy da sua aplicação/3.1 Melhorando o fluxo de desenvolvimento e integração de sua equipe/3 Workflows de projeto",
