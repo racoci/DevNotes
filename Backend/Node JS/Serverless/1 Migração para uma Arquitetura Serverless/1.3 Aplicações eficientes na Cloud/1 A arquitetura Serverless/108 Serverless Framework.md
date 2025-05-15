@@ -1,0 +1,31 @@
+O principal problema da arquitetura Serverless é o **_vendor lock-in_**. Para solucionar isso precisamos de uma forma de abstrair um pouco as funcionalidades dos provedores ou mesmo declarar o que precisamos para indicar que ele saiba exatamente o que queremos fazer.
+
+Um dos grandes problemas com Serverless é que precisamos ir no provedor criar as funções e cada um deles tem uma forma diferente de fazer isso. Por isso, surgiu o **Serverless Framework**.
+
+O Serverless Framework surgiu em 2015, com o advento da arquitetura Serverless.
+
+Inicialmente, a ideia dele era abstrair todos os provedores para que pudéssemos rodar o Serverless do mesmo jeito em qualquer lugar.
+
+Mas é difícil fazer isso, então para funcionar de uma forma boa para todo mundo eles fizeram da seguinte forma: nós devemos declarar o que precisamos em um arquivo `yml`, declaramos as funções, o que queremos fazer, os eventos a que essas funções vão responder.
+
+Depois de um tempo, como ficou difícil manter todos os provedores, foi criado um **suporte para plug-ins**. Alguns desses plug-ins permitiam que nós colocássemos as funções em outros provedores, por exemplo, Azure ou Google Cloud.
+
+Com isso, conseguimos ampliar ainda mais a forma como podemos trabalhar com Serverless hoje.
+
+A ideia é que o Serverless Framework seja o intermediário, que ele gerencia as funções e crie tudo o que nós precisarmos, não só criar funções mas também declarar as dependências dessas funções.
+
+O problema é que quanto mais coisas usarmos, mais ficamos dependentes tanto do Serverless quanto dos provedores.
+
+Ao trabalhar com o Serverless Framework, por exemplo, estamos criando uma arquitetura em volta desse framework e precisaremos trabalhar sempre com ele. Porque se formos trabalhar com outros modelos, por exemplo, um outro provedor de rede, as funções são completamente diferentes, precisaremos fazer algumas manutenções.
+
+Porém, uma das coisas mais legais do Serverless Framework é que ele é extremamente extensível.
+
+Então, se precisarmos fazer uma função para outro provedor de rede você pode sim criar o seu provedor e fazer com que ele faça o deploy automaticamente. E pode também fazer com que ele trabalhe com outras ferramentas.
+
+Além disso, você consegue declarar o que você precisa. Pode declarar, por exemplo, toda a sua cadeia de dependências e esse arquivo é versionado. Podemos versionar os arquivos e informar que queremos criar várias coisas, em seguida basta dar um comando e ele vai criar tudo isso para nós.
+
+Outra coisa muito bacana que veremos é que ele abstrai muito do que precisamos fazer. Com alguns comandos ele já cria toda a estrutura e só precisamos ajustar alguns detalhes.
+
+Lembre de fazer as atividades e preparar o ambiente que usaremos a partir da próxima aula!
+
+Bons estudos!
