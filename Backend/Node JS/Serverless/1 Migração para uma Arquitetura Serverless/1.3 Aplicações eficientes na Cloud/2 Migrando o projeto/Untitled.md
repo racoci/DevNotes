@@ -1,0 +1,1 @@
+# Preparando o ambiente: migrando do Dashboard para o Console
