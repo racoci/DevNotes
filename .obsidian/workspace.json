@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação/4.10 Params e Secrets.md",
+                "file": "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/1 A arquitetura Serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.10 Params e Secrets"
+              "title": "1 A arquitetura Serverless"
             }
           }
         ],
@@ -187,6 +187,13 @@
   },
   "active": "09e561056e21f195",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.06 Separando o token.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.05 Troubleshooting.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.03 Limpando o código.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.04 Modelo JWT.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.02 Limpando o código.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação/4.12 O que aprendemos.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação/4.11 Mais sobre autenticação com JWT.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação/4.10 Params e Secrets.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação/4.09 Autenticação JWT.md",
@@ -206,13 +213,6 @@
     "Untitled.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.06 Estados.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.05 Gerenciando estados.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.04 Preparando o ambiente - instalando o Docker.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.03 Faça como eu fiz - testando localmente.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.02  Testando localmente.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados/3.01 Projeto da aula anterior.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.13 O que aprendemos.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.12 Faça como eu fiz.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.10 Funções Serverless.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/4 Segurança e autenticação",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/3 Secrets e bancos de dados",

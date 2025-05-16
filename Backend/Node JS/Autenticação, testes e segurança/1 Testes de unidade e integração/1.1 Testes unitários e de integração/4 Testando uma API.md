@@ -12,4 +12,4 @@
 - [[4.09 Escrevendo um teste assíncrono]]
 - [[4.10 Simulação (mock) de funções]]
 - [[4.11 Faça como eu fiz - cenários de teste com Jest]]
-- [[4.12 O que aprendemos]]?
+- [[Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/4 Testando uma API/4.12 O que aprendemos]]?
