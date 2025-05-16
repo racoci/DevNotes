@@ -5,7 +5,7 @@
 - [[1.04 Conhecendo o projeto base]]
 - [[1.05 Para saber mais - mais sobre infraestrutura]]
 - [[1.06 Entendendo o problema]]
-- [[1.07 Para saber mais - tipos de dados e servidores1.06 Entendendo o problema]]
+- [[1.07 Para saber mais - tipos de dados e servidores]]
 - [[1.08 Soluções com Serverless]]
 - [[1.09 Para saber mais - desligando a infraestrutura da API]]
 - [[1.10 Vantagens e desvantagens]]
