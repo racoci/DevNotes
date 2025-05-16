@@ -11,4 +11,4 @@
 - [[3.08 Capture e teste uma exceção]]
 - [[3.09 Falso positivos]]
 - [[3.10 Faça como eu fiz - Implementando o projeto]]
-- [[3.11 O que aprendemos]]?
+- [[Backend/Node JS/Autenticação, testes e segurança/1 Testes de unidade e integração/1.1 Testes unitários e de integração/3 Implementando testes/3.11 O que aprendemos]]?
