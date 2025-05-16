@@ -1,16 +1,16 @@
 # 2 Migrando o projeto
-- Projeto da aula anterior
-- Preparando o ambiente: criando sua conta na AWS
-- Preparando o ambiente: migrando do Dashboard para o Console
-- Para saber mais: mudanças no Serverless
-- Criando um projeto
-- Faça como eu fiz: crie seu projeto
-- Para saber mais: estrutura de um projeto Serverless
-- Para saber mais: estrutura de um projeto Serverless
-- Migrando a lógica da função
-- Funções Serverless
-- Obtendo resultados
-- Faça como eu fiz
-- O que aprendemos?
+- [[Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/2 Migrando o projeto/2.01 Projeto da aula anterior|2.01 Projeto da aula anterior]]
+- [[2.02 Criando sua conta na AWS]]
+- [[2.03 Preparando o ambiente - migrando do Dashboard para o Console]]
+- [[2.04 Para saber mais - mudanças no Serverless]]
+- [[2.05 Criando um projeto]]
+- [[2.06 Faça como eu fiz - crie seu projeto]]
+- [[2.07 Para saber mais - estrutura de um projeto Serverless]]
+- [[2.08 Para saber mais - estrutura de um projeto Serverless]]
+- [[2.09 Migrando a lógica da função]]
+- [[2.10 Funções Serverless]]
+- [[2.11 Obtendo resultados]]
+- [[2.12 Faça como eu fiz]]
+- [[2.13 O que aprendemos|2.13 O que aprendemos?]]
 
 [[1.3 Aplicações eficientes na Cloud]]
