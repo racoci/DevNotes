@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.08 Para saber mais - configurando recursos no Serverless.md",
+                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.12 Integrando o front ao S3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.08 Para saber mais - configurando recursos no Serverless"
+              "title": "5.12 Integrando o front ao S3"
             }
           }
         ]
@@ -172,6 +172,23 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.12 Integrando o front ao S3.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.11 Para saber mais - desligando a infraestrutura da API.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.10 Para saber mais - funções do front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.09 Para saber mais - chaves secretas e deploy do front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.08 Usando a URL no front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.07 Para saber mais - URLs pré-assinadas da AWS.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.06 Gerando uma URL pré-assinada.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.05 Para saber mais - variáveis de ambiente.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.04 Criando o ambiente dev.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.03 Conhecendo o front.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.02 Preparando o ambiente.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.10 O que aprendemos.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.09 Configurando a Lambda e o Bucket.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.08 Para saber mais - configurando recursos no Serverless.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.07 Para saber mais - entendendo o CORS.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.05 Nomeação de Bucket na AWS S3.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.06 Adicionando permissões de CORS.md",
@@ -181,23 +198,6 @@
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/4 Deploy do projeto Serverless/4.01 Projeto da aula anterior.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.01 Projeto da aula anterior.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.11 Tratando funções assíncronas.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.12 O que aprendemos.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.10 Para saber mais - arquitetura do Node.jss.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.09 Cadastrando os alunos em batch.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.08 Para saber mais - validando os dados CSV.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.07 Para saber mais - paginação da API.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.06 Preparando o ambiente - ligando a Infraestrutura da API.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.05 Tratando callbacks com Promises.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.04 Instalando e utilizando o fast-csv.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.03 Utilizando um arquivo CSV.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.02 Preparando o ambiente - Baixe o arquivo CSV.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.01 Projeto da aula anterior.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.12 O que aprendemos.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.11 Interagindo com um Bucket S3.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.10 Para saber mais - entendendo o decodeURIComponent.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.09 Para saber mais - evento S3 e documentações da AWS.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.08 Obtendo dados do arquivo.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/results.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/login.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/index.js",
