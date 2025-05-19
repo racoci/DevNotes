@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.19"
+              "title": "1.19 Presigned URL no Front-end ou Back-end"
             }
           }
         ],
@@ -188,7 +188,7 @@
   "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.18 Troubleshooting da aula.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.17 Para saber mais - links da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.16 Para saber mais - acessando logs.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.15 Finalizando o deploy no Serverless.md",
