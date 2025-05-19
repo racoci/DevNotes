@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.07 Criando função Presigned URL"
+              "title": "1.10"
             }
           }
         ],
@@ -187,11 +187,13 @@
   },
   "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
-    "1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.09 Repositório do vídeo.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.10.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.08 Parâmetro Context.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 275b5bfd-8f59-4a83-ab18-c05bd7dca9af.webp",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.08 Parâmetro Context.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.06 Flossário da AWS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.05 Chaves locais da AWS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.04  Revisitando o projeto.md",
@@ -218,7 +220,6 @@
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.04 Criando o ambiente dev.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.03 Conhecendo o front.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.02 Preparando o ambiente.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/5 Integrando serviços/5.01 Projeto da aula anterior.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/results.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/login.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/index.js",
