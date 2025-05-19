@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.11 Interagindo com um Bucket S3.md",
+                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.06 Preparando o ambiente - ligando a Infraestrutura da API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.11 Interagindo com um Bucket S3"
+              "title": "3.06 Preparando o ambiente - ligando a Infraestrutura da API"
             }
           }
         ]
@@ -172,10 +172,15 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.05 Tratando callbacks com Promises.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.04 Instalando e utilizando o fast-csv.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.03 Utilizando um arquivo CSV.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.02 Preparando o ambiente - Baixe o arquivo CSV.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.12 O que aprendemos.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.11 Interagindo com um Bucket S3.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.10 Para saber mais - entendendo o decodeURIComponent.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.09 Para saber mais - evento S3 e documentações da AWS.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.11 Interagindo com um Bucket S3.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.12 O que aprendemos.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.08 Obtendo dados do arquivo.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.07 Para saber mais - versões 2 e 3 do AWS SDK.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.06 Fazendo upload no Bucket local.md",
@@ -193,9 +198,6 @@
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.05 Para saber mais - mais sobre infraestrutura.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.04 Conhecendo o projeto base.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.03 Para saber mais - definir orçamento na AWS.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.02 Preparando o ambiente.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.01 Apresentação.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.11  Projeto final do curso.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/results.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/login.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/index.js",
@@ -206,8 +208,6 @@
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/index.html",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/css",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/nodejs-serverless-framework-completo-serverless/README.md",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/5 Adicionando o login/5.14 Conclusão.md",
     "ae8d9f75-3c64-427e-b7b9-d37dcca871c0.webp",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
