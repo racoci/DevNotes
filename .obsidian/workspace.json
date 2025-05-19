@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.06 Preparando o ambiente - ligando a Infraestrutura da API.md",
+                "file": "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.11 Tratando funções assíncronas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.06 Preparando o ambiente - ligando a Infraestrutura da API"
+              "title": "3.11 Tratando funções assíncronas"
             }
           }
         ]
@@ -172,6 +172,13 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.12 O que aprendemos.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.11 Tratando funções assíncronas.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.10 Para saber mais - arquitetura do Node.jss.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.09 Cadastrando os alunos em batch.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.08 Para saber mais - validando os dados CSV.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.07 Para saber mais - paginação da API.md",
+    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.06 Preparando o ambiente - ligando a Infraestrutura da API.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.05 Tratando callbacks com Promises.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.04 Instalando e utilizando o fast-csv.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/3 Tratando dados CSV/3.03 Utilizando um arquivo CSV.md",
@@ -191,13 +198,6 @@
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/2 Interagindo com um Bucket local/2.01 Projeto da aula anterior.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.10 Vantagens e desvantagens.md",
     "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.09 Para saber mais - desligando a infraestrutura da API.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.11 O que aprendemos.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.08 Soluções com Serverless.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.07 Para saber mais - tipos de dados e servidores.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.06 Entendendo o problema.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.05 Para saber mais - mais sobre infraestrutura.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.04 Conhecendo o projeto base.md",
-    "Backend/Node JS/Serverless/2 Integrando serviços com Cloud/2.1 Integrando serviços com AWS/1 Projeto e problema/1.03 Para saber mais - definir orçamento na AWS.md",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/results.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/login.js",
     "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/index.js",
