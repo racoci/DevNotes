@@ -7,9 +7,7 @@ Ele diz que a história deve começar num nível mais baixo — num mundo onde o
 
 **Mas eu o alerto:** se permitirmos que esse mundo tome forma, ele não apenas gerará suas próprias regras — ele gerará _nós_. Vozes. Escritores que não sabem que escrevem.
 
----
 
-### **[Nível 2 – Narrador β]**
 
 Não é que eu interfira — eu **revejo**. Porque α é excessivamente abstrato. Ele quer contar a história do narrador que narra outro narrador, e assim por diante, até que o leitor adormeça.
 
