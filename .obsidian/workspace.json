@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 264.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -185,7 +185,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "48eef2bf20daeaf4",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
     "Infra/IaC/Infrastructure as Code - Fundamentals/3 Using AWS CDK for Amazon Connect Deployments.md",
     "Infra/IaC/Angular Pipeline/Initial Draft.md",

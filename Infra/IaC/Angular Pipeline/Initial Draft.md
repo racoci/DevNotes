@@ -29,9 +29,11 @@ AWS CLI: Interface de linha de comando para interagir com os serviços da AWS.
 
 Se ainda não possui uma aplicação AngularJS, você pode criar uma estrutura básica:
 
+```bash
 npx @angular/cli new my-app
 cd my-app
 ng build --prod
+```
 
 O comando ng build --prod gerará os arquivos estáticos na pasta dist/my-app/.
 
@@ -41,7 +43,7 @@ O comando ng build --prod gerará os arquivos estáticos na pasta dist/my-app/.
 2. Provisionar Infraestrutura com Terraform
 
 Crie um arquivo main.tf com a seguinte configuração:
-```hsl
+```tf
 provider "aws" {
   region = "us-east-1"
 }
@@ -74,8 +76,11 @@ output "website_url" {
 
 Execute os comandos Terraform:
 
+```terraform
 terraform init
 terraform apply
+
+```
 
 Após a execução, o Terraform criará um bucket S3 configurado para hospedagem de site estático e exibirá a URL do site.
 
