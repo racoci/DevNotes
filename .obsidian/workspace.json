@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.02 Preparando o ambiente - instalação do Postman.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.02 Preparando o ambiente - instalação do Postman"
+              "title": "2.04"
             }
           }
         ],
@@ -187,8 +187,10 @@
   },
   "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.03 Iniciando com Express.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.02 Preparando o ambiente - instalação do Postman.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.01 Projeto da aula anterior.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.14 O que aprendemos.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.13 Para saber mais - links da aula.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.12 Faça como eu fiz - revisando a criação do servidor.md",
@@ -221,8 +223,6 @@
     "AI/Architecture/A Guide to Large Language Model Abstractions.md",
     "Narrativas/O Ciclo da Pena.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.02 Comunicando serviços.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.01 Projeto da aula anterior.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.21 O que aprendemos.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 275b5bfd-8f59-4a83-ab18-c05bd7dca9af.webp",
