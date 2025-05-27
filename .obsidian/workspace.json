@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#AluraMais",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "48eef2bf20daeaf4",
+  "active": "f0f01073b6070477",
   "lastOpenFiles": [
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
