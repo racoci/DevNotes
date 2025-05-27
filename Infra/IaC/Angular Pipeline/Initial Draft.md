@@ -41,7 +41,7 @@ O comando ng build --prod gerará os arquivos estáticos na pasta dist/my-app/.
 2. Provisionar Infraestrutura com Terraform
 
 Crie um arquivo main.tf com a seguinte configuração:
-
+```hsl
 provider "aws" {
   region = "us-east-1"
 }
@@ -70,6 +70,7 @@ resource "aws_s3_bucket_policy" "public_read" {
 output "website_url" {
   value = aws_s3_bucket.angular_app.website_endpoint
 }
+```
 
 Execute os comandos Terraform:
 
