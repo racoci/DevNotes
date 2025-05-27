@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.07 Criando função Presigned URL"
+              "title": "1.3 Como instalar o Node.js no Windows, Linux e macOS"
             }
           },
           {
@@ -89,8 +89,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,10 +185,16 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "f0f01073b6070477",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
+    "Backend/Node JS/Express/1 API REST/1.1 HTTP Entendendo a Web por Baixo dos Panos",
+    "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
     "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
+    "Backend/Node JS/Express/3 Comunicação com WebSockets",
+    "Backend/Node JS/Express/2 ORM com Sequelize",
+    "Backend/Node JS/Express/1 API REST",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More",
     "AI/Architecture/A Guide to Large Language Model Abstractions.md",
     "Narrativas/O Ciclo da Pena.md",
@@ -211,22 +216,16 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.10 Refatorando o Front.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.09 Repositório do vídeo.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.08 Parâmetro Context.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 275b5bfd-8f59-4a83-ab18-c05bd7dca9af.webp",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.06 Flossário da AWS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.05 Chaves locais da AWS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.04  Revisitando o projeto.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.03 Definir orçamento na AWS.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.02 Preparando o ambiente.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/results.js",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/login.js",
-    "Backend/Node JS/Serverless/1 Migração para uma Arquitetura Serverless/1.3 Aplicações eficientes na Cloud/Projeto Final/interface/js/index.js",
     "ae8d9f75-3c64-427e-b7b9-d37dcca871c0.webp",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/Diagram of Connect architecture using CloudFormation, additional details located in numbered markers..png",
     "Infra/IaC/Infrastructure as Code - Fundamentals/Images/2 app-composer.jpg",
