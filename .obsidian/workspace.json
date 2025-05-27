@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Architecture/A Guide to Large Language Model Abstractions.md",
+                "file": "Backend/Node JS/Express/0 APIs com Node.js e Express.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Guide to Large Language Model Abstractions"
+              "title": "0 APIs com Node.js e Express"
             }
           }
         ],
@@ -180,13 +180,15 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false,
+      "iconic:Open rulebook": false
     }
   },
   "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
-    "Narrativas/O Ciclo da Pena.md",
     "AI/Architecture/A Guide to Large Language Model Abstractions.md",
+    "Narrativas/O Ciclo da Pena.md",
     "AI/Architecture",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.02 Comunicando serviços.md",
     "Narrativas",
