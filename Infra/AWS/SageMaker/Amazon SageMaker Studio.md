@@ -14,7 +14,7 @@ Hoje falaremos da segunda camada
 - Deploy em produção
 - Monitoramento e gerenciamento
 
-## Features do SageMaker Studio
+## Features
 - Permite usar em conjunto com outros desenvolvedores como um google docs
 - Permitem outras pessoas verem os jobs de treinamento e manipularem como pausar, mudar algum hiper-parâmetros, mudar o dataset, etc.
 - Processing jobs para manipulação de datasets
@@ -25,4 +25,16 @@ IDEs que funcionam no browser:
 - Code Editor
 - RStudio
 
-Também é possível usar uma IDE local como o vs code e subir
+Também é possível usar uma IDE local como o vs code e se conectar com um ambiente de desenvolvimento remoto na nuvem
+
+
+## JumpStart: Model Hub
+Repositorio com vários modelos, algorítimos pré-carregados por padrão, Soluções AI/ML pre-buildadas
+
+
+## Partner Models and Marketplace
+
+## HyperPod
+
+Cria os checkpoints, gerencia máquinas, gerenciamento de eventos e notificações de progresso
+
