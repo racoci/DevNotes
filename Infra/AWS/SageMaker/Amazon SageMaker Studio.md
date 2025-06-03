@@ -18,6 +18,8 @@ Hoje falaremos da segunda camada
 -  SharedSpaces: Permite usar em conjunto com outros desenvolvedores como um google docs
 - Permitem outras pessoas verem os jobs de treinamento e manipularem como pausar, mudar algum hiper-parâmetros, mudar o dataset, etc.
 - Processing jobs para manipulação de datasets
+- Integração com o GIT
+
 
 ## IDEs
 IDEs que funcionam no browser:
@@ -39,7 +41,9 @@ Repositorio com vários modelos, algorítimos pré-carregados por padrão, Solu�
 Cria os checkpoints, gerencia máquinas, gerenciamento de eventos e notificações de progresso
 
 ## MLOPs
-Monitoramento e testes A/B no deploy 
+Monitoramento 
+Testes A/B no deploy 
 Aviso de outlier
 
-
+## Pipeline deployment
+Exeplo: PRocesso de detecção de fraude
