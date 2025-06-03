@@ -5,5 +5,11 @@
 
 Hoje falaremos da segunda camada
 
-Preparo de dados com conexão com outros serviços da AWS
-Feature Store
+- Preparo de dados com conexão com outros serviços da AWS
+- Feature Store: Guarda os datasets preparados para ser usado por diversos modelos 
+- Construção do modelo
+- Avaliação do modelo
+- Treino ou fine-tuning
+- Deploy em produção
+- Monitoramento e gerenciamento
+
