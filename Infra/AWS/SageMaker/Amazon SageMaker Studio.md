@@ -15,4 +15,14 @@ Hoje falaremos da segunda camada
 - Monitoramento e gerenciamento
 
 ## Features do SageMaker Studio
-- Permite usar em conjunto com outros tipo 
+- Permite usar em conjunto com outros desenvolvedores como um google docs
+- Permitem outras pessoas verem os jobs de treinamento e manipularem como pausar, mudar algum hiper-parâmetros, mudar o dataset, etc.
+- Processing jobs para manipulação de datasets
+
+## IDEs
+IDEs que funcionam no browser:
+- JupyterLab
+- Code Editor
+- RStudio
+
+Também é possível usar uma IDE local como o vs code e subir
