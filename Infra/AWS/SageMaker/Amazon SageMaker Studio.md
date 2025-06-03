@@ -15,7 +15,7 @@ Hoje falaremos da segunda camada
 - Monitoramento e gerenciamento
 
 ## Features
-- Permite usar em conjunto com outros desenvolvedores como um google docs
+-  SharedSpaces: Permite usar em conjunto com outros desenvolvedores como um google docs
 - Permitem outras pessoas verem os jobs de treinamento e manipularem como pausar, mudar algum hiper-parâmetros, mudar o dataset, etc.
 - Processing jobs para manipulação de datasets
 
@@ -34,7 +34,12 @@ Repositorio com vários modelos, algorítimos pré-carregados por padrão, Solu�
 
 ## Partner Models and Marketplace
 
-## HyperPod
 
+## HyperPod
 Cria os checkpoints, gerencia máquinas, gerenciamento de eventos e notificações de progresso
+
+## MLOPs
+Monitoramento e testes A/B no deploy 
+Aviso de outlier
+
 
