@@ -36,7 +36,6 @@ Repositorio com vários modelos, algorítimos pré-carregados por padrão, Solu�
 
 ## Partner Models and Marketplace
 
-
 ## HyperPod
 Cria os checkpoints, gerencia máquinas, gerenciamento de eventos e notificações de progresso
 
