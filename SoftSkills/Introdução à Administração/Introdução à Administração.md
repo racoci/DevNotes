@@ -273,9 +273,14 @@ No século XVIII, foram escritos os primeiros textos dedicados à **A**dministr
 Nessa época, começaram a encarar a Administração como ciência. Até então, a prática dominante era pensar esse tema de forma empírica, ou seja, com foco na prática, sem usar nenhuma metodologia científica.
 
 Mas, afinal, em que época as Teorias Administrativas surgiram? Navegue pelo infográfico a seguir para conhecer as fases da história das empresas e das Teorias Administrativas.
+##### Até 1780 
 
-##### Fase artesanal
+Fase artesanal
 
+
+##### 1780-1860
+2ª Revolução Industrial: desenvolvimento industrial
+Ênfase nas tarefas e naAdministração Científic
 #### Teoria da Administração Científica – Ênfase nas Tarefas
 #### Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
 #### Teoria das Relações Humanas – Ênfase nas Pessoas
