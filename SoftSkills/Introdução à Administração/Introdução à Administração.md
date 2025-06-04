@@ -218,7 +218,7 @@ Se acha que ainda pode saber mais sobre a Revolução Industrial, acesse o _pod
 
 Agora, veja o quanto você sabe sobre o assunto abordado neste tópico. Realize os exercícios a seguir e aproveite para fixar melhor os conceitos vistos até aqui.
 
-## Questão 1
+##### Questão 1
 
 Estudando sobre Administração no curso de TI, você aprendeu que a produção para subsistência do grupo atende necessidades básicas.
 
@@ -232,19 +232,50 @@ Um exemplo claro disso pode ser identificado no trabalho:
 |      | dos servos para senhores feudais. |
 > As tribos indígenas se organizam para produzir alimentos, armas, instrumentos e ornamentos que atendem suas necessidades básicas. No trabalho escravo, no sistema feudal e no socialista, há produção de excedentes.
 
-## Questão 2
+##### Questão 2
 
 Atualmente, com o surgimento das tecnologias de TI, vivemos a era da Revolução da Informação. No entanto, sabemos que, anteriormente, a máquina a vapor teve uma grande importância na Revolução Industrial, transformando a produção manual (centrada no homem) em mecanizada (centrada na máquina).
 
 Marque **V** para verdadeiro, e **F** para falso, em relação aos exemplos de produção mecanizada.
 
-- Alta gastronomia.
-- Customização de roupas.
-- Produção de automóveis.
-- Fabricação de computadores.
+- Alta gastronomia. F
+- Customização de roupas. F
+- Produção de automóveis. V
+- Fabricação de computadores. V
 
+> A introdução de robôs na produção de automóveis e a fabricação de computadores em série são exemplos atuais que mostram como a mecanização da produção aumenta a produtividade, a eficiência e a qualidade dos produtos. Tarefas como alta gastronomia e customização de roupas continuam, na maior parte do processo, sendo realizados pelo homem.
 
+##### Encerramento do Tópico
+
+Neste tópico, você conheceu como o ambiente organizacional e os processos administrativos definem a essência e a competência de uma organização.
+
+Caso tenha dúvidas, você pode voltar e rever o conteúdo.
+
+Vamos prosseguir em nossos estudos? Siga para o próximo tópico.
 ### Tópico 2: Teorias Administrativas
+
+Neste tópico, vamos percorrer o histórico das principais Teorias Administrativas. A partir daí, vamos falar um pouco sobre sua relação com as fases da história das empresas.
+
+Conteúdos:
+
+- Histórico sobre as Teorias Administrativas
+- Teoria da Administração Científica – Ênfase nas Tarefas
+- Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
+- Teoria das Relações Humanas – Ênfase nas Pessoas
+- Teoria da Contingência – Ênfase na Tecnologia.
+
+Ao finalizar este tópico, esperamos que você seja capaz de compreender a evolução das Teorias Administrativas.
+
+#### Origem das Teorias Administrativas
+
+No século XVIII, foram escritos os primeiros textos dedicados à **A**dministração e à preocupação com as técnicas que levaram a esses estudos.
+
+Nessa época, começaram a encarar a Administração como ciência. Até então, a prática dominante era pensar esse tema de forma empírica, ou seja, com foco na prática, sem usar nenhuma metodologia científica.
+
+Mas, afinal, em que época as Teorias Administrativas surgiram? Navegue pelo infográfico a seguir para conhecer as fases da história das empresas e das Teorias Administrativas.
+
+##### Fase artesanal
+
 #### Teoria da Administração Científica – Ênfase nas Tarefas
 #### Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
 #### Teoria das Relações Humanas – Ênfase nas Pessoas
