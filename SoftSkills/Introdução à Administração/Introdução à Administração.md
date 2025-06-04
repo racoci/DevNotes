@@ -274,14 +274,56 @@ Nessa época, começaram a encarar a Administração como ciência. Até então,
 
 Mas, afinal, em que época as Teorias Administrativas surgiram? Navegue pelo infográfico a seguir para conhecer as fases da história das empresas e das Teorias Administrativas.
 ##### Até 1780 
-
 Fase artesanal
 
+##### 1780-1860
+1ª Revolução Industrial: início da industrialização
 
 ##### 1780-1860
 2ª Revolução Industrial: desenvolvimento industrial
 Ênfase nas tarefas e naAdministração Científic
+
+##### 1914-1945
+Duas Grandes Guerras: Gigantismo Industrial – Ênfase na Estrutura Organizacional e Ênfase nas Pessoas, Teoria Clássica e Neoclássica e Teoria das Relações Humanas
+##### 1945-1980
+Pós-guerra: Fase Moderna – Ênfase na Estrutura Organizacional e Ênfase nas Pessoas, Tecnologia e Ambiente, Teoria da Contingência, Teoria Neoclássica, Teoria da Burocracia, Estruturalista, Comportamental e da Contingência
+
+##### 1980
+Momento atual: Globalização – Ênfase no ambiente e Teoria da Contingência
+
+Agora que vimos em que fases da História as Teorias Administrativas surgiram, vamos focar o desenvolvimento de cada teoria ao longo da História?
+
+Como vimos, a partir do século XVIII, as Teorias Administrativas passaram a usar métodos científicos, apropriando-se das técnicas de observação, apuração e experimentação.
+
+> **Os estudiosos passaram a aplicar os métodos científicos às práticas administrativas para tentar melhorar os sistemas produtivos. É aí que surge o conceito de Administração Científica!**
+
+Vamos estudar cada uma dessas teorias nas próximas telas.
+
+
 #### Teoria da Administração Científica – Ênfase nas Tarefas
+
+O principal teórico e fundador da Administração Científica foi o engenheiro americano **Frederick Winslow Taylor (1856-1915)**, responsável pela origem do **taylorismo**. Clique nas imagens para conhecer um pouco mais sobre essa teoria.
+
+Tinha como objetivo aumentar a eficiência no nível operacional da produção.
+
+Acreditava que o caminho a ser seguido era o da ênfase nas tarefas.
+
+Tinha como foco garantir a eficiência do processo produtivo, centrado no operário, e não na organização como um todo.
+
+> **Essa forma de abordagem das ocorrências fez com que as pessoas percebessem que a ênfase nas tarefas era insuficiente.**
+
+
+Você deve estar se perguntando como funcionava o processo de ênfase nas tarefas, não é mesmo?
+
+Como o nome já diz, o objetivo era **observar e medir** alguns fatores para verificar como eles influenciavam a realização das tarefas.
+
+Entre esses fatores, podemos citar, por exemplo:
+
+- Estudo de tempos e movimentos
+- Seleção do operário por suas características físicas e suas aptidões
+- Medidas para reduzir ou neutralizar a fadiga
+- Estabelecimento de padrões de produção.
+
 #### Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
 #### Teoria das Relações Humanas – Ênfase nas Pessoas
 #### Teoria da Contingência – Ênfase na Tecnologia
