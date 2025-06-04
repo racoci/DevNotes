@@ -1,0 +1,276 @@
+# Introdução à Administração
+
+Os primeiros textos dedicados à Administração Científica foram escritos no século XVIII. Desde então, diferentes Teorias Administrativas foram surgindo e passaram a usar métodos científicos, apropriando - se das técnicas de observação, apuração e experimentação, com o objetivo de melhorar os sistemas produtivos. 
+
+Este curso foi elaborado de forma a apresentar conceitos estratégicos em relação ao tema, como sistemas produtivos, organização e processo de administração, bem como as principais teorias administrativas e o papel que se espera de gestores no contexto produtivo do Século XXI.
+
+Caro aluno,
+
+Este material foi elaborado pensando em seu processo de aprendizagem. Nele você encontrará conceitos importantes sobre Administração.
+
+Ao longo do estudo, você será convidado a desenvolver atividades e tecer reflexões que contribuirão para sua atuação profissional, seja como gestor do próprio negócio, seja como funcionário de uma organização.
+
+Fique atento a todo o conteúdo do curso para que você possa ter um aprendizado significativo e condições de aplicar seus conhecimentos em suas atividades.
+
+Para alcançar os objetivos propostos neste material, lembramos que sua dedicação e seu comprometimento são elementos fundamentais para o sucesso. Leia o material com atenção, responda aos exercícios propostos, e aproveite as dicas e os recursos educacionais disponibilizados sobre os assuntos relacionados a sua área de atuação.
+
+Bom estudo!
+## Capítulo 1 – Administração e Organizações
+### Tópico 1: Processos Produtivos
+
+#### Evolução e Criação de Processos Produtivos
+
+##### Processos Produtivos
+
+Neste tópico, vamos conhecer como o ambiente organizacional e os processos administrativos definem a essência e a competência de uma organização.
+
+##### Conteúdos:
+
+- Processos Produtivos
+- Evolução e Criação de Processos Produtivos.
+
+Ao finalizar este tópico, esperamos que você seja capaz de:
+
+- Compreender a evolução e a criação de processos produtivos.
+
+###### Recursos
+
+Desde muito cedo, a humanidade aprendeu a interpretar as coisas que existiam a sua volta e a interagir com elas de forma racional. A construção das primeiras ferramentas pelo homem pré-histórico é um bom exemplo desse fenômeno.
+
+Para já começarmos a usar termos mais adequados ao meio organizacional, podemos chamar essas coisas de **recursos**.
+
+> Segundo o dicionário Houaiss, recursos são os meios dos quais podemos dispor.
+
+###### Processos Produtivos
+
+> Você sabia que, desde o seu surgimento, os homens retiram os alimentos, os acessórios e os utensílios utilizados no dia a dia para sua subsistência dos recursos naturais?
+
+Em diferentes tempos e sociedades, o desenrolar da História e a complexidade das relações humanas fez com que fossem criadas formas sistematizadas de produzir os recursos necessários.
+
+Quando falamos em recursos, estamos nos referindo a alimentos, utensílios, vestimentas ou qualquer outra coisa necessária ao homem.
+
+Esses sistemas produtivos determinavam o modo como o homem trabalhava os elementos disponíveis na natureza para atender suas necessidades imediatas.
+
+Agora, vamos observar como o modo de produção estava em constante transformação. Clique nas imagens para compreender melhor.
+![[Manufactura.png]]
+> Ao longo do tempo, foi acontecendo a evolução dos trabalhos artesanais e da manufatura.
+
+![[Revolução Industrial.png]]
+> Em dado momento, a evolução passou pela adoção da divisão do trabalho até chegar à Revolução Industrial.
+
+```
+Grandes saltos foram dados em termos de processos de produção, e, como veremos adiante, diversos formatos e mecanismos foram criados, levando tantos outros a caírem em desuso.
+```
+
+![[Processos Produtivos.png]]
+Já que estamos falando de sistemas produtivos, sistemas de produção ou modos de produção, vamos entender melhor esse conceito?
+
+Resumidamente, podemos dizer que o ser humano é um tipo de animal que precisa viver em grupo e produzir artefatos para sobreviver. Por exemplo, ferramentas, vestimentas e alimentos.
+
+Nesse sentido, viver em sociedade e ter a necessidade de produzir coisas são as duas características básicas que levaram ao surgimento dos sistemas de produção.
+
+Esses sistemas nada mais são que formas de se organizar em sociedade para fazer tudo o que é necessário.
+##### Exemplo – Organização da Sociedade
+Vamos ver alguns exemplos de organização da sociedade. Clique nas imagens para obter maiores informações sobre cada organização.
+![[Tribos Indígenas.png]]
+Tribos indígenas:
+
+- Vivem em grupo e organizam-se para produzir seus próprios alimentos, roupas, armas, instrumentos musicais etc.
+- Possuem como sistema de produção o modo de produção primitivo.
+
+![[Sociedade ocidental.png]]
+Sociedade ocidental:
+
+- Organiza-se para produzir tudo que é necessário para sobreviver, incluindo alimentos, carros e computadores.
+- Segue (pelo menos a maior parte dos homens brancos do século XXI) o modo de produção capitalista.
+
+##### Principais Sistemas de Produção
+
+Vamos ver os principais sistemas de produção ou modos de produção criados pelos seres humanos. Clique nas imagens para conhecê-los.
+
+Vamos ver os principais sistemas de produção ou modos de produção criados pelos seres humanos. Clique nas imagens para conhecê-los.
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_6a.png)
+
+Modo de produção asiático (também chamado de primitivo).
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_6b.png)
+
+Modo de produção escravista.
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_6c.png)
+
+Modo de produção feudal.
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_6d.png)
+
+Modo de produção capitalista.
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_6aa.png)
+
+Modo de produção socialista.
+
+> A maior parte das sociedades atuais se organiza a partir do modo de produção capitalista, que foi fortemente incentivado pela Revolução Industrial.
+
+Apesar de a maioria das sociedades praticar o modo capitalista hoje em dia, existem outros grupos sociais que escolheram outras formas de organizar sua produção. Alguns grupos vivem a partir do modo de produção asiático ou do socialista, por exemplo.
+
+O que você precisa ter claro em mente é que o homem se organiza a partir de sistemas ou modos de produção. Existem diferentes modos de produção que foram surgindo na trajetória humana e eles podem coexistir.
+
+Em outras palavras, a existência ou predominância de um modo de produção não elimina a outra.
+
+##### Saiba Mais!
+
+Assista ao vídeo [Evolução dos modos de produção](https://www.youtube.com/watch?v=BzPsaQUKK20) para saber sobre os diferentes sistemas produtivos da História (assistir preferencialmente em computadores e _notebooks_).
+
+##### Revolução Industrial
+
+Como vimos no vídeo sobre a evolução dos modos de produção, com o avançar do tempo, o homem precisou, constantemente, mudar sua forma de obter os recursos de que precisava para sobreviver.
+
+Com isso, foi criando e adaptando novos sistemas produtivos para superar os desafios que foram surgindo.
+
+O grande marco para as organizações e teorias da Administração foi a **Revolução Industrial.**
+
+A Primeira Revolução Industrial aconteceu na Inglaterra, no decorrer do século XVIII. No século seguinte, alguns outros países, na maioria europeus, também desenvolveram suas próprias máquinas, fenômeno que ficou conhecido como Segunda Revolução Industrial.
+
+> Esse movimento envolveu um conjunto de mudanças tecnológicas que causou um profundo impacto no processo produtivo. Esse impacto aconteceu tanto no nível econômico quanto no social.
+
+Mas o que foi exatamente isso que chamamos de Revolução Industrial?
+
+A resposta mais adequada a essa pergunta é: Em resumo, chamamos de Revolução Industrial os avanços tecnológicos que possibilitaram a invenção de máquinas e sua introdução na fabricação de produtos.
+![[Maquinofatura.svg]]
+Em outras palavras, a Revolução Industrial foi a passagem da produção manufatureira para a produção maquinofatureira.
+
+Ou seja, foi a passagem da produção feita com mãos e ferramentas para a produção automática, feita por meio de máquinas.
+
+##### Pesquisa e Investimento em Tecnologia
+
+A Inglaterra foi pioneira no processo de pesquisa para a invenção de engenhocas úteis à fabricação de produtos.
+
+A criação das máquinas a vapor, as primeiras da história, é fruto de anos de pesquisa e investimentos em tecnologia. Tudo isso aconteceu, principalmente, ao longo do século XVIII (ou seja, de 1701 a 1800).
+
+Isso fez da Inglaterra a primeira potência maquinofatureira da história e, consequentemente, o país mais rico e influente dos séculos XVIII e XIX, e do início do XX.
+
+##### A importância da máquina a vapor
+
+Sem a invenção da máquina a vapor, a Revolução Industrial não teria acontecido no século XIX. A invenção da máquina como alternativa ao trabalho humano fez surgir uma nova relação entre capital e trabalho.
+
+Mas o que isso quer dizer na prática?
+
+Na prática, o que queremos dizer é que o uso de máquinas para fazer os produtos foi algo que mudou profundamente a forma como os seres humanos trabalham e também as relações entre o trabalho, a renda e o consumo das pessoas.
+
+Não podemos esquecer que, antes das máquinas, toda produção era manual e centrada no homem! Depois da invenção das máquinas, a produção passou a ser mecanizada e centrada na máquina. Ao homem sobrou apenas o papel de operador da máquina, ou seja, de operário.
+
+Além disso, devemos ter em mente que os avanços tecnológicos crescentes e constantes permitiram o surgimento de máquinas cada vez melhores e mais produtivas. Com isso, a produção passa a necessitar de cada vez menos seres humanos para operar as máquinas. A consequência disso é o surgimento de ondas de desemprego.
+
+A introdução de robôs na produção de automóveis é um exemplo atual que mostra como a mecanização da produção aumenta a produtividade, a eficiência e a qualidade dos produtos. No entanto, provoca a diminuição dos postos de trabalho.
+
+##### Capitalismo Industrial
+
+Com a invenção da máquina, surgiu também o capitalismo industrial, que é um sistema econômico típico da Idade Contemporânea.
+
+Esse sistema está intimamente relacionado à introdução da máquina na fabricação da maioria dos produtos usados pelos seres humanos.
+
+**Como você deve ter percebido, isso mostra como a Revolução Industrial se relaciona diretamente com o desenvolvimento e a ampliação do capitalismo!**
+
+É bom ter acesso a computadores de última geração, chocolates, roupas bonitas e tantos outros itens de consumo que estão diretamente relacionados à sociedade capitalista, não é mesmo?
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_12a.jpg)
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_12b.jpg)
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_1_12c.jpg)
+
+Mas qual o preço que pagamos por isso? Pois é, e nem estamos falando do preço pago por essas mercadorias. Estamos pensando no preço que nosso planeta paga.
+
+> A Revolução Industrial trouxe consequências em, praticamente, todas as áreas da vida humana. Ao permitir a produção em larga escala e o barateamento dos preços, houve um **incentivo ao consumismo**.
+
+Como as máquinas precisam de energia para funcionar, a Revolução Industrial também promoveu:
+
+- Desmatamento
+- Busca por fontes de energia
+- Aumento da poluição do meio ambiente.
+
+Como as fábricas se instalaram nas cidades, o processo de urbanização também foi acelerado.
+
+> Você já tinha parado para pensar em como quase tudo mudou por causa da Revolução Industrial?
+
+##### Relação entre consumo e planeta
+
+Que tal refletirmos um pouco sobre essa relação entre o consumo e o planeta?
+
+Para ajudá-lo nessa reflexão, indicamos uma pequena animação produzida pelo Instituto Akatu. Se quiser vê-la, clique [aqui](https://www.youtube.com/watch?v=lBuJHl-PTYc#t=79).
+
+Uma das consequências negativas do incentivo ao consumismo é a tentativa de produção em larga escala e de barateamento dos preços a qualquer custo. Muitas empresas, no mundo, escolhem fazer isso de forma pouco ética. Dessa forma, é muito importante estarmos sempre atentos à origem do que consumimos.
+
+Um simples chocolate pode ter um sabor muito amargo: para produzi-lo, algumas empresas utilizam trabalho infantil e tráfico de crianças para trabalharem em plantações de cacau de países africanos.
+
+Pensando nisso, quais são os pontos positivos e os pontos negativos dos sistemas de produção que conhecemos? Como podemos atuar para mudar o que pode ser melhorado?
+
+Para ajudá-lo nessa reflexão, indicamos o documentário **_O Lado Negro do Chocolate_**, do premiado jornalista dinamarquês Miki Mistrati. Se quiser vê-lo, clique [aqui](https://www.youtube.com/watch?v=LOp-EbZltD4).
+
+E agora? Já sabe quando ocorreu a Revolução Industrial, por que e onde começou?
+
+Se acha que ainda pode saber mais sobre a Revolução Industrial, acesse o _podcast_ sobre o tema.
+
+![[CH_HIS_Revolucao_Industrial.mp3]]
+
+#### Exercícios de Fixação
+
+Agora, veja o quanto você sabe sobre o assunto abordado neste tópico. Realize os exercícios a seguir e aproveite para fixar melhor os conceitos vistos até aqui.
+
+## Questão 1
+
+Estudando sobre Administração no curso de TI, você aprendeu que a produção para subsistência do grupo atende necessidades básicas.
+
+Um exemplo claro disso pode ser identificado no trabalho:
+
+
+|      | escravo.                          |
+| ---- | --------------------------------- |
+|      | do sistema socialista.            |
+| Esse | organizado em tribos indígenas.   |
+|      | dos servos para senhores feudais. |
+> As tribos indígenas se organizam para produzir alimentos, armas, instrumentos e ornamentos que atendem suas necessidades básicas. No trabalho escravo, no sistema feudal e no socialista, há produção de excedentes.
+
+## Questão 2
+
+Atualmente, com o surgimento das tecnologias de TI, vivemos a era da Revolução da Informação. No entanto, sabemos que, anteriormente, a máquina a vapor teve uma grande importância na Revolução Industrial, transformando a produção manual (centrada no homem) em mecanizada (centrada na máquina).
+
+Marque **V** para verdadeiro, e **F** para falso, em relação aos exemplos de produção mecanizada.
+
+- Alta gastronomia.
+- Customização de roupas.
+- Produção de automóveis.
+- Fabricação de computadores.
+
+
+### Tópico 2: Teorias Administrativas
+#### Teoria da Administração Científica – Ênfase nas Tarefas
+#### Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
+#### Teoria das Relações Humanas – Ênfase nas Pessoas
+#### Teoria da Contingência – Ênfase na Tecnologia
+### Tópico 3: Organização
+#### Conceito e características de uma organização
+## Capítulo 2 – Recursos Internos e Processo de Agregação de Valor
+### Tópico 1: Administração
+#### Processo de administração
+#### A Administração, os recursos e as pessoas
+### Tópico 2: Gestão de Pessoas e Potencial Humano
+#### Gestão de pessoas
+#### Potencial humano
+### Tópico 3: Materiais e Capitais
+#### Conceito de recursos materiais
+#### Categorias e classificações
+#### Conceito de capitais
+### Tópico 4: Informações
+#### Conceito de informações
+#### Importância de um sistema de informações competente
+#### Conceito de gestão de informações
+## Capítulo 3 – Princípios Institucionais
+### Tópico 1: Papel do Gestor
+#### Principais funções do gestor
+#### Método PDCA
+#### Relação entre a imagem da organização e o papel do gestor
+### Tópico 2: Princípios Institucionais
+#### Princípios institucionais
+#### Importância de missão, visão e valores
