@@ -538,7 +538,6 @@ No curso de TI, seu professor de Administração explicou que as teorias adminis
 
 Associe essas teorias as suas respectivas características, numerando a segunda coluna de acordo com a primeira.
 
-
 ### Tópico 3: Organização
 #### Conceito e características de uma organização
 ## Capítulo 2 – Recursos Internos e Processo de Agregação de Valor
