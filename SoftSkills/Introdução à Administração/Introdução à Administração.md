@@ -463,7 +463,80 @@ Da década de 1960 em diante, passamos a contar com tecnologias postas a serviç
 
 A forma como essas tecnologias eram utilizadas por cada empresa fazia com que alguns fatores se tornassem a marca registrada de sua atuação, de sua estrutura e de seu funcionamento. Clique nas imagens para conhecê-los.
 
+A forma como essas tecnologias eram utilizadas por cada empresa fazia com que alguns fatores se tornassem a marca registrada de sua atuação, de sua estrutura e de seu funcionamento. Clique nas imagens para conhecê-los.
 
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_2_12a.png)
+
+Cibernética
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_2_12b.png)
+
+Mecanização
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_2_12c.png)
+
+Automação
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_2_12d.png)
+
+Computação
+
+![](https://lms.ev.org.br/mpls/Custom/Cds/COURSES/3312-INTRO_ADM/pag/img/1_2_12e.png)
+
+Robotização
+
+Você deve estar se perguntando se essa abordagem considerava apenas os recursos tecnológicos da empresa, não é mesmo? Na verdade, a Teoria da Contingência conta com alguns autores que enxergam a organização como um sistema **sociotécnico**.
+
+Em outras palavras, esse sistema contaria com a interação entre dois subsistemas. Clique nas imagens para conhecê-los.
+
+##### Subsistema social ou humano
+As pessoas e seus relacionamentos de trabalho.
+
+##### Subsistema tecnológico e ambiental
+O ambiente, as tarefas e os equipamentos para executá-las.
+
+Agora que você conheceu os elementos que formam o sistema sociotécnico, fica mais fácil enxergar que ele envolve a preocupação tanto com a tecnologia quanto com o ambiente.
+
+Esse modo de enxergar as empresas permite considerá-las de uma forma ampla.
+
+> A abordagem da contingência estimula, por exemplo, que a organização busque alcançar seus objetivos por meio de uma relação funcional entre as condições do ambiente e as técnicas administrativas empregadas.
+
+Vamos falar um pouco mais sobre isso no próximo tópico!
+
+As etapas que vieram antes do momento da Teoria da Contingência com ênfase no ambiente dedicaram-se apenas ao estudo dos fatores internos à organização. Tudo o que estava fora dos limites da organização ficava em segundo plano.
+
+A partir da década de 1960, no entanto, isso começou a mudar. Afinal, as variáveis externas também influenciam, profundamente, a estrutura e o comportamento de uma empresa.
+
+A partir de 1960,
+
+o ambiente e as variáveis externas começaram a receber mais atenção.
+
+Foi possível então entender a estrutura e o comportamento de uma organização de forma mais ampla.
+
+Desse modo, as relações de interação entre empresas e seus ambientes (interno e externo) passaram a explicar, de forma mais profunda, alguns aspectos da estrutura organizacional e dos processos operacionais utilizados pelas empresas.
+
+![[ComercialDeMargarina2.png.png]]
+A fase de ênfase no ambiente surgiu porque a Teoria da Contingência pregava que não existia uma única maneira de organizar as empresas. A partir daí, vários estudos foram desenvolvidos.
+
+Muitos deles apontavam que as características da estrutura de uma empresa são mais bem explicadas pelas características do ambiente em que estão inseridas.
+
+Muitos estudiosos também afirmavam que o ambiente também contribuía para determinar tais características estruturais.
+
+Como você pôde observar, cada Teoria Administrativa surgiu como resposta aos problemas empresariais que existiam em sua época.
+
+Nesse aspecto, todas trazem contribuições relevantes e devem ser conhecidas.
+
+> Afinal, por meio desses estudos, um administrador profissional pode recorrer a um conjunto de alternativas quando precisar realizar um planejamento ou atuar em uma tomada de decisão.
+
+#### Exercícios de Fixação
+
+Agora, veja o quanto você sabe sobre o assunto abordado neste tópico. Realize os exercícios a seguir e aproveite para fixar melhor os conceitos vistos até aqui.
+
+##### Questão 1
+
+No curso de TI, seu professor de Administração explicou que as teorias administrativas começaram a surgir no século XVIII, com intuito de ver a Administração como uma ciência e com o objetivo de melhorar os sistemas produtivos. Com base nesses estudos, as Teorias Clássica e Neoclássica se subdividiram em três.
+
+Associe essas teorias as suas respectivas características, numerando a segunda coluna de acordo com a primeira.
 ### Tópico 3: Organização
 #### Conceito e características de uma organização
 ## Capítulo 2 – Recursos Internos e Processo de Agregação de Valor
