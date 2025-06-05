@@ -403,8 +403,67 @@ inter-relacionam. Nesse sentido, essa teoria prioriza o todo, o conjunto, e não
 
 A Teoria Estruturalista buscou unir alguns conceitos da Teoria da Burocracia e da Teoria das Relações Humanas, que vamos abordar mais adiante. A organização era vista como uma entidade social, composta de grupos sociais que interagem entre si. Como você pode perceber, essa era sua principal característica!
 
+##### Fordismo
+Outra escola dessa época foi idealizada por Henry Ford, empreendedor  
+norte-americano e fundador da Ford Motor Company, responsável pela reinvenção  
+dos processos de fabricação.
+
+Ford é tido como o primeiro empresário a aplicar a linha de montagem em série na produção em massa de automóveis (1913). Essa decisão impactou, diretamente, o processo de fabricação, reduzindo tanto seu tempo quanto seu custo.
+
+Esse modelo ficou conhecido como **Fordismo**.
+
+![[CH_GEO_Fases_da_industria.mp3]]
+
 #### Teoria das Relações Humanas – Ênfase nas Pessoas
+
+Depois da Teoria Clássica e Neoclássica, a Teoria da Administração entrou em uma nova fase: a **Teoria das Relações Humanas – ênfase nas pessoas**.
+
+Essa teoria parte da análise e do estudo das pessoas dentro das empresas. Com isso, o estudo de sua estrutura e de suas tarefas ficava em segundo plano.
+
+Caracterizada pela **abordagem humanística**, a **Teoria das Relações Humanas – ênfase nas pessoas** pode ser desdobrada em duas teorias:
+
+- Teoria das Relações Humanas
+- Teoria Comportamental ou Behaviorista.
+
+Essas duas linhas de pensamento buscavam conhecer as atividades e os sentimentos dos trabalhadores. Para isso, estudavam a formação de grupos dentro das organizações.
+![[RedeColorida.png]]
+Com a abordagem humanística, o trabalhador passa a ser encarado como ser social, com sentimentos, aspirações e necessidades. Nessa fase, ele não é somente mais uma engrenagem que compõe o sistema. Os principais pensadores da Teoria das Relações Humanas foram:
+
+George Elton Mayo  
+**(1880 - 1949)**
+
+George Elton Mayo é considerado o fundador do Movimento das Relações Humanas. Esse movimento se opôs aos princípios científicos do trabalho de Taylor.
+
+Suas teorias foram baseadas nas experiências que conduziu em Hawthorne, entre 1927 e 1932, sobre os fatores que realmente motivam os empregados.
+
+Para saber mais sobre a experiência de Hawthorne, acesse o endereço:
+
+[http://www.portal-administracao.com/](http://www.portal-administracao.com/2015/03/teoria-das-relacoes-humanas-conceito.html). Acesso em: 24 nov. 2015.
+
+Kurt Lewin  
+**(1890 - 1947)**
+
+Douglas McGregor  
+**(1906 – 1964)**
+
+Abraham Harold Maslow  
+**(1908 – 1970)**
+
+Herbert A. Simon  
+**(1916 – 2001)**
+
 #### Teoria da Contingência – Ênfase na Tecnologia
+A fase seguinte à Teoria das Relações Humanas foi a da Teoria da Contingência, cuja ênfase recaía sobre a tecnologia.
+
+Você arriscaria dizer de que forma os avanços tecnológicos impactaram a concepção dessa teoria?
+
+Vamos verificar?
+
+Da década de 1960 em diante, passamos a contar com tecnologias postas a serviço das organizações.
+
+A forma como essas tecnologias eram utilizadas por cada empresa fazia com que alguns fatores se tornassem a marca registrada de sua atuação, de sua estrutura e de seu funcionamento. Clique nas imagens para conhecê-los.
+
+
 ### Tópico 3: Organização
 #### Conceito e características de uma organização
 ## Capítulo 2 – Recursos Internos e Processo de Agregação de Valor
