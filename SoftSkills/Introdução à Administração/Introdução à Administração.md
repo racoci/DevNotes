@@ -537,6 +537,8 @@ Agora, veja o quanto você sabe sobre o assunto abordado neste tópico. Realize 
 No curso de TI, seu professor de Administração explicou que as teorias administrativas começaram a surgir no século XVIII, com intuito de ver a Administração como uma ciência e com o objetivo de melhorar os sistemas produtivos. Com base nesses estudos, as Teorias Clássica e Neoclássica se subdividiram em três.
 
 Associe essas teorias as suas respectivas características, numerando a segunda coluna de acordo com a primeira.
+
+
 ### Tópico 3: Organização
 #### Conceito e características de uma organização
 ## Capítulo 2 – Recursos Internos e Processo de Agregação de Valor
