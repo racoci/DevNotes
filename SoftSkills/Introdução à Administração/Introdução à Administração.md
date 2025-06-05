@@ -324,7 +324,85 @@ Entre esses fatores, podemos citar, por exemplo:
 - Medidas para reduzir ou neutralizar a fadiga
 - Estabelecimento de padrões de produção.
 
+Levando em conta as características que vimos até aqui, se pensarmos na ênfase que era dada às tarefas, veremos que o potencial humano era apenas mais uma engrenagem do funcionamento da empresa.
+
+Por isso, podemos afirmar que a Administração Científica partia de **baixo para cima**, ou seja, das partes (operários) para o todo (organização).
+
+> Essa fase é o primeiro passo da Teoria da Administração. Nesse momento, ainda insuficiente, limitada e reduzida a poucas variáveis da realidade empresarial.
+
 #### Teoria Clássica e Teoria Neoclássica – Ênfase na Estrutura Organizacional
+
+Depois que a ênfase nas tarefas foi perdendo a força, a ênfase na estrutura organizacional ganhou espaço e passou a ser objeto de estudo.
+
+Em outras palavras, nesse período, a preocupação com o individual (cada operário com relação a sua tarefa) deu lugar à crença de que a eficiência da organização acontece quando existe o uso racional de cargos e órgãos (setores e departamentos).
+
+Existem três abordagens relacionadas à estrutura organizacional. Navegue pelas setas para conhecer melhor essas abordagens.
+
+##### Teoria Clássica da Administração (Fayol)
+
+Também conhecida como **_fayolismo_**, a Teoria Clássica da Administração é uma escola de pensamento administrativo que foi idealizada pelo engenheiro francês Henri Fayol a partir da década de 1910.
+
+Segundo Chiavenato (2004), sua principal característica é a ênfase na estrutura organizacional, ou seja, na disposição dos departamentos ou setores, e nas relações entre eles. Outras características muito fortes são a visão do homem econômico e a busca pela máxima eficiência.
+
+###### Teoria Clássica _versus_ Administração Científica
+
+Você já parou para pensar que a abordagem da Teoria Clássica inverte a da Administração Científica?
+
+A Administração Científica analisava as partes (ou seja, as tarefas) para entender o todo, que é a organização.
+
+A Teoria Clássica, que começou a ser colocada em prática logo a seguir, fazia exatamente o caminho contrário: partia do todo (organização) para as partes (departamentos).
+
+Não é impressionante?
+
+Em outras palavras, podemos dizer que a Teoria Clássica parte de **cima para baixo**.
+
+##### Teoria da Burocracia (Weber)
+
+Outra abordagem relacionada à estrutura organizacional é a Teoria da Burocracia, desenvolvida por Max Weber por volta dos anos de 1940.
+
+Essa teoria acredita que as organizações são caracterizadas por:
+
+- Cargos formalmente bem definidos
+- Ordem hierárquica com linhas de autoridade
+- Responsabilidades bem delimitadas.
+
+Você deve estar se perguntando como alguém criou uma coisa chamada Teoria da Burocracia se todo mundo está cansado de saber que burocracia é uma coisa ruim, não é mesmo?
+
+É claro que a primeira coisa que aparece em nossas mentes, quando pensamos em burocracia, é o excesso de papéis. No entanto, Weber quis mostrar que a burocracia pode ser algo bom, um método de organização que facilita o dia a dia dentro das organizações.
+
+###### Papel da burocracia
+
+É claro que a primeira coisa que aparece em nossas cabeças quando pensamos em burocracia é o excesso de papeis.
+
+No entanto, Weber quis mostrar que a burocracia pode ser algo bom, um método de organização que facilita o dia a dia dentro das organizações.
+
+Você já parou pra pensar na quantidade de erros que evitamos quando nos organizamos?
+
+Por exemplo, quando vamos ao supermercado sem uma lista de compras, corremos o risco de comprar produtos repetidos ou desnecessários.
+
+No entanto, se fazemos uma lista com calma, verificando tudo o que está faltando na geladeira e na despensa, voltamos das compras com os produtos certos e na quantidade necessária.
+
+Isso significa não desperdiçar tempo e nem dinheiro!
+
+Nesse sentido, para Weber, quanto mais organizada for uma equipe, com registros de seus processos e das decisões tomadas, menor a chance de erros acontecerem.
+
+Isso também facilita o trabalho de outras pessoas, que vão ter uma visão geral dos processos, das dificuldades encontradas e dos erros cometidos.
+
+Com a burocracia, a informação era compartilhada, mesmo que de uma forma complexa.
+
+A burocracia pode ajudar e muito, futuro desenvolvedor de sistemas! Principalmente se você precisar corrigir erros em códigos desenvolvidos por outro programador.
+
+Será bem mais fácil se tudo estiver devidamente documentado, você não acha?
+
+##### Teoria Estruturalista
+
+A Teoria Estruturalista surgiu por volta da década de 1950, como esforço de alguns autores para instituir o conceito de estrutura. Mas o que é esse conceito?
+
+Chamamos de estrutura aquilo que forma um todo composto de partes que se  
+inter-relacionam. Nesse sentido, essa teoria prioriza o todo, o conjunto, e não a simples soma das partes. Com isso, também relaciona as organizações a seu ambiente externo.
+
+A Teoria Estruturalista buscou unir alguns conceitos da Teoria da Burocracia e da Teoria das Relações Humanas, que vamos abordar mais adiante. A organização era vista como uma entidade social, composta de grupos sociais que interagem entre si. Como você pode perceber, essa era sua principal característica!
+
 #### Teoria das Relações Humanas – Ênfase nas Pessoas
 #### Teoria da Contingência – Ênfase na Tecnologia
 ### Tópico 3: Organização
