@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
+                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Teorias Administrativas"
+              "title": "1.3.2 Conceito de Organização"
             }
           }
         ],
@@ -227,12 +227,18 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "692c0be789a6d29a",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/Pasted image 20250609133451.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.2 Integrantes.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3 Organização.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/CH_HIS_Revolucao_Industrial.mp3",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Estruturalista.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Burocrática de Weber.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/CH_GEO_Fases_da_industria.mp3",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Clássica de Fayol.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md",
@@ -243,7 +249,6 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Revolução Industrial.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/RedeColorida.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Processos Produtivos.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Manufactura.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações",
@@ -259,7 +264,6 @@
     "Infra/IaC/Angular Pipeline/Initial Draft.md",
     "Infra/IaC/Angular Pipeline",
     "Infra/AWS/SageMaker/Amazon SageMaker Studio.md",
-    "Infra/AWS/SageMaker",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.03 Iniciando com Express.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.02 Preparando o ambiente - instalação do Postman.md",
@@ -270,8 +274,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.13 Para saber mais - links da aula.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.12 Faça como eu fiz - revisando a criação do servidor.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.11 Criando rotas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.09 Para saber mais - o que são portas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.08 Criando rotas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.07 Para saber mais -componentes de um projeto Node.js.md"
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.09 Para saber mais - o que são portas.md"
   ]
 }
