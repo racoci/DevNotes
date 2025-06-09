@@ -1,18 +1,18 @@
 # 2 – Recursos Internos e Processo de Agregação de Valor
-## Tópico 1: Administração
+## 2.1 – Administração
 ### Processo de administração
 ### A Administração, os recursos e as pessoas
-## Tópico 2: Gestão de Pessoas e Potencial Humano
+## 2.2 – Gestão de Pessoas e Potencial Humano
 ### Gestão de pessoas
 ### Potencial humano
-## Tópico 3: Materiais e Capitais
+## 2.3 – Materiais e Capitais
 ### Conceito de recursos materiais
 ### Categorias e classificações
-#### Conceito de capitais
-### Tópico 4: Informações
-#### Conceito de informações
-#### Importância de um sistema de informações competente
-#### Conceito de gestão de informações
+### Conceito de capitais
+## 2.4: Informações
+### Conceito de informações
+### Importância de um sistema de informações competente
+### Conceito de gestão de informações
 
 # Administração
 
