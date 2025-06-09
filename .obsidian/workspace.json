@@ -67,14 +67,12 @@
             "id": "692c0be789a6d29a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Capítulo 1 – Administração e Organizações.md",
-                "mode": "source",
-                "source": false
+                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Burocrática de Weber.png"
               },
-              "icon": "lucide-file",
-              "title": "Capítulo 1 – Administração e Organizações"
+              "icon": "lucide-image",
+              "title": "Teoria Burocrática de Weber"
             }
           }
         ],
@@ -227,28 +225,30 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "692c0be789a6d29a",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Pasted image 20250609131950.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Pasted image 20250609131940.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/CH_GEO_Fases_da_industria.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/CH_HIS_Revolucao_Industrial.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Burocrática de Weber.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Clássica de Fayol.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md",
-    "SoftSkills/Introdução à Administração/Introdução à Administração.md",
-    "Pasted image 20250609131329.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos",
-    "Pasted image 20250609131310.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Capítulo 1 – Administração e Organizações.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/CH_GEO_Fases_da_industria.mp3",
+    "SoftSkills/Introdução à Administração/Introdução à Administração.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Revolução Industrial.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/RedeColorida.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Processos Produtivos.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Manufactura.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações",
     "Testes unitários e de integração.md",
     "AI/Untitled.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/ComercialDeMargarina2.png.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/RedeColorida.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Tribos Indígenas.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Sociedade ocidental.png",
     "conflict-files-obsidian-git.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/CH_HIS_Revolucao_Industrial.mp3",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Maquinofatura.svg",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Processos Produtivos.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Revolução Industrial.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Manufactura.png",
     "SoftSkills/Introdução à Administração",
     "SoftSkills",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
@@ -271,9 +271,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.11 Criando rotas.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.09 Para saber mais - o que são portas.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.08 Criando rotas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.07 Para saber mais -componentes de um projeto Node.js.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.06 Para saber mais - import e export.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.05 Criando o servidor.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas"
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.07 Para saber mais -componentes de um projeto Node.js.md"
   ]
 }

@@ -374,7 +374,7 @@ Você deve estar se perguntando como alguém criou uma coisa chamada Teoria da B
 ###### Papel da burocracia
 
 É claro que a primeira coisa que aparece em nossas cabeças quando pensamos em burocracia é o excesso de papeis.
-![[Pasted image 20250609131310.png]]
+![[Teoria Burocrática de Weber.png]]
 No entanto, Weber quis mostrar que a burocracia pode ser algo bom, um método de organização que facilita o dia a dia dentro das organizações.
 
 Você já parou pra pensar na quantidade de erros que evitamos quando nos organizamos?
