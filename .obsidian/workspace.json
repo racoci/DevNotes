@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
+                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.4 Exemplos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3.2 Conceito de Organização"
+              "title": "1.3.4 Exemplos"
             }
           }
         ],
@@ -227,12 +227,17 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "692c0be789a6d29a",
   "lastOpenFiles": [
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/Pasted image 20250609133451.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3 Características da organização.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.4 Exemplos.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.4 Enron O Mais Esperto.mp4",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/Pasted image 20250609133551.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.2 Integrantes.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3 Organização.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização",
@@ -247,8 +252,6 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Revolução Industrial.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/RedeColorida.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Processos Produtivos.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações",
@@ -260,9 +263,7 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
     "AI/Architecture/SmartStudyBuddy.md",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More",
     "Infra/IaC/Angular Pipeline/Initial Draft.md",
-    "Infra/IaC/Angular Pipeline",
     "Infra/AWS/SageMaker/Amazon SageMaker Studio.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.03 Iniciando com Express.md",
@@ -273,7 +274,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.10 Para saber mais - gerenciadores de pacotes.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.13 Para saber mais - links da aula.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.12 Faça como eu fiz - revisando a criação do servidor.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.11 Criando rotas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.09 Para saber mais - o que são portas.md"
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.11 Criando rotas.md"
   ]
 }
