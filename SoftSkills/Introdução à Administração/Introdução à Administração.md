@@ -358,6 +358,7 @@ Em outras palavras, podemos dizer que a Teoria Clássica parte de **cima para b
 
 ##### Teoria da Burocracia (Weber)
 
+![[Pasted image 20250609131329.png]]
 Outra abordagem relacionada à estrutura organizacional é a Teoria da Burocracia, desenvolvida por Max Weber por volta dos anos de 1940.
 
 Essa teoria acredita que as organizações são caracterizadas por:
@@ -373,7 +374,7 @@ Você deve estar se perguntando como alguém criou uma coisa chamada Teoria da B
 ###### Papel da burocracia
 
 É claro que a primeira coisa que aparece em nossas cabeças quando pensamos em burocracia é o excesso de papeis.
-
+![[Pasted image 20250609131310.png]]
 No entanto, Weber quis mostrar que a burocracia pode ser algo bom, um método de organização que facilita o dia a dia dentro das organizações.
 
 Você já parou pra pensar na quantidade de erros que evitamos quando nos organizamos?

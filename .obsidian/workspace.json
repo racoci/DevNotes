@@ -69,30 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/Introdução à Administração.md",
+                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Capítulo 1 – Administração e Organizações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introdução à Administração"
-            }
-          },
-          {
-            "id": "adccd3d0a1354257",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftSkills/Introdução à Administração/Introdução à Administração.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introdução à Administração"
+              "title": "Capítulo 1 – Administração e Organizações"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -241,24 +227,28 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "adccd3d0a1354257",
+  "active": "692c0be789a6d29a",
   "lastOpenFiles": [
-    "SoftSkills/Introdução à Administração/Capítulo 1 – Administração e Organizações.md",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/CH_GEO_Fases_da_industria.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md",
     "SoftSkills/Introdução à Administração/Introdução à Administração.md",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens",
+    "Pasted image 20250609131329.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos",
+    "Pasted image 20250609131310.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Capítulo 1 – Administração e Organizações.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/CH_GEO_Fases_da_industria.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações",
     "Testes unitários e de integração.md",
     "AI/Untitled.md",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/ComercialDeMargarina2.png.png",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/RedeColorida.png",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Tribos Indígenas.png",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Sociedade ocidental.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/ComercialDeMargarina2.png.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/RedeColorida.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Tribos Indígenas.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Sociedade ocidental.png",
     "conflict-files-obsidian-git.md",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/CH_HIS_Revolucao_Industrial.mp3",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Maquinofatura.svg",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Processos Produtivos.png",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Revolução Industrial.png",
-    "SoftSkills/Introdução à Administração/Capítulo 1 Imagens/Manufactura.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/CH_HIS_Revolucao_Industrial.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Maquinofatura.svg",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Processos Produtivos.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Revolução Industrial.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Manufactura.png",
     "SoftSkills/Introdução à Administração",
     "SoftSkills",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 Criando função Presigned URL.md",
@@ -284,9 +274,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.07 Para saber mais -componentes de um projeto Node.js.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.06 Para saber mais - import e export.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js/1.05 Criando o servidor.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/1 Criando o projeto com Node.js",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.07 1ebd5731-6995-4126-a38b-a5b8d1a076cb.webp"
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas"
   ]
 }
