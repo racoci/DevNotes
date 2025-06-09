@@ -55,20 +55,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/Introdução à Administração.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introdução à Administração"
-            }
-          },
-          {
-            "id": "692c0be789a6d29a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3 Recursos Materiais.md",
                 "mode": "source",
                 "source": false
@@ -78,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,10 +213,19 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "692c0be789a6d29a",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2 Recursos Materiais.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.4 Estoque.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.4.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3 Recursos Materiais.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.3 Posse.jpg",
+    "Pasted image 20250609151346.jpg",
+    "Pasted image 20250609151340.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.2 Localização.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.1 Propriedades físicas.jpg",
+    "Pasted image 20250609151047.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/Pasted image 20250609151041.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2 Recursos Materiais.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.2 Recursos de Transformação.jpg",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.1 Recursos Transformados.jpg",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.1 Materiais e Capitais.md",
@@ -246,19 +241,12 @@
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.3 Potencial Humano.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.5 Potencial Humano.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/Gestão de Pessoas e Responsabilidade Social.mp3",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.3 Funções da Gestão de Pessoas.png",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.2 Potencial Humano.md",
-    "Pasted image 20250609143731.jpg",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.1 Potencial Humano.jpg",
     "Testes unitários e de integração.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.1 Gestão de Pessoas e Potencial Humano.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.10 Encerramento do Tópico.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.9 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Recursos Fundamentais do Processo de Agregação de Valor.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Pessoas.png",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Materiais.png",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Informações.png",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Capital.png",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.6 Exemplo.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.5 Inputs e Outputs na Administração.mp3",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.8 Pessoas.md",
@@ -267,8 +255,6 @@
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.5 Administração e Recursos.md",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3 Princípios Institucionais.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.4 Especialização.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.3 Processo de Administração.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.2 Processo de Administração.md",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.1 Papel do Gestor",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.4 Informações",
