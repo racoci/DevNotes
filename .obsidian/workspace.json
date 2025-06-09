@@ -67,12 +67,14 @@
             "id": "692c0be789a6d29a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Burocrática de Weber.png"
+                "file": "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Teoria Burocrática de Weber"
+              "icon": "lucide-file",
+              "title": "1.2 Teorias Administrativas"
             }
           }
         ],
@@ -225,14 +227,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "692c0be789a6d29a",
   "lastOpenFiles": [
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Pasted image 20250609131950.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Pasted image 20250609131940.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/CH_GEO_Fases_da_industria.mp3",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/CH_HIS_Revolucao_Industrial.mp3",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Estruturalista.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Burocrática de Weber.png",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/CH_GEO_Fases_da_industria.mp3",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/Teoria Clássica de Fayol.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/Capítulo 1 – Administração e Organizações.md",
