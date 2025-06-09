@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.2 Potencial Humano.md",
+                "file": "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.8 Gestão de Pessoas e Responsabilidade Social.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.2.2 Potencial Humano"
+              "title": "2.2.8 Gestão de Pessoas e Responsabilidade Social"
             }
           }
         ],
@@ -229,11 +229,19 @@
   },
   "active": "692c0be789a6d29a",
   "lastOpenFiles": [
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.7 Sucesso da Organização.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.8 Gestão de Pessoas e Responsabilidade Social.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.6 Evolução da Tecnologia.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.6 Tecnologia.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.5 Leis Trabalhistas.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.4 Potencial Humano.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.3 Potencial Humano.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.3 Funções da Gestão de Pessoas.png",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.2 Potencial Humano.md",
     "Pasted image 20250609143731.jpg",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.1 Potencial Humano.jpg",
     "Testes unitários e de integração.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.1 Gestão de Pessoas e Potencial Humano.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.2 Potencial Humano.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.10 Encerramento do Tópico.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.9 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.7 Recursos Fundamentais do Processo de Agregação de Valor.md",
@@ -249,11 +257,9 @@
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.9 Conhecimento Habilidade Atitude.md",
     "Pasted image 20250609142854.png",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.5 Administração e Recursos.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.4 Sequência Lógica.png",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3 Princípios Institucionais.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.4 Especialização.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.3 Processo de Administração.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.3 Processo de Administração.jpg",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.2 Processo de Administração.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.1 Administração.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2 – Recursos Internos e Processo de Agregação de Valor.md",
@@ -268,11 +274,6 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.4.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.4 Exemplos.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3 Características da organização.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3 Organização.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md"
+    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3"
   ]
 }
