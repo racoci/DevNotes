@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e896be20eb06cef2",
+        "id": "99199d537a47dd3d",
         "type": "tabs",
         "children": [
           {
-            "id": "f1ab926abd32158c",
+            "id": "cbe8c20cdb3ddd23",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,10 +170,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "f1ab926abd32158c",
+  "active": "cbe8c20cdb3ddd23",
   "lastOpenFiles": [
-    "AI/Simmulations/WestWorld 120 Traits.md",
     "AI/Simmulations/Taxonomia Hierárquica dos 120 Traços de Personalidade.md",
+    "AI/Simmulations/WestWorld 120 Traits.md",
     "SoftSkills/Introdução à Administração/Introdução à Administração.md",
     "AI/Simmulations/Differential Agent Model.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2 Recursos Materiais.md",
