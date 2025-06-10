@@ -45,7 +45,7 @@ Tendência a idealizar futuros alternativos.
 Expressão de sentimentos por meios simbólicos.
 
 
-#### * **1.2 Curiosidade e Descoberta** *(Anel Interno)*
+#### **1.2 Curiosidade e Descoberta** *(Anel Interno)*
   Foco na busca ativa por novas experiências e compreensão do mundo.
 
 ##### Curiosity (8): 
