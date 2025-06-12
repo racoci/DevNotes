@@ -228,6 +228,124 @@ Example response:
     }
 }
 ```
+Typescript Schema:
+
+```typescript
+export interface Root {
+  data: Data
+  error: Error
+}
+
+export interface Data {
+  count: number
+  cursor: Cursor
+  results: Result[]
+}
+
+export interface Cursor {
+  limit: number
+  nextCursor: string
+}
+
+export interface Result {
+  type: string
+  subcategory?: Subcategory
+  profile?: Profile
+  text?: string
+}
+
+export interface Subcategory {
+  type: string
+  id: string
+  name: string
+  altName: string
+  group: string
+  image: Image
+  catIcon: CatIcon
+  topProfiles: string
+  profileCount: number
+  i18n: I18n
+  propertyID: string
+  categoryID: string
+  isFictional: boolean
+}
+
+export interface Image {
+  picURL: string
+}
+
+export interface CatIcon {
+  picURL: string
+}
+
+export interface I18n {
+  detectedLanguage: string
+  en: string
+}
+
+export interface Profile {
+  subcatID: string
+  subcategory: string
+  id: string
+  name: string
+  image: Image2
+  catIcon: CatIcon2
+  subcategories: Subcategory2[]
+  personalities: Personality[]
+  allowVoting: boolean
+  visibility: string
+  i18n: I18n2
+  propertyID: string
+  categoryID: string
+  isMeme: boolean
+  isCharacter: boolean
+  isCelebrity: boolean
+  topAnalysis: TopAnalysis
+  showProfileReaction: boolean
+  profileReactions: any
+}
+
+export interface Image2 {
+  picURL: string
+}
+
+export interface CatIcon2 {
+  picURL: string
+}
+
+export interface Subcategory2 {
+  id: string
+  name: string
+  image: any
+  catIcon: any
+}
+
+export interface Personality {
+  system: string
+  personality: string
+}
+
+export interface I18n2 {
+  detectedLanguage: string
+  en: string
+}
+
+export interface TopAnalysis {
+  type: string
+  id: string
+  content: string
+  functionList: any
+}
+
+export interface Error {
+  code: string
+  message: string
+  details: Details
+}
+
+export interface Details {}
+
+```
 
 ## Top
 
@@ -251,6 +369,7 @@ fetch("https://api.personality-database.com/api/v2/search/top?query=Gon&limit=20
   "method": "GET"
 });
 ```
+
 
 Returns something like this:
 
