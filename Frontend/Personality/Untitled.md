@@ -1760,3 +1760,6 @@ Response:
 }
 ```
 Create interfaces for the response types and a single service in angular to fetch these data
+
+
+
