@@ -1,5 +1,4 @@
 I discovered more queries from the Personality Database API that we can use on our system:
-
 ## Suggestions
 Doing something like this I can get suggestions
 ```js
