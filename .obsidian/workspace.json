@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "61128caa0d584c81",
+        "id": "00ae18e2819e3ebb",
         "type": "tabs",
         "children": [
           {
-            "id": "ccbe65e70a4cf324",
+            "id": "b2d399246ce52831",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.8 Exercícios de Fixação.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2.2.8 Exercícios de Fixação"
+              "title": "New tab"
             }
           }
         ]
@@ -170,12 +166,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ccbe65e70a4cf324",
+  "active": "b2d399246ce52831",
   "lastOpenFiles": [
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.9 Exercícios de Fixação.md",
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.1 Princípios Institucionais.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.4 Informações/2.4.7 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.9 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.2 Gestão de Pessoas e Potencial Humano/2.2.8 Exercícios de Fixação.md",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.4 Informações/2.4.7 Exercícios de Fixação.md",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.1 Administração/2.1.9 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.4 Exercícios de Fixação.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.3 Características da organização.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
@@ -201,7 +198,6 @@
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/3.3 Assertividade e Influência.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/4.1 Empatia e Cuidado.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/4.2 Lealdade e Cooperação.md",
-    "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/4.3 Diplomacia e Suavidade.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight",
     "AI/Simmulations/Taxonomia 120/ChatGPT4.5",
     "AI/Simmulations/Taxonomia 120/Old",
