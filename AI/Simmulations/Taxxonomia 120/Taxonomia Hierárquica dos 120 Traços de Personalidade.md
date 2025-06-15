@@ -2,7 +2,7 @@
 
 ## 1. **Abertura à Experiência (Openness)**
 
-### **1.1 Imaginação e Criatividade** *(Anel Interno)*
+### **[[1.1 Imaginação e Criatividade]]** *(Anel Interno)*
 Traços ligados à capacidade de gerar ideias novas, representar o mundo de formas simbólicas e expressar beleza.
 - **1.1.1 Artistry (1)**: Sensibilidade estética refinada.
 - **1.1.2 Creativity (2)**: Geração de ideias originais.
@@ -12,7 +12,7 @@ Traços ligados à capacidade de gerar ideias novas, representar o mundo de form
 - **1.1.6 Visionariness (6)**: Tendência a idealizar futuros alternativos.
 - **1.1.7 Artistic Expression (7)**: Expressão de sentimentos por meios simbólicos.
 
-### **1.2 Curiosidade e Descoberta** *(Anel Interno)*
+### **[[1.2 Curiosidade e Descoberta]]** *(Anel Interno)*
 Foco na busca ativa por novas experiências e compreensão do mundo.
 - **1.2.1 Curiosity (8)**: Desejo de aprender e explorar.
 - **1.2.2 Exploration (9)**: Busca ativa por novidade.
@@ -21,7 +21,7 @@ Foco na busca ativa por novas experiências e compreensão do mundo.
 - **1.2.5 Wanderlust (12)**: Impulso por viagens e deslocamento.
 - **1.2.6 Bulk Apperception (13)**: Capacidade de integrar múltiplas percepções.
 
-### **1.3 Reflexão e Abstração** *(Anel Interno)*
+### **[[1.3 Reflexão e Abstração]]** *(Anel Interno)*
 Traços voltados à metacognição e ao pensamento profundo.
 - **1.3.1 Wisdom (14)**: Julgamento baseado em experiência e ponderação.
 - **1.3.2 Reflectiveness (15)**: Tendência à introspecção.
@@ -32,7 +32,7 @@ Traços voltados à metacognição e ao pensamento profundo.
 
 ## 2. **Conscienciosidade (Conscientiousness)**
 
-### **2.1 Perseverança e Diligência** *(Anel Interno)*
+### **[[2.1 Perseverança e Diligência]]** *(Anel Interno)*
 Traços ligados ao esforço sustentado e dedicação.
 - **2.1.1 Industry (20)**: Tendência a trabalhar arduamente.
 - **2.1.2 Perseverance (21)**: Capacidade de manter-se firme diante de obstáculos.
@@ -40,7 +40,7 @@ Traços ligados ao esforço sustentado e dedicação.
 - **2.1.4 Grit (23)**: Coragem e determinação no longo prazo.
 - **2.1.5 Determination (24)**: Clareza e força de vontade nas ações.
 
-### **2.2 Organização e Ordem** *(Anel Externo)*
+### **[[2.2 Organização e Ordem]]** *(Anel Externo)*
 Voltados à estruturação eficiente do ambiente externo.
 - **2.2.1 Meticulousness (25)**: Atenção a detalhes minuciosos.
 - **2.2.2 Fastidiousness (26)**: Exigência estética e funcional.
@@ -48,7 +48,7 @@ Voltados à estruturação eficiente do ambiente externo.
 - **2.2.4 Facility (28)**: Eficiência na execução prática.
 - **2.2.5 External Coordination (29)**: Capacidade de ordenar ambientes e tarefas.
 
-### **2.3 Autocontrole e Regulação** *(Anel Interno)*
+### **[[2.3 Autocontrole e Regulação]]** *(Anel Interno)*
 Capacidade de conter impulsos e manter coerência interna.
 - **2.3.1 Temperance (30)**: Moderação em desejos e ações.
 - **2.3.2 Restraint (31)**: Capacidade de limitar impulsos.
@@ -60,7 +60,7 @@ Capacidade de conter impulsos e manter coerência interna.
 
 ## 3. **Extroversão (Extraversion)**
 
-### **3.1 Sociabilidade e Interação** *(Anel Externo)*
+### **[[3.1 Sociabilidade e Interação]]** *(Anel Externo)*
 Traços ligados à interação positiva com outras pessoas.
 - **3.1.1 Gregariousness (37)**: Preferência por ambientes sociais.
 - **3.1.2 Sociability (38)**: Facilidade em criar vínculos.
@@ -68,7 +68,7 @@ Traços ligados à interação positiva com outras pessoas.
 - **3.1.4 Charm (40)**: Capacidade de cativar os outros.
 - **3.1.5 Articulateness (41)**: Clareza e fluidez na comunicação.
 
-### **3.2 Energia e Vitalidade** *(Anel Externo)*
+### **[[3.2 Energia e Vitalidade]]** *(Anel Externo)*
 Ligados à disposição física e energia disponível.
 - **3.2.1 Vivacity (42)**: Entusiasmo e vigor.
 - **3.2.2 Physicality (43)**: Presença física marcante.
@@ -77,7 +77,7 @@ Ligados à disposição física e energia disponível.
 - **3.2.5 Health (46)**: Bem-estar corporal.
 - **3.2.6 Internal Coordination (47)**: Harmonia motora e corporal.
 
-### **3.3 Assertividade e Influência** *(Anel Externo)*
+### **[[3.3 Assertividade e Influência]]** *(Anel Externo)*
 Traços voltados à liderança e posicionamento firme.
 - **3.3.1 Assertiveness (48)**: Expressão firme de opiniões.
 - **3.3.2 Leadership (49)**: Capacidade de guiar outros.
@@ -88,7 +88,7 @@ Traços voltados à liderança e posicionamento firme.
 
 ## 4. **Amabilidade (Agreeableness)**
 
-### **4.1 Empatia e Cuidado** *(Anel Interno)*
+### **[[4.1 Empatia e Cuidado]]** *(Anel Interno)*
 Sensibilidade às necessidades alheias.
 - **4.1.1 Empathy (54)**: Compreensão emocional dos outros.
 - **4.1.2 Tenderness (55)**: Delicadeza emocional.
@@ -98,7 +98,7 @@ Sensibilidade às necessidades alheias.
 - **4.1.6 Altruism (59)**: Abnegação em prol dos outros.
 - **4.1.7 Compassion (60)**: Compaixão diante do sofrimento alheio.
 
-### **4.2 Lealdade e Cooperação** *(Anel Externo)*
+### **[[4.2 Lealdade e Cooperação]]** *(Anel Externo)*
 Prontidão em apoiar e trabalhar com os outros.
 - **4.2.1 Loyalty (61)**: Fidelidade a vínculos e valores.
 - **4.2.2 Willingness (62)**: Boa vontade em colaborar.
@@ -107,7 +107,7 @@ Prontidão em apoiar e trabalhar com os outros.
 - **4.2.5 Paternalism (65)**: Cuidado protetor.
 - **4.2.6 Benevolence (66)**: Disposição constante para o bem.
 
-### **4.3 Diplomacia e Suavidade** *(Anel Externo)*
+### **[[4.3 Diplomacia e Suavidade]]** *(Anel Externo)*
 Capacidade de lidar com conflitos com delicadeza.
 - **4.3.1 Courtesy (67)**: Educação no trato.
 - **4.3.2 Consideration (68)**: Atenção aos sentimentos dos outros.
@@ -119,7 +119,7 @@ Capacidade de lidar com conflitos com delicadeza.
 
 ## 5. **Neuroticismo (Neuroticism)**
 
-### **5.1 Vulnerabilidade e Dor Emocional** *(Anel Interno)*
+### **[[5.1 Vulnerabilidade e Dor Emocional]]** *(Anel Interno)*
 Sensibilidade exacerbada a estímulos negativos.
 - **5.1.1 Fragility (74)**: Facilidade em se sentir afetado.
 - **5.1.2 Anxiety (75)**: Expectativa de ameaças.
@@ -128,7 +128,7 @@ Sensibilidade exacerbada a estímulos negativos.
 - **5.1.5 Melancholy (78)**: Tristeza profunda e contínua.
 - **5.1.6 Emotional Acuity (79)**: Agudeza na percepção emocional.
 
-### **5.2 Hostilidade e Comportamento Antissocial** *(Anel Externo)*
+### **[[5.2 Hostilidade e Comportamento Antissocial]]** *(Anel Externo)*
 Traços voltados a confrontos e transgressões sociais.
 - **5.2.1 Aggression (80)**: Tendência ao confronto direto.
 - **5.2.2 Bellicosity (81)**: Propensão à hostilidade crônica.
@@ -140,7 +140,7 @@ Traços voltados a confrontos e transgressões sociais.
 - **5.2.8 Narcissism (87)**: Autoabsorção e vaidade excessiva.
 - **5.2.9 Egocentricism (88)**: Centralidade exagerada do "eu".
 
-### **5.3 Impulsividade e Inconstância** *(Anel Interno)*
+### **[[5.3 Impulsividade e Inconstância]]** *(Anel Interno)*
 Traços de instabilidade emocional e reatividade.
 - **5.3.1 Capriciousness (89)**: Mudança súbita de humor ou opinião.
 - **5.3.2 Moodiness (90)**: Oscilação frequente de humor.
@@ -150,7 +150,7 @@ Traços de instabilidade emocional e reatividade.
 
 ## 6. **Autonomia e Propósito (Motivação Intrínseca)**
 
-### **6.1 Sentido de Direção e Valor** *(Anel Interno)*
+### **[[6.1 Sentido de Direção e Valor]]** *(Anel Interno)*
 Traços que organizam o eu em torno de valores e metas.
 - **6.1.1 Purposefulness (94)**: Clareza de objetivos.
 - **6.1.2 Integrity (95)**: Coerência moral.
@@ -160,7 +160,7 @@ Traços que organizam o eu em torno de valores e metas.
 - **6.1.6 Consistency (99)**: Estabilidade interna.
 - **6.1.7 Devotion (100)**: Comprometimento com algo maior.
 
-### **6.2 Autoexpressão e Autenticidade** *(Anel Interno)*
+### **[[6.2 Autoexpressão e Autenticidade]]** *(Anel Interno)*
 Capacidade de se mostrar como se é.
 - **6.2.1 Sincerity (101)**: Expressão genuína.
 - **6.2.2 Authenticity (102)**: Alinhamento entre interior e exterior.
@@ -172,7 +172,7 @@ Capacidade de se mostrar como se é.
 
 ## 7. **Relacionamento com o Mundo Social e Cultural**
 
-### **7.1 Valores Culturais e Padrões** *(Anel Externo)*
+### **[[7.1 Valores Culturais e Padrões]]** *(Anel Externo)*
 Traços que refletem adequação a normas e tradições.
 - **7.1.1 Traditionalism (108)**: Apego a costumes estabelecidos.
 - **7.1.2 Conformity (109)**: Ajuste às expectativas sociais.
@@ -180,7 +180,7 @@ Traços que refletem adequação a normas e tradições.
 - **7.1.4 Decency (111)**: Comportamento adequado.
 - **7.1.5 Modesty (112)**: Evitação da ostentação.
 
-### **7.2 Dinâmica de Status e Reconhecimento** *(Anel Externo)*
+### **[[7.2 Dinâmica de Status e Reconhecimento]]** *(Anel Externo)*
 Traços relacionados à visibilidade e influência social.
 - **7.2.1 Prestige (113)**: Busca por respeito e reconhecimento.
 - **7.2.2 Fame-Seeking (114)**: Desejo de notoriedade.
