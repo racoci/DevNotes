@@ -387,35 +387,35 @@ Consciência de si.
 ##### 6.1.5 Honor (98): 
 Fidelidade a princípios.
 
-##### Consistency (99): 
+##### 6.1.6 Consistency (99): 
 Estabilidade interna.
 
-##### Devotion (100): 
+##### 6.1.7 Devotion (100): 
 Comprometimento com algo maior.
 
 
 ####  **6.2 Autoexpressão e Autenticidade** *(Anel Interno)*
   Capacidade de se mostrar como se é.
 
-##### Sincerity (101): 
+##### 6.2.1 Sincerity (101): 
 Expressão genuína.
 
-##### Authenticity (102): 
+##### 6.2.2 Authenticity (102): 
 Alinhamento entre interior e exterior.
 
-##### Uniqueness (103): 
+##### 6.2.3 Uniqueness (103): 
 Expressão de originalidade.
 
-##### Boldness (104): 
+##### 6.2.4 Boldness (104): 
 Coragem de ser distinto.
 
-##### Individuality (105): 
+##### 6.2.5 Individuality (105): 
 Preservação do próprio caráter.
 
-##### Frankness (106): 
+##### 6.2.6 Frankness (106): 
 Clareza direta ao se expressar.
 
-##### Transparency (107): 
+##### 6.2.7 Transparency (107): 
 Ausência de máscaras.
 
 
@@ -424,47 +424,47 @@ Ausência de máscaras.
 ####  **7.1 Valores Culturais e Padrões** *(Anel Externo)*
   Traços que refletem adequação a normas e tradições.
 
-##### Traditionalism (108): 
+##### 7.1.1 Traditionalism (108): 
 Apego a costumes estabelecidos.
 
-##### Conformity (109): 
+##### 7.1.2 Conformity (109): 
 Ajuste às expectativas sociais.
 
-##### Orthodoxy (110): 
+##### 7.1.3 Orthodoxy (110): 
 Alinhamento com dogmas.
 
-##### Decency (111): 
+##### 7.1.4 Decency (111): 
 Comportamento adequado.
 
-##### Modesty (112): 
+##### 7.1.5 Modesty (112): 
 Evitação da ostentação.
 
 
 ####  **7.2 Dinâmica de Status e Reconhecimento** *(Anel Externo)*
   Traços relacionados à visibilidade e influência social.
 
-##### Prestige (113): 
+##### 7.2.1 Prestige (113): 
 Busca por respeito e reconhecimento.
 
-##### Fame-Seeking (114): 
+##### 7.2.2 Fame-Seeking (114): 
 Desejo de notoriedade.
 
-##### Competitiveness (115): 
+##### 7.2.3 Competitiveness (115): 
 Comparação e superação dos outros.
 
-##### Social Monitoring (116): 
+##### 7.2.4 Social Monitoring (116): 
 Atenção à opinião alheia.
 
-##### Adaptability (117): 
+##### 7.2.5 Adaptability (117): 
 Ajuste flexível ao meio social.
 
-##### Opportunism (118): 
+##### 7.2.6 Opportunism (118): 
 Exploração estratégica de situações.
 
-##### Social Intelligence (119): 
+##### 7.2.7 Social Intelligence (119): 
 Leitura de dinâmicas sociais.
 
-##### Political Acumen (120): 
+##### 7.2.8 Political Acumen (120): 
 Habilidade em jogos de poder e influência.
 
 
