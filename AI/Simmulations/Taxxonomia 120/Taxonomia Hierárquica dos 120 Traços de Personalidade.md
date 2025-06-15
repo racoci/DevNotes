@@ -212,10 +212,10 @@ Segurança na ação.
 ##### 3.2.4 Courage (51): 
 Enfrentamento de riscos.
 
-##### Decisiveness (52): 
+##### 3.2.5 Decisiveness (52): 
 Tomada rápida de decisões.
 
-##### Hubris (53): 
+##### 3.2.6 Hubris (53): 
 Confiança excessiva em si mesmo.
 
 
@@ -224,72 +224,72 @@ Confiança excessiva em si mesmo.
 ####  **4.1 Empatia e Cuidado** *(Anel Interno)*
   Sensibilidade às necessidades alheias.
 
-##### Empathy (54): 
+##### 4.1.1 Empathy (54): 
 Compreensão emocional dos outros.
 
-##### Tenderness (55): 
+##### 4.1.2 Tenderness (55): 
 Delicadeza emocional.
 
-##### Gentleness (56): 
+##### 4.1.3 Gentleness (56): 
 Suavidade no trato.
 
-##### Kindness (57): 
+##### 4.1.4 Kindness (57): 
 Ações voltadas ao bem do outro.
 
-##### Generosity (58): 
+##### 4.1.5 Generosity (58): 
 Disposição para compartilhar.
 
-##### Altruism (59): 
+##### 4.1.6 Altruism (59): 
 Abnegação em prol dos outros.
 
-##### Compassion (60): 
+##### 4.1.7 Compassion (60): 
 Compaixão diante do sofrimento alheio.
 
 
 ####  **4.2 Lealdade e Cooperação** *(Anel Externo)*
   Prontidão em apoiar e trabalhar com os outros.
 
-##### Loyalty (61): 
+##### 4.2.1 Loyalty (61): 
 Fidelidade a vínculos e valores.
 
-##### Willingness (62): 
+##### 4.2.2 Willingness (62): 
 Boa vontade em colaborar.
 
-##### Cooperation (63): 
+##### 4.2.3 Cooperation (63): 
 Capacidade de trabalhar em conjunto.
 
-##### Compliance (64): 
+##### 4.2.4 Compliance (64): 
 Adesão a normas e acordos.
 
-##### Paternalism (65): 
+##### 4.2.5 Paternalism (65): 
 Cuidado protetor.
 
-##### Benevolence (66): 
+##### 4.2.6 Benevolence (66): 
 Disposição constante para o bem.
 
 
 ####  **4.3 Diplomacia e Suavidade** *(Anel Externo)*
   Capacidade de lidar com conflitos com delicadeza.
 
-##### Courtesy (67): 
+##### 4.3.1 Courtesy (67): 
 Educação no trato.
 
-##### Consideration (68): 
+##### 4.3.2 Consideration (68): 
 Atenção aos sentimentos dos outros.
 
-##### Delicacy (69): 
+##### 4.3.3 Delicacy (69): 
 Finesse em interações sensíveis.
 
-##### Peacefulness (70): 
+##### 4.3.4 Peacefulness (70): 
 Evitação de confrontos.
 
-##### Humility (71): 
+##### 4.3.5 Humility (71): 
 Ausência de arrogância.
 
-##### Meekness (72): 
+##### 4.3.6 Meekness (72): 
 Suavidade e não agressividade.
 
-##### Calmness (73): 
+##### 4.3.7 Calmness (73): 
 Tranquilidade diante de pressões.
 
 
@@ -298,72 +298,72 @@ Tranquilidade diante de pressões.
 ####  **5.1 Vulnerabilidade e Dor Emocional** *(Anel Interno)*
   Sensibilidade exacerbada a estímulos negativos.
 
-##### Fragility (74): 
+##### 5.1.1 Fragility (74): 
 Facilidade em se sentir afetado.
 
-##### Anxiety (75): 
+##### 5.1.2 Anxiety (75): 
 Expectativa de ameaças.
 
-##### Sadness (76): 
+##### 5.1.3 Sadness (76): 
 Tendência à melancolia.
 
-##### Fear (77): 
+##### 5.1.4 Fear (77): 
 Respostas intensas a ameaças.
 
-##### Melancholy (78): 
+##### 5.1.5 Melancholy (78): 
 Tristeza profunda e contínua.
 
-##### Emotional Acuity (79): 
+##### 5.1.6 Emotional Acuity (79): 
 Agudeza na percepção emocional.
 
 
 ####  **5.2 Hostilidade e Comportamento Antissocial** *(Anel Externo)*
   Traços voltados a confrontos e transgressões sociais.
 
-##### Aggression (80): 
+##### 5.2.1 Aggression (80): 
 Tendência ao confronto direto.
 
-##### Bellicosity (81): 
+##### 5.2.2 Bellicosity (81): 
 Propensão à hostilidade crônica.
 
-##### Cruelty (82): 
+##### 5.2.3 Cruelty (82): 
 Indiferença ao sofrimento alheio.
 
-##### Vindictiveness (83): 
+##### 5.2.4 Vindictiveness (83): 
 Desejo de retribuição negativa.
 
-##### Hostility (84): 
+##### 5.2.5 Hostility (84): 
 Atitude geral de antagonismo.
 
-##### Deceptiveness (85): 
+##### 5.2.6 Deceptiveness (85): 
 Uso da mentira e dissimulação.
 
-##### Sociopathy (86): 
+##### 5.2.7 Sociopathy (86): 
 Falta de remorso e empatia.
 
-##### Narcissism (87): 
+##### 5.2.8 Narcissism (87): 
 Autoabsorção e vaidade excessiva.
 
-##### Egocentricism (88): 
+##### 5.2.9 Egocentricism (88): 
 Centralidade exagerada do "eu".
 
 
 ####  **5.3 Impulsividade e Inconstância** *(Anel Interno)*
   Traços de instabilidade emocional e reatividade.
 
-##### Capriciousness (89): 
+##### 5.3.1 Capriciousness (89): 
 Mudança súbita de humor ou opinião.
 
-##### Moodiness (90): 
+##### 5.3.2 Moodiness (90): 
 Oscilação frequente de humor.
 
-##### Whimsy (91): 
+##### 5.3.3 Whimsy (91): 
 Ações sem coerência interna.
 
-##### Impulsivity (92): 
+##### 5.3.4 Impulsivity (92): 
 Ações sem reflexão prévia.
 
-##### Volatility (93): 
+##### 5.3.5 Volatility (93): 
 Instabilidade comportamental.
 
 
@@ -372,19 +372,19 @@ Instabilidade comportamental.
 ####  **6.1 Sentido de Direção e Valor** *(Anel Interno)*
   Traços que organizam o eu em torno de valores e metas.
 
-##### Purposefulness (94): 
+##### 6.1.1 Purposefulness (94): 
 Clareza de objetivos.
 
-##### Integrity (95): 
+##### 6.1.2 Integrity (95): 
 Coerência moral.
 
-##### Dignity (96): 
+##### 6.1.3 Dignity (96): 
 Autovalor com compostura.
 
-##### Identity (97): 
+##### 6.1.4 Identity (97): 
 Consciência de si.
 
-##### Honor (98): 
+##### 6.1.5 Honor (98): 
 Fidelidade a princípios.
 
 ##### Consistency (99): 
