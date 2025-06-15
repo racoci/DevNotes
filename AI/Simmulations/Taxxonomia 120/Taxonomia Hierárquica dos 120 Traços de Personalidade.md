@@ -125,32 +125,32 @@ Valorização da higiene e ordem.
 ##### 2.2.4 Facility (28): 
 Eficiência na execução prática.
 
-##### External Coordination (29): 
+##### 2.2.5 External Coordination (29): 
 Capacidade de ordenar ambientes e tarefas.
 
 
 #### **2.3 Autocontrole e Regulação** *(Anel Interno)*
   Capacidade de conter impulsos e manter coerência interna.
 
-##### Temperance (30): 
+##### 2.3.1 Temperance (30): 
 Moderação em desejos e ações.
 
-##### Restraint (31): 
+##### 2.3.2 Restraint (31): 
 Capacidade de limitar impulsos.
 
-##### Inhibition (32): 
+##### 2.3.3 Inhibition (32): 
 Supressão voluntária de reações.
 
-##### Decorum (33): 
+##### 2.3.4 Decorum (33): 
 Adequação comportamental.
 
-##### Patience (34): 
+##### 2.3.5 Patience (34): 
 Tolerância à espera.
 
-##### Stoicism (35): 
+##### 2.3.6 Stoicism (35): 
 Resistência emocional à adversidade.
 
-##### Discipline (36): 
+##### 2.3.7 Discipline (36): 
 Aderência a regras internas e externas.
 
 
@@ -159,57 +159,57 @@ Aderência a regras internas e externas.
 ####  **3.1 Sociabilidade e Interação** *(Anel Externo)*
   Traços ligados à interação positiva com outras pessoas.
 
-##### Gregariousness (37): 
+##### 3.1.1 Gregariousness (37): 
 Preferência por ambientes sociais.
 
-##### Sociability (38): 
+##### 3.1.2 Sociability (38): 
 Facilidade em criar vínculos.
 
-##### Affection (39): 
+##### 3.1.3 Affection (39): 
 Expressão calorosa de sentimentos.
 
-##### Charm (40): 
+##### 3.1.4 Charm (40): 
 Capacidade de cativar os outros.
 
-##### Articulateness (41): 
+##### 3.1.5 Articulateness (41): 
 Clareza e fluidez na comunicação.
 
 
 ####  **3.2 Energia e Vitalidade** *(Anel Externo)*
   Ligados à disposição física e energia disponível.
 
-##### Vivacity (42): 
+##### 3.2.1 Vivacity (42): 
 Entusiasmo e vigor.
 
-##### Physicality (43): 
+##### 3.2.2 Physicality (43): 
 Presença física marcante.
 
-##### Strength (44): 
+##### 3.2.3 Strength (44): 
 Capacidade de exercer força.
 
-##### Endurance (45): 
+##### 3.2.4 Endurance (45): 
 Resistência prolongada.
 
-##### Health (46): 
+##### 3.2.5 Health (46): 
 Bem-estar corporal.
 
-##### Internal Coordination (47): 
+##### 3.2.6 Internal Coordination (47): 
 Harmonia motora e corporal.
 
 
 ####  **3.3 Assertividade e Influência** *(Anel Externo)*
   Traços voltados à liderança e posicionamento firme.
 
-##### Assertiveness (48): 
+##### 3.3.1 Assertiveness (48): 
 Expressão firme de opiniões.
 
-##### Leadership (49): 
+##### 3.3.2 Leadership (49): 
 Capacidade de guiar outros.
 
-##### Confidence (50): 
+##### 3.2.3 Confidence (50): 
 Segurança na ação.
 
-##### Courage (51): 
+##### 3.2.4 Courage (51): 
 Enfrentamento de riscos.
 
 ##### Decisiveness (52): 
