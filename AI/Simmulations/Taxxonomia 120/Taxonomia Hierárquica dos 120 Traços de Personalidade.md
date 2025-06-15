@@ -23,69 +23,69 @@
 #### **1.1 Imaginação e Criatividade** *(Anel Interno)*
   Traços ligados à capacidade de gerar ideias novas, representar o mundo de formas simbólicas e expressar beleza.
 
-##### Artistry (1): 
+##### 1.1.1 Artistry (1): 
 Sensibilidade estética refinada.
 
-##### Creativity (2): 
+##### 1.1.2 Creativity (2): 
 Geração de ideias originais.
 
-##### Innovation (3): 
+##### 1.1.3  Innovation (3): 
 Capacidade de aplicar ideias novas.
 
-##### Imagination (4): 
+##### 1.1.4 Imagination (4): 
 Construção interna de cenários ou imagens.
 
-##### Wonderment (5): 
+##### 1.1.5 Wonderment (5): 
 Capacidade de se encantar com o desconhecido.
 
-##### Visionariness (6): 
+##### 1.1.6 Visionariness (6): 
 Tendência a idealizar futuros alternativos.
 
-##### Artistic Expression (7): 
+##### 1.1.7 Artistic Expression (7): 
 Expressão de sentimentos por meios simbólicos.
 
 
 #### **1.2 Curiosidade e Descoberta** *(Anel Interno)*
   Foco na busca ativa por novas experiências e compreensão do mundo.
 
-##### Curiosity (8): 
+##### 1.2.1 Curiosity (8): 
 Desejo de aprender e explorar.
 
-##### Exploration (9): 
+##### 1.2.2 Exploration (9): 
 Busca ativa por novidade.
 
-##### Adventurousness (10): 
+##### 1.2.3 Adventurousness (10): 
 Tendência a assumir riscos para vivenciar o novo.
 
-##### Open-mindedness (11): 
+##### 1.2.4 Open-mindedness (11): 
 Disposição para considerar novas ideias.
 
-##### Wanderlust (12): 
+##### 1.2.5 Wanderlust (12): 
 Impulso por viagens e deslocamento.
 
-##### Bulk Apperception (13): 
+##### 1.2.6 Bulk Apperception (13): 
 Capacidade de integrar múltiplas percepções.
 
 
 #### **1.3 Reflexão e Abstração** *(Anel Interno)*
   Traços voltados à metacognição e ao pensamento profundo.
 
-##### Wisdom (14): 
+##### 1.3.1 Wisdom (14): 
 Julgamento baseado em experiência e ponderação.
 
-##### Reflectiveness (15): 
+##### 1.3.2 Reflectiveness (15): 
 Tendência à introspecção.
 
-##### Intuition (16): 
+##### 1.3.3 Intuition (16): 
 Captação de padrões sem mediação lógica.
 
-##### Philosophical Bent (17): 
+##### 1.3.4 Philosophical Bent (17): 
 Inclinação para questões existenciais.
 
-##### Comprehensive Thinking (18): 
+##### 1.3.5 Comprehensive Thinking (18): 
 Capacidade de ver o todo.
 
-##### Analytical Thinking (19): 
+##### 1.3.6 Analytical Thinking (19): 
 Capacidade de decompor e entender partes.
 
 
@@ -94,35 +94,35 @@ Capacidade de decompor e entender partes.
 ####  **2.1 Perseverança e Diligência** *(Anel Interno)*
   Traços ligados ao esforço sustentado e dedicação.
 
-##### Industry (20): 
+##### 2.1.1 Industry (20): 
 Tendência a trabalhar arduamente.
 
-##### Perseverance (21): 
+##### 2.1.2 Perseverance (21): 
 Capacidade de manter-se firme diante de obstáculos.
 
-##### Tenacity (22): 
+##### 2.1.3 Tenacity (22): 
 Persistência intensa em atingir metas.
 
-##### Grit (23): 
+##### 2.1.4 Grit (23): 
 Coragem e determinação no longo prazo.
 
-##### Determination (24): 
+##### 2.1.5 Determination (24): 
 Clareza e força de vontade nas ações.
 
 
 #### **2.2 Organização e Ordem** *(Anel Externo)*
   Voltados à estruturação eficiente do ambiente externo.
 
-##### Meticulousness (25): 
+##### 2.2.1 Meticulousness (25): 
 Atenção a detalhes minuciosos.
 
-##### Fastidiousness (26): 
+##### 2.2.2 Fastidiousness (26): 
 Exigência estética e funcional.
 
-##### Cleanliness (27): 
+##### 2.2.3 Cleanliness (27): 
 Valorização da higiene e ordem.
 
-##### Facility (28): 
+##### 2.2.4 Facility (28): 
 Eficiência na execução prática.
 
 ##### External Coordination (29): 
