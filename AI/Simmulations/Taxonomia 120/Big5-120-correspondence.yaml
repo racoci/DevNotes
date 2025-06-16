@@ -1,0 +1,312 @@
+BigFive:
+- id: "1"
+  nome: "Neuroticismo"
+  original: "Neuroticism"
+  descr: "Tendência geral a emoções negativas e reatividade ao estresse."
+  facetas:
+  - id: "1.1"
+    nome: "Ansiedade"
+    original: "Anxiety"
+    descr: "Estado de alerta antecipatório, preocupação e tensão."
+    tracos:
+    - id: "1.1.1"
+      num_original: 74
+      nome: "Fragilidade"
+      original: "Fragility"
+      descr: "Sensação de vulnerabilidade física ou emocional."
+    - id: "1.1.2"
+      num_original: 75
+      nome: "Ansiedade"
+      original: "Anxiety"
+      descr: "Apreensão persistente diante do futuro incerto."
+    - id: "1.1.3"
+      num_original: 77
+      nome: "Medo"
+      original: "Fear"
+      descr: "Resposta emocional imediata a ameaças percebidas."
+  - id: "1.2"
+    nome: "Raiva"
+    original: "Anger"
+    descr: "Propensão a respostas hostis ou agressivas."
+    tracos:
+    - { id: "1.2.1", num_original: 80, nome: "Agressividade", original: "Aggression", descr: "Impulso de atacar ou dominar." }
+    - { id: "1.2.2", num_original: 81, nome: "Belicosidade", original: "Bellicosity", descr: "Disposição para confrontos contínuos." }
+    - { id: "1.2.3", num_original: 82, nome: "Crueldade", original: "Cruelty", descr: "Indiferença ou prazer no sofrimento alheio." }
+    - { id: "1.2.4", num_original: 83, nome: "Vingança", original: "Vindictiveness", descr: "Desejo de punir o ofensor." }
+    - { id: "1.2.5", num_original: 84, nome: "Hostilidade", original: "Hostility", descr: "Atitude geral de antagonismo." }
+    - { id: "1.2.6", num_original: 85, nome: "Enganosidade", original: "Deceptiveness", descr: "Uso da mentira/manipulação." }
+    - { id: "1.2.7", num_original: 86, nome: "Sociopatia", original: "Sociopathy", descr: "Violação persistente de normas e falta de empatia." }
+  - id: "1.3"
+    nome: "Depressão/Melancolia"
+    original: "Depression/Melancholy"
+    descr: "Humor baixo, desânimo e sensação de desvalor."
+    tracos:
+    - { id: "1.3.1", num_original: 76, nome: "Tristeza", original: "Sadness", descr: "Estado afetivo de perda ou desalento." }
+    - { id: "1.3.2", num_original: 78, nome: "Melancolia", original: "Melancholy", descr: "Abatimento prolongado e reflexivo." }
+  - id: "1.4"
+    nome: "Autoconsciência"
+    original: "Self-Consciousness"
+    descr: "Sensibilidade a julgamento alheio e foco na auto-imagem."
+    tracos:
+    - { id: "1.4.1", num_original: 87, nome: "Narcisismo", original: "Narcissism", descr: "Autoimagem grandiosa e busca de admiração." }
+    - { id: "1.4.2", num_original: 88, nome: "Egocentrismo", original: "Egocentricism", descr: "Centralidade exagerada do 'eu'." }
+  - id: "1.5"
+    nome: "Impulsividade"
+    original: "Impulsiveness"
+    descr: "Ação sem deliberação; busca de gratificação imediata."
+    tracos:
+    - { id: "1.5.1", num_original: 89, nome: "Caprichosidade", original: "Capriciousness", descr: "Mudanças súbitas de preferência ou humor." }
+    - { id: "1.5.2", num_original: 90, nome: "Instabilidade de Humor", original: "Moodiness", descr: "Flutuações emocionais rápidas." }
+    - { id: "1.5.3", num_original: 91, nome: "Extravagância", original: "Whimsy", descr: "Comportamentos incomuns motivados por impulso." }
+    - { id: "1.5.4", num_original: 92, nome: "Impulsividade", original: "Impulsivity", descr: "Agir instantaneamente sem refletir." }
+    - { id: "1.5.5", num_original: 93, nome: "Volatilidade", original: "Volatility", descr: "Reações emocionais explosivas." }
+  - id: "1.6"
+    nome: "Vulnerabilidade"
+    original: "Vulnerability"
+    descr: "Sensação de incapacidade para lidar com pressão."
+    tracos:
+    - { id: "1.6.1", num_original: 79, nome: "Acuidade Emocional", original: "Emotional Acuity", descr: "Consciência ampliada dos próprios estados afetivos." }
+
+- id: "2"
+  nome: "Extroversão"
+  original: "Extraversion"
+  descr: "Energia, sociabilidade e busca de estímulos."
+  facetas:
+  - id: "2.1"
+    nome: "Afabilidade"
+    original: "Friendliness"
+    descr: "Facilidade em criar calor humano."
+    tracos:
+    - { id: "2.1.1", num_original: 39, nome: "Afeição", original: "Affection", descr: "Expressão calorosa de carinho." }
+    - { id: "2.1.2", num_original: 40, nome: "Charme", original: "Charm", descr: "Capacidade de cativar." }
+    - { id: "2.1.3", num_original: 41, nome: "Articulação", original: "Articulateness", descr: "Clareza e fluência verbal." }
+  - id: "2.2"
+    nome: "Sociabilidade"
+    original: "Gregariousness"
+    descr: "Preferência por convívio frequente."
+    tracos:
+    - { id: "2.2.1", num_original: 37, nome: "Gregarismo", original: "Gregariousness", descr: "Busca ativa por grupos." }
+    - { id: "2.2.2", num_original: 38, nome: "Sociabilidade", original: "Sociability", descr: "Conforto em interações sociais." }
+    - { id: "2.2.3", num_original: 119, nome: "Inteligência Social", original: "Social Intelligence", descr: "Leitura de sinais sociais." }
+    - { id: "2.2.4", num_original: 116, nome: "Monitoramento Social", original: "Social Monitoring", descr: "Observação de normas do grupo." }
+    - { id: "2.2.5", num_original: 117, nome: "Adaptabilidade", original: "Adaptability", descr: "Ajuste flexível ao ambiente." }
+  - id: "2.3"
+    nome: "Assertividade"
+    original: "Assertiveness"
+    descr: "Liderança e expressão firme de opinião."
+    tracos:
+    - { id: "2.3.1", num_original: 48, nome: "Assertividade", original: "Assertiveness", descr: "Comunicação direta e firme." }
+    - { id: "2.3.2", num_original: 49, nome: "Liderança", original: "Leadership", descr: "Mobilizar pessoas e recursos." }
+    - { id: "2.3.3", num_original: 50, nome: "Autoconfiança", original: "Confidence", descr: "Crença na própria capacidade." }
+    - { id: "2.3.4", num_original: 52, nome: "Decisão", original: "Decisiveness", descr: "Rapidez e segurança ao decidir." }
+    - { id: "2.3.5", num_original: 120, nome: "Acuidade Política", original: "Political Acumen", descr: "Perceber relações de poder." }
+  - id: "2.4"
+    nome: "Nível de Atividade"
+    original: "Activity Level"
+    descr: "Ritmo energético e envolvimento corporal."
+    tracos:
+    - { id: "2.4.1", num_original: 43, nome: "Condição Física", original: "Physicality", descr: "Prontidão e vigor corporal." }
+    - { id: "2.4.2", num_original: 44, nome: "Força", original: "Strength", descr: "Capacidade de exercer potência." }
+    - { id: "2.4.3", num_original: 45, nome: "Resistência", original: "Endurance", descr: "Sustentar esforço prolongado." }
+    - { id: "2.4.4", num_original: 46, nome: "Saúde", original: "Health", descr: "Funcionamento corporal equilibrado." }
+    - { id: "2.4.5", num_original: 47, nome: "Coordenação Interna", original: "Internal Coordination", descr: "Sincronia motora precisa." }
+  - id: "2.5"
+    nome: "Busca de Emoção"
+    original: "Excitement-Seeking"
+    descr: "Procura por estímulos intensos."
+    tracos:
+    - { id: "2.5.1", num_original: 51, nome: "Coragem", original: "Courage", descr: "Enfrentar perigos apesar do medo." }
+    - { id: "2.5.2", num_original: 114, nome: "Busca de Fama", original: "Fame-Seeking", descr: "Desejo forte de reconhecimento." }
+    - { id: "2.5.3", num_original: 115, nome: "Competitividade", original: "Competitiveness", descr: "Esforço para superar rivais." }
+    - { id: "2.5.4", num_original: 118, nome: "Oportunismo", original: "Opportunism", descr: "Aproveitar circunstâncias para ganho." }
+    - { id: "2.5.5", num_original: 53, nome: "Soberba", original: "Hubris", descr: "Confiança excessiva e superioridade." }
+  - id: "2.6"
+    nome: "Emoções Positivas"
+    original: "Positive Emotions"
+    descr: "Frequência e intensidade de sentimentos agradáveis."
+    tracos:
+    - { id: "2.6.1", num_original: 42, nome: "Vivacidade", original: "Vivacity", descr: "Entusiasmo contagiante e alto astral." }
+    - { id: "2.6.2", num_original: 113, nome: "Prestígio", original: "Prestige", descr: "Reconhecimento social que gera orgulho." }
+
+- id: "3"
+  nome: "Abertura à Experiência"
+  original: "Openness to Experience"
+  descr: "Apreço por novidade, complexidade e exploração intelectual/estética."
+  facetas:
+  - id: "3.1"
+    nome: "Imaginação/Fantasia"
+    original: "Imagination/Fantasy"
+    descr: "Criação de mundos mentais e cenários alternativos."
+    tracos:
+    - { id: "3.1.1", num_original: 4, nome: "Imaginação", original: "Imagination", descr: "Representações além da percepção imediata." }
+    - { id: "3.1.2", num_original: 6, nome: "Visionarismo", original: "Visionariness", descr: "Projeção de futuros inspiradores." }
+    - { id: "3.1.3", num_original: 5, nome: "Encantamento", original: "Wonderment", descr: "Assombro diante do desconhecido ou belo." }
+    - { id: "3.1.4", num_original: 2, nome: "Criatividade", original: "Creativity", descr: "Combinação de ideias incomuns." }
+  - id: "3.2"
+    nome: "Estética"
+    original: "Aesthetics"
+    descr: "Sensibilidade à beleza e forma."
+    tracos:
+    - { id: "3.2.1", num_original: 1, nome: "Arte", original: "Artistry", descr: "Percepção refinada de equilíbrio e harmonia." }
+    - { id: "3.2.2", num_original: 7, nome: "Expressão Artística", original: "Artistic Expression", descr: "Tradução de emoções em obras simbólicas." }
+  - id: "3.3"
+    nome: "Emocionalidade"
+    original: "Emotionality/Feelings"
+    descr: "Profundidade e riqueza de experiências afetivas."
+    tracos:
+    - { id: "3.3.1", num_original: 15, nome: "Reflexividade", original: "Reflectiveness", descr: "Observação e análise de estados mentais." }
+    - { id: "3.3.2", num_original: 16, nome: "Intuição", original: "Intuition", descr: "Captação de padrões sem mediação lógica." }
+  - id: "3.4"
+    nome: "Aventureirismo"
+    original: "Adventurousness/Actions"
+    descr: "Busca ativa por experiências desconhecidas."
+    tracos:
+    - { id: "3.4.1", num_original: 8, nome: "Curiosidade", original: "Curiosity", descr: "Motivação para investigação constante." }
+    - { id: "3.4.2", num_original: 9, nome: "Exploração", original: "Exploration", descr: "Deslocar-se ou experimentar para descobrir." }
+    - { id: "3.4.3", num_original: 10, nome: "Aventureirismo", original: "Adventurousness", descr: "Aceitar riscos para experiências novas." }
+    - { id: "3.4.4", num_original: 12, nome: "Nomadismo", original: "Wanderlust", descr: "Impulso duradouro de viajar." }
+  - id: "3.5"
+    nome: "Intelecto"
+    original: "Intellect/Ideas"
+    descr: "Engajamento com abstrações e questionamento conceitual."
+    tracos:
+    - { id: "3.5.1", num_original: 14, nome: "Sabedoria", original: "Wisdom", descr: "Integra conhecimento prático e julgamento." }
+    - { id: "3.5.2", num_original: 17, nome: "Inclinação Filosófica", original: "Philosophical Bent", descr: "Interesse por questões existenciais." }
+    - { id: "3.5.3", num_original: 18, nome: "Pensamento Abrangente", original: "Comprehensive Thinking", descr: "Visão holística conectando áreas diversas." }
+    - { id: "3.5.4", num_original: 19, nome: "Pensamento Analítico", original: "Analytical Thinking", descr: "Decompor problemas em partes lógicas." }
+    - { id: "3.5.5", num_original: 13, nome: "Apercepção de Conjunto", original: "Bulk Apperception", descr: "Captar estrutura global de informações." }
+  - id: "3.6"
+    nome: "Valores/Liberalismo"
+    original: "Liberalism/Values"
+    descr: "Abertura a questionar tradições e apoiar mudanças."
+    tracos:
+    - { id: "3.6.1", num_original: 11, nome: "Mente Aberta", original: "Open-Mindedness", descr: "Acolher perspectivas divergentes." }
+    - { id: "3.6.2", num_original: 3, nome: "Inovação", original: "Innovation", descr: "Aplicar ideias originais para melhoria." }
+    - { id: "3.6.3", num_original: 104, nome: "Ousadia", original: "Boldness", descr: "Ações arrojadas que contrariam normas." }
+    - { id: "3.6.4", num_original: 103, nome: "Singularidade", original: "Uniqueness", descr: "Valorizar identidade própria distinta." }
+    - { id: "3.6.5", num_original: 105, nome: "Individualidade", original: "Individuality", descr: "Ênfase na autodeterminação." }
+
+- id: "4"
+  nome: "Amabilidade"
+  original: "Agreeableness"
+  descr: "Orientação cooperativa, empática e harmoniosa."
+  facetas:
+  - id: "4.1"
+    nome: "Confiança"
+    original: "Trust"
+    descr: "Expectativa de boa-fé e honestidade."
+    tracos:
+    - { id: "4.1.1", num_original: 61, nome: "Lealdade", original: "Loyalty", descr: "Compromisso estável mesmo em adversidade." }
+    - { id: "4.1.2", num_original: 66, nome: "Benevolência", original: "Benevolence", descr: "Desejo genuíno do bem-estar alheio." }
+    - { id: "4.1.3", num_original: 70, nome: "Pacificidade", original: "Peacefulness", descr: "Evitar conflito; promover paz." }
+    - { id: "4.1.4", num_original: 67, nome: "Cortesia", original: "Courtesy", descr: "Uso de regras de polidez." }
+    - { id: "4.1.5", num_original: 68, nome: "Consideração", original: "Consideration", descr: "Levar em conta necessidades alheias." }
+  - id: "4.2"
+    nome: "Moralidade"
+    original: "Morality/Straightforwardness"
+    descr: "Coerência ética e transparência."
+    tracos:
+    - { id: "4.2.1", num_original: 101, nome: "Sinceridade", original: "Sincerity", descr: "Comunicar verdades sem distorção." }
+    - { id: "4.2.2", num_original: 102, nome: "Autenticidade", original: "Authenticity", descr: "Agir em consonância com valores internos." }
+    - { id: "4.2.3", num_original: 106, nome: "Franqueza", original: "Frankness", descr: "Expor opiniões de forma direta." }
+    - { id: "4.2.4", num_original: 107, nome: "Transparência", original: "Transparency", descr: "Tornar processos e motivos claros." }
+  - id: "4.3"
+    nome: "Altruísmo"
+    original: "Altruism"
+    descr: "Ajudar sem esperar recompensa."
+    tracos:
+    - { id: "4.3.1", num_original: 57, nome: "Bondade", original: "Kindness", descr: "Cuidado afetuoso com outros." }
+    - { id: "4.3.2", num_original: 59, nome: "Altruísmo", original: "Altruism", descr: "Sacrificar recursos próprios pelo coletivo." }
+    - { id: "4.3.3", num_original: 62, nome: "Disposição", original: "Willingness", descr: "Prontidão para oferecer ajuda." }
+    - { id: "4.3.4", num_original: 58, nome: "Generosidade", original: "Generosity", descr: "Compartilhar posses ou oportunidades." }
+    - { id: "4.3.5", num_original: 65, nome: "Paternalismo", original: "Paternalism", descr: "Proteger e orientar com responsabilidade." }
+  - id: "4.4"
+    nome: "Cooperação"
+    original: "Cooperation"
+    descr: "Trabalho em grupo e busca de consenso."
+    tracos:
+    - { id: "4.4.1", num_original: 63, nome: "Cooperação", original: "Cooperation", descr: "Coordenação de ações pró-grupo." }
+    - { id: "4.4.2", num_original: 64, nome: "Obediência", original: "Compliance", descr: "Seguir instruções ou regras." }
+    - { id: "4.4.3", num_original: 69, nome: "Delicadeza", original: "Delicacy", descr: "Palavras e gestos suaves." }
+    - { id: "4.4.4", num_original: 73, nome: "Calma", original: "Calmness", descr: "Serenidade sob pressão social." }
+    - { id: "4.4.5", num_original: 56, nome: "Gentileza", original: "Gentleness", descr: "Trato leve e respeitoso." }
+  - id: "4.5"
+    nome: "Modéstia"
+    original: "Modesty"
+    descr: "Baixa autopromoção; reconhecer limites."
+    tracos:
+    - { id: "4.5.1", num_original: 71, nome: "Humildade", original: "Humility", descr: "Admitir falhas e aprender." }
+    - { id: "4.5.2", num_original: 72, nome: "Mansidão", original: "Meekness", descr: "Evitar impor força ou autoridade." }
+    - { id: "4.5.3", num_original: 112, nome: "Modéstia", original: "Modesty", descr: "Minimizar conquistas pessoais." }
+    - { id: "4.5.4", num_original: 96, nome: "Dignidade", original: "Dignity", descr: "Postura respeitosa sem ostentação." }
+  - id: "4.6"
+    nome: "Empatia"
+    original: "Sympathy/Tender-Mindedness"
+    descr: "Sentir e responder ao estado emocional do outro."
+    tracos:
+    - { id: "4.6.1", num_original: 54, nome: "Empatia", original: "Empathy", descr: "Compreender emoções alheias." }
+    - { id: "4.6.2", num_original: 55, nome: "Ternura", original: "Tenderness", descr: "Gentileza protetora e calorosa." }
+    - { id: "4.6.3", num_original: 60, nome: "Compaixão", original: "Compassion", descr: "Ação para aliviar a dor do próximo." }
+
+- id: "5"
+  nome: "Conscienciosidade"
+  original: "Conscientiousness"
+  descr: "Organização, autodisciplina e foco em metas."
+  facetas:
+  - id: "5.1"
+    nome: "Autoeficácia"
+    original: "Self-Efficacy"
+    descr: "Crença na capacidade de executar tarefas."
+    tracos:
+    - { id: "5.1.1", num_original: 20, nome: "Industriosidade", original: "Industry", descr: "Trabalho árduo e dedicação." }
+    - { id: "5.1.2", num_original: 28, nome: "Habilidade", original: "Facility", descr: "Aprender métodos rapidamente." }
+    - { id: "5.1.3", num_original: 97, nome: "Identidade", original: "Identity", descr: "Senso claro de propósito e valores." }
+  - id: "5.2"
+    nome: "Organização"
+    original: "Orderliness"
+    descr: "Arranjo sistemático de ambientes e rotinas."
+    tracos:
+    - { id: "5.2.1", num_original: 25, nome: "Meticulosidade", original: "Meticulousness", descr: "Atenção meticulosa a detalhes." }
+    - { id: "5.2.2", num_original: 26, nome: "Esmero", original: "Fastidiousness", descr: "Exigência estética e funcional." }
+    - { id: "5.2.3", num_original: 27, nome: "Limpeza", original: "Cleanliness", descr: "Manter espaços higienizados." }
+    - { id: "5.2.4", num_original: 29, nome: "Coordenação Externa", original: "External Coordination", descr: "Ordenar ambientes e tarefas." }
+  - id: "5.3"
+    nome: "Dever"
+    original: "Dutifulness"
+    descr: "Adesão a normas e código moral."
+    tracos:
+    - { id: "5.3.1", num_original: 95, nome: "Integridade", original: "Integrity", descr: "Ação coerente com princípios." }
+    - { id: "5.3.2", num_original: 98, nome: "Honra", original: "Honor", descr: "Fidelidade a princípios éticos." }
+    - { id: "5.3.3", num_original: 33, nome: "Decoro", original: "Decorum", descr: "Adequação comportamental." }
+    - { id: "5.3.4", num_original: 108, nome: "Tradicionalismo", original: "Traditionalism", descr: "Valorizar costumes estabelecidos." }
+    - { id: "5.3.5", num_original: 109, nome: "Conformidade", original: "Conformity", descr: "Ajustar-se às expectativas sociais." }
+    - { id: "5.3.6", num_original: 110, nome: "Ortodoxia", original: "Orthodoxy", descr: "Alinhamento com dogmas." }
+    - { id: "5.3.7", num_original: 100, nome: "Devoção", original: "Devotion", descr: "Comprometimento com causa ou fé." }
+  - id: "5.4"
+    nome: "Busca de Realização"
+    original: "Achievement-Striving"
+    descr: "Impulso a alcançar metas ambiciosas."
+    tracos:
+    - { id: "5.4.1", num_original: 21, nome: "Perseverança", original: "Perseverance", descr: "Persistir apesar de obstáculos." }
+    - { id: "5.4.2", num_original: 22, nome: "Tenacidade", original: "Tenacity", descr: "Persistência intensa em metas." }
+    - { id: "5.4.3", num_original: 23, nome: "Garra", original: "Grit", descr: "Paixão e resiliência no longo prazo." }
+    - { id: "5.4.4", num_original: 24, nome: "Determinação", original: "Determination", descr: "Firmeza na execução de escolhas." }
+    - { id: "5.4.5", num_original: 94, nome: "Propósito", original: "Purposefulness", descr: "Direcionar ações a metas alinhadas." }
+  - id: "5.5"
+    nome: "Autodisciplina"
+    original: "Self-Discipline"
+    descr: "Controle de impulsos para seguir rotinas."
+    tracos:
+    - { id: "5.5.1", num_original: 36, nome: "Disciplina", original: "Discipline", descr: "Executar tarefas conforme cronograma." }
+    - { id: "5.5.2", num_original: 30, nome: "Temperança", original: "Temperance", descr: "Regular desejos evitando excessos." }
+    - { id: "5.5.3", num_original: 31, nome: "Autocontenção", original: "Restraint", descr: "Inibir reações prejudiciais." }
+    - { id: "5.5.4", num_original: 32, nome: "Inibição", original: "Inhibition", descr: "Suprimir ações inadequadas." }
+    - { id: "5.5.5", num_original: 35, nome: "Estoicismo", original: "Stoicism", descr: "Estabilidade emocional em adversidade." }
+    - { id: "5.5.6", num_original: 34, nome: "Paciência", original: "Patience", descr: "Tolerar atrasos sem irritação." }
+    - { id: "5.5.7", num_original: 99, nome: "Consistência", original: "Consistency", descr: "Padrão confiável de comportamento." }
+  - id: "5.6"
+    nome: "Cautela"
+    original: "Cautiousness"
+    descr: "Reflexão cuidadosa antes de agir."
+    tracos:
+    - { id: "5.6.1", num_original: 111, nome: "Decência", original: "Decency", descr: "Evitar escolhas moralmente condenáveis." }
