@@ -677,8 +677,6 @@ BigFive:
           - { id: "1.2.5", num_original: 84, nome: "Hostilidade",  original: "Hostility",   descr: "Atitude geral de antagonismo." }
           - { id: "1.2.6", num_original: 85, nome: "Enganosidade", original: "Deceptiveness", descr: "Uso da mentira/manipulação." }
           - { id: "1.2.7", num_original: 86, nome: "Sociopatia",   original: "Sociopathy",  descr: "Violação persistente de normas e falta de empatia." }
-          - { id: "1.2.8", num_original: 87, nome: "Narcisismo",   original: "Narcissism",  descr: "Autoimagem grandiosa e busca de admiração." }
-          - { id: "1.2.9", num_original: 88, nome: "Egocentrismo", original: "Egocentricism", descr: "Foco exagerado nos próprios desejos." }
       - id: "1.3"
         nome: "Depressão/Melancolia"
         original: "Depression/Melancholy"
