@@ -954,3 +954,471 @@ BigFive:
 ```
 
 > **Observação:** o YAML segue a sintaxe padrão (espaços-em-branco são significativos). Copie diretamente para o seu Obsidian; cada objeto inclui a numeração hierárquica (id) **e** o `num_original` referente aos 120 traços da taxonomia original.
+
+
+
+
+# 1 Neuroticismo (Neuroticism)
+Tendência geral a emoções negativas e reatividade ao estresse.
+
+## 1.1 Ansiedade (Anxiety)
+Estado de alerta antecipatório, preocupação e tensão.
+
+### 1.1.1 Fragilidade (Fragility)
+Sensação de vulnerabilidade física ou emocional.
+
+### 1.1.2 Ansiedade (Anxiety)
+Apreensão persistente diante do futuro incerto.
+
+### 1.1.3 Medo (Fear)
+Resposta emocional imediata a ameaças percebidas.
+
+## 1.2 Raiva (Anger)
+Propensão a respostas hostis ou agressivas.
+
+### 1.2.1 Agressividade (Aggression)
+Impulso de atacar ou dominar.
+
+### 1.2.2 Belicosidade (Bellicosity)
+Disposição para confrontos contínuos.
+
+### 1.2.3 Crueldade (Cruelty)
+Indiferença ou prazer no sofrimento alheio.
+
+### 1.2.4 Vingança (Vindictiveness)
+Desejo de punir o ofensor.
+
+### 1.2.5 Hostilidade (Hostility)
+Atitude geral de antagonismo.
+
+### 1.2.6 Enganosidade (Deceptiveness)
+Uso da mentira/manipulação.
+
+### 1.2.7 Sociopatia (Sociopathy)
+Violação persistente de normas e falta de empatia.
+
+## 1.3 Depressão/Melancolia (Depression/Melancholy)
+Humor baixo, desânimo e sensação de desvalor.
+
+### 1.3.1 Tristeza (Sadness)
+Estado afetivo de perda ou desalento.
+
+### 1.3.2 Melancolia (Melancholy)
+Abatimento prolongado e reflexivo.
+
+## 1.4 Autoconsciência (Self-Consciousness)
+Sensibilidade a julgamento alheio e foco na auto-imagem.
+
+### 1.4.1 Narcisismo (Narcissism)
+Autoimagem grandiosa e busca de admiração.
+
+### 1.4.2 Egocentrismo (Egocentricism)
+Centralidade exagerada do 'eu'.
+
+## 1.5 Impulsividade (Impulsiveness)
+Ação sem deliberação; busca de gratificação imediata.
+
+### 1.5.1 Caprichosidade (Capriciousness)
+Mudanças súbitas de preferência ou humor.
+
+### 1.5.2 Instabilidade de Humor (Moodiness)
+Flutuações emocionais rápidas.
+
+### 1.5.3 Extravagância (Whimsy)
+Comportamentos incomuns motivados por impulso.
+
+### 1.5.4 Impulsividade (Impulsivity)
+Agir instantaneamente sem refletir.
+
+### 1.5.5 Volatilidade (Volatility)
+Reações emocionais explosivas.
+
+## 1.6 Vulnerabilidade (Vulnerability)
+Sensação de incapacidade para lidar com pressão.
+
+### 1.6.1 Acuidade Emocional (Emotional Acuity)
+Consciência ampliada dos próprios estados afetivos.
+
+# 2 Extroversão (Extraversion)
+Energia, sociabilidade e busca de estímulos.
+
+## 2.1 Afabilidade (Friendliness)
+Facilidade em criar calor humano.
+
+### 2.1.1 Afeição (Affection)
+Expressão calorosa de carinho.
+
+### 2.1.2 Charme (Charm)
+Capacidade de cativar.
+
+### 2.1.3 Articulação (Articulateness)
+Clareza e fluência verbal.
+
+## 2.2 Sociabilidade (Gregariousness)
+Preferência por convívio frequente.
+
+### 2.2.1 Gregarismo (Gregariousness)
+Busca ativa por grupos.
+
+### 2.2.2 Sociabilidade (Sociability)
+Conforto em interações sociais.
+
+### 2.2.3 Inteligência Social (Social Intelligence)
+Leitura de sinais sociais.
+
+### 2.2.4 Monitoramento Social (Social Monitoring)
+Observação de normas do grupo.
+
+### 2.2.5 Adaptabilidade (Adaptability)
+Ajuste flexível ao ambiente.
+
+## 2.3 Assertividade (Assertiveness)
+Liderança e expressão firme de opinião.
+
+### 2.3.1 Assertividade (Assertiveness)
+Comunicação direta e firme.
+
+### 2.3.2 Liderança (Leadership)
+Mobilizar pessoas e recursos.
+
+### 2.3.3 Autoconfiança (Confidence)
+Crença na própria capacidade.
+
+### 2.3.4 Decisão (Decisiveness)
+Rapidez e segurança ao decidir.
+
+### 2.3.5 Acuidade Política (Political Acumen)
+Perceber relações de poder.
+
+## 2.4 Nível de Atividade (Activity Level)
+Ritmo energético e envolvimento corporal.
+
+### 2.4.1 Condição Física (Physicality)
+Prontidão e vigor corporal.
+
+### 2.4.2 Força (Strength)
+Capacidade de exercer potência.
+
+### 2.4.3 Resistência (Endurance)
+Sustentar esforço prolongado.
+
+### 2.4.4 Saúde (Health)
+Funcionamento corporal equilibrado.
+
+### 2.4.5 Coordenação Interna (Internal Coordination)
+Sincronia motora precisa.
+
+## 2.5 Busca de Emoção (Excitement-Seeking)
+Procura por estímulos intensos.
+
+### 2.5.1 Coragem (Courage)
+Enfrentar perigos apesar do medo.
+
+### 2.5.2 Busca de Fama (Fame-Seeking)
+Desejo forte de reconhecimento.
+
+### 2.5.3 Competitividade (Competitiveness)
+Esforço para superar rivais.
+
+### 2.5.4 Oportunismo (Opportunism)
+Aproveitar circunstâncias para ganho.
+
+### 2.5.5 Soberba (Hubris)
+Confiança excessiva e superioridade.
+
+## 2.6 Emoções Positivas (Positive Emotions)
+Frequência e intensidade de sentimentos agradáveis.
+
+### 2.6.1 Vivacidade (Vivacity)
+Entusiasmo contagiante e alto astral.
+
+### 2.6.2 Prestígio (Prestige)
+Reconhecimento social que gera orgulho.
+
+# 3 Abertura à Experiência (Openness to Experience)
+Apreço por novidade, complexidade e exploração intelectual/estética.
+
+## 3.1 Imaginação/Fantasia (Imagination/Fantasy)
+Criação de mundos mentais e cenários alternativos.
+
+### 3.1.1 Imaginação (Imagination)
+Representações além da percepção imediata.
+
+### 3.1.2 Visionarismo (Visionariness)
+Projeção de futuros inspiradores.
+
+### 3.1.3 Encantamento (Wonderment)
+Assombro diante do desconhecido ou belo.
+
+### 3.1.4 Criatividade (Creativity)
+Combinação de ideias incomuns.
+
+## 3.2 Estética (Aesthetics)
+Sensibilidade à beleza e forma.
+
+### 3.2.1 Arte (Artistry)
+Percepção refinada de equilíbrio e harmonia.
+
+### 3.2.2 Expressão Artística (Artistic Expression)
+Tradução de emoções em obras simbólicas.
+
+## 3.3 Emocionalidade (Emotionality/Feelings)
+Profundidade e riqueza de experiências afetivas.
+
+### 3.3.1 Reflexividade (Reflectiveness)
+Observação e análise de estados mentais.
+
+### 3.3.2 Intuição (Intuition)
+Captação de padrões sem mediação lógica.
+
+## 3.4 Aventureirismo (Adventurousness/Actions)
+Busca ativa por experiências desconhecidas.
+
+### 3.4.1 Curiosidade (Curiosity)
+Motivação para investigação constante.
+
+### 3.4.2 Exploração (Exploration)
+Deslocar-se ou experimentar para descobrir.
+
+### 3.4.3 Aventureirismo (Adventurousness)
+Aceitar riscos para experiências novas.
+
+### 3.4.4 Nomadismo (Wanderlust)
+Impulso duradouro de viajar.
+
+## 3.5 Intelecto (Intellect/Ideas)
+Engajamento com abstrações e questionamento conceitual.
+
+### 3.5.1 Sabedoria (Wisdom)
+Integra conhecimento prático e julgamento.
+
+### 3.5.2 Inclinação Filosófica (Philosophical Bent)
+Interesse por questões existenciais.
+
+### 3.5.3 Pensamento Abrangente (Comprehensive Thinking)
+Visão holística conectando áreas diversas.
+
+### 3.5.4 Pensamento Analítico (Analytical Thinking)
+Decompor problemas em partes lógicas.
+
+### 3.5.5 Apercepção de Conjunto (Bulk Apperception)
+Captar estrutura global de informações.
+
+## 3.6 Valores/Liberalismo (Liberalism/Values)
+Abertura a questionar tradições e apoiar mudanças.
+
+### 3.6.1 Mente Aberta (Open-Mindedness)
+Acolher perspectivas divergentes.
+
+### 3.6.2 Inovação (Innovation)
+Aplicar ideias originais para melhoria.
+
+### 3.6.3 Ousadia (Boldness)
+Ações arrojadas que contrariam normas.
+
+### 3.6.4 Singularidade (Uniqueness)
+Valorizar identidade própria distinta.
+
+### 3.6.5 Individualidade (Individuality)
+Ênfase na autodeterminação.
+
+# 4 Amabilidade (Agreeableness)
+Orientação cooperativa, empática e harmoniosa.
+
+## 4.1 Confiança (Trust)
+Expectativa de boa-fé e honestidade.
+
+### 4.1.1 Lealdade (Loyalty)
+Compromisso estável mesmo em adversidade.
+
+### 4.1.2 Benevolência (Benevolence)
+Desejo genuíno do bem-estar alheio.
+
+### 4.1.3 Pacificidade (Peacefulness)
+Evitar conflito; promover paz.
+
+### 4.1.4 Cortesia (Courtesy)
+Uso de regras de polidez.
+
+### 4.1.5 Consideração (Consideration)
+Levar em conta necessidades alheias.
+
+## 4.2 Moralidade (Morality/Straightforwardness)
+Coerência ética e transparência.
+
+### 4.2.1 Sinceridade (Sincerity)
+Comunicar verdades sem distorção.
+
+### 4.2.2 Autenticidade (Authenticity)
+Agir em consonância com valores internos.
+
+### 4.2.3 Franqueza (Frankness)
+Expor opiniões de forma direta.
+
+### 4.2.4 Transparência (Transparency)
+Tornar processos e motivos claros.
+
+## 4.3 Altruísmo (Altruism)
+Ajudar sem esperar recompensa.
+
+### 4.3.1 Bondade (Kindness)
+Cuidado afetuoso com outros.
+
+### 4.3.2 Altruísmo (Altruism)
+Sacrificar recursos próprios pelo coletivo.
+
+### 4.3.3 Disposição (Willingness)
+Prontidão para oferecer ajuda.
+
+### 4.3.4 Generosidade (Generosity)
+Compartilhar posses ou oportunidades.
+
+### 4.3.5 Paternalismo (Paternalism)
+Proteger e orientar com responsabilidade.
+
+## 4.4 Cooperação (Cooperation)
+Trabalho em grupo e busca de consenso.
+
+### 4.4.1 Cooperação (Cooperation)
+Coordenação de ações pró-grupo.
+
+### 4.4.2 Obediência (Compliance)
+Seguir instruções ou regras.
+
+### 4.4.3 Delicadeza (Delicacy)
+Palavras e gestos suaves.
+
+### 4.4.4 Calma (Calmness)
+Serenidade sob pressão social.
+
+### 4.4.5 Gentileza (Gentleness)
+Trato leve e respeitoso.
+
+## 4.5 Modéstia (Modesty)
+Baixa autopromoção; reconhecer limites.
+
+### 4.5.1 Humildade (Humility)
+Admitir falhas e aprender.
+
+### 4.5.2 Mansidão (Meekness)
+Evitar impor força ou autoridade.
+
+### 4.5.3 Modéstia (Modesty)
+Minimizar conquistas pessoais.
+
+### 4.5.4 Dignidade (Dignity)
+Postura respeitosa sem ostentação.
+
+## 4.6 Empatia (Sympathy/Tender-Mindedness)
+Sentir e responder ao estado emocional do outro.
+
+### 4.6.1 Empatia (Empathy)
+Compreender emoções alheias.
+
+### 4.6.2 Ternura (Tenderness)
+Gentileza protetora e calorosa.
+
+### 4.6.3 Compaixão (Compassion)
+Ação para aliviar a dor do próximo.
+
+# 5 Conscienciosidade (Conscientiousness)
+Organização, autodisciplina e foco em metas.
+
+## 5.1 Autoeficácia (Self-Efficacy)
+Crença na capacidade de executar tarefas.
+
+### 5.1.1 Industriosidade (Industry)
+Trabalho árduo e dedicação.
+
+### 5.1.2 Habilidade (Facility)
+Aprender métodos rapidamente.
+
+### 5.1.3 Identidade (Identity)
+Senso claro de propósito e valores.
+
+## 5.2 Organização (Orderliness)
+Arranjo sistemático de ambientes e rotinas.
+
+### 5.2.1 Meticulosidade (Meticulousness)
+Atenção meticulosa a detalhes.
+
+### 5.2.2 Esmero (Fastidiousness)
+Exigência estética e funcional.
+
+### 5.2.3 Limpeza (Cleanliness)
+Manter espaços higienizados.
+
+### 5.2.4 Coordenação Externa (External Coordination)
+Ordenar ambientes e tarefas.
+
+## 5.3 Dever (Dutifulness)
+Adesão a normas e código moral.
+
+### 5.3.1 Integridade (Integrity)
+Ação coerente com princípios.
+
+### 5.3.2 Honra (Honor)
+Fidelidade a princípios éticos.
+
+### 5.3.3 Decoro (Decorum)
+Adequação comportamental.
+
+### 5.3.4 Tradicionalismo (Traditionalism)
+Valorizar costumes estabelecidos.
+
+### 5.3.5 Conformidade (Conformity)
+Ajustar-se às expectativas sociais.
+
+### 5.3.6 Ortodoxia (Orthodoxy)
+Alinhamento com dogmas.
+
+### 5.3.7 Devoção (Devotion)
+Comprometimento com causa ou fé.
+
+## 5.4 Busca de Realização (Achievement-Striving)
+Impulso a alcançar metas ambiciosas.
+
+### 5.4.1 Perseverança (Perseverance)
+Persistir apesar de obstáculos.
+
+### 5.4.2 Tenacidade (Tenacity)
+Persistência intensa em metas.
+
+### 5.4.3 Garra (Grit)
+Paixão e resiliência no longo prazo.
+
+### 5.4.4 Determinação (Determination)
+Firmeza na execução de escolhas.
+
+### 5.4.5 Propósito (Purposefulness)
+Direcionar ações a metas alinhadas.
+
+## 5.5 Autodisciplina (Self-Discipline)
+Controle de impulsos para seguir rotinas.
+
+### 5.5.1 Disciplina (Discipline)
+Executar tarefas conforme cronograma.
+
+### 5.5.2 Temperança (Temperance)
+Regular desejos evitando excessos.
+
+### 5.5.3 Autocontenção (Restraint)
+Inibir reações prejudiciais.
+
+### 5.5.4 Inibição (Inhibition)
+Suprimir ações inadequadas.
+
+### 5.5.5 Estoicismo (Stoicism)
+Estabilidade emocional em adversidade.
+
+### 5.5.6 Paciência (Patience)
+Tolerar atrasos sem irritação.
+
+### 5.5.7 Consistência (Consistency)
+Padrão confiável de comportamento.
+
+## 5.6 Cautela (Cautiousness)
+Reflexão cuidadosa antes de agir.
+
+### 5.6.1 Decência (Decency)
+Evitar escolhas moralmente condenáveis.
