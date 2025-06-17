@@ -6,43 +6,249 @@
 
 Geralmente se manifesta quando a pessoa enfrenta críticas, falha pública ou mudanças bruscas de rotina; sente‑se facilmente magoada e busca proteção imediata.
 
+#### Causas por Ambiente Social
+
+* **Familiar**: Críticas constantes dos pais, rivalidade entre irmãos ou superproteção que reforça sensação de incapacidade.
+* **Profissional**: Feedback negativo não estruturado ou cultura de alta pressão sem suporte emocional.
+* **Comunitário**: Exclusão em atividades de bairro ou julgamentos públicos em redes sociais locais.
+* **Religioso**: Doutrinas focadas em culpa que destacam imperfeições pessoais.
+* **Amigos**: Brincadeiras sarcásticas que parecem inofensivas mas atingem autoestima.
+* **Amigos de Amigos**: Comparações sociais durante eventos, reforçando sensação de inadequação.
+* **Conhecidos**: Comentários sobre aparência ou desempenho feitos sem tato.
+* **Desconhecidos**: Micro‑agressões ou avaliações negativas em ambientes online.
+
 ### 1.1.2 Ansiedade (Anxiety)
 
 Aparece antes de entrevistas, provas ou viagens desconhecidas, produzindo preocupação contínua e tensão física mesmo sem ameaça concreta.
 
-### 1.1.3 Medo (Fear)
+#### Causas por Ambiente Social
+
+* **Familiar**: Ambiente hipercrítico ou imprevisível que reforça medo de desapontar figuras de autoridade.
+* **Profissional**: Falta de clareza em metas, liderança instável ou ameaças de demissão que geram insegurança constante.
+* **Comunitário**: Notícias locais alarmistas sobre violência ou desastres que aumentam sensação de perigo iminente.
+* **Religioso**: Narrativas de punição ou salvação condicional que elevam medo de erro moral.
+* **Amigos**: Expectativas não ditas sobre lealdade, medo de rejeição ao não corresponder disponibilidade.
+* **Amigos de Amigos**: Eventos sociais onde não se conhece todos, levando a hiper‑vigilância ao julgamento alheio.
+* **Conhecidos**: Comentários sobre desempenho ou status social que fomentam comparação ansiosa.
+* **Desconhecidos**: Ambientes lotados (aeroportos, metrô) ou interações online hostis que disparam alerta corporal.
+
+### 1.1.3 Medo (Fear)&#x20;
 
 Surge em situações de perigo percebido — ruas escuras, altura, animais hostis — desencadeando fuga, imobilidade ou busca de ajuda.
+
+#### Causas por Ambiente Social
+
+* **Familiar**: Experiências de violência doméstica ou histórias de perigo repetidas durante a infância.
+* **Profissional**: Culturas organizacionais baseadas em punição pública por erros, gerando medo de experimentar.
+* **Comunitário**: Vizinhanças com alta criminalidade ou pouca iluminação fomentam sensação de ameaça.
+* **Religioso**: Sermões sobre condenação ou imagens de castigo eterno podem instaurar medo existencial.
+* **Amigos**: Relatos de acidentes ou crimes vividos por pares aumentam percepção de vulnerabilidade.
+* **Amigos de Amigos**: "Lendas urbanas" compartilhadas em festas, reforçando temores coletivos.
+* **Conhecidos**: Histórias de fraudes financeiras ou agressões em redes profissionais despertam cautela intensa.
+* **Desconhecidos**: Confronto inesperado em via pública ou multidões imprevisíveis que ativam resposta de defesa.
 
 ## 1.2 Raiva (Anger)
 
 ### 1.2.1 Agressividade (Aggression)
 
-Emerge em disputas por recursos ou espaço, como trânsito congestionado ou discussões acaloradas, levando a ameaças verbais ou físicas.
+Emerge em disputas por recursos ou espaço — trânsito congestionado, filas longas ou debates acalorados — levando a ameaças verbais ou até agressão física.
+
+#### Causas por Ambiente Social
+
+* **Familiar**: Dinâmica de competição por atenção entre irmãos ou divisão desigual de tarefas domésticas que suscita ressentimento.
+* **Profissional**: Cultura de metas agressivas, escassez de promoções ou estilo de liderança autoritário que legitima confronto.
+* **Comunitário**: Conflitos por uso de áreas comuns (vagas de estacionamento, parques) ou disputas políticas locais polarizadas.
+* **Religioso**: Rivalidades internas por posições de destaque ou interpretação doutrinária considerada "verdadeira".
+* **Amigos**: Jogos competitivos ou comparação de conquistas que desperta disputa pelo status dentro do grupo.
+* **Amigos de Amigos**: Festas onde há provocação entre subgrupos e pressão para defender reputação.
+* **Conhecidos**: Interações em redes profissionais onde oportunidades limitadas geram afrontas veladas.
+* **Desconhecidos**: Trânsito ou filas de serviço público em que a despersonalização facilita explosões de raiva.
 
 ### 1.2.2 Belicosidade (Bellicosity)
 
 Manifesta‑se ao defender convicções ideológicas ou esportivas, onde o indivíduo enxerga o confronto como via legítima de resolução.
 
+#### Causas por Ambiente Social
+
+* **Familiar**: Ambiente doméstico onde discussões acaloradas são vistas como demonstração de força ou afeto; exemplos de resolução de conflitos por confronto físico ou verbal modelados pelos pais.
+* **Profissional**: Setores altamente competitivos (vendas, advocacia contenciosa, trading) que recompensam postura combativa e linguagem agressiva em reuniões e negociações.
+* **Comunitário**: Disputas de vizinhança sobre território, barulho ou recursos locais que reforçam a necessidade de "defender" o grupo contra intrusos.
+* **Religioso**: Pregações ou lideranças que promovem apologética combativa, retratando divergentes como adversários espirituais a serem combatidos.
+* **Amigos**: Grupos que valorizam rivalidades esportivas ou "zoação" pesada, encorajando confrontos verbais como prova de lealdade.
+* **Amigos de Amigos**: Festas ou torneios onde subgrupos (torcidas, fandoms) entram em choque, pressionando cada um a tomar partido e defender a honra.
+* **Conhecidos**: Discussões online em fóruns profissionais ou acadêmicos onde reputação depende de defender posição de forma incisiva.
+* **Desconhecidos**: Conflitos de trânsito ou redes sociais com estranhos, onde a anonimidade diminui inibição e legitima postura beligerante.
+
 ### 1.2.3 Crueldade (Cruelty)
 
 Observada em bullying escolar ou abuso de poder no trabalho, quando alguém causa dor para obter prazer, controle ou status.
+
+#### Causas por Ambiente Social
+
+* **Familiar**: Padrões parentais de punição física ou psicológica que modelam a ideia de que infligir dor gera obediência.
+* **Profissional**: Estruturas hierárquicas rígidas em que lideranças naturalizam humilhação pública como ferramenta de “motivação”.
+* **Comunitário**: Cultura local que normaliza trotes violentos ou ritos de passagem com sofrimento intencional.
+* **Religioso**: Doutrinas que justificam castigos exemplares para corrigir “pecadores”, legitimando ações cruéis como moralmente necessárias.
+* **Amigos**: Dinâmicas de grupo onde o mais fraco serve de bode expiatório para reforçar coesão interna.
+* **Amigos de Amigos**: Conformismo a brincadeiras de mau gosto para ganhar aceitação em círculos sociais maiores.
+* **Conhecidos**: Exercício de autoridade abusiva (por ex., veteranos sobre calouros) para afirmar domínio temporário.
+* **Desconhecidos**: Anonimato na internet que reduz empatia e facilita discurso de ódio ou cyberbullying.
 
 ### 1.2.4 Vingança (Vindictiveness)
 
 Surge após humilhação pública ou traição, levando a planos deliberados de retaliação para restaurar o orgulho ferido.
 
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Descoberta de favoritismo parental gera desejo de "dar o troco" em irmãos → tensão crônica e quebra de cooperação doméstica.
+  * *Diminuição*: Pais incentivam reparação e perdão após brigas → harmonia restaurada e maior resiliência emocional.
+* **Profissional**
+
+  * *Aumento*: Críticas públicas do chefe despertam vingança silenciosa (ex.: sabotar prazos) → queda de desempenho e moral da equipe.
+  * *Diminuição*: Políticas de feedback privado e reconhecimento justo → fortalece lealdade e clima de segurança psicológica.
+* **Comunitário**
+
+  * *Aumento*: Vizinhos espalham boatos levando a retaliações legais ou hostis → fragmentação do senso de comunidade.
+  * *Diminuição*: Mediação comunitária e círculos restaurativos → restauração da confiança no bairro.
+* **Religioso**
+
+  * *Aumento*: Interpretação de justiça divina como "olho por olho" legitima vingança → cismas internas.
+  * *Diminuição*: Ênfase em misericórdia e perdão nas homilias → redução de ressentimentos históricos.
+* **Amigos**
+
+  * *Aumento*: Traição de segredo leva a espalhar rumores → perda de rede de apoio mutua.
+  * *Diminuição*: Pedido de desculpas sincero e compromisso de transparência → fortalecimento da amizade.
+* **Amigos de Amigos**
+
+  * *Aumento*: Comentário constrangedor em festa provoca retaliações públicas nas redes → ambiente social hostil.
+  * *Diminuição*: Intervenção conciliatória de um terceiro → evita escalada e mantém atmosfera leve.
+* **Conhecidos**
+
+  * *Aumento*: Rivalidade em rede profissional gera campanhas de difamação → dano reputacional para ambos.
+  * *Diminuição*: Networking baseado em interesses comuns → rivalidade convertida em colaboração.
+* **Desconhecidos**
+
+  * *Aumento*: Ofensa anônima online provoca doxxing em resposta → consequências legais e psicológicas severas.
+  * *Diminuição*: Moderação eficaz remove conteúdo ofensivo rapidamente → previne ciclo de retaliação.
+
 ### 1.2.5 Hostilidade (Hostility)
 
 Expressa‑se em sarcasmo constante e suspeita em reuniões de equipe ou atendimento ao cliente, onde o indivíduo espera ser prejudicado.
 
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Pais que ridicularizam escolhas ou realizam comparações frequentes entre irmãos → cria expectativa de ataque, resultando em isolamento afetivo e respostas agressivas.
+  * *Diminuição*: Adoção de comunicação não‑violenta e validação emocional regular → reduz sarcasmo defensivo, fortalece confiança mútua.
+* **Profissional**
+
+  * *Aumento*: Microgestão constante ou apropriação de créditos por colegas → funcionário torna‑se suspicaz, usa sarcasmo como escudo → clima de equipe deteriora, rotatividade aumenta.
+  * *Diminuição*: Feedback transparente, reconhecimento de conquistas e política zero a passivo‑agressividade → promove cooperação e satisfação no trabalho.
+* **Comunitário**
+
+  * *Aumento*: Espalhar boatos em associações de bairro → eleva suspeita entre vizinhos → enfraquece redes de apoio locais.
+  * *Diminuição*: Encontros facilitados por mediadores voluntários → esclarecem mal‑entendidos → restauram sensação de comunidade.
+* **Religioso**
+
+  * *Aumento*: Pregações que enfatizam culpa ou medo → fiéis projetam hostilidade em dissidentes → divisões internas.
+  * *Diminuição*: Ênfase em compaixão e serviço altruísta → reduz julgamento moral, aumenta coesão do grupo.
+* **Amigos**
+
+  * *Aumento*: Brincadeiras que humilham repetidamente → indivíduo responde com sarcasmo defensivo → erosão do respeito mútuo.
+  * *Diminuição*: Estabelecer limites claros para humor → cria ambiente seguro e respeitoso.
+* **Amigos de Amigos**
+
+  * *Aumento*: Eventos onde status social é disputado (festas, jogos) → sarcasmo para autoproteção → primeiras impressões negativas e afastamento.
+  * *Diminuição*: Dinâmicas cooperativas e apresentações icebreaker → promovem pertencimento, minimizando hostilidade.
+* **Conhecidos**
+
+  * *Aumento*: Networking competitivo com feedback superficial → suspeita de intenções ocultas → oportunidades perdidas de colaboração.
+  * *Diminuição*: Cultura de feedback construtivo e apoio mútuo → converte relações formais em parcerias confiáveis.
+* **Desconhecidos**
+
+  * *Aumento*: Interações online anônimas com discurso de ódio → generalização de hostilidade → aumento de estresse social e polarização.
+  * *Diminuição*: Moderação ativa e design de plataforma que incentiva civilidade → experiências positivas que reduzem expectativa de ataque.
+
 ### 1.2.6 Enganosidade (Deceptiveness)
 
-Aparece em vendas agressivas ou jogos de poder corporativo, usando mentiras para ganhar vantagem financeira ou reputacional.
+Aparece em vendas agressivas, negociação de alto risco ou jogos de poder corporativo, usando mentiras e omissões para obter vantagem financeira ou reputacional.
+
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Pais que recompensam "jeitinhos" para driblar regras domésticas → normaliza desonestidade, provoca desconfiança entre irmãos.
+  * *Diminuição*: Cultura de verdade e prestação de contas (ex.: reuniões familiares de revisão de tarefas) → reforça integridade e confiança mútua.
+* **Profissional**
+
+  * *Aumento*: Sistemas de comissão agressivos em vendas que premiam apenas fechamento de contrato → incentiva promessas falsas, gerando perda de clientes e reputação da empresa.
+  * *Diminuição*: Auditorias internas e programas de ética corporativa vinculados a bônus → reduzem enganosidade, aumentam fidelização do mercado.
+* **Comunitário**
+
+  * *Aumento*: Competição por recursos escassos (vaga em creche pública) estimula exagero de necessidades → reduz coesão local, gera conflitos.
+  * *Diminuição*: Transparência em listas de espera e assembleias públicas → distribui recursos de forma justa e diminui manipulação.
+* **Religioso**
+
+  * *Aumento*: Lideranças que manipulam narrativas para obter doações ou status espiritual → erosão da fé e divisão na comunidade.
+  * *Diminuição*: Práticas de prestação de contas financeira e sermões sobre veracidade → restaura confiança e participação coletiva.
+* **Amigos**
+
+  * *Aumento*: Mentiras para manter imagem ou vantagem em games/apostas → deteriora laços, provoca confrontos.
+  * *Diminuição*: Acordo explícito de honestidade e feedback direto → fortalece intimidade e estabilidade do grupo.
+* **Amigos de Amigos**
+
+  * *Aumento*: Exagero de conquistas em encontros sociais para impressionar → reputação negativa que se espalha; isolamento futuro.
+  * *Diminuição*: Relatos autênticos compartilhados por influenciadores do grupo → gera cultura de humildade e verdade.
+* **Conhecidos**
+
+  * *Aumento*: Networking oportunista baseado em currículos inflados → perda de credibilidade, portas fechadas.
+  * *Diminuição*: Plataformas de verificação de referências → promove honestidade e colaborações de longo prazo.
+* **Desconhecidos**
+
+  * *Aumento*: Golpes online via perfis falsos → consequências legais e trauma para vítimas.
+  * *Diminuição*: Campanhas educativas de cibersegurança e sistemas de denúncia ágeis → reduzem golpes, elevam sensação de segurança digital.
 
 ### 1.2.7 Sociopatia (Sociopathy)
 
-Evidencia‑se em fraudes longas ou relacionamentos exploratórios, onde a pessoa infringe regras sociais sem remorso.
+Evidencia‑se em fraudes prolongadas, golpes digitais ou relacionamentos exploratórios, onde a pessoa viola normas sociais e legais sem culpa nem empatia pela vítima.
+
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Educação marcada por negligência emocional, violência ou pais que celebram a "esperteza" de enganar sistemas → reforça crença de que regras são obstáculos; resulta em quebras de confiança e ciclos de abuso.
+  * *Diminuição*: Modelagem consistente de empatia e responsabilidade (ex.: discutir impacto das ações nos outros, aplicar consequências justas) → fortalece consciência moral; melhora coesão familiar.
+* **Profissional**
+
+  * *Aumento*: Cultura corporativa que premia resultados a qualquer custo, falta de supervisão ética ou chefes que encobrem irregularidades → estimula manipulação de dados e fraudes; leva a processos judiciais e colapso reputacional da empresa.
+  * *Diminuição*: Programas robustos de compliance, auditorias frequentes e sistemas de denúncia protegida → reduzem oportunidades de exploração; aumentam confiança de investidores e colaboradores.
+* **Comunitário**
+
+  * *Aumento*: Bairros com ausência de policiamento ou impunidade histórica onde golpes e furtos viram estratégia de sobrevivência → degrada capital social e perpetua crime.
+  * *Diminuição*: Redes de vigilância comunitária, projetos de inclusão socioeconômica e justiça restaurativa → oferecem alternativas legítimas; restauram senso de segurança.
+* **Religioso**
+
+  * *Aumento*: Lideranças que pregam prosperidade a qualquer preço ou justificam fins pelos meios → fiéis adotam racionalização moral para enganar; surgem escândalos e perda de fé coletiva.
+  * *Diminuição*: Ênfase em compaixão, confissão e reparação ativa de danos → promove reflexão sobre vítimas; reduz reincidência de condutas exploratórias.
+* **Amigos**
+
+  * *Aumento*: Grupo glorifica "dar golpes" ou burlar sistemas para ganhos rápidos → normaliza manipulação entre pares; amizades tornam‑se instrumentais e descartáveis.
+  * *Diminuição*: Amigos impõem limites claros, confrontam mentiras e valorizam transparência → pressiona mudança de comportamento; fortalece laços genuínos.
+* **Amigos de Amigos**
+
+  * *Aumento*: Festas onde status é medido por ostentação de "esquemas" lucrativos → incentiva histórias exageradas e fraudes reais; reputações se corroem ao se descobrir verdades.
+  * *Diminuição*: Eventos que destacam altruísmo e colaboração, com relatos inspiradores de ajuda mútua → reorienta busca de prestígio para contribuições positivas.
+* **Conhecidos**
+
+  * *Aumento*: Networking focado em vantagens pessoais sem reciprocidade, onde mentir no currículo é endêmico → mina confiança no mercado de trabalho; aumenta rotatividade.
+  * *Diminuição*: Plataformas de verificação de credenciais e recomendações públicas → desestimula falsificações; incentiva honestidade para manter acesso a oportunidades.
+* **Desconhecidos**
+
+  * *Aumento*: Ambientes online anônimos (phishing, scams) com baixa punição percebida → multiplicam golpes; vítimas sofrem perdas financeiras e trauma psicológico.
+  * *Diminuição*: Implementação de autenticação forte, IA antifraude e rápida cooperação internacional de segurança cibernética → eleva risco de punição; diminui incidência de golpes.
 
 ## 1.3 Depressão/Melancolia (Depression/Melancholy)
 
@@ -50,9 +256,79 @@ Evidencia‑se em fraudes longas ou relacionamentos exploratórios, onde a pesso
 
 Manifesta‑se após perdas afetivas ou fracassos pessoais, reduzindo energia e interesse em atividades antes prazerosas.
 
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Divórcio ou morte de parente próximo gera retraimento prolongado → menor participação nas tarefas domésticas e possível evolução para depressão clínica.
+  * *Diminuição*: Rituais de luto compartilhados e apoio emocional consistente reduzem tristeza → restabelecem rotina e fortalecem vínculos familiares.
+* **Profissional**
+
+  * *Aumento*: Demissão inesperada ou avaliação de desempenho muito negativa provoca desânimo prolongado → queda de produtividade e absenteísmo.
+  * *Diminuição*: Programas de requalificação e mentoring reconectam a pessoa a metas significativas → recupera motivação e engajamento.
+* **Comunitário**
+
+  * *Aumento*: Falta de espaços de convivência ou eventos locais cancelados limita suporte social → intensifica sensação de vazio.
+  * *Diminuição*: Grupos de apoio e projetos voluntários oferecem propósito coletivo → elevam ânimo e restauram senso de pertença.
+* **Religioso**
+
+  * *Aumento*: Enfoque em culpa ou insignificância humana sem mensagem de esperança aprofunda tristeza → risco de desistência da prática religiosa.
+  * *Diminuição*: Ritos de consolo, liturgias de esperança e acompanhamento pastoral fornecem sentido transcendental → aliviam dor emocional.
+* **Amigos**
+
+  * *Aumento*: Agenda descoordenada impede encontros, levando a sensação de abandono → isolamento social e ruminação.
+  * *Diminuição*: Convites proativos para atividades leves e escuta ativa promovem catarse → retomada gradual de alegria compartilhada.
+* **Amigos de Amigos**
+
+  * *Aumento*: Comentários insensíveis sobre fracasso amoroso em evento social despertam vergonha → evita círculos sociais mais amplos.
+  * *Diminuição*: Introdução a novos hobbies pelo grupo alargado amplia rede de suporte → cria oportunidades de novas memórias positivas.
+* **Conhecidos**
+
+  * *Aumento*: Comparações em redes profissionais sobre conquistas alheias reforçam sentimento de inadequação → retraimento em networking.
+  * *Diminuição*: Feedback encorajador de colegas distantes valida competências → reforça autoeficácia e reduz tristeza.
+* **Desconhecidos**
+
+  * *Aumento*: Exposição a notícias trágicas contínuas sem filtro gera empatia negativa excessiva → contamina humor diário.
+  * *Diminuição*: Consumo moderado de mídia e práticas de gratidão orientadas por apps públicos → mitigam sobrecarga emocional e promovem otimismo.
+
 ### 1.3.2 Melancolia (Melancholy)
 
 Aparece em tardes chuvosas ou recordações nostálgicas, levando a reflexão prolongada sobre impermanência e sentido da vida.
+
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Reuniões familiares marcadas por lembranças de parentes falecidos amplificam melancolia → maior retraimento e dificuldade em celebrar eventos atuais.
+  * *Diminuição*: Criação de álbuns de memórias positivas e histórias de superação compartilhadas em rodas de conversa → transforma nostalgia em gratidão, promovendo bem‑estar.
+* **Profissional**
+
+  * *Aumento*: Projetos repetitivos sem criatividade alimentam ruminação sobre sentido do trabalho → queda de engajamento e absenteísmo.
+  * *Diminuição*: Iniciativas de job‑crafting e mentorias sobre propósito de carreira → redirecionam reflexão para metas significativas, elevando motivação.
+* **Comunitário**
+
+  * *Aumento*: Falta de eventos culturais ou artísticos leva moradores a sentir estagnação social → intensifica sentimento de impermanência sem legado.
+  * *Diminuição*: Festivais de artes locais e clubes de leitura proporcionam expressão coletiva da nostalgia → cria coesão e otimismo no bairro.
+* **Religioso**
+
+  * *Aumento*: Ênfase em discursos escatológicos ou lamentos históricos provoca clima contemplativo pesado → risco de apatia espiritual.
+  * *Diminuição*: Ritos que celebram ciclos de renovação (páscoa, festas da colheita) convertem melancolia em esperança transcendental.
+* **Amigos**
+
+  * *Aumento*: Conversas frequentes sobre "bons tempos que já se foram" durante encontros reforçam saudade → redução de iniciativa para novas experiências.
+  * *Diminuição*: Planejamento de viagens ou projetos conjuntos que criam memórias atuais → desloca foco do passado para o presente compartilhado.
+* **Amigos de Amigos**
+
+  * *Aumento*: Eventos onde grupos mais jovens exibem conquistas contemporâneas podem acentuar contraste nostálgico → sensação de estar "ficando para trás".
+  * *Diminuição*: Integração intergeracional em atividades (ex.: campeonatos de jogos retrô) onde experiência do passado é valorizada como habilidade → melhora autoestima e conexão social.
+* **Conhecidos**
+
+  * *Aumento*: Redes profissionais exibindo avanços rápidos de carreira estimulam comparações retrospectivas desfavoráveis → melancolia sobre oportunidades perdidas.
+  * *Diminuição*: Programas de networking focados em storytelling de reviravolta e aprendizado tardio → inspiram retomada de projetos pessoais.
+* **Desconhecidos**
+
+  * *Aumento*: Consumo de mídias nostálgicas em excesso (playlists "anos dourados") via algoritmos de streaming isola em bolha temporal → reforça sentimento de distanciamento do presente.
+  * *Diminuição*: Plataformas que equilibram recomendações nostálgicas com conteúdos de tendência atual → promovem atualização cultural e reduzem fuga melancólica.
 
 ## 1.4 Autoconsciência (Self‑Consciousness)
 
@@ -60,9 +336,79 @@ Aparece em tardes chuvosas ou recordações nostálgicas, levando a reflexão pr
 
 Surge em redes sociais, apresentações ou eventos sociais, buscando aplauso e reconhecimento; reage mal a críticas.
 
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Pais excessivamente elogiosos sem feedback construtivo alimentam autoimagem grandiosa → conflitos com irmãos e dificuldade em lidar com frustração.
+  * *Diminuição*: Envolvimento em tarefas domésticas cooperativas que exigem humildade → maior empatia e aceitação de limites.
+* **Profissional**
+
+  * *Aumento*: Promoções rápidas baseadas apenas em métricas visíveis reforçam busca de status → equipe ressentida, turnover elevado.
+  * *Diminuição*: Avaliações 360° que valorizam colaboração sobre autopromoção → melhora o clima organizacional e a performance sustentável.
+* **Comunitário**
+
+  * *Aumento*: Liderança de comitês com visibilidade constante no bairro → decisões centralizadas e pouca escuta → queda de engajamento dos membros.
+  * *Diminuição*: Rodízio de porta‑vozes em assembleias locais distribui reconhecimento → reduz protagonismo excessivo.
+* **Religioso**
+
+  * *Aumento*: Papel de destaque em coral ou pregação sem crítica construtiva → vaidade espiritual e divisões internas.
+  * *Diminuição*: Práticas de serviço anônimo (ex.: cozinhar para necessitados sem divulgação) fomentam humildade e foco no coletivo.
+* **Amigos**
+
+  * *Aumento*: Grupo elogia constantemente publicações em redes sociais → dependência de validação; irritação quando atenção cai.
+  * *Diminuição*: Feedback honesto e piadas autodepreciativas saudáveis desenvolvem autocrítica e laços autênticos.
+* **Amigos de Amigos**
+
+  * *Aumento*: Eventos onde status é medido por número de seguidores → ostentação e comparações constantes.
+  * *Diminuição*: Atividades cooperativas (jogos em equipe, projetos solidários) onde o sucesso é coletivo → reduz foco no ego.
+* **Conhecidos**
+
+  * *Aumento*: Networking baseado em autopromoção agressiva em conferências → reputação de superficialidade e baixa confiabilidade.
+  * *Diminuição*: Conversas centradas em interesses comuns e escuta ativa abrem portas para parcerias genuínas.
+* **Desconhecidos**
+
+  * *Aumento*: Plataformas de microcelebridade (lives) com audiência que reforça persona idealizada → risco de exposição pública de falhas e crise de imagem.
+  * *Diminuição*: Experiências de voluntariado com pessoas vulneráveis desconhecidas proporcionam perspectiva e compaixão.
+
 ### 1.4.2 Egocentrismo (Egocentricism)
 
-Observado em conversas de grupo onde a pessoa redireciona todo assunto para si e minimiza perspectivas alheias.
+Observado em conversas de grupo onde a pessoa redireciona todo assunto para si e minimiza perspectivas alheias; demonstra dificuldade em validar emoções e ideias dos outros.
+
+#### Situações, Causas e Consequências do Aumento ou Diminuição
+
+* **Familiar**
+
+  * *Aumento*: Pais focam as atenções exclusivamente em desempenho acadêmico do filho egocêntrico → irmãos sentem‑se invisíveis, aumentando rivalidade e isolamento afetivo.
+  * *Diminuição*: Reuniões familiares que distribuem tempo de fala igualmente e valorizam escuta ativa → cria consciência das necessidades dos outros, fortalecendo coesão.
+* **Profissional**
+
+  * *Aumento*: Estrutura de bônus individual sem metas compartilhadas reforça autopromoção em reuniões → falhas de comunicação, queda na colaboração e duplicação de esforços.
+  * *Diminuição*: Avaliações 360° e reconhecimento de conquistas coletivas → estimulam consideração de perspectivas alheias, melhorando clima de equipe.
+* **Comunitário**
+
+  * *Aumento*: Liderança de bairro que centraliza decisões em preferências pessoais → projetos comunitários estagnam; participação voluntária diminui.
+  * *Diminuição*: Fóruns participativos com votação aberta para pautas locais → egocêntrico aprende a negociar prioridades coletivas e reforça senso de pertença.
+* **Religioso**
+
+  * *Aumento*: Procura por papéis de destaque (solista, pregador) sem compromisso com serviço ao próximo → divisões internas e ressentimento nos bastidores.
+  * *Diminuição*: Práticas de serviço humilde (limpeza do templo, visitas a enfermos) realizadas sem divulgação → desenvolvem empatia e dissolvem foco excessivo no eu.
+* **Amigos**
+
+  * *Aumento*: Competição por atenção em círculos íntimos (contando histórias pessoais longas) gera fadiga social → amigos retraem convites, levando a solidão.
+  * *Diminuição*: Dinâmicas de grupo como “rose‑bud‑thorn” onde todos compartilham sucessos e desafios igualmente → amplia reciprocidade e fortalece amizades.
+* **Amigos de Amigos**
+
+  * *Aumento*: Eventos onde status é medido por viagens ou bens; egocêntrico monopoliza conversa sobre suas conquistas → primeiras impressões negativas, portas sociais se fecham.
+  * *Diminuição*: Atividades cooperativas (escape room, jogos de tabuleiro em equipe) exigem ouvir outros para vencer → melhora reputação e integra novo círculo.
+* **Conhecidos**
+
+  * *Aumento*: Networking utilitarista focado em vender sua imagem sem escutar necessidades dos demais → contatos se afastam, reduzindo oportunidades.
+  * *Diminuição*: Sessões de “give‑first networking” que priorizam oferecer ajuda antes de pedir → estabelecem confiança e ampliam rede de suporte.
+* **Desconhecidos**
+
+  * *Aumento*: Participação em fóruns online postando apenas autopromoção → recebe pouco engajamento e críticas por spam.
+  * *Diminuição*: Comentários úteis respondendo dúvidas de estranhos em comunidades digitais → ganha reputação de colaborativo, expandindo influência de maneira saudável.
 
 ## 1.5 Impulsividade (Impulsiveness)
 
