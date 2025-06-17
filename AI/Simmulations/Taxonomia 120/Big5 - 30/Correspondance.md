@@ -955,7 +955,6 @@ BigFive:
 
 > **Observação:** o YAML segue a sintaxe padrão (espaços-em-branco são significativos). Copie diretamente para o seu Obsidian; cada objeto inclui a numeração hierárquica (id) **e** o `num_original` referente aos 120 traços da taxonomia original.
 
-
 # 1 Neuroticismo [[Neuroticism]]
 Tendência geral a emoções negativas e reatividade ao estresse.
 
