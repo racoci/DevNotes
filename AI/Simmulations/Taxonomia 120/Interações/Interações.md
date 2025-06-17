@@ -88,8 +88,6 @@ Para não produzir um texto interminável, apresento-o agrupado por traço “al
 
 *(A tabela continua para os 180 pares. Para manter a resposta curta no chat, disponibilizo a versão integral como arquivo CSV anexo.)*
 
-[Download a tabela detalhada (CSV)](sandbox:/mnt/data/pairs_explicados.csv)
-
 ---
 
 ## Verificação de lacunas
