@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
+                "file": "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Oito Eiixos"
+              "title": "Interações"
             }
           }
         ]
@@ -170,11 +170,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b2d399246ce52831",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "Security/Youtube Channels.md",
-    "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
+    "AI/Simmulations/Taxonomia 120/Interações",
+    "AI/Simmulations/Prompt.md",
+    "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
     "AI/Simmulations/Taxonomia 120/Tratis.md",
+    "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
+    "Security/Youtube Channels.md",
     "AI/Simmulations/Taxonomia 120/traits.json",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
     "AI/Simmulations/Taxonomia 120/Big5-120-correspondence.yaml",
@@ -201,11 +204,8 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3 Organização.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.2 Teorias Administrativas/1.2 Teorias Administrativas.md",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/1.1 Processos Produtivos.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
-    "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/2.2 Organização e Ordem.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight",
     "AI/Simmulations/Taxonomia 120/ChatGPT4.5",
     "AI/Simmulations/Taxonomia 120/Old",
