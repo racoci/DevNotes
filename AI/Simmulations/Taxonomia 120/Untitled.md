@@ -100,11 +100,11 @@ Surge após humilhação pública ou traição, levando a planos deliberados de 
 
 #### Situações, Causas e Consequências do Aumento ou Diminuição
 
-* **Familiar**
-
+##### **Familiar**
   * *Aumento*: Descoberta de favoritismo parental gera desejo de "dar o troco" em irmãos → tensão crônica e quebra de cooperação doméstica.
   * *Diminuição*: Pais incentivam reparação e perdão após brigas → harmonia restaurada e maior resiliência emocional.
-* **Profissional**
+
+##### **Profissional**
 
   * *Aumento*: Críticas públicas do chefe despertam vingança silenciosa (ex.: sabotar prazos) → queda de desempenho e moral da equipe.
   * *Diminuição*: Políticas de feedback privado e reconhecimento justo → fortalece lealdade e clima de segurança psicológica.
