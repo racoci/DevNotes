@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/Traços Combinatórios.md",
+                "file": "AI/Simmulations/Taxonomia 120/Combinatória/Esquemática.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Traços Combinatórios"
+              "title": "Esquemática"
             }
           }
         ]
@@ -170,10 +170,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "b2d399246ce52831",
   "lastOpenFiles": [
-    "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
     "AI/Simmulations/Taxonomia 120/Traços Combinatórios.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Esquemática.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória",
+    "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
     "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
     "AI/Simmulations/Taxonomia 120/Visualização de Hiper-grafos 2308.05043v1.pdf",
     "AI/Simmulations/Taxonomia 120/Visualização de Hiper-grafos 2308.05043v1.pdf.crdownload",
@@ -206,12 +208,10 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2 Conceito de Organização.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3 Organização.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight",
     "AI/Simmulations/Taxonomia 120/ChatGPT4.5",
-    "AI/Simmulations/Taxonomia 120/Old",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.1 Recursos Transformados.jpg",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.3.jpg",
