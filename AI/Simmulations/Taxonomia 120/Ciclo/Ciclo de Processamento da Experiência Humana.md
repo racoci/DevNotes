@@ -1,5 +1,309 @@
 # Ciclo de Processamento da Experiência Humana
 
+Perfeito! Agora vamos focar exclusivamente no detalhamento funcional de cada processo. Vou estruturar cada grande etapa como um bloco, quebrando-a em sub-etapas e sub-sub-etapas, com entradas e saídas claras para cada nível.
+
+---
+
+# Modelo Funcional Detalhado do Ciclo da Experiência Humana
+
+---
+
+## 1. Sensação e Percepção
+
+### 1.1 Sensação
+
+#### 1.1.1 Recepção Sensorial
+
+* **Entrada:** Estímulos físicos (luz, som, pressão, etc) vindos do ambiente.
+* **Processo:** Ativação de receptores especializados (ex.: cones da retina, células ciliadas do ouvido interno).
+* **Saída:** Sinais elétricos codificados (potenciais de ação).
+
+#### 1.1.2 Transmissão Neural
+
+* **Entrada:** Potenciais de ação dos receptores sensoriais.
+* **Processo:** Condução dos sinais pelos nervos aferentes até o sistema nervoso central.
+* **Saída:** Impulsos nervosos chegando ao tronco cerebral, tálamo ou córtex primário.
+
+---
+
+### 1.2 Percepção
+
+#### 1.2.1 Processamento Sensorial Primário
+
+* **Entrada:** Impulsos nervosos de áreas sensoriais periféricas.
+* **Processo:** Processamento inicial em áreas sensoriais primárias (ex.: córtex visual primário, córtex auditivo primário).
+* **Saída:** Representações básicas (ex.: contornos visuais, volume sonoro).
+
+#### 1.2.2 Processamento Sensorial Secundário
+
+* **Entrada:** Representações básicas de diferentes modalidades sensoriais.
+* **Processo:** Integração de características complexas (ex.: reconhecimento de formas, padrões sonoros, texturas).
+* **Saída:** Percepção multimodal inicial.
+
+#### 1.2.3 Unificação Multissensorial (Sensus Communis)
+
+* **Entrada:** Informações integradas de múltiplas modalidades.
+* **Processo:** Integração consciente no espaço e tempo, sensação de "evento global".
+* **Saída:** Experiência perceptual coesa e espacialmente situada.
+
+---
+
+### 1.3 Atenção e Saliência
+
+#### 1.3.1 Mapeamento de Saliência
+
+* **Entrada:** Conjunto de estímulos perceptuais disponíveis.
+* **Processo:** Cálculo de relevância automática com base em novidade, intensidade, valor emocional.
+* **Saída:** Lista de estímulos com pesos de saliência.
+
+#### 1.3.2 Seleção Atencional Inicial
+
+* **Entrada:** Mapa de saliência.
+* **Processo:** Redirecionamento de recursos perceptivos para os estímulos mais salientes.
+* **Saída:** Conjunto de estímulos "priorizados".
+
+#### 1.3.3 Modulação Voluntária da Atenção
+
+* **Entrada:** Conjunto de estímulos priorizados + objetivos internos (ex.: metas, motivações).
+* **Processo:** Ajuste top-down dos focos atencionais com base em intenção.
+* **Saída:** Conjunto definitivo de estímulos que receberão processamento emocional.
+
+---
+
+## 2. Emoções Primárias
+
+### 2.1 Detecção de Gatilho Emocional
+
+#### 2.1.1 Análise de Valência e Relevância
+
+* **Entrada:** Estímulos priorizados pela atenção.
+* **Processo:** Avaliação automática de valor hedônico e de ameaça.
+* **Saída:** Classificação inicial: positivo, negativo ou neutro.
+
+#### 2.1.2 Ativação do Sistema Límbico
+
+* **Entrada:** Classificação de valência.
+* **Processo:** Ativação de estruturas como a amígdala, hipotálamo.
+* **Saída:** Sinal de ativação emocional para o corpo e outras áreas cerebrais.
+
+---
+
+### 2.2 Resposta Emocional Inicial
+
+#### 2.2.1 Ativação Fisiológica
+
+* **Entrada:** Sinal do sistema límbico.
+* **Processo:** Liberação de hormônios (ex.: adrenalina, cortisol), alterações cardíacas, respiratórias.
+* **Saída:** Estado fisiológico alterado.
+
+#### 2.2.2 Preparação Motora
+
+* **Entrada:** Estado fisiológico alterado.
+* **Processo:** Preparação automática para luta, fuga, congelamento ou aproximação.
+* **Saída:** Prontidão motora.
+
+---
+
+### 2.3 Modulação Inicial da Emoção
+
+#### 2.3.1 Inibição ou Amplificação
+
+* **Entrada:** Intensidade da ativação emocional.
+* **Processo:** Mecanismos subcorticais e córtex pré-frontal modulam a emoção com base em contexto e experiência.
+* **Saída:** Emoção ajustada.
+
+---
+
+## 3. Processamento Cognitivo
+
+### 3.1 Avaliação Rápida (Sistema 1)
+
+#### 3.1.1 Heurística de Situação
+
+* **Entrada:** Emoção ajustada + estímulos priorizados.
+* **Processo:** Aplicação de julgamentos rápidos baseados em experiências passadas.
+* **Saída:** Resposta preliminar automática (ex.: "perigo", "seguro").
+
+---
+
+### 3.2 Avaliação Racional (Sistema 2)
+
+#### 3.2.1 Simulação Mental
+
+* **Entrada:** Resposta preliminar + intenções conscientes.
+* **Processo:** Projeção de cenários futuros, previsão de consequências.
+* **Saída:** Opções de resposta avaliadas.
+
+#### 3.2.2 Deliberação
+
+* **Entrada:** Opções simuladas.
+* **Processo:** Ponderação consciente de prós e contras.
+* **Saída:** Decisão cognitiva inicial.
+
+---
+
+### 3.3 Acesso à Memória
+
+#### 3.3.1 Recuperação Episódica
+
+* **Entrada:** Sinais de situação atual.
+* **Processo:** Busca por experiências passadas semelhantes.
+* **Saída:** Conjunto de memórias ativadas.
+
+#### 3.3.2 Recuperação Semântica
+
+* **Entrada:** Categorias cognitivas relevantes.
+* **Processo:** Ativação de conceitos, regras, normas e conhecimentos gerais.
+* **Saída:** Rede de informações relevantes.
+
+---
+
+### 3.4 Integração Social e Cultural
+
+#### 3.4.1 Filtragem por Normas
+
+* **Entrada:** Decisão cognitiva inicial + dados de memória.
+* **Processo:** Ajuste com base em padrões culturais, regras morais e expectativas sociais.
+* **Saída:** Decisão final cognitivamente filtrada.
+
+---
+
+## 4. Construção Consciente dos Sentimentos
+
+### 4.1 Consciência Emocional
+
+#### 4.1.1 Monitoramento Interoceptivo
+
+* **Entrada:** Estado fisiológico atual.
+* **Processo:** Leitura consciente das alterações corporais.
+* **Saída:** Registro subjetivo de "estou sentindo algo".
+
+---
+
+### 4.2 Rotulação Emocional
+
+#### 4.2.1 Atribuição Verbal
+
+* **Entrada:** Consciência emocional + memória semântica.
+* **Processo:** Escolha de um termo emocional que representa o estado (ex.: "ansiedade").
+* **Saída:** Sentimento nomeado.
+
+---
+
+### 4.3 Avaliação da Intensidade
+
+#### 4.3.1 Escala Subjetiva
+
+* **Entrada:** Sentimento nomeado + intensidade corporal.
+* **Processo:** Julgamento subjetivo de quão forte a emoção é.
+* **Saída:** Sentimento rotulado com grau de intensidade.
+
+---
+
+### 4.4 Regulação Consciente
+
+#### 4.4.1 Estratégia de Modulação
+
+* **Entrada:** Sentimento rotulado + metas pessoais.
+* **Processo:** Escolha de estratégias de regulação (ex.: reinterpretação, supressão).
+* **Saída:** Emoção modulada.
+
+---
+
+## 5. Planejamento e Execução da Ação
+
+### 5.1 Formação de Intenção
+
+#### 5.1.1 Seleção de Meta
+
+* **Entrada:** Emoção modulada + decisão cognitiva final.
+* **Processo:** Definição do objetivo imediato.
+* **Saída:** Intenção de agir.
+
+---
+
+### 5.2 Planejamento Motor
+
+#### 5.2.1 Sequenciamento de Ação
+
+* **Entrada:** Intenção de agir.
+* **Processo:** Organização motora e neuromuscular.
+* **Saída:** Comando motor pronto.
+
+---
+
+### 5.3 Execução da Ação
+
+#### 5.3.1 Disparo Motor
+
+* **Entrada:** Comando motor.
+* **Processo:** Ativação de músculos e sistemas efetores.
+* **Saída:** Comportamento observável.
+
+---
+
+## 6. Feedback, Reação e Autoavaliação
+
+### 6.1 Feedback Sensorial
+
+#### 6.1.1 Registro dos Resultados
+
+* **Entrada:** Mudanças no ambiente geradas pela ação.
+* **Processo:** Captação sensorial do resultado imediato.
+* **Saída:** Percepção do efeito da ação.
+
+---
+
+### 6.2 Reação dos Outros
+
+#### 6.2.1 Leitura Social
+
+* **Entrada:** Respostas verbais, não verbais e comportamentais dos outros.
+* **Processo:** Decodificação emocional e social.
+* **Saída:** Interpretação da aceitação ou rejeição social.
+
+---
+
+### 6.3 Autoavaliação
+
+#### 6.3.1 Análise Interna
+
+* **Entrada:** Feedback sensorial + reação dos outros.
+* **Processo:** Julgamento pessoal da qualidade da ação.
+* **Saída:** Avaliação de sucesso ou falha.
+
+---
+
+### 6.4 Aprendizado e Memorização
+
+#### 6.4.1 Consolidação de Aprendizado
+
+* **Entrada:** Avaliação interna + feedback externo.
+* **Processo:** Gravação de padrões de ação e suas consequências.
+* **Saída:** Atualização de modelos internos de ação.
+
+---
+
+### 6.5 Atualização de Modelos Internos
+
+#### 6.5.1 Modificação de Expectativas
+
+* **Entrada:** Padrões recém-aprendidos.
+* **Processo:** Ajuste nos filtros perceptuais, emocionais e cognitivos para o futuro.
+* **Saída:** Mudança nas futuras etapas de sensação e percepção.
+
+---
+
+## Fechamento Sistêmico do Ciclo
+
+A saída da etapa **6.5 (Atualização de Modelos Internos)** se conecta funcionalmente como **entrada moduladora da etapa 1.1 (Sensação)**, fechando o ciclo e garantindo adaptação futura.
+
+---
+
+👉 Posso agora gerar o arquivo `.md` completo com essa estrutura para o Obsidian. Quer?
+
+
+
 ## Estágios Ampliados
 
 |Ordem|Estágio|Explicação|
