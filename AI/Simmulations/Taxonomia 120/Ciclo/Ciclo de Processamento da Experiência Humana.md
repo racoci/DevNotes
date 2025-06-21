@@ -7,7 +7,173 @@ Perfeito! Agora vamos focar exclusivamente no detalhamento funcional de cada pro
 # Modelo Funcional Detalhado do Ciclo da Experiência Humana
 
 ---
-
+```json
+{
+    "2. Emoções Primárias": {
+        "2.1 Detecção de Gatilho Emocional": {
+            "2.1.1 Análise de Valência e Relevância": {
+                "entrada": "Estímulos priorizados pela atenção",
+                "processo": "Avaliação automática de valor hedônico e de ameaça",
+                "saida": "Classificação inicial: positivo, negativo ou neutro"
+            },
+            "2.1.2 Ativação do Sistema Límbico": {
+                "entrada": "Classificação de valência",
+                "processo": "Ativação de estruturas como a amígdala e hipotálamo",
+                "saida": "Sinal de ativação emocional para o corpo e outras áreas cerebrais"
+            }
+        },
+        "2.2 Resposta Emocional Inicial": {
+            "2.2.1 Ativação Fisiológica": {
+                "entrada": "Sinal do sistema límbico",
+                "processo": "Liberação de hormônios e alterações fisiológicas",
+                "saida": "Estado fisiológico alterado"
+            },
+            "2.2.2 Preparação Motora": {
+                "entrada": "Estado fisiológico alterado",
+                "processo": "Preparação automática para ação",
+                "saida": "Prontidão motora"
+            }
+        },
+        "2.3 Modulação Inicial da Emoção": {
+            "2.3.1 Inibição ou Amplificação": {
+                "entrada": "Intensidade da ativação emocional",
+                "processo": "Modulação da emoção com base em contexto e experiência",
+                "saida": "Emoção ajustada"
+            }
+        }
+    },
+    "3. Processamento Cognitivo": {
+        "3.1 Avaliação Rápida (Sistema 1)": {
+            "3.1.1 Heurística de Situação": {
+                "entrada": "Emoção ajustada + estímulos priorizados",
+                "processo": "Aplicação de julgamentos rápidos baseados em experiências passadas",
+                "saida": "Resposta preliminar automática"
+            }
+        },
+        "3.2 Avaliação Racional (Sistema 2)": {
+            "3.2.1 Simulação Mental": {
+                "entrada": "Resposta preliminar + intenções conscientes",
+                "processo": "Projeção de cenários futuros",
+                "saida": "Opções de resposta avaliadas"
+            },
+            "3.2.2 Deliberação": {
+                "entrada": "Opções simuladas",
+                "processo": "Ponderação consciente de prós e contras",
+                "saida": "Decisão cognitiva inicial"
+            }
+        },
+        "3.3 Acesso à Memória": {
+            "3.3.1 Recuperação Episódica": {
+                "entrada": "Sinais de situação atual",
+                "processo": "Busca por experiências passadas semelhantes",
+                "saida": "Conjunto de memórias ativadas"
+            },
+            "3.3.2 Recuperação Semântica": {
+                "entrada": "Categorias cognitivas relevantes",
+                "processo": "Ativação de conceitos e conhecimentos gerais",
+                "saida": "Rede de informações relevantes"
+            }
+        },
+        "3.4 Integração Social e Cultural": {
+            "3.4.1 Filtragem por Normas": {
+                "entrada": "Decisão cognitiva inicial + dados de memória",
+                "processo": "Ajuste com base em padrões culturais e morais",
+                "saida": "Decisão final cognitivamente filtrada"
+            }
+        }
+    },
+    "4. Construção Consciente dos Sentimentos": {
+        "4.1 Consciência Emocional": {
+            "4.1.1 Monitoramento Interoceptivo": {
+                "entrada": "Estado fisiológico atual",
+                "processo": "Leitura consciente das alterações corporais",
+                "saida": "Registro subjetivo de estar sentindo algo"
+            }
+        },
+        "4.2 Rotulação Emocional": {
+            "4.2.1 Atribuição Verbal": {
+                "entrada": "Consciência emocional + memória semântica",
+                "processo": "Escolha de um termo emocional",
+                "saida": "Sentimento nomeado"
+            }
+        },
+        "4.3 Avaliação da Intensidade": {
+            "4.3.1 Escala Subjetiva": {
+                "entrada": "Sentimento nomeado + intensidade corporal",
+                "processo": "Julgar subjetivamente a força da emoção",
+                "saida": "Sentimento rotulado com intensidade"
+            }
+        },
+        "4.4 Regulação Consciente": {
+            "4.4.1 Estratégia de Modulação": {
+                "entrada": "Sentimento rotulado + metas pessoais",
+                "processo": "Escolha de estratégias de regulação emocional",
+                "saida": "Emoção modulada"
+            }
+        }
+    },
+    "5. Planejamento e Execução da Ação": {
+        "5.1 Formação de Intenção": {
+            "5.1.1 Seleção de Meta": {
+                "entrada": "Emoção modulada + decisão cognitiva final",
+                "processo": "Definição de objetivo imediato",
+                "saida": "Intenção de agir"
+            }
+        },
+        "5.2 Planejamento Motor": {
+            "5.2.1 Sequenciamento de Ação": {
+                "entrada": "Intenção de agir",
+                "processo": "Organização motora e neuromuscular",
+                "saida": "Comando motor pronto"
+            }
+        },
+        "5.3 Execução da Ação": {
+            "5.3.1 Disparo Motor": {
+                "entrada": "Comando motor",
+                "processo": "Ativação muscular e execução do comportamento",
+                "saida": "Comportamento observável"
+            }
+        }
+    },
+    "6. Feedback, Reação e Autoavaliação": {
+        "6.1 Feedback Sensorial": {
+            "6.1.1 Registro dos Resultados": {
+                "entrada": "Mudanças no ambiente geradas pela ação",
+                "processo": "Captação sensorial do resultado imediato",
+                "saida": "Percepção do efeito da ação"
+            }
+        },
+        "6.2 Reação dos Outros": {
+            "6.2.1 Leitura Social": {
+                "entrada": "Respostas dos outros (verbais, não verbais)",
+                "processo": "Decodificação emocional e social",
+                "saida": "Interpretação da aceitação ou rejeição social"
+            }
+        },
+        "6.3 Autoavaliação": {
+            "6.3.1 Análise Interna": {
+                "entrada": "Feedback sensorial + reação dos outros",
+                "processo": "Julgar a qualidade da ação",
+                "saida": "Avaliação de sucesso ou falha"
+            }
+        },
+        "6.4 Aprendizado e Memorização": {
+            "6.4.1 Consolidação de Aprendizado": {
+                "entrada": "Avaliação interna + feedback externo",
+                "processo": "Gravação de padrões de ação e suas consequências",
+                "saida": "Atualização de modelos internos de ação"
+            }
+        },
+        "6.5 Atualização de Modelos Internos": {
+            "6.5.1 Modificação de Expectativas": {
+                "entrada": "Padrões recém-aprendidos",
+                "processo": "Ajuste nos filtros perceptuais, emocionais e cognitivos",
+                "saida": "Mudança nas futuras etapas de sensação e percepção"
+            }
+        }
+    }
+}
+```
 ## 1. Sensação e Percepção
 
 ### 1.1 Sensação
