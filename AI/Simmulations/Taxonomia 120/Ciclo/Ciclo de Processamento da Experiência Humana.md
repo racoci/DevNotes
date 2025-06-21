@@ -119,3 +119,28 @@ Se os mesmos padrões de ação se repetem, eles passam a moldar traços de pers
 Aqui vai uma ampliação e sistematização detalhada do ciclo proposto, fundamentada tanto nas teorias escolásticas clássicas (como as de Tomás de Aquino) quanto nos modelos modernos (como Psicologia Cognitiva, Neurociências e Teorias da Personalidade como Big Five e a Taxonomia dos 120 Traços):
 
 ---
+```mermaid
+graph LR
+
+subgraph Ambiente
+    A1[Ambiente: Estímulos Externos] --> S1
+    S12 --> A2[Ambiente: Reações às Ações do Sujeito]
+end
+
+subgraph Sujeito
+    S1[Sensação] --> S2[Percepção]
+    S2 --> S3[Atenção e Saliência]
+    S3 --> S4[Emoções Primárias]
+    S4 --> S5[Pensamento e Avaliação]
+    S5 --> S6[Sentimentos]
+    S6 --> S7[Memória e Associação]
+    S7 --> S8[Motivação e Intenção]
+    S8 --> S9[Planejamento da Ação]
+    S9 --> S10[Ação]
+    S10 --> S11[Percepção das Consequências]
+    S11 --> S12[Autoavaliação e Aprendizado]
+    S12 --> S1
+end
+
+A2 --> S1
+```
