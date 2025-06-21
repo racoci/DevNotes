@@ -39,20 +39,20 @@
 
 ## Correspondências com Modelos Modernos
 
-|Etapa|Psicologia Cognitiva / Neurociências / Big Five|
-|---|---|
-|Sensação/Percepção|Processamento Sensorial / Atenção|
-|Emoção Primária|Sistema Límbico / Neuroticismo|
-|Pensamento|Sistema 2 (Kahneman) / Conscienciosidade|
-|Sentimentos|Construção Cognitiva da Emoção|
-|Motivação|Teoria da Autodeterminação / Motivação Intrínseca|
-|Planejamento|Funções Executivas / Extroversão (em ações sociais)|
-|Ação|Psicologia do Comportamento / Controle Motor|
-|Feedback|Modelos de Feedback Sensorial e Social|
-|Reação Externa|Psicologia Social / Reforço Social|
-|Autoavaliação|Metacognição / Neuroticismo (autocrítica)|
-|Aprendizado|Aprendizagem Associativa / Modelos de Recompensa|
-|Formação de Traços|Psicologia da Personalidade / Big Five (formação longitudinal dos traços)|
+| Etapa              | Psicologia Cognitiva / Neurociências / Big Five                           |
+| ------------------ | ------------------------------------------------------------------------- |
+| Sensação/Percepção | Processamento Sensorial / Atenção                                         |
+| Emoção Primária    | Sistema Límbico / Neuroticismo                                            |
+| Pensamento         | Sistema 2 (Kahneman) / Conscienciosidade                                  |
+| Sentimentos        | Construção Cognitiva da Emoção                                            |
+| Motivação          | Teoria da Autodeterminação / Motivação Intrínseca                         |
+| Planejamento       | Funções Executivas / Extroversão (em ações sociais)                       |
+| Ação               | Psicologia do Comportamento / Controle Motor                              |
+| Feedback           | Modelos de Feedback Sensorial e Social                                    |
+| Reação Externa     | Psicologia Social / Reforço Social                                        |
+| Autoavaliação      | Metacognição / Neuroticismo (autocrítica)                                 |
+| Aprendizado        | Aprendizagem Associativa / Modelos de Recompensa                          |
+| Formação de Traços | Psicologia da Personalidade / Big Five (formação longitudinal dos traços) |
 
 ---
 
