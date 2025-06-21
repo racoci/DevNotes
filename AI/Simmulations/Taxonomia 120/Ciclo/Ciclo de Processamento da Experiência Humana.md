@@ -9,6 +9,54 @@ Perfeito! Agora vamos focar exclusivamente no detalhamento funcional de cada pro
 ---
 ```json
 {
+    "1. Sensação e Percepção": {
+        "1.1 Sensação": {
+            "1.1.1 Recepção Sensorial": {
+                "entrada": "Estímulos físicos (luz, som, pressão, etc) vindos do ambiente",
+                "processo": "Ativação de receptores especializados",
+                "saida": "Sinais elétricos codificados (potenciais de ação)"
+            },
+            "1.1.2 Transmissão Neural": {
+                "entrada": "Potenciais de ação dos receptores sensoriais",
+                "processo": "Condução dos sinais pelos nervos aferentes até o sistema nervoso central",
+                "saida": "Impulsos nervosos chegando ao tronco cerebral, tálamo ou córtex primário"
+            }
+        },
+        "1.2 Percepção": {
+            "1.2.1 Processamento Sensorial Primário": {
+                "entrada": "Impulsos nervosos de áreas sensoriais periféricas",
+                "processo": "Processamento inicial em áreas sensoriais primárias",
+                "saida": "Representações básicas (ex.: contornos visuais, volume sonoro)"
+            },
+            "1.2.2 Processamento Sensorial Secundário": {
+                "entrada": "Representações básicas de diferentes modalidades sensoriais",
+                "processo": "Integração de características complexas",
+                "saida": "Percepção multimodal inicial"
+            },
+            "1.2.3 Unificação Multissensorial": {
+                "entrada": "Informações integradas de múltiplas modalidades",
+                "processo": "Integração consciente no espaço e tempo",
+                "saida": "Experiência perceptual coesa e espacialmente situada"
+            }
+        },
+        "1.3 Atenção e Saliência": {
+            "1.3.1 Mapeamento de Saliência": {
+                "entrada": "Conjunto de estímulos perceptuais disponíveis",
+                "processo": "Cálculo de relevância automática",
+                "saida": "Lista de estímulos com pesos de saliência"
+            },
+            "1.3.2 Seleção Atencional Inicial": {
+                "entrada": "Mapa de saliência",
+                "processo": "Redirecionamento de recursos perceptivos",
+                "saida": "Conjunto de estímulos priorizados"
+            },
+            "1.3.3 Modulação Voluntária da Atenção": {
+                "entrada": "Estímulos priorizados + objetivos internos",
+                "processo": "Ajuste top-down dos focos atencionais",
+                "saida": "Conjunto definitivo de estímulos para processamento emocional"
+            }
+        }
+	},
     "2. Emoções Primárias": {
         "2.1 Detecção de Gatilho Emocional": {
             "2.1.1 Análise de Valência e Relevância": {
