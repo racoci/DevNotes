@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "00ae18e2819e3ebb",
+        "id": "e90cebb1ac33f0bd",
         "type": "tabs",
         "children": [
           {
-            "id": "b2d399246ce52831",
+            "id": "0eb2f39b2888ae54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
-                "mode": "source",
-                "source": false
+                "file": "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png"
               },
-              "icon": "lucide-file",
-              "title": "OCC"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250621202938"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 355.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -170,22 +168,23 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b2d399246ce52831",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "Pasted image 20250621202938.png",
-    "AI/Simmulations/Taxonomia 120/Combinatória/OCC- Extension.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621205728.png",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Models.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Sistema Mesolímbico e Recompensa.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Rede de Arousal.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/OCC- Extension.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
     "AI/Simmulations/Taxonomia 120/120 Traits under Big 5.md",
     "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
     "AI/Simmulations/Enneagrama.md",
     "AI/Simmulations/Taxonomia 120/Ciclo",
     "AI/Simmulations/Taxonomia 120/Necessidades/Simulação.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
     "AI/Simmulations/Taxonomia 120/Necessidades",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Models.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Sistema Mesolímbico e Recompensa.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Rede de Arousal.md",
     "AI/Simmulations/Taxonomia 120/Traços Combinatórios.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension",
     "AI/Simmulations/Taxonomia 120/Meta-esquema/Meta-dimensões da Personalidade.md",
@@ -215,8 +214,6 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.1 Recursos Transformados.jpg",
     "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.3.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.2.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.1.jpg"
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.3.jpg"
   ]
 }
