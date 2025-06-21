@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "titles"
-  ]
+  ],
+  "accentColor": "#4e7adf"
 }
