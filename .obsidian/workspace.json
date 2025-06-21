@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
+                "file": "AI/Simmulations/Taxonomia 120/Combinatória/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ciclo de Processamento da Experiência Humana"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 559.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -171,10 +170,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b2d399246ce52831",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "AI/Simmulations/Enneagrama.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
+    "AI/Simmulations/Taxonomia 120/120 Traits under Big 5.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Untitled.md",
     "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
+    "AI/Simmulations/Enneagrama.md",
     "AI/Simmulations/Taxonomia 120/Ciclo",
     "AI/Simmulations/Taxonomia 120/Necessidades/Simulação.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
@@ -194,7 +196,6 @@
     "AI/Simmulations/Taxonomia 120/Visualização de Hiper-grafos 2308.05043v1.pdf.crdownload",
     "AI/Simmulations/Taxonomia 120/Interações",
     "AI/Simmulations/Prompt.md",
-    "AI/Simmulations/Taxonomia 120/Tratis.md",
     "Security/Youtube Channels.md",
     "AI/Simmulations/Taxonomia 120/traits.json",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
@@ -207,8 +208,6 @@
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/1.1 Imaginação e Criatividade.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/2.1 Perseverança e Diligência.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/1.3 Reflexão e Abstração.md",
-    "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/1.2 Curiosidade e Descoberta.md",
-    "AI/Simmulations/Taxonomia 120/ChatGPT o4-mini-hight/Prompt.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
