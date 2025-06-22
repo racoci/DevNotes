@@ -11,12 +11,14 @@
             "id": "0eb2f39b2888ae54",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png"
+                "file": "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250621202938"
+              "icon": "lucide-file",
+              "title": "OCC"
             }
           }
         ]
@@ -168,17 +170,19 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "0eb2f39b2888ae54",
   "lastOpenFiles": [
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621205728.png",
+    "Pasted image 20250621210119.png",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Esquemática.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/OCC- Extension.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
+    "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
+    "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Sistema Mesolímbico e Recompensa.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Models.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Sistema Mesolímbico e Recompensa.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Rede de Arousal.md",
-    "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
-    "AI/Simmulations/Taxonomia 120/Combinatória/OCC- Extension.md",
-    "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
     "AI/Simmulations/Taxonomia 120/120 Traits under Big 5.md",
     "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
     "AI/Simmulations/Enneagrama.md",
@@ -188,7 +192,6 @@
     "AI/Simmulations/Taxonomia 120/Traços Combinatórios.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension",
     "AI/Simmulations/Taxonomia 120/Meta-esquema/Meta-dimensões da Personalidade.md",
-    "AI/Simmulations/Taxonomia 120/Combinatória/Esquemática.md",
     "AI/Simmulations/Taxonomia 120/Meta-esquema",
     "AI/Simmulations/Taxonomia 120/Combinatória",
     "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
