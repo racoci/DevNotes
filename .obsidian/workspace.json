@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
+                "file": "AI/Simmulations/Taxonomia 120/OCC-Extension/Modelagem de Emoções em Simulação Social.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OCC"
+              "title": "Modelagem de Emoções em Simulação Social"
             }
           }
         ]
@@ -172,11 +172,13 @@
   },
   "active": "0eb2f39b2888ae54",
   "lastOpenFiles": [
+    "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
+    "AI/Simmulations/Taxonomia 120/OCC-Extension/Modelagem de Emoções em Simulação Social.md",
+    "AI/Simmulations/Taxonomia 120/OCC",
     "Pasted image 20250621210119.png",
     "AI/Simmulations/Taxonomia 120/Combinatória/Esquemática.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/OCC- Extension.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
-    "AI/Simmulations/Taxonomia 120/Combinatória/OCC.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Sistema Mesolímbico e Recompensa.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
@@ -203,7 +205,6 @@
     "Security/Youtube Channels.md",
     "AI/Simmulations/Taxonomia 120/traits.json",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
-    "AI/Simmulations/Taxonomia 120/Big5-120-correspondence.yaml",
     "AI/Simmulations/WestWorld 120 Traits.md",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Big Five.md",
     "AI/Simmulations/Taxonomia 120/ChatGPT4.5/1.1 Imaginação & Criatividade.md",
@@ -216,7 +217,6 @@
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
     "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.1 Recursos Transformados.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.3.jpg"
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg"
   ]
 }
