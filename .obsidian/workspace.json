@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Comparação Crítica - MBTI, Socionics, Eneagrama e Big Five na Predição Comportamental.md",
+                "file": "AI/Simmulations/Taxonomia 120/Interações/Comparações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparação Crítica - MBTI, Socionics, Eneagrama e Big Five na Predição Comportamental"
+              "title": "Comparações"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "0eb2f39b2888ae54",
   "lastOpenFiles": [
-    "AI/Simmulations/Modelo Integrativo de Personalidade e Predição de Comportamento Humano.md",
+    "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
+    "AI/Simmulations/Taxonomia 120/Interações/Comparações.md",
     "AI/Simmulations/Comparação Crítica - MBTI, Socionics, Eneagrama e Big Five na Predição Comportamental.md",
+    "AI/Simmulations/Modelo Integrativo de Personalidade e Predição de Comportamento Humano.md",
     "AI/Simmulations/Bayesian Networks/Extensão.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Modelagem de Emoções em Simulação Social.md",
     "AI/Simmulations/Bayesian Networks",
@@ -205,13 +207,11 @@
     "AI/Simmulations/Taxonomia 120/Meta-esquema",
     "AI/Simmulations/Taxonomia 120/Combinatória",
     "AI/Simmulations/Taxonomia 120/Neuro/Oito Eiixos.md",
-    "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
     "AI/Simmulations/Taxonomia 120/Visualização de Hiper-grafos 2308.05043v1.pdf",
     "AI/Simmulations/Prompt.md",
     "Security/Youtube Channels.md",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
     "AI/Simmulations/WestWorld 120 Traits.md",
-    "AI/Simmulations/Taxonomia 120/Big5 - 30/Big Five.md",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
