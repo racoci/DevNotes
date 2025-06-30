@@ -1,111 +1,111 @@
-## ✅ O que entendi
+### 1 Do CPT discreto ao “CPT” em log-função característica
 
-Você quer **relaxar o “oráculo perfeito”**: agora só dispomos de uma amostra finita (ou um modelo ruidoso) do conjunto de variáveis.  
-_Objetivo_:
+Num nó discreto **$C\mid A,B$**, a representação clássica é um **CPT**, isto é, uma função
 
-1. **Inferir uma rede bayesiana aproximada** (estrutura + parâmetros) mesmo quando os testes de independência não são exatos.
-    
-2. **Quantificar a “amplitude do ruído”**—isto é, quanta incerteza ou variância sobra nos nós (ou nas independências) depois de ajustar o grafo.
-    
+$$
+P_{C\mid A,B}:\;D_A\times D_B \;\longrightarrow\;\Delta(D_C),
+$$
 
-**Hipóteses implícitas**
+onde para cada par $(a,b)$ temos a lista $\{P(C=c\mid A=a,B=b)\}_{c\in D_C}$.
 
-- Há um grafo gerador verdadeiro que satisfaz a [fé-condicional/faithfulness].
-    
-- O ruído é aditivo (ou pelo menos i.i.d.) e podemos medi-lo como variância de resíduos.
-    
-- Queremos um procedimento prático (estimável com dados), ainda que apenas assintoticamente consistente.
-    
+Em vez disso, definimos para cada $(a,b)$ a **função característica condicional**
 
-## 🛠️ Estratégia
+$$
+\varphi_{C\mid A,B}(t\mid a,b)
+\;=\;
+\E\bigl[e^{\,i\,t\,C}\mid A=a,B=b\bigr]
+\;=\;\sum_{c\in D_C} e^{\,i\,t\,c}\;P(C=c\mid a,b).
+$$
 
-1. **Escolher um paradigma de aprendizagem de estrutura**:
-    
-    - [constraint-based] (PC, SGS) + testes estatísticos de independência.
-        
-    - [score-based] (BIC, BDeu) + busca heurística.
-        
-    - [hybrid] (GES, MMHC).
-        
-2. **Incorporar ruído** ajustando o nível de significância ou penalização.
-    
-3. **Estimativa de confiança**: bootstrap, FDR, ou variância de resíduos para cada aresta.
-    
-4. **Amplitude do ruído**:
-    
-    - Para variáveis contínuas Gaussianas → variância residual $\sigma_i^2$ em $X_i = \beta_i^\top \text{Pa}(X_i)+\varepsilon_i$.
-        
-    - Para discretas → proporção de erro preditivo (log-loss extra).
-        
-5. **Generalizar**: mostrar como o mesmo esquema funciona com número arbitrário de nós (contáveis) usando limites de bootstrap ou teoria de U-estatísticas.
-    
+E trabalhamos com o seu **logaritmo**:
+
+$$
+\Psi_{C\mid A,B}(t\mid a,b)
+=\ln\bigl(\varphi_{C\mid A,B}(t\mid a,b)\bigr).
+$$
+
+**Assinatura**:
+
+$$
+\Psi_{C\mid A,B}:\;
+\underbrace{\R}_{t}\;\times\;
+\underbrace{D_A}_{a}\;\times\;\underbrace{D_B}_{b}
+\;\longrightarrow\;
+\C.
+$$
+
+Em vez de guardar uma tabela $\lvert D_A\rvert\times\lvert D_B\rvert$ de vetores em $\Delta(D_C)$, guardamos uma **função** $\Psi(t\mid a,b)$.
 
 ---
 
-# 1 Aprendizado aproximado da estrutura (caso finito)
+### 2 Mudança de domínios via bijeção $(A,B)\!\leftrightarrow\!(X,Y)$
 
-### 1.1 Passo a passo (PC “imperfeito”)
+Suponha que exista uma bijeção
 
-|Etapa|Ação|Ruído tratado como …|
-|---|---|---|
-|**0**|Comece com grafo completo não-direcionado.|—|
-|**1**|Para cada par $(X_i,X_j)$ e para $k=0,1,\dots$ até $\lvert\text{V}\rvert-2$: • Escolha todos os $S$ de tamanho $k$. • Teste $H_0!: X_i\perp!!!\perp X_j \mid S$ (qui-quadrado, Fisher-Z, HSIC). • Se $p>\alpha$, **remova** a aresta e registre $S$.|Erro tipo I controlado por $\alpha$.|
-|**2**|Orientar v-estruturas ($i\to k\leftarrow j$) se $k\notin S$.|Falsos negativos possíveis → usar regra de frequência (bootstrap).|
-|**3**|Regras de Meek para orientar o resto sem ciclos.|—|
-|**4**|**Bootstrap** $B$ vezes; conte frequência de cada aresta.|Frequência $\hat p_{ij}$ é estimativa de confiabilidade.|
+$$
+p:\;D_A\times D_B \;\longrightarrow\;D_X\times D_Y,
+\quad
+q = p^{-1}.
+$$
 
-_Se $\hat p_{ij}<0.5$ chamamos a aresta de “incerta” e podemos removê-la ou marcá-la com peso._
+Definimos a característica condicionada a $(X,Y)$ por
 
-### 1.2 Amplitude do ruído (variância residual)
+$$
+\varphi_{C\mid X,Y}(t\mid x,y)
+\;=\;
+\E\bigl[e^{\,i\,t\,C}\mid X=x,Y=y\bigr]
+\;=\;
+\E\bigl[e^{\,i\,t\,C}\mid A=a,B=b\bigr]
+\quad\text{com }(a,b)=q(x,y).
+$$
 
-Depois de fixar um grafo $\hat G$, estime os parâmetros:
+Tomando logaritmo:
 
-- **Contínuo Gaussiano**: regressão linear para cada nó
-    
-    undefined
-- **Discreto multinomial**: use log-regressão (ou MLE) e compute entropia residual  
-    Noisei=H(Xi∣Pa(Xi)).\text{Noise}_i = H(X_i\mid \text{Pa}(X_i)).
-    
+$$
+\boxed{
+\Psi_{C\mid X,Y}(t\mid x,y)
+=\Psi_{C\mid A,B}\bigl(t\mid q(x,y)\bigr).
+}
+$$
 
-Para “ruído da estrutura” use **intervalos bootstrap** para cada $\hat p_{ij}$; a variância entre boots $\operatorname{Var}_b(\hat p_{ij})$ mede quão instável a aresta fica diante da amostra finita.
+**Assinatura**:
 
----
-
-# 2 Generalização para conjuntos grandes de nós
-
-### 2.1 Conjunto contável
-
-Execute o algoritmo em subconjuntos finitos $V_k$ de tamanho crescente.  
-_Pare_ quando o grafo se estabilizar (mesmo conjunto de arestas “altamente confiáveis”).  
-A lei forte dos grandes números garante convergência quase-certa de $\hat p_{ij}$.
-
-### 2.2 Fluxo de dados (streaming)
-
-Use **PC incremental**: atualize contagens de independência à medida que chegam novos casos, recalculando $p$-valores via estatísticas online.  
-A banda de confiança de Wilson dá limite superior para erro tipo I depois de $N$ amostras.
-
-### 2.3 Espaços não-contáveis (funções)
-
-- Discretize em malhas sucessivas $\Omega_h$.
-    
-- Aprenda grafos em cada malha, projetando as probabilidades de arestas para o contínuo via limite $h\to0$.
-    
-- Amplitude do ruído = variância residual da equação diferencial estocástica que modela cada nó-função.
-    
+$$
+\Psi_{C\mid X,Y}:\;
+\R\times D_X\times D_Y\;\longrightarrow\;\C.
+$$
 
 ---
 
-# 3 Resumo em bullets
+### 3 Inferência usando somas e log-sum-exp
 
-- **[constraint-based]** + $p$-valores $\rightarrow$ remover arestas; ruído ↔ erros de teste.
-    
-- **Bootstrap** dá frequência $\hat p_{ij}$ → probabilidade empírica da aresta.
-    
-- **Amplitude de ruído** por nó = variância residual (contínuo) ou entropia condicional (discreto).
-    
-- Grafo de confiança = ${\text{arestas com }\hat p_{ij}\ge\tau}$, onde $\tau$ controla FDR.
-    
-- Para conjuntos **infinitos**, aplique o mesmo procedimento em aproximações finitas, depois tome o limite.
-    
+Num BN clássico, a factorização
+$\;P(A,B,C)=P(A)\,P(B)\,P(C\mid A,B)$
+leva a multiplicações de tabelas. Em log-função característica, a **característica conjunta** de $(A,B,C)$ satisfaz:
 
-Dessa forma obtemos uma **estrutura aproximada** e uma **medida quantitativa** de quão forte é o ruído que nos impede de recuperar a rede exata.
+$$
+\varphi_{A,B,C}(t_A,t_B,t_C)
+=\varphi_A(t_A)\;\varphi_B(t_B)\;
+\varphi_{C\mid A,B}(t_C\mid A,B)\;\text{avaliada em média sobre }A,B.
+$$
+
+Em log-espaço:
+
+$$
+\Psi_{A,B,C}(t_A,t_B,t_C)
+=\Psi_A(t_A)+\Psi_B(t_B)
+\;+\;\ln\E_{A,B}\!\bigl[e^{\Psi_{C\mid A,B}(t_C\mid A,B)}\bigr],
+$$
+
+onde o último termo é um **log-sum-exp** sobre $(a,b)$.
+
+---
+
+### 4 Resumo
+
+* **Tabela $P(C\mid A,B)$** ↔ **função** $\Psi_{C\mid A,B}(t\mid a,b)$.
+* **Multiplicação de prob.** ↔ **adição** de $\Psi$.
+* **Marginalização em $A,B$** ↔ **log-sum-exp** de $\Psi_{C\mid A,B}$.
+* **Mudança de variáveis** $(A,B)\!\to\!(X,Y)$ ↔ **substituir** $\Psi(t\mid a,b)$ por $\Psi\bigl(t\mid q(x,y)\bigr)$.
+
+Dessa forma eliminamos completamente as tabelas tradicionais, substituindo-as por operações de **adição** e **log-sum-exp** sobre as **log-funções características**.
