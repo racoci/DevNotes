@@ -1,3 +1,212 @@
+A seguir reescrevo o argumento de que a **perda de *flow-matching* marginal**
+$\mathcal{L}_{\mathrm{FM}}$ difere da condicional $\mathcal{L}_{\mathrm{CFM}}$ apenas por uma constante, desta vez
+
+* explicitando **todas as distribuições** (com notação $\mathcal{N},\mathcal{U}$);
+* mostrando os **limites das integrais** e definindo previamente os conjuntos envolvidos;
+* usando $\displaystyle\mathcal{L}$ para a perda e **fontes distintas** ($\mathcal{·}$ para distribuições, $\mathbf{·}$ para vetores, $\mathrm{·}$ para objetos determinísticos);
+* empregando $\underset{\text{···}}{\mathbb{E}}$ vertical para que cada variável apareça em linha separada;
+* realçando **de azul** o termo que será modificado no passo seguinte e **de verde** o que acabou de ser modificado no passo atual.
+
+---
+
+## 1. Definições preliminares
+
+* Espaço dos dados: $\mathsf{X}\subseteq\mathbb{R}^d$.
+* Espaço latente: $\mathsf{Z}\subseteq\mathbb{R}^d$.
+* Intervalo temporal: $\mathcal{T}:=[0,1]$.
+
+$$
+\begin{aligned}
+&T\;\sim\;\mathcal{U}(0,1), 
+&&Z\;\sim\;\mathcal{P}_{\mathrm{data}}\,,\\[4pt]
+&X\;\big|\;(T=t,\;Z=z)\;\sim\;p_t(\cdot\mid z),
+&&X\;\big|\;T=t\;\sim\;p_t \;=\int_{\mathsf{Z}}\!p_t(\cdot\mid z)\;\mathcal{P}_{\mathrm{data}}(\mathrm{d}z).
+\end{aligned}
+$$
+
+---
+
+## 2. Perdas marginal e condicional
+
+$$
+\boxed{
+\mathcal{L}_{\mathrm{FM}}(\theta)
+:=\underset{
+  \begin{array}{c}
+    T\sim\mathcal{U}(0,1)\\[2pt]
+    X\sim p_T
+  \end{array}
+}{\mathbb{E}}
+  \Bigl\lVert
+    \mathbf{u}^{\theta}_{T}(\mathbf{X})
+    -\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})
+  \Bigr\rVert_2^{2}
+}\qquad\qquad
+\boxed{
+\mathcal{L}_{\mathrm{CFM}}(\theta)
+:=\underset{
+  \begin{array}{c}
+    T\sim\mathcal{U}(0,1)\\
+    Z\sim\mathcal{P}_{\mathrm{data}}\\
+    X\sim p_T(\cdot\mid Z)
+  \end{array}
+}{\mathbb{E}}
+  \Bigl\lVert
+    \mathbf{u}^{\theta}_{T}(\mathbf{X})
+    -\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)
+  \Bigr\rVert_2^{2}
+}
+$$
+
+---
+
+## 3. Passo a passo da prova
+
+### Passo A – Expandir o quadrado
+
+$$
+\mathcal{L}_{\mathrm{FM}}(\theta)=
+\underset{\substack{T,X}}{\mathbb{E}}
+\Bigl[\,
+\underbrace{\lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})\rVert^2}_{\text{(i)}}\!
+-\;
+\color{blue}{2\,\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+             \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})}\;
++\;
+\lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})\rVert^2
+\Bigr]
+\tag{A}
+$$
+
+### Passo B – Isolar o termo constante
+
+(somente $\mathbf{u}^{\mathrm{target}}$; marcado **verde** porque foi alterado deste passo para o anterior)
+
+$$
+\mathcal{L}_{\mathrm{FM}}(\theta)=
+\underset{\substack{T,X}}{\mathbb{E}}
+\bigl[\lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})\rVert^2\bigr]
+-\;
+\color{green}{2\,\underset{\substack{T,X}}{\mathbb{E}}
+  \bigl[\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+        \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})\bigr]}
++\;
+\cancelto{C_1}{\underset{\substack{T,X}}{\mathbb{E}}
+   \lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})\rVert^2}
+\tag{B}
+$$
+
+> $C_1$ é **constante em $\theta$**. (cf. notas, linha (iii) do Teorema 18)&#x20;
+
+### Passo C – Reescrever o **termo cruzado** via truque da marginalização
+
+(substitui-se $\mathbf{u}^{\mathrm{target}}_{T}$ pela média condicional; o que muda agora está **azul**)
+
+$$
+\begin{aligned}
+&\underset{\substack{T,X}}{\mathbb{E}}
+  \bigl[\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+        \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})\bigr]
+\\[4pt]
+&\quad=\;
+\int_{\mathcal{T}}\!\int_{\mathsf{X}}
+  \mathbf{u}^{\theta}_{t}(\mathbf{x})^{\!\top}
+  \Bigl[
+    \int_{\mathsf{Z}}
+      \mathbf{u}^{\mathrm{target}}_{t}(\mathbf{x}\mid z)
+      \frac{p_t(\mathbf{x}\mid z)\,\mathcal{P}_{\mathrm{data}}(\mathrm{d}z)}
+           {p_t(\mathbf{x})}
+  \Bigr]\,
+  p_t(\mathbf{x})\,
+  \mathrm{d}\mathbf{x}\,\mathrm{d}t
+\\[4pt]
+&\quad=\;
+\underset{
+  \begin{array}{c}
+    T\sim\mathcal{U}(0,1)\\
+    Z\sim\mathcal{P}_{\mathrm{data}}\\
+    X\sim p_T(\cdot\mid Z)
+  \end{array}
+}{\mathbb{E}}
+  \bigl[\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+        \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\bigr]
+\end{aligned}
+\tag{C}
+$$
+
+*(ver linhas (ii)–(iv) da prova nas notas) *
+
+### Passo D – Substituir (C) em (B)
+
+(o termo azul de (B) vira verde aqui)
+
+$$
+\mathcal{L}_{\mathrm{FM}}(\theta)=
+\underset{\substack{T,Z,X}}{\mathbb{E}}\!
+  \bigl[
+    \lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})\rVert^2
+    -\;
+    \color{green}{2\,\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+                  \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)}
+  \bigr]
++\;C_1
+\tag{D}
+$$
+
+### Passo E – Completar o quadrado e identificar a perda condicional
+
+(o termo que será eliminado no próximo passo está **azul**)
+
+$$
+\begin{aligned}
+\mathcal{L}_{\mathrm{FM}}(\theta)
+&=\underset{\substack{T,Z,X}}{\mathbb{E}}
+   \Bigl[
+     \lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})
+          -\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2
+     \;\color{blue}{-\lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2}
+   \Bigr]
+\;+\;C_1 \\[6pt]
+&=\underbrace{\mathcal{L}_{\mathrm{CFM}}(\theta)}_{\text{def. acima}}
+   \;+\;
+   \cancelto{C_2}{
+     -\underset{\substack{T,Z,X}}{\mathbb{E}}
+      \lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2}
+   \;+\;C_1
+\end{aligned}
+\tag{E}
+$$
+
+### Passo F – Conclusão
+
+$$
+\boxed{
+\mathcal{L}_{\mathrm{FM}}(\theta)=
+\mathcal{L}_{\mathrm{CFM}}(\theta)
++\underbrace{(C_1+C_2)}_{=:C}
+}
+\qquad\Longrightarrow\qquad
+\nabla_{\theta}\mathcal{L}_{\mathrm{FM}}
+=
+\nabla_{\theta}\mathcal{L}_{\mathrm{CFM}}
+$$
+
+que é exatamente o enunciado do **Teorema 18** .
+
+---
+
+## 4. Comentários finais
+
+* Os termos $C_1$ e $C_2$ dependem apenas de $\mathbf{u}^{\mathrm{target}}$, logo **são constantes** em relação a $\theta$; minimizando $\mathcal{L}_{\mathrm{CFM}}$ já minimizamos $\mathcal{L}_{\mathrm{FM}}$.
+* O “peso” de Bayes
+  $\displaystyle w_t(z\mid x)=\frac{p_t(x\mid z)\,\mathcal{P}_{\mathrm{data}}(z)}{p_t(x)}$
+  reaparece naturalmente no passo C como consequência do **truque da marginalização**.
+* A distinção de fontes ($\mathcal{·}$, $\mathbf{·}$, $\mathrm{·}$) ajuda a lembrar:
+  $\mathcal{·}$ → distribuições/conjuntos; $\mathbf{·}$ → vetores/campos; $\mathrm{·}$ → funções, constantes ou operadores.
+
+Com isso, fica claro — passo a passo e com toda a notação explícita — por que a perda marginal difere da condicional apenas por uma constante.
+
+
 ### Onde surge o peso $w_t(z\mid x)=\dfrac{p_t(x\mid z)\,p_{\text{data}}(z)}{p_t(x)}$ ?
 
 1. **Queremos a média condicional do campo**
