@@ -70,7 +70,7 @@ $$
 \Bigl[\,
 \underbrace{\lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})\rVert^2}_{\text{(i)}}\!
 -\;
-\color{blue}{2\,\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
+\color{cyan}{2\,\mathbf{u}^{\theta}_{T}(\mathbf{X})^{\!\top}
              \mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})}\;
 +\;
 \lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X})\rVert^2
@@ -164,7 +164,7 @@ $$
    \Bigl[
      \lVert\mathbf{u}^{\theta}_{T}(\mathbf{X})
           -\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2
-     \;\color{blue}{-\lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2}
+     \;\color{cyan}{-\lVert\mathbf{u}^{\mathrm{target}}_{T}(\mathbf{X}\mid Z)\rVert^2}
    \Bigr]
 \;+\;C_1 \\[6pt]
 &=\underbrace{\mathcal{L}_{\mathrm{CFM}}(\theta)}_{\text{def. acima}}
