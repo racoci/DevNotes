@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "titles"
   ],
-  "accentColor": "#4e7adf"
+  "accentColor": "#4e7adf",
+  "baseFontSize": 18
 }
