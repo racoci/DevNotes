@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Architecture/Training Continuum Transformer.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Training Continuum Transformer"
+              "title": "3 Conectando serviços utilizando o serviço de mensageria da AWS"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "integrando serviços com mensageria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 400.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -172,8 +172,10 @@
   },
   "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "AI/Architecture/Continuum Transformer.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3.1 Integrando serviços com mensageria.md",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "AI/Architecture/Training Continuum Transformer.md",
+    "AI/Architecture/Continuum Transformer.md",
     "AI/Architecture/Hyper-net.md",
     "AI/Architecture/Fréchet.md",
     "AI/Architecture/Conntinuous Attention for Transformers 2406.06486v1.pdf",
@@ -206,9 +208,7 @@
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Rede de Arousal.md",
     "AI/Simmulations/Taxonomia 120/120 Traits under Big 5.md",
     "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
-    "AI/Simmulations/Enneagrama.md",
     "AI/Simmulations/Taxonomia 120/Ciclo",
-    "AI/Simmulations/Taxonomia 120/Necessidades/Simulação.md",
     "AI/Simmulations/Taxonomia 120/Necessidades",
     "AI/Simmulations/Taxonomia 120/OCC-Extension",
     "AI/Simmulations/Taxonomia 120/Meta-esquema",
