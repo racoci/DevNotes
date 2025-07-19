@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.04.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.04"
+              "title": "Untitled"
             }
           }
         ]
@@ -172,8 +172,13 @@
   },
   "active": "0eb2f39b2888ae54",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.08 Mais sobre batches.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/Untitled.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.07 SQS como trigger da função.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.06 Criando um producer de fila.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.05 Filas FIFO vs Standard.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.04 Criando uma fila SQS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.03 Diferenças entre SQS e RabbitMQ.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.04.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.02 Comunicando serviços.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.01 Projeto da aula anterior.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
@@ -196,14 +201,9 @@
     "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
     "AI/Simmulations/Taxonomia 120/Interações/Comparações.md",
     "AI/Simmulations/Taxonomia 120/Interações/Interações.md",
-    "AI/Simmulations/Comparação Crítica - MBTI, Socionics, Eneagrama e Big Five na Predição Comportamental.md",
-    "AI/Simmulations/Modelo Integrativo de Personalidade e Predição de Comportamento Humano.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Modelagem de Emoções em Simulação Social.md",
     "AI/Simmulations/Bayesian Networks",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Multi-agent Simmulation.pdf",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Multi-agent Simmulation.pdf.crdownload",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/DETT + PMFServ.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/OCCx + Big5x.md",
     "AI/Simmulations/Taxonomia 120/OCC",
     "Pasted image 20250621210119.png",
     "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
