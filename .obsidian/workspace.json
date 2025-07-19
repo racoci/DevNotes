@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Conectando serviços utilizando o serviço de mensageria da AWS"
+              "title": "1.19 Presigned URL no Front-end ou Back-end"
             }
           }
         ]
@@ -170,8 +170,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "0eb2f39b2888ae54",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.20 Desligando a infra.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.21 O que aprendemos.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3.1 Integrando serviços com mensageria.md",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "AI/Architecture/Training Continuum Transformer.md",
@@ -205,9 +208,6 @@
     "AI/Simmulations/Taxonomia 120/OCC-Extension/The circumplex model of affect.md",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png",
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Models.md",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Rede de Arousal.md",
-    "AI/Simmulations/Taxonomia 120/120 Traits under Big 5.md",
-    "AI/Simmulations/Taxonomia 120/Ciclo/Ciclo de Processamento da Experiência Humana.md",
     "AI/Simmulations/Taxonomia 120/Ciclo",
     "AI/Simmulations/Taxonomia 120/Necessidades",
     "AI/Simmulations/Taxonomia 120/OCC-Extension",
