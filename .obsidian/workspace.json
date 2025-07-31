@@ -11,10 +11,12 @@
             "id": "d831c7c57115c50e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sheaf theory - from deep geometry to deep learning 2502.15476v1"
             }
           }
         ]
@@ -168,6 +170,12 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "AI/Architecture/SmartStudyBuddy.md",
+    "AI/Architecture/Training Continuum Transformer.md",
+    "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf",
+    "AI/Architecture/Hierarchical Reasoning Model 2506.21734v2.pdf",
+    "AI/Architecture/Fréchet.md",
+    "AI/Architecture/A Guide to Large Language Model Abstractions.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.05 Adicionando a Dead Letter Queue.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.04 Monitoramento e logs.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.03 Deploy dos serviços.md",
@@ -190,10 +198,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.01 Projeto da aula anterior.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.20 Desligando a infra.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.21 O que aprendemos.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3.1 Integrando serviços com mensageria.md",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "AI/Architecture/Conntinuous Attention for Transformers 2406.06486v1.pdf",
     "AI/Flow Matching",
     "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
@@ -206,8 +210,6 @@
     "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png",
     "AI/Simmulations/Taxonomia 120/Ciclo",
     "AI/Simmulations/Taxonomia 120/Necessidades",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension",
-    "AI/Simmulations/Taxonomia 120/Meta-esquema",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
     "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
