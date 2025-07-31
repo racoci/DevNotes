@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e90cebb1ac33f0bd",
+        "id": "526f5b90838e7528",
         "type": "tabs",
         "children": [
           {
-            "id": "0eb2f39b2888ae54",
+            "id": "d831c7c57115c50e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.05 Adicionando a Dead Letter Queue.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3.05 Adicionando a Dead Letter Queue"
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +166,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "0eb2f39b2888ae54",
+  "active": "d831c7c57115c50e",
   "lastOpenFiles": [
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.04 Monitoramento e logs.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.05 Adicionando a Dead Letter Queue.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.04 Monitoramento e logs.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.03 Deploy dos serviços.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.02 Consumindo mensagens.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.01  Projeto da aula anterior.md",
