@@ -11,12 +11,14 @@
             "id": "d831c7c57115c50e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf"
+                "file": "Philosophy/Thomism/Escola Tomista.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Sheaf theory - from deep geometry to deep learning 2502.15476v1"
+              "icon": "lucide-file",
+              "title": "Escola Tomista"
             }
           }
         ]
@@ -170,6 +172,10 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf",
+    "Philosophy/Thomism/Escola Tomista.md",
+    "Philosophy/Thomism",
+    "Philosophy",
     "AI/Architecture/Multi-column Deep Neural Networks for Image - 1202.2745v1.pdf",
     "AI/Architecture/Não confirmado 716775.crdownload",
     "AI/Architecture/Multi-column Deep Neural Networks for Image Classification - 1202.2745v1.pdf",
@@ -178,11 +184,8 @@
     "AI/Architecture/Não confirmado 373182.crdownload",
     "AI/Architecture/CoLaNET - A Spiking Neural Network - 2409.01230v6.pdf",
     "AI/Architecture/Não confirmado 364302.crdownload",
-    "AI/Architecture/Continual Learning with Columnar Spiking Neural - 2506.17169v1.pdf",
-    "AI/Architecture/Não confirmado 508642.crdownload",
     "AI/Architecture/SmartStudyBuddy.md",
     "AI/Architecture/Training Continuum Transformer.md",
-    "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf",
     "AI/Architecture/Fréchet.md",
     "AI/Architecture/A Guide to Large Language Model Abstractions.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.05 Adicionando a Dead Letter Queue.md",
@@ -205,7 +208,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.03 Diferenças entre SQS e RabbitMQ.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.02 Comunicando serviços.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/2 Mensagens com SQS/2.01 Projeto da aula anterior.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/1 Retomando o projeto de cadastro/1.19 Presigned URL no Front-end ou Back-end.md",
     "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
     "Pasted image 20250621210119.png",
     "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
