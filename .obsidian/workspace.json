@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Thomism/Escola Tomista.md",
+                "file": "Infra/IaC/Jenkins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Escola Tomista"
+              "title": "Jenkins"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 203.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -172,6 +172,8 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Philosophy/Thomism/Escola Tomista.md",
+    "Infra/IaC/Jenkins.md",
     "Finance/Marcos Lopez de Prado - Advances in Financial Machine Learning-Wiley (2018).pdf",
     "Finance/Não confirmado 309461.crdownload",
     "Finance",
@@ -179,11 +181,9 @@
     "AI/Architecture/Test-Time Training Done Right - 2505.23884v1.pdf",
     "AI/Architecture/Não confirmado 905610.crdownload",
     "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf",
-    "Philosophy/Thomism/Escola Tomista.md",
     "Philosophy/Thomism",
     "Philosophy",
     "AI/Architecture/Multi-column Deep Neural Networks for Image - 1202.2745v1.pdf",
-    "AI/Architecture/Não confirmado 716775.crdownload",
     "AI/Architecture/SmartStudyBuddy.md",
     "AI/Architecture/Training Continuum Transformer.md",
     "AI/Architecture/Fréchet.md",
