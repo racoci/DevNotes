@@ -1,0 +1,1 @@
+Você pode [baixar o projeto final em ZIP](https://github.com/alura-cursos/3104-serverless-sqs/archive/refs/heads/aula-4.zip) ou acessar o [repositório da aula 4 no GitHub](https://github.com/alura-cursos/3104-serverless-sqs/tree/aula-4)!
