@@ -22,7 +22,16 @@ O bloco **Appraisal OCC** calcula se um evento é congruente com metas, padrões
 
 ```plantuml
 @startuml
-left to right direction
+' Dark theme
+skinparam backgroundColor #2B2B2B
+skinparam defaultFontColor #FFFFFF
+skinparam componentFontColor #FFFFFF
+skinparam noteBackgroundColor #3C3F41
+skinparam noteBorderColor #BBBBBB
+
+' Fluxo vertical
+top to bottom direction
+
 actor "Meio Ambiente" as Env
 
 package "Percepção (Registro Imaginário)" {
@@ -46,7 +55,7 @@ package "Consciência (Espaço de Trabalho Global)" {
   [Consciência] ..> [Cadeia Significante] : interpretação
 }
 
-cloud "Registro Real (traços não-simbolizados)" as Real
+cloud "Registro Real\n(traços não-simbolizados)" as Real
 Real ..> [Cadeia Significante] : irrompe / retorno do recalcado
 
 @enduml
