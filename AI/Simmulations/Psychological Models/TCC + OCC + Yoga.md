@@ -230,3 +230,188 @@ end note
 @enduml
 ```
 
+```
+@startuml
+skinparam backgroundColor #2B2B2B
+skinparam defaultFontColor #FFFFFF
+skinparam packageTitleFontColor #FFFFFF
+skinparam noteBackgroundColor #3C3F41
+skinparam noteBorderColor #BBBBBB
+skinparam componentFontColor #FFFFFF
+skinparam arrowColor #AAAAAA
+
+title Integração Freud + Lacan + OCC + TCC + Personalidade (OCC Expandido)
+
+' ==================== Entrada Sensorial ====================
+package "Percepção" {
+    [Entrada de Estímulos] as Estimulos
+    [Processamento Perceptivo] as Percepcao
+}
+Estimulos --> Percepcao
+
+' ==================== Camada Lacaniana ====================
+package "Registros Lacanianos" {
+    [Real] as Real
+    [Simbólico] as Simbolico
+    [Imaginário] as Imaginario
+    [Outro (A)] as Outro
+}
+Percepcao --> Imaginario : formação de imagens
+Imaginario --> Simbolico : tradução em linguagem
+Simbólico --> Percepcao : moldura interpretativa
+Outro --> Simbolico : normas e leis culturais
+Real -[#FF6666,dashed]-> Simbolico : trauma/furo
+Real -[#FF6666,dashed]-> Imaginario : angústia
+
+' ==================== Camada Freudiana ====================
+package "Sistema Freudiano" {
+    [Id] as Id
+    [Ego] as Ego
+    [Superego] as Superego
+    [Mecanismos de Defesa] as Defesas
+}
+Id -[#FF6666]-> Ego : impulsos
+Superego -[#66FF66]-> Ego : exigências morais
+Ego -[#66CCFF]-> Defesas
+Defesas -[#AAAAAA]-> Ego : modulação de respostas
+
+' ==================== Crenças e Pensamentos ====================
+package "Crenças e Pensamentos (TCC)" {
+    component "Crenças Centrais e Intermediárias" as Crenças
+    component "Pensamentos Automáticos" as PensAutom
+}
+Percepcao --> PensAutom
+Crenças --> PensAutom
+
+' ==================== OCC Detalhado ====================
+package "Avaliação Emocional (OCC)" {
+    [Appraisal 1:\nDesejabilidade] as Desej
+    [Appraisal 2:\nAgência] as Agencia
+    [Appraisal 3:\nNormas] as Normas
+    [Appraisal 4:\nAtratividade] as Atratividade
+
+    package "Mapeamento Emocional" {
+        
+        ' Eventos
+        [Desejável Futuro] as EsperadoBom
+        [Indesejável Futuro] as EsperadoRuim
+        [Desejável Ocorreu] as OcorreuBom
+        [Indesejável Ocorreu] as OcorreuRuim
+        [Desejável Não Ocorreu] as FalhouBom
+        [Indesejável Não Ocorreu] as FalhouRuim
+        
+        ' Ações de agentes
+        [Ação Própria Louvável] as AcaoBoaSelf
+        [Ação Própria Condenável] as AcaoRuimSelf
+        [Ação Alheia Louvável] as AcaoBoaOutro
+        [Ação Alheia Condenável] as AcaoRuimOutro
+        
+        ' Objetos
+        [Objeto Atraente] as ObjPos
+        [Objeto Repulsivo] as ObjNeg
+
+        ' Emoções finais
+        package "Emoções" {
+            [Esperança]
+            [Medo]
+            [Alegria]
+            [Satisfação]
+            [Tristeza]
+            [Frustração]
+            [Alívio]
+            [Decepção]
+            [Orgulho]
+            [Vergonha]
+            [Culpa]
+            [Admiração]
+            [Reprovação]
+            [Gratidão]
+            [Raiva]
+            [Gosto]
+            [Desgosto]
+            [Alívio + Gratidão]
+            [Raiva + Desgosto]
+            [Confiança]
+            [Ansiedade]
+        }
+    }
+}
+
+' Ligações Pensamentos → Appraisals
+PensAutom --> Desej
+PensAutom --> Agencia
+PensAutom --> Normas
+PensAutom --> Atratividade
+
+' Ligações Appraisals → Situações
+Desej --> EsperadoBom
+Desej --> EsperadoRuim
+Desej --> OcorreuBom
+Desej --> OcorreuRuim
+Desej --> FalhouBom
+Desej --> FalhouRuim
+
+Agencia --> AcaoBoaSelf
+Agencia --> AcaoRuimSelf
+Agencia --> AcaoBoaOutro
+Agencia --> AcaoRuimOutro
+
+Atratividade --> ObjPos
+Atratividade --> ObjNeg
+
+' Ligações Situações → Emoções
+EsperadoBom --> Esperança
+EsperadoRuim --> Medo
+OcorreuBom --> Alegria
+OcorreuBom --> Satisfação
+OcorreuRuim --> Tristeza
+OcorreuRuim --> Frustração
+FalhouRuim --> Alívio
+FalhouBom --> Decepção
+AcaoBoaSelf --> Orgulho
+AcaoRuimSelf --> Vergonha
+AcaoRuimSelf --> Culpa
+AcaoBoaOutro --> Admiração
+AcaoRuimOutro --> Reprovação
+AcaoBoaOutro --> Gratidão
+AcaoRuimOutro --> Raiva
+ObjPos --> Gosto
+ObjNeg --> Desgosto
+
+Alívio --> [Alívio + Gratidão]
+Gratidão --> [Alívio + Gratidão]
+Raiva --> [Raiva + Desgosto]
+Desgosto --> [Raiva + Desgosto]
+AcaoBoaSelf --> Confiança
+AcaoRuimSelf --> Ansiedade
+
+' ==================== Influências Cruzadas ====================
+Id -[#FF8800,dashed]-> Atratividade : impulsos primitivos
+Superego -[#FF8800,dashed]-> Normas : moral internalizada
+Ego -[#FF8800,dashed]-> Agencia : avaliação realista
+Simbólico -[#00AAFF,dashed]-> Normas : rede de significantes
+Imaginario -[#00AAFF,dashed]-> Atratividade : idealizações
+Real -[#00AAFF,dashed]-> Desej : eventos traumáticos
+Crenças -[#00FFAA,dashed]-> Superego
+Crenças -[#00FFAA,dashed]-> Simbolico
+
+' ==================== Perfil de Personalidade ====================
+package "Perfil de Personalidade" {
+    [Big Five] as BigFive
+    [Taxonomia 120 Traços] as T120
+}
+BigFive -[#AAAAFF,dashed]-> Esperança : modulação geral
+BigFive -[#AAAAFF,dashed]-> Medo
+T120 -[#AAAAFF,dashed]-> Alegria : padrões específicos
+T120 -[#AAAAFF,dashed]-> Raiva
+
+' ==================== Saída e Feedback ====================
+package "Ação e Feedback" {
+    component "Geração de Resposta Comportamental" as Comport
+    component "Testes de Realidade & Reestruturação" as RealTest
+}
+Emoções --> Comport
+Comport --> RealTest
+RealTest --> Crenças
+@enduml
+```
