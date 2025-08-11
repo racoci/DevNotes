@@ -415,3 +415,208 @@ Comport --> RealTest
 RealTest --> Crenças
 @enduml
 ```
+
+```
+@startuml
+title Mapa: Emoções ↔ Big Five ↔ T120
+
+skinparam packageStyle rectangle
+skinparam defaultFontName Inter
+skinparam linetype ortho
+
+'------------------------
+' NÓS DE EMOÇÕES
+'------------------------
+package "Emoções (núcleo)" as EMO {
+  node Medo
+  node Tristeza
+  node Nojo
+  node Raiva
+  node Alegria
+  node Desprezo
+  node Culpa
+  node Vergonha
+  node Gratidão
+  node Admiração
+}
+
+'------------------------
+' BIG FIVE + FACETAS
+'------------------------
+package "Big Five" as BF {
+  package "Neuroticismo" as N {
+    node Ansiedade
+    node Raiva_N
+    node Melancolia
+    node Autoconsciencia
+    node Impulsividade
+    node Vulnerabilidade
+  }
+  package "Extroversão" as E {
+    node Sociabilidade
+    node Assertividade
+    node Atividade
+    node BuscaSensacoes
+    node EmocoesPositivas
+  }
+  package "Abertura" as O {
+    node Fantasia
+    node Estetica
+    node Emotividade
+    node Aventura
+    node Intelecto
+    node Liberalismo
+  }
+  package "Afabilidade" as A {
+    node Amizade
+    node Cooperacao
+    node Modestia
+    node Empatia_BF
+    node Moralidade
+    node Altruismo
+    node Confianca
+  }
+  package "Conscienciosidade" as C {
+    node Autoeficacia
+    node Ordem
+    node Dever
+    node Realizacao
+    node Autodisciplina
+    node Cautela
+  }
+}
+
+'------------------------
+' T120 (amostra focada)
+'------------------------
+package "T120 (amostra relevante)" as T120 {
+  package "Empatia & Cuidado" {
+    node Kindness
+    node Compassion
+    node Generosity
+  }
+  package "Hostilidade" {
+    node Aggression
+    node Bellicosity
+    node Vindictiveness
+    node Hostility
+    node Deceptiveness
+    node Narcissism
+  }
+  package "Autocontrole" {
+    node Temperance
+    node Patience
+    node Discipline
+  }
+  package "Coragem & Direção" {
+    node Courage
+    node Purposefulness
+    node Integrity
+    node Honor
+  }
+  package "Status & Diplomacia" {
+    node Humility_T
+    node Courtesy
+    node Consideration
+    node Competitiveness
+  }
+  package "Ordem & Pureza" {
+    node Fastidiousness
+    node Cleanliness
+    node Decency_T
+    node Traditionalism
+  }
+  package "Abertura estética" {
+    node Wonderment
+    node Artistry
+    node Imagination_T
+  }
+}
+
+'------------------------
+' LIGAÇÕES: BIG FIVE -> EMOÇÕES
+' (setas sólidas = associação direta; rótulos ↑/↓ = tendência de aumentar/reduzir)
+'------------------------
+Ansiedade --> Medo : ↑
+Raiva_N --> Raiva : ↑
+Melancolia --> Tristeza : ↑
+Autoconsciencia --> Vergonha : ↑
+Impulsividade --> Raiva : ↑
+
+EmocoesPositivas --> Alegria : ↑
+Sociabilidade --> Alegria : ↑
+BuscaSensacoes --> Alegria : ↑\n(volátil)
+
+Empatia_BF --> Gratidão : ↑
+Altruismo --> Gratidão : ↑
+Modestia --> Vergonha : leve ↑\n(autoavaliação)
+Moralidade --> Culpa : ↑\n(sensibilidade a transgressão)
+
+Dever --> Culpa : ↑\n(violação de regra)
+Autodisciplina --> Raiva : ↓
+Cautela --> Raiva : ↓
+Ordem --> Nojo : ↑\n(sensibilidade a contaminação)
+Autoeficacia --> Tristeza : ↓
+
+Estetica --> Admiração : ↑
+Fantasia --> Admiração : ↑
+Emotividade --> Alegria : ↑\n(amplitude afetiva)
+Emotividade --> Tristeza : ↑\n(amplitude afetiva)
+
+'------------------------
+' LIGAÇÕES: T120 -> EMOÇÕES
+'------------------------
+Aggression --> Raiva : ↑
+Bellicosity --> Raiva : ↑
+Vindictiveness --> Raiva : ↑
+Vindictiveness --> Desprezo : ↑
+Hostility --> Desprezo : ↑
+Deceptiveness --> Culpa : ↓\n(propensão a menor culpa)
+Narcissism --> Desprezo : ↑
+Narcissism --> Vergonha : ↓
+
+Temperance --> Raiva : ↓
+Patience --> Raiva : ↓\n(regulação)
+Patience --> Medo : ↓\n(regulação)
+Discipline --> Culpa : ↓\n(prevenção de falhas)
+
+Courage --> Medo : ↓
+Integrity --> Culpa : ↑\n(sensibilidade ética)
+Honor --> Culpa : ↑\n(padrão de honra)
+Honor --> Vergonha : ↑\n(padrão de honra)
+Purposefulness --> Tristeza : ↓\n(sentido protege)
+
+Humility_T --> Desprezo : ↓\n(modesta)
+Humility_T --> Vergonha : ↑\n(modesta)
+Courtesy --> Desprezo : ↓
+Consideration --> Gratidão : ↑\n(nos outros)
+Competitiveness --> Desprezo : ↑\n(em disputa)
+Competitiveness --> Raiva : ↑\n(em disputa)
+
+Fastidiousness --> Nojo : ↑
+Cleanliness --> Nojo : ↑
+Decency_T --> Culpa : ↑\n(normas)
+Decency_T --> Nojo : ↑\n(normas)
+Traditionalism --> Culpa : ↑\n(transgressão)
+
+Wonderment --> Admiração : ↑
+Artistry --> Admiração : ↑
+Imagination_T --> Admiração : ↑
+
+'------------------------
+' LIGAÇÕES: PONTES ENTRE BIG FIVE E T120 (algumas âncoras)
+'------------------------
+Empatia_BF .. Kindness
+Empatia_BF .. Compassion
+Modestia .. Humility_T
+Moralidade .. Integrity
+Dever .. Honor
+Autodisciplina .. Discipline
+Cautela .. Temperance
+Estetica .. Artistry
+Fantasia .. Imagination_T
+BuscaSensacoes .. Competitiveness : às vezes co-ocorre
+Ordem .. Cleanliness
+@enduml
+
+```
