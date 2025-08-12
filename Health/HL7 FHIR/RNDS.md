@@ -30,20 +30,15 @@ O acesso ao ambiente de homologação não é público e requer uma solicitaçã
 **Passo 2.2: Preencher o Formulário de Solicitação** Procure pelo "Formulário de Solicitação de Acesso ao Barramento de Serviços da RNDS". Este formulário solicitará informações como:
 
 - Dados da instituição (Razão Social, CNPJ).
-    
 - Dados do responsável técnico (Nome, CPF, e-mail, telefone).
-    
 - Descrição do sistema que será integrado.
-    
 - Finalidade da integração (ex: "Integração de Prontuário Eletrônico do Paciente para o projeto e-Saúde Mental").
-    
-- Declaração de conformidade com a Lei Geral de Proteção de Dados (LGPD).
+  - Declaração de conformidade com a Lei Geral de Proteção de Dados (LGPD).
     
 
 **Passo 2.3: Aguardar Análise e Recebimento das Credenciais** Após o envio, a equipe do DataSUS analisará a solicitação. Se aprovada, sua organização receberá por e-mail as credenciais de acesso exclusivas para o ambiente de homologação. Estas credenciais geralmente incluem:
 
 - `client_id`
-    
 - `client_secret`
     
 
