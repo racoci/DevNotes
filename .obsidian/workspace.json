@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "526f5b90838e7528",
+        "id": "e353b769dfaf6311",
         "type": "tabs",
         "children": [
           {
-            "id": "d831c7c57115c50e",
+            "id": "c71cb84a48af6abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCC + OCC + Yoga"
+              "title": "1.3 Como instalar o Node.js no Windows, Linux e macOS"
+            }
+          },
+          {
+            "id": "48eef2bf20daeaf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Health/HL7 FHIR/HL7 FHIR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HL7 FHIR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "module.exports.funcaoLambda = (event, context)",
+                "query": "tag:#AluraMais",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 264.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -160,25 +175,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false,
       "iconic:Open rulebook": false
     }
   },
-  "active": "d831c7c57115c50e",
+  "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
-    "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
-    "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
-    "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
-    "AI/Reinforcement Learning/Reinforcement Learning.md",
-    "AI/Simmulations/Psychological Models/Lacan",
-    "Pasted image 20250621210119.png",
-    "AI/Simmulations/Psychological Models",
+    "Philosophy/Thomism/Escola Tomista.md",
+    "Health/HL7 FHIR/HL7 FHIR.md",
+    "Health/HL7 FHIR",
+    "Health",
+    "Narrativas/O Ciclo da Pena.md",
+    "Infra/AWS/SageMaker/Amazon SageMaker Studio.md",
+    "Philosophy/Thomism",
+    "Philosophy",
+    "Infra/IaC/Jenkins.md",
+    "Finance/Marcos Lopez de Prado - Advances in Financial Machine Learning-Wiley (2018).pdf",
+    "Finance",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.16 Conclusão.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md",
@@ -195,28 +214,24 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.03 Adicionando fila de e-mail.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.02 Erros e decisões.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.17 O que aprendemos.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.16 Desligando a infra.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.15 Troubleshooting da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.14 Links da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.13  Fluxo de cadastro e a classe FetchError.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.12 Analisando logs de erros.md",
-    "Finance/Marcos Lopez de Prado - Advances in Financial Machine Learning-Wiley (2018).pdf",
-    "Finance/Não confirmado 309461.crdownload",
-    "Finance",
-    "Nova pasta",
-    "AI/Architecture/Test-Time Training Done Right - 2505.23884v1.pdf",
-    "AI/Architecture/Não confirmado 905610.crdownload",
-    "AI/Architecture/Sheaf theory - from deep geometry to deep learning 2502.15476v1.pdf",
-    "Philosophy/Thomism",
-    "AI/Simmulations/Taxonomia 120/Combinatória/Schema of the EMA architecture taken from Gratch & Marsell.png",
-    "AI/Simmulations/Taxonomia 120/Combinatória/Pasted image 20250621202357.png",
-    "AI/Simmulations/Taxonomia 120/OCC-Extension/Pasted image 20250621202938.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.3 Divisão de Tarefas.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.3 Organização/1.3.2.1 Organização.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Sociedade ocidental.png",
-    "SoftSkills/Introdução à Administração/1 – Administração e Organizações/1.1 Processos Produtivos/Tribos Indígenas.png",
-    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.2.1 Recursos Transformados.jpg",
-    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas",
+    "AI/Simmulations/Psychological Models/Lacan",
+    "AI/Simmulations/Psychological Models",
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.4.jpg",
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.3.jpg",
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.2.jpg",
+    "SoftSkills/Introdução à Administração/3 – Princípios Institucionais/3.2 Princípios Institucionais/3.2.8.1.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.4 Informações/2.4.1 Informações.png",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.6 Lucro.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.4 Estoque.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.3 Posse.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.2 Localização.jpg",
+    "SoftSkills/Introdução à Administração/2 – Recursos Internos e Processo de Agregação de Valor/2.3 Materiais e Capitais/2.3.3.1 Propriedades físicas.jpg"
   ]
 }
