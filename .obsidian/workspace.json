@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health/HL7 FHIR/Aplicação.md",
+                "file": "Health/HL7 FHIR/RNDS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aplicação"
+              "title": "RNDS"
             }
           }
         ],
@@ -187,8 +187,9 @@
   },
   "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
-    "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/Aplicação.md",
+    "Health/HL7 FHIR/RNDS.md",
+    "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
     "Philosophy/Thomism/Escola Tomista.md",
     "Health/HL7 FHIR",
@@ -219,7 +220,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.17 O que aprendemos.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.16 Desligando a infra.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.15 Troubleshooting da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas",
     "AI/Simmulations/Psychological Models/Lacan",
     "AI/Simmulations/Psychological Models",
