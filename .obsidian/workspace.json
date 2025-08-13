@@ -11,14 +11,12 @@
             "id": "d831c7c57115c50e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Health/Geral.md",
-                "mode": "source",
-                "source": false
+                "file": "Health/ER Modularizado.png"
               },
-              "icon": "lucide-file",
-              "title": "Geral"
+              "icon": "lucide-image",
+              "title": "ER Modularizado"
             }
           }
         ]
@@ -170,20 +168,20 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d831c7c57115c50e",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
+    "Health/Entidade-Relacionamento.md",
+    "Health/ER Modularizado.png",
     "Health/Fluxos.md",
     "Health/Geral.md",
     "Health/Interações Gerais.png",
-    "Testes unitários e de integração.md",
-    "Pasted image 20250621210119.png",
-    "Health/ER Modularizado.png",
-    "Health/Entidade-Relacionamento.md",
-    "Health/E-R Simplificado.png",
-    "Health/HL7 FHIR/RNDS.md",
     "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
     "Health/HL7 FHIR/Aplicação.md",
+    "Health/HL7 FHIR/RNDS.md",
+    "Health/E-R Simplificado.png",
+    "Testes unitários e de integração.md",
+    "Pasted image 20250621210119.png",
     "Health/HL7 FHIR",
     "Health",
     "AI/Simmulations/Psychological Models/Lacan/Sistema Psíquico Lacaniano - Registros RSI.png",

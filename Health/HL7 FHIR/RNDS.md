@@ -7,17 +7,12 @@ Este guia descreve o processo técnico e administrativo para que uma organizaç�
 Antes de iniciar o processo de solicitação, é fundamental garantir que sua organização e seu software atendam a certos requisitos básicos.
 
 - **Requisitos Organizacionais:**
-    
     - **CNPJ Válido:** A solicitação de acesso é institucional. É necessário ter um CNPJ válido, seja de uma empresa de software, uma instituição de saúde ou uma entidade governamental.
-        
     - **Responsável Técnico:** Designar um responsável técnico que será o ponto de contato com a equipe do DataSUS.
         
 - **Requisitos Técnicos do Software:**
-    
     - **Capacidade de Gerar Recursos HL7 FHIR:** Seu sistema deve ser capaz de criar, ler e manipular dados no padrão HL7 FHIR (versão R4), que é a "língua franca" da RNDS.
-        
     - **Cliente HTTP Seguro:** O software deve ser capaz de realizar chamadas de API RESTful seguras, utilizando o protocolo HTTPS com TLS 1.2 ou superior.
-        
     - **Certificado Digital:** A organização precisará de um certificado digital do tipo e-CNPJ (padrão ICP-Brasil) para assinar as requisições, garantindo a autenticidade e a não repudiação das transações.
         
 

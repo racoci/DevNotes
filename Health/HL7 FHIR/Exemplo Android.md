@@ -143,15 +143,11 @@ Um gestor de saúde municipal quer saber a prevalência de diagnósticos de ansi
 Neste caso, o gestor não interage diretamente com recursos FHIR individuais por questões de privacidade e performance. A arquitetura aqui é diferente:
 
 1. O dashboard faz uma chamada a uma **API de Analytics** específica, por exemplo: `GET /analytics/prevalence?diagnosis=F41.1&city=MinhaCidade`.
-    
 2. O **Backend** da plataforma recebe esta chamada.
-    
 3. O Backend executa uma consulta no **Data Lake Anonimizado**. Este Data Lake contém milhões de recursos `DiagnosticReport` e `Observation` sem nenhuma informação que possa identificar os pacientes.
-    
 4. A consulta agrega os dados (ex: `COUNT DiagnosticReport WHERE code='F41.1' AND patient.address.city='MinhaCidade'`).
-    
 5. O Backend **não retorna** uma lista de recursos FHIR. Em vez disso, ele retorna um objeto JSON simples com o resultado agregado, que é usado para popular os gráficos do dashboard.
-    
+
 
 **Exemplo da Resposta da API de Analytics (consumida pelo dashboard):**
 
