@@ -1,6 +1,6 @@
 
 
-
+![[ER Modularizado.png]]
 ```plantuml
 @startuml
 !theme vibrant

@@ -315,9 +315,10 @@ Gestor -> Gestor : **Formula Políticas Públicas Mais Eficazes** (baseadas em e
 
 #### 3.4 Vigilância Epidemiológica
 
+
 O fluxo final mostra como a agregação de dados anonimizados permite uma vigilância epidemiológica abrangente, identificando padrões e particularidades regionais na saúde mental.
 
-```
+```plantuml
 @startuml
 participant "Sistema e-Saúde Mental (Backend)" as Backend
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
