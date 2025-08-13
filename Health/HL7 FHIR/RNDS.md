@@ -112,7 +112,5 @@ curl -X POST 'https://fhir-hmg.rnds.saude.gov.br/v1/Patient' \
 Após conectar e enviar com sucesso o primeiro paciente, os próximos passos incluem:
 
 - **Testar outros Recursos:** Continue testando o envio de outros recursos FHIR relevantes para o seu sistema, como `Observation`, `QuestionnaireResponse` e `DiagnosticReport`, sempre utilizando os perfis especificados na documentação da RNDS.
-    
 - **Consultar a Documentação Oficial:** A documentação da RNDS é a fonte primária de verdade. Consulte-a frequentemente para entender os perfis de recursos (regras de preenchimento) e os guias de implementação (`Implementation Guides - IGs`).
-    
 - **Solicitar Acesso à Produção:** Uma vez que todos os testes no ambiente de homologação sejam concluídos com sucesso, sua organização poderá seguir um processo semelhante para solicitar o acesso ao ambiente de produção.
