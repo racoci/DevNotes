@@ -83,155 +83,6 @@ Incorporei ao canvas um **diagrama completo** que:
 
 ```plantuml
 @startuml
-' ==============================
-'  Sistema Híbrido – Versão 3
-'  CBT + OCC + Psicanálise
-'  + Antahkarana Hindu + Meditações
-'  Dark Theme
-' ==============================
-skinparam backgroundColor #2B2B2B
-skinparam defaultFontColor #FFFFFF
-skinparam componentFontColor #FFFFFF
-skinparam noteBackgroundColor #3C3F41
-skinparam noteBorderColor #BBBBBB
-skinparam packageBorderColor #888888
-skinparam packageBackgroundColor #2F2F2F
-skinparam ArrowColor #FFFFFF
-skinparam ArrowFontColor #FFFFFF
-skinparam stereotypeCBackgroundColor #2F2F2F
-
-' -------------------------------------------------
-'title Sistema Integrado: CBT • OCC • Psicanálise • Antahkarana • Meditação
-' -------------------------------------------------
-
-' === PERCEPÇÃO
-package "Percepção" {
-  [Entrada de Estímulos] as Estimulos
-  [Processamento Perceptivo] as Percepcao
-}
-
-' === ANTAHKARANA (Modelo Hindu da Mente)
-package "Camada Hindu\n(Antahkarana & Gunas)" {
-  component "Manas\n(Mente Sensorial)" as Manas
-  component "Buddhi\n(Intelecto Discriminativo)" as Buddhi
-  component "Ahamkara\n(Ego / Eu-fazedor)" as Ahamkara
-  component "Chitta + Samskaras\n(Memória Inconsciente)" as Chitta
-  component "Gunas\n(Sattva • Rajas • Tamas)" as Gunas
-  component "Atman / Sakshi\n(Observador)" as Atman
-}
-
-' === CBT (Beck)
-package "TCC Cognitiva" {
-  component "Pensamentos Automáticos" as PensAutom
-  component "Crenças Centrais &\nIntermediárias" as Crenças
-}
-
-' === OCC
-package "Avaliação Emocional" {
-  package "Sub‑módulo OCC" {
-    [Input:\nPensamentos Automáticos] as Input
-    node "Appraisals" {
-      component "Evento\n(desirability)" as Evento
-      component "Ação\n(praiseworthiness)" as Agente
-      component "Objeto\n(appealingness)" as Objeto
-    }
-    component "Cálculo OCC" as Calculo
-    component "Seleção Emoção\n(22 categorias)" as Selecao
-    component "Intensidade" as Intensidade
-    component "Emoção Computacional" as Emocao
-    ' fluxos internos
-    Input --> Evento
-    Input --> Agente
-    Input --> Objeto
-    Evento --> Calculo
-    Agente --> Calculo
-    Objeto --> Calculo
-    Calculo --> Selecao
-    Selecao --> Intensidade
-    Intensidade --> Emocao
-  }
-}
-
-' === AÇÃO & FEEDBACK
-package "Ação e Feedback" {
-  component "Resposta Comportamental" as Comport
-  component "Teste de Realidade /\nReestruturação" as RealTest
-}
-
-' === Inconsciente Ocidental
-package "Camadas Inconscientes Ocidentais" {
-  component "Id / Ego / Superego\n(Freud)" as FreudMod
-  component "Registros RSI\n(Lacan)" as LacanRSI
-  component "Arte‑terapia\n(Nise da Silveira)" as Arte
-}
-
-' === Intervenções Contemplativas
-package "Práticas de Meditação / Yoga" {
-  component "Raja Yoga" as Raja
-  component "Vipassana" as Vipassana
-  component "Bhakti Yoga" as Bhakti
-  component "Karma Yoga" as Karma
-  component "Jnana Yoga" as Jnana
-  component "Tantra / Kundalini" as Tantra
-}
-
-' ----------- FLUXO PRINCIPAL -------------
-Estimulos --> Percepcao
-Percepcao --> Manas : "Fluxo sensorial"
-Manas --> PensAutom : "Gatilhos cognitivos"
-PensAutom --> Input
-
-Emocao --> Comport : "Guia ação"
-Comport --> RealTest : "Experimento"
-RealTest --> Crenças : "Atualiza crenças"
-Crenças --> PensAutom : "Modula pensamentos"
-
-' ----------- CONEXÕES INTERNAS (Antahkarana) -------------
-Manas -[#white,dashed]-> Input : "Conteúdo bruto"
-Buddhi -[#white,dashed]-> Calculo : "Avaliação racional"
-Ahamkara -[#white,dashed]-> Evento : "Relevância ao Self"
-Chitta -[#white,dashed]-> Input : "Samskaras ativados"
-Gunas -[#white,dotted]-> Intensidade : "Modula magnitude"
-Atman -[#white,dotted]-> PensAutom : "Meta‑observação / pausa mindful"
-
-' ----------- MODULAÇÕES INCONSCIENTES OCIDENTAIS -------------
-FreudMod -[#FF8800,dashed]-> Calculo : "Defesas psíquicas"
-LacanRSI -[#FF8800,dashed]-> Evento : "Estrutura simbólica"
-Arte -[#FF8800,dashed]-> Percepcao : "Dados não‑verbais"
-
-' ----------- INTERVENÇÕES → Antahkarana -------------
-Raja -[#00AAFF,dashed]-> Manas : "Aquietar sentidos"
-Raja -[#00AAFF,dashed]-> Buddhi : "Fortalecer foco"
-Vipassana -[#00AAFF,dashed]-> Chitta : "Purificar samskaras"
-Bhakti -[#00AAFF,dashed]-> Ahamkara : "Ampliar empatia"
-Karma -[#00AAFF,dashed]-> Ahamkara : "Desapego do fruto"
-Jnana -[#00AAFF,dashed]-> Buddhi : "Investigação do Eu"
-Jnana -[#00AAFF,dashed]-> Ahamkara : "Dissolver ego"
-Tantra -[#00AAFF,dashed]-> Gunas : "Transmutar energia"
-Tantra -[#00AAFF,dashed]-> Chitta : "Liberação simbólica"
-
-' ----------- LEGENDAS ------------
-note right of Gunas
-  • Sattva ↑  = clareza / calma
-  • Rajas ↑   = agitação / paixão
-  • Tamas ↑   = inércia / letargia
-end note
-
-note bottom of Chitta
-  Samskaras = impressões latentes
-  (traumas, condicionamentos)
-end note
-
-note bottom of Atman
-  Observador constante; base da
-  prática mindfulness
-end note
-
-@enduml
-```
-
-```
-@startuml
 skinparam backgroundColor #2B2B2B
 skinparam defaultFontColor #FFFFFF
 skinparam packageTitleFontColor #FFFFFF
@@ -239,6 +90,16 @@ skinparam noteBackgroundColor #3C3F41
 skinparam noteBorderColor #BBBBBB
 skinparam componentFontColor #FFFFFF
 skinparam arrowColor #AAAAAA
+skinparam component {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
+skinparam node {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
 
 title Integração Freud + Lacan + OCC + TCC + Personalidade (OCC Expandido)
 
@@ -416,7 +277,363 @@ RealTest --> Crenças
 @enduml
 ```
 
+```plantuml
+@startuml
+' ==============================
+'  Sistema Híbrido – Versão 3
+'  CBT + OCC + Psicanálise
+'  + Antahkarana Hindu + Meditações
+'  Dark Theme
+' ==============================
+skinparam backgroundColor #2B2B2B
+skinparam defaultFontColor #FFFFFF
+skinparam componentFontColor #FFFFFF
+skinparam noteBackgroundColor #3C3F41
+skinparam noteBorderColor #BBBBBB
+skinparam packageBorderColor #888888
+skinparam packageBackgroundColor #2F2F2F
+skinparam ArrowColor #FFFFFF
+skinparam ArrowFontColor #FFFFFF
+skinparam stereotypeCBackgroundColor #2F2F2F
+skinparam component {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
+skinparam node {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
+
+' -------------------------------------------------
+'title Sistema Integrado: CBT • OCC • Psicanálise • Antahkarana • Meditação
+' -------------------------------------------------
+
+' === PERCEPÇÃO
+package "Percepção" {
+  [Entrada de Estímulos] as Estimulos
+  [Processamento Perceptivo] as Percepcao
+}
+
+' === ANTAHKARANA (Modelo Hindu da Mente)
+package "Camada Hindu\n(Antahkarana & Gunas)" {
+  component "Manas\n(Mente Sensorial)" as Manas
+  component "Buddhi\n(Intelecto Discriminativo)" as Buddhi
+  component "Ahamkara\n(Ego / Eu-fazedor)" as Ahamkara
+  component "Chitta + Samskaras\n(Memória Inconsciente)" as Chitta
+  component "Gunas\n(Sattva • Rajas • Tamas)" as Gunas
+  component "Atman / Sakshi\n(Observador)" as Atman
+}
+
+' === CBT (Beck)
+package "TCC Cognitiva" {
+  component "Pensamentos Automáticos" as PensAutom
+  component "Crenças Centrais &\nIntermediárias" as Crenças
+}
+
+' === OCC
+package "Avaliação Emocional" {
+  package "Sub‑módulo OCC" {
+    [Input:\nPensamentos Automáticos] as Input
+    node "Appraisals" {
+      component "Evento\n(desirability)" as Evento
+      component "Ação\n(praiseworthiness)" as Agente
+      component "Objeto\n(appealingness)" as Objeto
+    }
+    component "Cálculo OCC" as Calculo
+    component "Seleção Emoção\n(22 categorias)" as Selecao
+    component "Intensidade" as Intensidade
+    component "Emoção Computacional" as Emocao
+    ' fluxos internos
+    Input --> Evento
+    Input --> Agente
+    Input --> Objeto
+    Evento --> Calculo
+    Agente --> Calculo
+    Objeto --> Calculo
+    Calculo --> Selecao
+    Selecao --> Intensidade
+    Intensidade --> Emocao
+  }
+}
+
+' === AÇÃO & FEEDBACK
+package "Ação e Feedback" {
+  component "Resposta Comportamental" as Comport
+  component "Teste de Realidade /\nReestruturação" as RealTest
+}
+
+' === Inconsciente Ocidental
+package "Camadas Inconscientes Ocidentais" {
+  component "Id / Ego / Superego\n(Freud)" as FreudMod
+  component "Registros RSI\n(Lacan)" as LacanRSI
+  component "Arte‑terapia\n(Nise da Silveira)" as Arte
+}
+
+' === Intervenções Contemplativas
+package "Práticas de Meditação / Yoga" {
+  component "Raja Yoga" as Raja
+  component "Vipassana" as Vipassana
+  component "Bhakti Yoga" as Bhakti
+  component "Karma Yoga" as Karma
+  component "Jnana Yoga" as Jnana
+  component "Tantra / Kundalini" as Tantra
+}
+
+' ----------- FLUXO PRINCIPAL -------------
+Estimulos --> Percepcao
+Percepcao --> Manas : "Fluxo sensorial"
+Manas --> PensAutom : "Gatilhos cognitivos"
+PensAutom --> Input
+
+Emocao --> Comport : "Guia ação"
+Comport --> RealTest : "Experimento"
+RealTest --> Crenças : "Atualiza crenças"
+Crenças --> PensAutom : "Modula pensamentos"
+
+' ----------- CONEXÕES INTERNAS (Antahkarana) -------------
+Manas -[#white,dashed]-> Input : "Conteúdo bruto"
+Buddhi -[#white,dashed]-> Calculo : "Avaliação racional"
+Ahamkara -[#white,dashed]-> Evento : "Relevância ao Self"
+Chitta -[#white,dashed]-> Input : "Samskaras ativados"
+Gunas -[#white,dotted]-> Intensidade : "Modula magnitude"
+Atman -[#white,dotted]-> PensAutom : "Meta‑observação / pausa mindful"
+
+' ----------- MODULAÇÕES INCONSCIENTES OCIDENTAIS -------------
+FreudMod -[#FF8800,dashed]-> Calculo : "Defesas psíquicas"
+LacanRSI -[#FF8800,dashed]-> Evento : "Estrutura simbólica"
+Arte -[#FF8800,dashed]-> Percepcao : "Dados não‑verbais"
+
+' ----------- INTERVENÇÕES → Antahkarana -------------
+Raja -[#00AAFF,dashed]-> Manas : "Aquietar sentidos"
+Raja -[#00AAFF,dashed]-> Buddhi : "Fortalecer foco"
+Vipassana -[#00AAFF,dashed]-> Chitta : "Purificar samskaras"
+Bhakti -[#00AAFF,dashed]-> Ahamkara : "Ampliar empatia"
+Karma -[#00AAFF,dashed]-> Ahamkara : "Desapego do fruto"
+Jnana -[#00AAFF,dashed]-> Buddhi : "Investigação do Eu"
+Jnana -[#00AAFF,dashed]-> Ahamkara : "Dissolver ego"
+Tantra -[#00AAFF,dashed]-> Gunas : "Transmutar energia"
+Tantra -[#00AAFF,dashed]-> Chitta : "Liberação simbólica"
+
+' ----------- LEGENDAS ------------
+note right of Gunas
+  • Sattva ↑  = clareza / calma
+  • Rajas ↑   = agitação / paixão
+  • Tamas ↑   = inércia / letargia
+end note
+
+note bottom of Chitta
+  Samskaras = impressões latentes
+  (traumas, condicionamentos)
+end note
+
+note bottom of Atman
+  Observador constante; base da
+  prática mindfulness
+end note
+
+@enduml
 ```
+Modelo com tudo expandido:
+```plantuml
+
+@startuml
+skinparam backgroundColor #2B2B2B
+skinparam defaultFontColor #FFFFFF
+skinparam packageTitleFontColor #FFFFFF
+skinparam noteBackgroundColor #3C3F41
+skinparam noteBorderColor #BBBBBB
+skinparam componentFontColor #FFFFFF
+skinparam arrowColor #AAAAAA
+skinparam component {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
+skinparam node {
+  BackgroundColor #2B2B2B
+  FontColor #FFFFFF
+  BorderColor #AAAAAA
+}
+
+title Integração Freud + Lacan + OCC + TCC + Personalidade (OCC Expandido)
+
+' ==================== Entrada Sensorial ====================
+package "Percepção" {
+    [Entrada de Estímulos] as Estimulos
+    [Processamento Perceptivo] as Percepcao
+}
+Estimulos --> Percepcao
+
+' ==================== Camada Lacaniana ====================
+package "Registros Lacanianos" {
+    [Real] as Real
+    [Simbólico] as Simbolico
+    [Imaginário] as Imaginario
+    [Outro (A)] as Outro
+}
+Percepcao --> Imaginario : formação de imagens
+Imaginario --> Simbolico : tradução em linguagem
+Simbólico --> Percepcao : moldura interpretativa
+Outro --> Simbolico : normas e leis culturais
+Real -[#FF6666,dashed]-> Simbolico : trauma/furo
+Real -[#FF6666,dashed]-> Imaginario : angústia
+
+' ==================== Camada Freudiana ====================
+package "Sistema Freudiano" {
+    [Id] as Id
+    [Ego] as Ego
+    [Superego] as Superego
+    [Mecanismos de Defesa] as Defesas
+}
+Id -[#FF6666]-> Ego : impulsos
+Superego -[#66FF66]-> Ego : exigências morais
+Ego -[#66CCFF]-> Defesas
+Defesas -[#AAAAAA]-> Ego : modulação de respostas
+
+' ==================== Crenças e Pensamentos ====================
+package "Crenças e Pensamentos (TCC)" {
+    component "Crenças Centrais e Intermediárias" as Crenças
+    component "Pensamentos Automáticos" as PensAutom
+}
+Percepcao --> PensAutom
+Crenças --> PensAutom
+
+' ==================== OCC Detalhado ====================
+package "Avaliação Emocional (OCC)" {
+    [Appraisal 1:\nDesejabilidade] as Desej
+    [Appraisal 2:\nAgência] as Agencia
+    [Appraisal 3:\nNormas] as Normas
+    [Appraisal 4:\nAtratividade] as Atratividade
+
+    package "Mapeamento Emocional" {
+        
+        ' Eventos
+        [Desejável Futuro] as EsperadoBom
+        [Indesejável Futuro] as EsperadoRuim
+        [Desejável Ocorreu] as OcorreuBom
+        [Indesejável Ocorreu] as OcorreuRuim
+        [Desejável Não Ocorreu] as FalhouBom
+        [Indesejável Não Ocorreu] as FalhouRuim
+        
+        ' Ações de agentes
+        [Ação Própria Louvável] as AcaoBoaSelf
+        [Ação Própria Condenável] as AcaoRuimSelf
+        [Ação Alheia Louvável] as AcaoBoaOutro
+        [Ação Alheia Condenável] as AcaoRuimOutro
+        
+        ' Objetos
+        [Objeto Atraente] as ObjPos
+        [Objeto Repulsivo] as ObjNeg
+
+        ' Emoções finais
+        package "Emoções" {
+            [Esperança]
+            [Medo]
+            [Alegria]
+            [Satisfação]
+            [Tristeza]
+            [Frustração]
+            [Alívio]
+            [Decepção]
+            [Orgulho]
+            [Vergonha]
+            [Culpa]
+            [Admiração]
+            [Reprovação]
+            [Gratidão]
+            [Raiva]
+            [Gosto]
+            [Desgosto]
+            [Alívio + Gratidão]
+            [Raiva + Desgosto]
+            [Confiança]
+            [Ansiedade]
+        }
+    }
+}
+
+' Ligações Pensamentos → Appraisals
+PensAutom --> Desej
+PensAutom --> Agencia
+PensAutom --> Normas
+PensAutom --> Atratividade
+
+' Ligações Appraisals → Situações
+Desej --> EsperadoBom
+Desej --> EsperadoRuim
+Desej --> OcorreuBom
+Desej --> OcorreuRuim
+Desej --> FalhouBom
+Desej --> FalhouRuim
+
+Agencia --> AcaoBoaSelf
+Agencia --> AcaoRuimSelf
+Agencia --> AcaoBoaOutro
+Agencia --> AcaoRuimOutro
+
+Atratividade --> ObjPos
+Atratividade --> ObjNeg
+
+' Ligações Situações → Emoções
+EsperadoBom --> Esperança
+EsperadoRuim --> Medo
+OcorreuBom --> Alegria
+OcorreuBom --> Satisfação
+OcorreuRuim --> Tristeza
+OcorreuRuim --> Frustração
+FalhouRuim --> Alívio
+FalhouBom --> Decepção
+AcaoBoaSelf --> Orgulho
+AcaoRuimSelf --> Vergonha
+AcaoRuimSelf --> Culpa
+AcaoBoaOutro --> Admiração
+AcaoRuimOutro --> Reprovação
+AcaoBoaOutro --> Gratidão
+AcaoRuimOutro --> Raiva
+ObjPos --> Gosto
+ObjNeg --> Desgosto
+
+Alívio --> [Alívio + Gratidão]
+Gratidão --> [Alívio + Gratidão]
+Raiva --> [Raiva + Desgosto]
+Desgosto --> [Raiva + Desgosto]
+AcaoBoaSelf --> Confiança
+AcaoRuimSelf --> Ansiedade
+
+' ==================== Influências Cruzadas ====================
+Id -[#FF8800,dashed]-> Atratividade : impulsos primitivos
+Superego -[#FF8800,dashed]-> Normas : moral internalizada
+Ego -[#FF8800,dashed]-> Agencia : avaliação realista
+Simbólico -[#00AAFF,dashed]-> Normas : rede de significantes
+Imaginario -[#00AAFF,dashed]-> Atratividade : idealizações
+Real -[#00AAFF,dashed]-> Desej : eventos traumáticos
+Crenças -[#00FFAA,dashed]-> Superego
+Crenças -[#00FFAA,dashed]-> Simbolico
+
+' ==================== Perfil de Personalidade ====================
+package "Perfil de Personalidade" {
+    [Big Five] as BigFive
+    [Taxonomia 120 Traços] as T120
+}
+BigFive -[#AAAAFF,dashed]-> Esperança : modulação geral
+BigFive -[#AAAAFF,dashed]-> Medo
+T120 -[#AAAAFF,dashed]-> Alegria : padrões específicos
+T120 -[#AAAAFF,dashed]-> Raiva
+
+' ==================== Saída e Feedback ====================
+package "Ação e Feedback" {
+    component "Geração de Resposta Comportamental" as Comport
+    component "Testes de Realidade & Reestruturação" as RealTest
+}
+Emoções --> Comport
+Comport --> RealTest
+RealTest --> Crenças
+@enduml
+```
+
+```plantuml
 @startuml
 title Mapa: Emoções ↔ Big Five ↔ T120
 
@@ -618,5 +835,4 @@ Fantasia .. Imagination_T
 BuscaSensacoes .. Competitiveness : às vezes co-ocorre
 Ordem .. Cleanliness
 @enduml
-
 ```
