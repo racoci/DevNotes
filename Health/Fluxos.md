@@ -1,15 +1,31 @@
-Com base nas descrições detalhadas dos fluxos de cada papel no sistema "e-Saúde Mental no SUS" da nossa conversa anterior e das fontes fornecidas, apresento os diagramas em PlantUML para cada sub-seção. Estes diagramas ilustram a interação entre os atores e os componentes do sistema, conforme a arquitetura funcional tripartite.
+# Fluxos de Uso Detalhados: e-Saúde Mental
 
-### 1. O Paciente (Usuário Final)
+Com base nas descrições detalhadas dos fluxos de cada papel no sistema "e-Saúde Mental no SUS", apresento os diagramas em PlantUML para cada sub-seção. Estes diagramas ilustram a interação entre os atores e os componentes do sistema, conforme a arquitetura funcional tripartite.
+
+### **1. O Paciente (Usuário Final)**
 
 O módulo do paciente visa transformá-lo em um **agente ativo na sua própria saúde mental**.
 
-#### 1.1 Início da Jornada e Cadastro
+#### **1.1 Início da Jornada e Cadastro**
 
 Este fluxo detalha como o paciente acessa a plataforma e realiza seu cadastro inicial, marcando o começo de sua jornada no sistema.
 
 ```plantuml
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 1.1 Início da Jornada e Cadastro
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 database "Sistema e-Saúde Mental (Backend)" as Backend
@@ -28,12 +44,26 @@ deactivate App
 @enduml
 ```
 
-#### 1.2 Engajamento e Autoaplicação
+#### **1.2 Engajamento e Autoaplicação**
 
 Aqui, o diagrama mostra como o paciente interage com os recursos de autoajuda e psicoeducação oferecidos pelo aplicativo para o manejo diário de seus sintomas.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 1.2 Engajamento e Autoaplicação
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 database "Sistema e-Saúde Mental (Conteúdo)" as ContentDB
@@ -50,12 +80,26 @@ deactivate App
 @enduml
 ```
 
-#### 1.3 Fluxo de Autoavaliação e Dados
+#### **1.3 Fluxo de Autoavaliação e Dados**
 
 Este diagrama ilustra o processo pelo qual o paciente utiliza questionários digitais para autoavaliar seus sintomas, e como esses dados são integrados ao sistema de saúde.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 1.3 Fluxo de Autoavaliação e Dados
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 participant "Sistema e-Saúde Mental (Backend/IA)" as Backend
@@ -79,12 +123,26 @@ deactivate App
 @enduml
 ```
 
-#### 1.4 Fluxo de Comunicação e Conexão
+#### **1.4 Fluxo de Comunicação e Conexão**
 
 Demonstra como a plataforma facilita a comunicação segura entre o paciente e sua equipe de saúde da Atenção Primária.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 1.4 Fluxo de Comunicação e Conexão
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 participant "Profissional da APS (Sistema)" as APS_System
@@ -102,16 +160,30 @@ deactivate App
 @enduml
 ```
 
-### 2. O Profissional da Atenção Primária (APS)
+### **2. O Profissional da Atenção Primária (APS)**
 
 Para os profissionais da APS, a plataforma funciona como um **"copiloto" inteligente**, visando aumentar sua confiança e capacidade no manejo de casos de saúde mental.
 
-#### 2.1 Recebimento de Dados e Apoio à Decisão Clínica
+#### **2.1 Recebimento de Dados e Apoio à Decisão Clínica**
 
 Este diagrama ilustra como o profissional da APS recebe os dados do paciente via RNDS e como a IA do sistema oferece suporte à decisão clínica.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 2.1 Recebimento de Dados e Apoio à Decisão Clínica
+
 actor "Profissional da APS" as ProfissionalAPS
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
 database "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
@@ -135,12 +207,26 @@ deactivate ProntuarioUBS
 @enduml
 ```
 
-#### 2.2 Alerta de Risco e Ação Proativa
+#### **2.2 Alerta de Risco e Ação Proativa**
 
 O fluxo demonstra como o sistema detecta situações de gravidade e emite alertas, permitindo uma intervenção rápida e proativa por parte da equipe de saúde.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 2.2 Alerta de Risco e Ação Proativa
+
 participant "Sistema e-Saúde Mental (Backend/IA)" as BackendIA
 participant "Profissional da APS (Sistema)" as APS_System
 actor "Profissional da APS" as ProfissionalAPS
@@ -165,12 +251,26 @@ deactivate APS_System
 @enduml
 ```
 
-#### 2.3 Monitoramento e Gestão da Carteira
+#### **2.3 Monitoramento e Gestão da Carteira**
 
 Este diagrama ilustra como os profissionais da APS utilizam o painel de monitoramento para acompanhar a evolução dos pacientes e gerenciar suas respectivas carteiras.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 2.3 Monitoramento e Gestão da Carteira
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Sistema e-Saúde Mental (Painel de Monitoramento)" as DashboardAPS
 database "Sistema e-Saúde Mental (Dados do Paciente)" as PatientData
@@ -189,12 +289,26 @@ deactivate DashboardAPS
 @enduml
 ```
 
-#### 2.4 Registro e Feedback para o Sistema
+#### **2.4 Registro e Feedback para o Sistema**
 
 O diagrama mostra como os registros clínicos feitos pelo profissional são enviados de volta para a RNDS, atualizando o histórico de saúde do paciente.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 2.4 Registro e Feedback para o Sistema
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
@@ -213,12 +327,26 @@ deactivate ProntuarioUBS
 @enduml
 ```
 
-#### 2.5 Matriciamento e Teleinterconsulta
+#### **2.5 Matriciamento e Teleinterconsulta**
 
 Este fluxo ilustra como o profissional da APS pode solicitar apoio de um especialista do CAPS via teleinterconsulta, utilizando os dados pré-coletados pelo aplicativo para qualificar o matriciamento.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 2.5 Matriciamento e Teleinterconsulta
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
 participant "Sistema e-Saúde Mental (Backend)" as Backend
@@ -246,16 +374,30 @@ deactivate ProntuarioUBS
 @enduml
 ```
 
-### 3. O Gestor de Saúde Pública
+### **3. O Gestor de Saúde Pública**
 
 O módulo de gestão visa transformar os dados clínicos gerados em **inteligência acionável para a formulação de políticas públicas**.
 
-#### 3.1 Coleta e Agregação de Dados Anonimizados
+#### **3.1 Coleta e Agregação de Dados Anonimizados**
 
 Este diagrama mostra como os dados coletados de pacientes e profissionais são agregados e anonimizados para a vigilância epidemiológica e análise de tendências.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 3.1 Coleta e Agregação de Dados Anonimizados
+
 participant "Sistema e-Saúde Mental (Backend)" as Backend
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
 database "Data Lake/Data Warehouse (Gestão)" as DataLake
@@ -268,12 +410,26 @@ deactivate RNDS
 @enduml
 ```
 
-#### 3.2 Visualização e Análise de Indicadores
+#### **3.2 Visualização e Análise de Indicadores**
 
 Ilustra como os gestores acessam painéis interativos para visualizar indicadores-chave de saúde mental e obter insights para a tomada de decisões.
 
 ```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 3.2 Visualização e Análise de Indicadores
+
 actor "Gestor de Saúde Pública" as Gestor
 participant "Módulo de Gestão (Dashboards)" as Dashboard
 database "Data Lake/Data Warehouse (Gestão)" as DataLake
@@ -288,12 +444,26 @@ deactivate Dashboard
 @enduml
 ```
 
-#### 3.3 Apoio à Formulação de Políticas e Otimização de Recursos
+#### **3.3 Apoio à Formulação de Políticas e Otimização de Recursos**
 
 Este diagrama detalha como as informações e análises da plataforma são utilizadas para otimizar a alocação de recursos e planejar serviços de saúde mental.
 
 ```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 3.3 Apoio à Formulação de Políticas e Otimização de Recursos
+
 actor "Gestor de Saúde Pública" as Gestor
 participant "Módulo de Gestão (Dashboards)" as Dashboard
 participant "Sistema e-Saúde Mental (Backend/IA de Gestão)" as BackendIA_Gestao
@@ -313,13 +483,26 @@ Gestor -> Gestor : **Formula Políticas Públicas Mais Eficazes** (baseadas em e
 @enduml
 ```
 
-#### 3.4 Vigilância Epidemiológica
-
+#### **3.4 Vigilância Epidemiológica**
 
 O fluxo final mostra como a agregação de dados anonimizados permite uma vigilância epidemiológica abrangente, identificando padrões e particularidades regionais na saúde mental.
 
-```plantuml
+```
 @startuml
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title { FontColor #FFFFFF }
+skinparam actor { BorderColor #90E0EF; BackgroundColor #374151; FontColor #E5E7EB }
+skinparam participant { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam database { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam cloud { BorderColor #00A8E8; BackgroundColor #1F2937; FontColor #E5E7EB }
+skinparam arrow { Color #90E0EF }
+skinparam sequence { LifeLineBorderColor #90E0EF; MessageAlign center }
+
+title 3.4 Vigilância Epidemiológica
+
 participant "Sistema e-Saúde Mental (Backend)" as Backend
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
 database "Data Lake/Data Warehouse (Gestão)" as DataLake
