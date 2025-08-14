@@ -264,9 +264,47 @@ Este diagrama ilustra como o profissional da APS recebe os dados do paciente via
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #FFFFFF
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #FFFFFF
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #FFFFFF
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor "Profissional da APS" as ProfissionalAPS
-cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
-database "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
+participant "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
+participant "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
 participant "Sistema e-Saúde Mental (Backend/IA)" as BackendIA
 
 RNDS -> ProntuarioUBS : Envia dados do paciente (autoavaliação, histórico)

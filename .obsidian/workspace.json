@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health/Geral.md",
+                "file": "Health/Fluxos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Geral"
+              "title": "Fluxos"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Health/Fluxos-2025-08-14-00-30-05.png",
+    "Health/Geral.md",
     "Health/Interações Gerais.png",
     "Health/Fluxo Geral.png",
     "Health/Fluxos.md",
@@ -180,7 +182,6 @@
     "Health/Não confirmado 903676.crdownload",
     "Health/ER Modularizado.png",
     "Health/Entidade-Relacionamento.md",
-    "Health/Geral.md",
     "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
     "Health/HL7 FHIR/Aplicação.md",

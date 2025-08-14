@@ -1,6 +1,4 @@
 
-![[Interações Gerais.png]]
-
 ```plantuml
 @startuml
 !theme vibrant
@@ -76,12 +74,12 @@ package "Interfaces Profissionais" {
 ' --- Fluxos de Interação Detalhados ---
 
 ' Fluxo do Paciente
-Paciente -[up]-> App : 1. Usa o aplicativo
+Paciente -up-> App : 1. Usa o aplicativo
 App <---> Backend : 2. Envia dados e recebe conteúdo
 App ---> GovBR : 2a. Autenticação
 
 ' Fluxo do Profissional (com Backend Intermediário)
-Profissional -[up]-> SistemaLocal : 3. Acessa prontuário
+Profissional -up-> SistemaLocal : 3. Acessa prontuário
 SistemaLocal <----> Backend : 4. Solicita/Envia dados via API da Plataforma
 note on link
   O Backend atua como um gateway seguro,
@@ -91,15 +89,13 @@ end note
 Backend <----> RNDS : 5. Sincroniza com o prontuário nacional
 
 ' Fluxo do Gestor
-Gestor -[up]-> Dashboard : 6. Analisa indicadores
+Gestor -up-> Dashboard : 6. Analisa indicadores
 Dashboard <---- Backend : 7. Consome dados agregados e anonimizados
 
 ' Interações Internas da Plataforma
 Backend <---> DB : Armazena e recupera dados
 Backend <---> IA : Envia dados para análise e recebe insights
-
 @enduml
-
 ```
 
 
