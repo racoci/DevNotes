@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health/Fluxos.md",
+                "file": "Health/Arquitetura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fluxos"
+              "title": "Arquitetura"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Health/Fluxos.md",
+    "Health/Arquitetura.md",
     "Health/Fluxos-2025-08-14-00-47-36.png",
     "Health/Fluxos-2025-08-14-00-47-33.png",
     "Health/Fluxos-2025-08-14-00-47-31.png",
@@ -182,8 +184,6 @@
     "Health/Fluxos-2025-08-14-00-47-20.png",
     "Health/Fluxos-2025-08-14-00-47-18.png",
     "Health/Fluxos-2025-08-14-00-47-14.png",
-    "Health/Fluxos-2025-08-14-00-47-11.png",
-    "Health/Fluxos.md",
     "plantuml-mit-1.2025.4.jar",
     "Health/Geral.md",
     "Health/Não confirmado 350506.crdownload",
