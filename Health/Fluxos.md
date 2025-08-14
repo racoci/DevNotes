@@ -211,17 +211,17 @@ skinparam title {
 skinparam actor {
     BorderColor #90E0EF
     BackgroundColor #374151
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam usecase {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam rectangle {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam arrow {
     Color #90E0EF
@@ -229,12 +229,18 @@ skinparam arrow {
 skinparam sequence {
     ParticipantBorderColor #90E0EF
     ParticipantBackgroundColor #374151
-    ParticipantFontColor #E5E7EB
+    ParticipantFontColor #FFFFFF
     DatabaseBorderColor #00A8E8
     DatabaseBackgroundColor #1F2937
-    DatabaseFontColor #E5E7EB
+    DatabaseFontColor #FFFFFF
     LifeLineBackgroundColor #111827
     LifeLineBorderColor #374151
+    LoopBorderColor #00A8E8
+    LoopBackgroundColor #1F2937
+    LoopFontColor #FFFFFF
+    GroupBorderColor #00A8E8
+    GroupBackgroundColor #1F2937
+    GroupFontColor #FFFFFF
 }
 
 actor Paciente
@@ -343,17 +349,17 @@ skinparam title {
 skinparam actor {
     BorderColor #90E0EF
     BackgroundColor #374151
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam usecase {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam rectangle {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam arrow {
     Color #90E0EF
@@ -361,12 +367,18 @@ skinparam arrow {
 skinparam sequence {
     ParticipantBorderColor #90E0EF
     ParticipantBackgroundColor #374151
-    ParticipantFontColor #E5E7EB
+    ParticipantFontColor #FFFFFF
     DatabaseBorderColor #00A8E8
     DatabaseBackgroundColor #1F2937
-    DatabaseFontColor #E5E7EB
+    DatabaseFontColor #FFFFFF
     LifeLineBackgroundColor #111827
     LifeLineBorderColor #374151
+    LoopBorderColor #00A8E8
+    LoopBackgroundColor #1F2937
+    LoopFontColor #FFFFFF
+    GroupBorderColor #00A8E8
+    GroupBackgroundColor #1F2937
+    GroupFontColor #FFFFFF
 }
 
 participant "Sistema e-Saúde Mental (Backend/IA)" as BackendIA
@@ -379,6 +391,7 @@ BackendIA -> APS_System : **Emite Alerta Imediato** para a equipe de saúde
 activate APS_System
 APS_System --> ProfissionalAPS : Recebe Alerta de Risco Grave
 activate ProfissionalAPS
+
 alt Risco Alto / Necessidade Urgente
     ProfissionalAPS -> APS_System : Aciona Protocolo de Intervenção Urgente
     APS_System -> CAPS_System : Solicita Agendamento Urgente / Encaminhamento Direto para CAPS
@@ -388,6 +401,7 @@ else Risco Moderado / Necessidade de Avaliação
     ProfissionalAPS -> APS_System : Agenda Consulta Presencial
     APS_System --> ProfissionalAPS : Confirma Agendamento
 end
+
 deactivate ProfissionalAPS
 deactivate APS_System
 @enduml
