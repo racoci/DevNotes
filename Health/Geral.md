@@ -10,6 +10,9 @@ skinparam linetype ortho
 skinparam shadowing false
 skinparam roundcorner 10
 skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam nodesep 80  ' Aumenta o espaço horizontal entre nós
+skinparam ranksep 100 ' Aumenta o espaço vertical entre ranks
 skinparam title {
     FontColor #FFFFFF
 }
@@ -37,8 +40,13 @@ skinparam cloud {
     BorderColor #90E0EF
     BackgroundColor #374151
 }
+skinparam note {
+    backgroundColor #374151
+    borderColor #90E0EF
+    fontColor #E5E7EB
+}
 
-title Interações Gerais do Sistema e-Saúde Mental
+title Fluxo Detalhado com Backend Intermediário
 
 ' Atores
 actor "Paciente" as Paciente
@@ -48,7 +56,7 @@ actor "Gestor de Saúde" as Gestor
 ' Pacote Central: Plataforma e-Saúde Mental
 package "Plataforma e-Saúde Mental" {
     component "Aplicativo Móvel" as App
-    component "Backend & APIs" as Backend
+    component "Backend & APIs (Gateway)" as Backend
     component "Motor de IA" as IA
     database "Base de Dados" as DB
 }
@@ -65,26 +73,33 @@ package "Interfaces Profissionais" {
     component "Painel de Gestão" as Dashboard
 }
 
-' Fluxos de Interação
+' --- Fluxos de Interação Detalhados ---
 
 ' Fluxo do Paciente
-Paciente -up-> App : Usa o aplicativo (autoavaliação, psicoeducação)
-App <--> Backend : Envia dados brutos e recebe conteúdo
-App --> GovBR : Autenticação
+Paciente -[up]-> App : 1. Usa o aplicativo
+App <---> Backend : 2. Envia dados e recebe conteúdo
+App ---> GovBR : 2a. Autenticação
 
-' Fluxo do Profissional
-Profissional -up-> SistemaLocal : Acessa prontuário do paciente
-SistemaLocal <--> RNDS : Busca e envia dados clínicos padronizados
+' Fluxo do Profissional (com Backend Intermediário)
+Profissional -[up]-> SistemaLocal : 3. Acessa prontuário
+SistemaLocal <----> Backend : 4. Solicita/Envia dados via API da Plataforma
+note on link
+  O Backend atua como um gateway seguro,
+  traduzindo as requisições para o padrão
+  da RNDS e aplicando regras de negócio.
+end note
+Backend <----> RNDS : 5. Sincroniza com o prontuário nacional
 
 ' Fluxo do Gestor
-Gestor -up-> Dashboard : Analisa indicadores de saúde populacional
-Dashboard <-- Backend : Consome dados agregados e anonimizados
+Gestor -[up]-> Dashboard : 6. Analisa indicadores
+Dashboard <---- Backend : 7. Consome dados agregados e anonimizados
 
 ' Interações Internas da Plataforma
-Backend <--> DB : Armazena e recupera dados
-Backend <--> IA : Envia dados para análise e recebe insights
-Backend <--> RNDS : Sincroniza dados com o prontuário nacional
+Backend <---> DB : Armazena e recupera dados
+Backend <---> IA : Envia dados para análise e recebe insights
+
 @enduml
+
 ```
 
 

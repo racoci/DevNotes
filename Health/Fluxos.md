@@ -10,6 +10,44 @@ Este fluxo detalha como o paciente acessa a plataforma e realiza seu cadastro in
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 database "Sistema e-Saúde Mental (Backend)" as Backend
@@ -34,6 +72,44 @@ Aqui, o diagrama mostra como o paciente interage com os recursos de autoajuda e 
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 database "Sistema e-Saúde Mental (Conteúdo)" as ContentDB
@@ -61,6 +137,7 @@ Este diagrama ilustra o processo pelo qual o paciente utiliza questionários dig
 skinparam shadowing false
 skinparam roundcorner 10
 skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
 skinparam title {
     FontColor #FFFFFF
 }
@@ -122,6 +199,44 @@ Demonstra como a plataforma facilita a comunicação segura entre o paciente e s
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 participant "Profissional da APS (Sistema)" as APS_System
@@ -178,6 +293,44 @@ O fluxo demonstra como o sistema detecta situações de gravidade e emite alerta
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 participant "Sistema e-Saúde Mental (Backend/IA)" as BackendIA
 participant "Profissional da APS (Sistema)" as APS_System
 actor "Profissional da APS" as ProfissionalAPS
@@ -208,6 +361,44 @@ Este diagrama ilustra como os profissionais da APS utilizam o painel de monitora
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Sistema e-Saúde Mental (Painel de Monitoramento)" as DashboardAPS
 database "Sistema e-Saúde Mental (Dados do Paciente)" as PatientData
@@ -256,6 +447,44 @@ Este fluxo ilustra como o profissional da APS pode solicitar apoio de um especia
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
 participant "Sistema e-Saúde Mental (Backend)" as Backend
@@ -309,8 +538,47 @@ deactivate RNDS
 
 Ilustra como os gestores acessam painéis interativos para visualizar indicadores-chave de saúde mental e obter insights para a tomada de decisões.
 
-```
+```plantuml
 @startuml
+
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor "Gestor de Saúde Pública" as Gestor
 participant "Módulo de Gestão (Dashboards)" as Dashboard
 database "Data Lake/Data Warehouse (Gestão)" as DataLake
@@ -329,8 +597,47 @@ deactivate Dashboard
 
 Este diagrama detalha como as informações e análises da plataforma são utilizadas para otimizar a alocação de recursos e planejar serviços de saúde mental.
 
-```
+```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
+
 actor "Gestor de Saúde Pública" as Gestor
 participant "Módulo de Gestão (Dashboards)" as Dashboard
 participant "Sistema e-Saúde Mental (Backend/IA de Gestão)" as BackendIA_Gestao
@@ -357,6 +664,44 @@ O fluxo final mostra como a agregação de dados anonimizados permite uma vigil�
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 participant "Sistema e-Saúde Mental (Backend)" as Backend
 cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
 database "Data Lake/Data Warehouse (Gestão)" as DataLake
