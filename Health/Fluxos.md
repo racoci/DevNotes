@@ -56,10 +56,47 @@ Este diagrama ilustra o processo pelo qual o paciente utiliza questionários dig
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #E5E7EB
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #E5E7EB
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #E5E7EB
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #E5E7EB
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+}
+
 actor Paciente
 participant "Aplicativo Móvel (e-Saúde Mental)" as App
 participant "Sistema e-Saúde Mental (Backend/IA)" as Backend
-cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
+participant "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
 database "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
 
 Paciente -> App : Acessa **Questionários Digitais Cientificamente Validados**
