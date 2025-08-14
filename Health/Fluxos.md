@@ -475,10 +475,54 @@ O diagrama mostra como os registros clínicos feitos pelo profissional são envi
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #FFFFFF
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #FFFFFF
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #FFFFFF
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+    LoopBorderColor #00A8E8
+    LoopBackgroundColor #1F2937
+    LoopFontColor #FFFFFF
+    GroupBorderColor #00A8E8
+    GroupBackgroundColor #1F2937
+    GroupFontColor #FFFFFF
+}
+
 actor "Profissional da APS" as ProfissionalAPS
 participant "Prontuário Eletrônico (Local UBS)" as ProntuarioUBS
-cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
-database "Sistema e-Saúde Mental (Backend)" as Backend
+participant "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
+participant "Sistema e-Saúde Mental (Backend)" as Backend
 
 ProfissionalAPS -> ProntuarioUBS : Realiza Consulta (Presencial ou Remota)
 activate ProntuarioUBS
@@ -492,6 +536,7 @@ ProntuarioUBS --> Backend : Notifica Backend sobre atualização (para potencial
 deactivate ProntuarioUBS
 @enduml
 ```
+
 
 #### 2.5 Matriciamento e Teleinterconsulta
 
