@@ -619,9 +619,53 @@ Este diagrama mostra como os dados coletados de pacientes e profissionais são a
 
 ```plantuml
 @startuml
+!theme vibrant
+' Definições de Estilo (Dark Theme)
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam backgroundColor #111827
+skinparam defaultFontColor #FFFFFF
+skinparam title {
+    FontColor #FFFFFF
+}
+skinparam actor {
+    BorderColor #90E0EF
+    BackgroundColor #374151
+    FontColor #FFFFFF
+}
+skinparam usecase {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam rectangle {
+    BorderColor #00A8E8
+    BackgroundColor #1F2937
+    FontColor #FFFFFF
+}
+skinparam arrow {
+    Color #90E0EF
+}
+skinparam sequence {
+    ParticipantBorderColor #90E0EF
+    ParticipantBackgroundColor #374151
+    ParticipantFontColor #FFFFFF
+    DatabaseBorderColor #00A8E8
+    DatabaseBackgroundColor #1F2937
+    DatabaseFontColor #FFFFFF
+    LifeLineBackgroundColor #111827
+    LifeLineBorderColor #374151
+    LoopBorderColor #00A8E8
+    LoopBackgroundColor #1F2937
+    LoopFontColor #FFFFFF
+    GroupBorderColor #00A8E8
+    GroupBackgroundColor #1F2937
+    GroupFontColor #FFFFFF
+}
+
 participant "Sistema e-Saúde Mental (Backend)" as Backend
-cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
-database "Data Lake/Data Warehouse (Gestão)" as DataLake
+participant "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
+participant "Data Lake/Data Warehouse (Gestão)" as DataLake
 
 Backend -> Backend : **Agrega dados de pacientes e profissionais** (anonimizados)
 Backend -> RNDS : **Envia Lotes de Dados Anonimizados** (ex: prevalência de sintomas, uso de funcionalidades)
@@ -773,17 +817,17 @@ skinparam title {
 skinparam actor {
     BorderColor #90E0EF
     BackgroundColor #374151
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam usecase {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam rectangle {
     BorderColor #00A8E8
     BackgroundColor #1F2937
-    FontColor #E5E7EB
+    FontColor #FFFFFF
 }
 skinparam arrow {
     Color #90E0EF
@@ -791,17 +835,23 @@ skinparam arrow {
 skinparam sequence {
     ParticipantBorderColor #90E0EF
     ParticipantBackgroundColor #374151
-    ParticipantFontColor #E5E7EB
+    ParticipantFontColor #FFFFFF
     DatabaseBorderColor #00A8E8
     DatabaseBackgroundColor #1F2937
-    DatabaseFontColor #E5E7EB
+    DatabaseFontColor #FFFFFF
     LifeLineBackgroundColor #111827
     LifeLineBorderColor #374151
+    LoopBorderColor #00A8E8
+    LoopBackgroundColor #1F2937
+    LoopFontColor #FFFFFF
+    GroupBorderColor #00A8E8
+    GroupBackgroundColor #1F2937
+    GroupFontColor #FFFFFF
 }
 
 participant "Sistema e-Saúde Mental (Backend)" as Backend
-cloud "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
-database "Data Lake/Data Warehouse (Gestão)" as DataLake
+participant "Rede Nacional de Dados em Saúde (RNDS)" as RNDS
+participant "Data Lake/Data Warehouse (Gestão)" as DataLake
 actor "Gestor de Saúde Pública" as Gestor
 participant "Módulo de Gestão (Ferramentas de Vigilância)" as VigilanceTools
 
