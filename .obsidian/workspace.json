@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health/Backend/Infra.md",
+                "file": "Geopolytics/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infra"
+              "title": "Untitled"
             }
           }
         ]
@@ -170,9 +170,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "d831c7c57115c50e",
   "lastOpenFiles": [
-    "Untitled",
+    "Health/Backend/Infra.md",
+    "Geopolytics/Untitled.md",
+    "Geopolytics",
     "Health/Backend/AWS-Infra-draft.png",
     "Health/Backend/Não confirmado 328148.crdownload",
     "Health/Backend/AWS-infra-draft.svg",
@@ -180,7 +182,6 @@
     "Health/Arquitetura 2.png",
     "Health/Não confirmado 56710.crdownload",
     "Health/Fluxos.md",
-    "Health/Backend/Infra.md",
     "Health/Backend",
     "Health/Fluxos-2025-08-14-00-47-07.png",
     "Health/Arquitetura.md",
@@ -203,7 +204,6 @@
     "Health/HL7 FHIR",
     "Health",
     "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
-    "Health System",
     "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
     "AI/Reinforcement Learning/Reinforcement Learning.md",
