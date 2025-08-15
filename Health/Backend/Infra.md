@@ -110,10 +110,6 @@ cloud "AWS Region" as AWSRegion {
             rectangle "SNS Interface" as SNSEndpoint
             rectangle "Secrets Manager" as SecretsEndpoint
         }
-        
-        rectangle "Security Groups" as SecurityGroups {
-            note "ALB: 443, 80\nECS: 8080\nRDS: 5432"
-        }
     }
     
     rectangle "AWS Services" as AWSServices {
@@ -172,6 +168,10 @@ note right of VPC
   - 2 Private Subnets (ECS, Lambda)
   - 1 Isolated DB Subnet
   - Flow Logs Enabled
+  **Security Groups:**
+  - ALB: 443, 80
+  - ECS: 8080
+  - RDS: 5432
 end note
 
 note left of ECS
