@@ -1,29 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Com base nas fontes consultadas em chinês e russo, aqui está uma análise puramente focada nos interesses comerciais e geopolíticos de Trump e Putin, e uma especulação sobre o resultado mais provável da cúpula no Alasca:
 
 ---
