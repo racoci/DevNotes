@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "526f5b90838e7528",
+        "id": "e353b769dfaf6311",
         "type": "tabs",
         "children": [
           {
-            "id": "d831c7c57115c50e",
+            "id": "c71cb84a48af6abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Node.js, Express, MongoDB & More"
+              "title": "1.3 Como instalar o Node.js no Windows, Linux e macOS"
+            }
+          },
+          {
+            "id": "48eef2bf20daeaf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Health/HL7 FHIR/RNDS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RNDS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "module.exports.funcaoLambda = (event, context)",
+                "query": "tag:#AluraMais",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5124969482422
+    "width": 264.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -160,64 +175,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "bases:Criar nova base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false,
       "iconic:Open rulebook": false
     }
   },
-  "active": "d831c7c57115c50e",
+  "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Health/HL7 FHIR/RNDS.md",
+    "Frontend/Udemy-Angular/index.txt",
+    "Frontend/Udemy-Angular/index.html",
+    "Frontend/Udemy-Angular",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/8. Persisting Data with TypeORM",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/7. Big Project Time",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/6. Nest Architecture - Organizing Code with Modules",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/5. Nest Architecture - Services and Repositories",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Untitled.canvas",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/4. Validating Request Data with Pipes",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/3. Generating Projects with the Nest CLI",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/2. The Basics of Nest",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here/Untitled",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
-    "Infra/IaC/Udemy",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/1 Introduction to IaC for Amazon Connect.md",
-    "Narrativas/O Ciclo da Pena.md",
-    "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md",
-    "Pasted image 20250621210119.png",
-    "Testes unitários e de integração.md",
-    "Security/Youtube Channels.md",
-    "Geopolytics/Alasca.md",
     "AI/MARLVR/GLSL.md",
-    "Health/Backend/Infra.md",
-    "Health/Backend/AWS-infra-draft.svg",
-    "Health/Backend/AWS-Infra-draft.png",
-    "Health/Arquitetura 2.png",
+    "AI/MARLVR",
+    "plantuml-mit-1.2025.4.jar",
+    "Health/Não confirmado 350506.crdownload",
+    "Health/Interações Gerais.png",
+    "Health/Geral.md",
     "Health/Fluxos.md",
-    "Health/Fluxos-2025-08-14-00-47-07.png",
-    "Health/Arquitetura.md",
     "Health/Fluxos-2025-08-14-00-47-36.png",
     "Health/Fluxos-2025-08-14-00-47-33.png",
     "Health/Fluxos-2025-08-14-00-47-31.png",
     "Health/Fluxos-2025-08-14-00-47-29.png",
     "Health/Fluxos-2025-08-14-00-47-26.png",
-    "Health/Geral.md",
-    "Health/HL7 FHIR/RNDS.md",
+    "Health/Fluxos-2025-08-14-00-47-24.png",
+    "Health/Fluxos-2025-08-14-00-47-22.png",
+    "Health/Fluxos-2025-08-14-00-47-20.png",
+    "Health/Fluxos-2025-08-14-00-47-18.png",
     "Health/Entidade-Relacionamento.md",
+    "Health/Backend/Infra.md",
+    "Health/Backend",
+    "Health/Arquitetura.md",
+    "Geopolytics/Untitled.md",
+    "Geopolytics",
+    "AI/Architecture/Training Large Language Models to Reason in a - 2412.06769v1.pdf",
+    "AI/Architecture/SVGFusion - Scalable Text-to-SVG Generation via Vector Space Diffusion - 2412.10437v2.pdf",
+    "Health/HL7 FHIR/Aplicação.md",
     "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
-    "Health/HL7 FHIR/Aplicação.md",
-    "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
-    "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
-    "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
-    "AI/Reinforcement Learning/Reinforcement Learning.md",
+    "Philosophy/Thomism/Escola Tomista.md",
+    "Narrativas/O Ciclo da Pena.md",
+    "Infra/AWS/SageMaker/Amazon SageMaker Studio.md",
+    "Infra/IaC/Jenkins.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.16 Conclusão.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.13 Troubleshooting da aula.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.12 Links da aula.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.11 Removendo o projeto.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.09 Últimas considerações.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.08 Tratando o caso de erro.md"
   ]
 }
