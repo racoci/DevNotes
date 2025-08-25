@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health/Backend/Infra.md",
+                "file": "AI/MARL/VR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infra"
+              "title": "VR"
             }
           }
         ],
@@ -188,8 +188,10 @@
   },
   "active": "803087f8532681aa",
   "lastOpenFiles": [
-    "Health/Backend/AWS-infra-draft.svg",
     "Health/Backend/Infra.md",
+    "AI/MARL/VR.md",
+    "AI/MARL",
+    "Health/Backend/AWS-infra-draft.svg",
     "Geopolytics/Untitled.md",
     "Geopolytics",
     "Health/Backend/AWS-Infra-draft.png",
@@ -218,7 +220,6 @@
     "Health/HL7 FHIR/Aplicação.md",
     "Testes unitários e de integração.md",
     "Health/HL7 FHIR",
-    "Health",
     "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
     "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
