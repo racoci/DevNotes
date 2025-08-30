@@ -1,0 +1,745 @@
+1. Welcome To The Course!
+2. What Exactly Is Angular?
+3. Why Would You Use Angular?
+4. Angular's Evolution & Stability
+5. Creating A New Angular Project
+6. Setting Up An Angular Development Environment
+7. About This Course
+8. Course Setup & Resources
+9. Module Introduction
+10. A New Starting Project & Analyzing The Project Structure
+11. Understanding Components & How Content Ends Up On The Screen
+12. Creating a First Custom Component
+13. [Optional] JavaScript Refresher: Classes, Properties &
+14. Configuring the Custom Component
+15. Using the Custom Component
+16. Styling the Header Component & Adding An Image
+17. Managing & Creating Components with the Angular CLI
+18. Styling & Using Our Next Custom Component
+19. Preparing User Data (To Output Dynamic Content)
+20. Storing Data in a Component Class
+21. Outputting Dynamic Content with String Interpolation
+22. Property Binding & Outputting Computed Values
+23. Attribute Binding
+24. Using Getters For Computed Values
+25. Listening to Events with Event Binding
+26. Managing State & Changing Data
+27. A Look Behind The Scenes Of Angular's Change Detection Mechanism
+28. Introducing Signals
+29. We Need More Flexible Components!
+30. Defining Component Inputs
+31. Required & Optional Inputs
+32. Using Signal Inputs
+33. We Need Custom Events!
+34. Working with Outputs & Emitting Data
+35. Using the output() Function
+36. Adding Extra Type Information To EventEmitter
+37. Exercise: Create a Configurable Component
+38. TypeScript: Working With Potentially Undefined Values & Union
+39. Accepting Objects As Inputs & Adding Appropriate Typings
+40. TypeScript: Type Aliases & Interfaces
+41. Outputting List Content
+42. Outputting Conditional Content
+43. Legacy Angular: Using ngFor & ngIf
+44. Adding More Components to the Demo App
+45. Outputting User-specific Tasks
+46. Outputting Task Data in the Task Component
+47. Storing Data Models in Separate Files
+48. Dynamic CSS Styling with Class Bindings
+49. More Component Communication: Deleting Tasks
+50. Creating & Conditionally Rendering Another Component
+51. Managing The "New Task" Dialog
+52. Using Directives & Two-Way-Binding
+53. Signals & Two-Way-Binding
+54. Handling Form Submission
+55. Using the Submitted Data
+56. Content Projection with ng-content
+57. Transforming Template Data with Pipes
+58. Getting Started with Services
+59. Getting Started with Dependency Injection
+60. More Service Usage & Alternative Dependency Injection
+61. Time to Practice: Services
+62. Using localStorage for Data Storage
+63. Module Summary
+64. Module Introduction
+65. A First Introduction To Angular Modules (NgModule)
+66. Angular 19, Standalone Components & Modules
+67. Creating a First Empty Module
+68. Bootstrapping Apps with Angular Modules
+69. Declaring & Using Components
+70. A First Summary
+71. Migrating All Components To Use Modules
+72. Creating & Using Shared Modules
+73. Creating More Complex Module-based App Structures
+74. Module Introduction & Starting Project
+75. Exercise Hints
+76. Adding a Header Component With An Image
+77. Adding a User Input Component
+78. Handling Form Submission
+79. Extracting Values with Two-Way-Binding
+80. Calculating the Annual Investment Data
+81. Cross-Component Communication with Outputs
+82. Creating & Using a Data Model
+83. Passing Data from Parent to Child with Inputs
+84. Outputting Data in a Table
+85. Formatting Output with a Pipe
+86. Using Signals & Resetting The Form After Submission
+87. Using a Service for Cross-Component Communication
+88. Using Signals in Services
+89. Migrating to Angular Modules
+90. Module Summary
+91. Module Introduction
+92. Understanding Error Messages & Fixing Errors
+93. Debugging Logical Errors with the Browser DevTools & Breakpoints
+94. Exploring the Angular DevTools
+95. Module Introduction
+96. Starting Project & An Opportunity For Smaller Components?
+97. When & How To Split Up Components
+98. Splitting A Component Into Multiple Components
+99. Creating Reusable Components
+100. Component Inputs: Repetition
+101. Property Binding: Repetition
+102. Using Content Projection & ng-content
+103. Adding Forms to Components
+104. A Possible, But Not Ideal Way Of Extending Built-in Elements
+105. Extending Built-in Elements with Custom Components via Attribute
+106. Supporting Content Projection with Multiple Slots
+107. Exploring Advanced Content Projection
+108. Defining Content Projection Fallbacks
+109. Multi-Element Custom Components & Content Projection
+110. Scoping CSS Styles to Components
+111. Understanding & Configuring View Encapsulation
+112. Making Sense of Component Host Elements
+113. Using Host Elements Like Regular Elements
+114. Interacting With Host Elements From Inside Components
+115. When (Not) To Rely On Host Elements
+116. Interacting with Host Elements via @HostListener &
+117. Accessing Host Elements Programmatically
+118. Class Bindings: Repetition
+119. There's More Than One Way Of Binding CSS Classes Dynamically
+120. A Closer Look At Dynamic Inline Style Binding
+121. Manipulating State & Using Literal Values
+122. Introducing the Component Lifecycle: ngOnInit
+123. Implementing Lifecycle Interfaces
+124. Component Lifecycle - A Deep Dive
+125. Component Cleanup with ngOnDestroy
+126. Component Cleanup with DestroyRef
+127. Handling Form Submissions: Repetition
+128. Working with Template Variables
+129. Extracting Input Values via Template Variables
+130. Template Variables & Component Instances
+131. Getting Access to Template Elements via ViewChild
+132. Using The viewChild Signal Function
+133. ViewChild vs ContentChild
+134. A Closer Look at Decorator-based Queries & Lifecycle
+135. The afterRender and afterNextRender Lifecycle Functions
+136. Making Sense of Signal Effects
+137. Signal Effects Cleanup Functions
+138. TypeScript & Type Models: Repetition
+139. Component Outputs: Repetition
+140. A Closer Look At Template For Loops
+141. Revisiting Inputs & Signals
+142. Updating Signal Values
+143. Cross-Component Communication & State Management
+144. Configuring Component Inputs & Outputs
+145. Two-Way Binding: Repetition
+146. Setting Up Custom Two-Way Binding
+147. An Easier Way of Setting Up Custom Two-Way Binding
+148. Module Introduction
+149. Understanding Directives
+150. The Starting Project
+151. Analyzing a Built-in Attribute Directive: ngModel
+152. Analyzing a Built-in Structural Directive: ngIf
+153. Getting Started with Custom Directives
+154. Using Attribute Directives To Change Element Behavior
+155. Working with Inputs in Custom Directives
+156. Directives & Dependency Injection
+157. Building Another Directive
+158. Building a Custom Structural Directive
+159. Structural Directives & Syntactic Sugar
+160. Host Directives & Composition
+161. Module Introduction
+162. Making Sense of Pipes
+163. Using Built-in Pipes
+164. More Built-in Pipes Examples
+165. Building a First Custom Pipe
+166. Using Custom Pipes to Perform Custom Transformations
+167. Accepting Parameters in Custom Pipes
+168. Chaining Pipes & Being Aware of Limitations
+169. Building a Pipe That Sorts Items
+170. Understanding How Pipes Are Executed
+171. Pure & Impure Pipes
+172. Pipe Limitations & When Not To Use Them
+173. Module Introduction
+174. The Starting Project & The Need For A Centralized Service
+175. Creating a Service
+176. How NOT To Provide A Service
+177. Using Angular's Dependency Injection Mechanism
+178. Using The Alternative Dependency Injection Syntax
+179. Outsourcing & Reusing Logic with Services
+180. Angular Has Multiple Injectors!
+181. There Are Multiple Ways Of Providing a Service
+182. Providing Services via the Element Injector
+183. Understanding the Element Injector's Behavior
+184. Injecting Services Into Services
+185. Analyzing Dependency Injection with the Angular DevTools
+186. Using Custom DI Tokens & Providers
+187. Preparing A Non-Class Value For Injection
+188. Injecting Other Values (NOT Services)
+189. Angular Modules (NgModule) & Dependency Injection
+190. Working with Services Without Using Signals
+191. Module Introduction
+192. Analyzing the Starting Project
+193. Understanding How Angular Performs Change Detection
+194. Change Detection During Development: ExpressionChangedAfterChecked
+195. Writing Efficient Template Bindings
+196. Avoiding Zone Pollution
+197. Using the OnPush Strategy
+198. Understanding the OnPush Strategy
+199. Working with OnPush & Signals
+200. Using Signals for Sharing Data Across Components (with OnPush)
+201. The Problem With OnPush, Cross-Component Data & Not Using
+202. Triggering Change Detection Manually & Using RxJS Subjects
+203. Introducing The async Pipe
+204. Going Zoneless!
+205. Module Introduction
+206. What Are Observables & What Is RxJS?
+207. Creating & Using an Observable
+208. Working with RxJS Operators
+209. Working with Signals
+210. Signals vs Observables
+211. Converting Signals To Observables
+212. Converting Observables To Signals
+213. Deep Dive: Creating & Using A Custom Observable From Scratch
+214. Module Summary
+215. Module Introduction
+216. The Starting Projects: Frontend & Backend
+217. How To Connect Angular Apps To A Backend
+218. Optional: HTTP Essentials
+219. Getting Started with Angular's Http Client
+220. Providing the HttpClient when using NgModules
+221. Sending a GET Request To Fetch Data
+222. Configuring Http Requests
+223. Transforming & Using Response Data
+224. Showing a Loading Fallback
+225. Handling HTTP Errors
+226. Sending Data To A Backend
+227. More Data Fetching & Some Code Duplication
+228. Outsourcing HTTP Request Logic Into A Service
+229. Managing HTTP-loaded Data via a Service
+230. Implementing Optimistic Updating
+231. Potential Problems Introduced by Optimistic Updating
+232. Improved Optimistic Updating
+233. Implementing App-wide Error Management
+234. Practice: Sending DELETE Requests
+235. Introducing HTTP Interceptors
+236. Optional: Class-based Interceptors
+237. Introducing HTTP Response Interceptors
+238. Module Introduction
+239. Template-driven vs Reactive Forms
+240. Template-driven: Registering Form Controls
+241. Getting Access to the Angular-managed Form
+242. Extracting User Input Values
+243. Validating Input with Form Validation Directives
+244. Using the Form Validation Status To Provide User Feedback
+245. Adding Validation Styles
+246. Interacting With The Underlying Form Object In The Component
+247. Updating Form Values Programmatically
+248. Reactive Forms: Getting Started
+249. Syncing Reactive Form Definition & Template
+250. Handling Form Submission (Reactive Forms)
+251. Adding Validators To Reactive Forms
+252. Building Custom Validators
+253. Creating & Using Async Validators
+254. Interacting with the Form Programmatically
+255. Exercise: Problem
+256. Exercise: Solution
+257. Connecting & Registering Inputs For A Complex Form
+258. Working with Nested Form Groups
+259. Working with Form Arrays
+260. Practice: Adding More Validation
+261. Creating Multi-Input Validators / Form Group Validators
+262. Module Summary
+263. Module Introduction
+264. What Is Routing?
+265. Enabling Routing & Adding a First Route
+266. Rendering Routes
+267. Registering Multiple Routes
+268. Adding Links The Right Way
+269. Styling Active Navigation Links
+270. Setting Up & Navigating To Dynamic Routes
+271. Extracting Dynamic Route Parameters via Inputs
+272. Extracting Dynamic Route Parameters via @Input()
+273. Extracting Dynamic Route Parameters via Observables
+274. Working with Nested Routes
+275. Route Links & Relative Links
+276. Accessing Parent Route Data From Inside Nested Routes
+277. Loading Data Based On Route Parameters In Child Routes
+278. Link Shortcuts & Programmatic Navigation
+279. Adding A "Not Found" Route
+280. Redirecting Users
+281. Splitting Route Definitions Across Multiple Files
+282. Activated Route vs Activated Route Snapshot
+283. Setting Query Parameters
+284. Extracting Query Parameters via Inputs
+285. Extracting Query Parameters via Observables
+286. Using Query Parameters For Data Manipulation
+287. Adding Static Data To Routes
+288. Resolving Route-related Dynamic Data
+289. Optional: Class-based Resolvers
+290. Accessing Route Data In Components
+291. Controlling Route Resolver Execution
+292. Setting & Resolving Titles
+293. Introducing Route Guards
+294. Optional: Class-based Guards
+295. Making Sense of The CanDeactivate Guard
+296. Improving The CanDeactivate Logic
+297. Reloading Pages via the Angular Router & Configuring Programmatic
+298. Module Introduction
+299. What Is Lazy Loading / Code Splitting?
+300. Introducing Route-based Lazy Loading
+301. Implementing Route-based Lazy Loading
+302. Lazy Loading Entire Route Groups
+303. Using Lazy Loading & Routing to Lazy-load Services
+304. Introducing Deferrable Views
+305. Defer & Hot Module Reloading
+306. Defer Loading Until Viewport Visibility
+307. Deferrable Views: Using Other Triggers
+308. Prefetching Lazy-loaded Code
+309. Deferrable Views: Summary
+310. Module Introduction
+311. The Starting Project
+312. Preparing a Project For Deployment: Building It For Production
+313. Building SPAs: Pros & Cons
+314. SPAs: Deployment Example
+315. Using "ng add", "ng deploy" & Angular's Built-in Deployment
+316. Server-side Rendering (SSR) Introduction
+317. SSR & Angular 20+
+318. Setting Up SSR For An Angular App
+319. Building and Service an SSR App
+320. Authoring SSR-ready Code (Beware of Pitfalls!)
+321. SSR and Client-Server Mismatches
+322. Static Site Generation (SSG) Introduction
+323. Configuring & Using SSG
+324. Deployment Methods - A Summary
+325. SSR & SSG Deployment Example
+326. Course Roundup
+327. Bonus: More Content!
+328. About The Rest Of This Course
+329. Where To Go Next?
+330. About This Section
+331. Module Introduction
+332. How an Angular App gets Loaded and Started
+333. Components are Important!
+334. Creating a New Component
+335. Understanding the Role of AppModule and Component Declaration
+336. Working with Standalone Components
+337. Using Custom Components
+338. Creating Components with the CLI & Nesting Components
+339. Working with Component Templates
+340. Working with Component Styles
+341. Fully Understanding the Component Selector
+Assignment 1: Practicing Components
+342. [OPTIONAL] Assignment Solution
+343. What is Databinding?
+344. String Interpolation
+345. Property Binding
+346. Property Binding vs String Interpolation
+347. Event Binding
+348. Bindable Properties and Events
+349. Passing and Using Data with Event Binding
+350. Important: FormsModule is Required for Two-Way-Binding!
+351. Two-Way-Databinding
+352. Combining all Forms of Databinding
+Assignment 2: Practicing Databinding
+353. [OPTIONAL] Assignment Solution
+354. Understanding Directives
+355. Using ngIf to Output Data Conditionally
+356. Enhancing ngIf with an Else Condition
+357. Angular 17: Alternative "if" Syntax
+358. Styling Elements Dynamically with ngStyle
+359. Applying CSS Classes Dynamically with ngClass
+360. Outputting Lists with ngFor
+361. Angular 17: Alternative "for" Syntax
+Assignment 3: Practicing Directives
+362. [OPTIONAL] Assignment Solution
+363. Getting the Index when using ngFor
+364. About This Section
+365. Project Introduction
+366. Planning the App
+367. Creating a New App Correctly
+368. Setting up the Application
+369. Creating the Components
+370. Using the Components
+371. Adding a Navigation Bar
+372. Alternative Non-Collapsable Navigation Bar
+373. Creating a "Recipe" Model
+374. Adding Content to the Recipes Components
+375. Outputting a List of Recipes with ngFor
+376. Displaying Recipe Details
+377. Working on the ShoppingListComponent
+378. Creating an "Ingredient" Model
+379. Creating and Outputting the Shopping List
+380. Adding a Shopping List Edit Section
+381. Wrap Up & Next Steps
+382. Understanding Angular Error Messages
+383. Debugging Code in the Browser Using Sourcemaps
+384. Module Introduction
+385. Splitting Apps into Components
+386. Property & Event Binding Overview
+387. Binding to Custom Properties
+388. Assigning an Alias to Custom Properties
+389. Binding to Custom Events
+390. Assigning an Alias to Custom Events
+391. Custom Property and Event Binding Summary
+392. Understanding View Encapsulation
+393. More on View Encapsulation
+394. Using Local References in Templates
+395. @ViewChild() in Angular 8+
+396. Getting Access to the Template & DOM with @ViewChild
+397. Projecting Content into Components with ng-content
+398. Understanding the Component Lifecycle
+399. Seeing Lifecycle Hooks in Action
+400. Lifecycle Hooks and Template Access
+401. @ContentChild() in Angular 8+
+402. Getting Access to ng-content with @ContentChild
+403. Wrap Up
+                                            </div>
+Assignment 4: Practicing Property & Event Binding and View
+404. [OPTIONAL] Assignment Solution
+405. Introduction
+406. Adding Navigation with Event Binding and ngIf
+407. Passing Recipe Data with Property Binding
+408. Passing Data with Event and Property Binding (Combined)
+409. Make sure you have FormsModule added!
+410. Allowing the User to Add Ingredients to the Shopping List
+411. Module Introduction
+412. ngFor and ngIf Recap
+413. ngClass and ngStyle Recap
+414. Creating a Basic Attribute Directive
+415. Using the Renderer to build a Better Attribute Directive
+416. More about the Renderer
+417. Using HostListener to Listen to Host Events
+418. Using HostBinding to Bind to Host Properties
+419. Binding to Directive Properties
+420. What Happens behind the Scenes on Structural Directives
+421. Building a Structural Directive
+422. Understanding ngSwitch
+423. Building and Using a Dropdown Directive
+424. Closing the Dropdown From Anywhere
+425. Module Introduction
+426. Why would you Need Services?
+427. Creating a Logging Service
+428. Injecting the Logging Service into Components
+429. Alternative Injection Syntax
+430. Creating a Data Service
+431. Understanding the Hierarchical Injector
+432. How many Instances of Service Should It Be?
+433. Injecting Services into Services
+434. Using Services for Cross-Component Communication
+435. A Different Way Of Injecting Services
+Assignment 5: Practicing Services
+436. [OPTIONAL] Assignment Solution
+437. Introduction
+438. Setting up the Services
+439. Managing Recipes in a Recipe Service
+440. Using a Service for Cross-Component Communication
+441. Adding the Shopping List Service
+442. Using Services for Pushing Data from A to B
+443. Adding Ingredients to Recipes
+444. Passing Ingredients from Recipes to the Shopping List (via a
+476. Planning the General Structure
+477. Setting Up Routes
+478. Adding Navigation to the App
+479. Marking Active Routes
+480. Fixing Page Reload Issues
+481. Child Routes: Challenge
+482. Adding Child Routing Together
+483. Configuring Route Parameters
+484. Passing Dynamic Parameters to Links
+485. Styling Active Recipe Items
+486. Adding Editing Routes
+487. Retrieving Route Parameters
+488. Programmatic Navigation to the Edit Page
+489. One Note about Route Observables
+490. Project Cleanup
+491. Module Introduction
+492. Install RxJS
+493. Analyzing Angular Observables
+494. Getting Closer to the Core of Observables
+495. Building a Custom Observable
+496. Errors & Completion
+497. Observables & You!
+498. Understanding Operators
+499. Subjects
+                                            </div>
+500. Wrap Up
+                                            </div>
+501. Useful Resources & Links
+502. Improving the Reactive Service with Observables (Subjects)
+503. Changed the Subscription Name
+504. Module Introduction
+505. Why do we Need Angular's Help?
+506. Template-Driven (TD) vs Reactive Approach
+507. An Example Form
+508. TD: Creating the Form and Registering the Controls
+509. TD: Submitting and Using the Form
+510. TD: Understanding Form State
+511. TD: Accessing the Form with @ViewChild
+512. TD: Adding Validation to check User Input
+513. Built-in Validators & Using HTML5 Validation
+514. TD: Using the Form State
+515. TD: Outputting Validation Error Messages
+516. TD: Set Default Values with ngModel Property Binding
+517. TD: Using ngModel with Two-Way-Binding
+518. TD: Grouping Form Controls
+519. TD: Handling Radio Buttons
+520. TD: Setting and Patching Form Values
+521. TD: Using Form Data
+522. TD: Resetting Forms
+Assignment 6: Practicing Template-Driven Forms
+523. Introduction to the Reactive Approach
+524. Reactive: Setup
+525. Reactive: Creating a Form in Code
+526. Reactive: Syncing HTML and Form
+527. Reactive: Submitting the Form
+528. Reactive: Adding Validation
+529. Reactive: Getting Access to Controls
+530. Reactive: Grouping Controls
+531. Fixing a Bug
+532. Reactive: Arrays of Form Controls (FormArray)
+533. Reactive: Creating Custom Validators
+534. Reactive: Using Error Codes
+535. Reactive: Creating a Custom Async Validator
+536. Reactive: Reacting to Status or Value Changes
+537. Reactive: Setting and Patching Values
+Assignment 7: Practicing Reactive Forms
+538. [OPTIONAL] Assignment Solution
+539. Introduction
+540. TD: Adding the Shopping List Form
+541. Adding Validation to the Form
+542. Allowing the Selection of Items in the List
+543. Loading the Shopping List Items into the Form
+544. Updating existing Items
+545. Resetting the Form
+546. Allowing the the User to Clear (Cancel) the Form
+547. Allowing the Deletion of Shopping List Items
+548. Creating the Template for the (Reactive) Recipe Edit Form
+549. Creating the Form For Editing Recipes
+550. Syncing HTML with the Form
+551. Fixing a Bug
+552. Adding Ingredient Controls to a Form Array
+553. Adding new Ingredient Controls
+554. Validating User Input
+555. Submitting the Recipe Edit Form
+556. Adding a Delete and Clear (Cancel) Functionality
+557. Redirecting the User (after Deleting a Recipe)
+558. Adding an Image Preview
+559. Providing the Recipe Service Correctly
+560. Deleting Ingredients and Some Finishing Touches
+561. Deleting all Items in a FormArray
+562. Introduction & Why Pipes are Useful
+563. Using Pipes
+564. Parametrizing Pipes
+565. Where to learn more about Pipes
+566. Chaining Multiple Pipes
+567. Creating a Custom Pipe
+568. Parametrizing a Custom Pipe
+569. Example: Creating a Filter Pipe
+570. Pure and Impure Pipes (or: How to "fix" the Filter Pipe)
+571. Understanding the "async" Pipe
+Assignment 8: Practicing Pipes
+572. A New IDE
+573. Module Introduction
+574. How Does Angular Interact With Backends?
+575. The Anatomy of a Http Request
+576. Backend (Firebase) Setup
+577. Sending a POST Request
+578. GETting Data
+579. Using RxJS Operators to Transform Response Data
+580. Using Types with the HttpClient
+581. Outputting Posts
+582. Showing a Loading Indicator
+583. Using a Service for Http Requests
+584. Services & Components Working Together
+585. Sending a DELETE Request
+586. Handling Errors
+587. Using Subjects for Error Handling
+588. Using the catchError Operator
+589. Error Handling & UX
+590. Setting Headers
+591. Adding Query Params
+592. Observing Different Types of Responses
+593. Changing the Response Body Type
+594. Introducing Interceptors
+595. Manipulating Request Objects
+596. Response Interceptors
+597. Multiple Interceptors
+598. Wrap Up
+                                            </div>
+599. Useful Resources & Links
+600. Module Introduction
+601. Backend (Firebase) Setup
+602. Setting Up the DataStorage Service
+603. Storing Recipes
+604. Fetching Recipes
+605. Transforming Response Data
+606. Resolving Data Before Loading
+607. Fixing a Bug with the Resolver
+608. Module Introduction
+609. How Authentication Works
+610. Adding the Auth Page
+611. Switching Between Auth Modes
+612. Handling Form Input
+613. Preparing the Backend
+614. Make sure you got Recipes in your backend!
+615. Preparing the Signup Request
+616. Sending the Signup Request
+617. Adding a Loading Spinner & Error Handling Logic
+618. Improving Error Handling
+619. Sending Login Requests
+620. Login Error Handling
+621. Creating & Storing the User Data
+622. Reflecting the Auth State in the UI
+623. Adding the Token to Outgoing Requests
+624. Attaching the Token with an Interceptor
+625. Adding Logout
+626. Adding Auto-Login
+627. Adding Auto-Logout
+628. Adding an Auth Guard
+629. Wrap Up
+                                            </div>
+630. Useful Resources & Links
+631. Module Introduction
+632. Adding an Alert Modal Component
+633. Understanding the Different Approaches
+634. Using ngIf
+635. Preparing Programmatic Creation
+636. Creating a Component Programmatically
+637. About entryComponents
+638. Understanding entryComponents
+639. Data Binding & Event Binding
+640. Wrap Up
+                                            </div>
+641. Useful Resources & Links
+642. Module Introduction
+643. What are Modules?
+644. Analyzing the AppModule
+645. Getting Started with Feature Modules
+646. Splitting Modules Correctly
+647. Adding Routes to Feature Modules
+648. Component Declarations
+649. The ShoppingList Feature Module
+650. Understanding Shared Modules
+651. Understanding the Core Module
+652. Adding an Auth Feature Module
+653. Understanding Lazy Loading
+654. Implementing Lazy Loading
+655. More Lazy Loading
+656. Preloading Lazy-Loaded Code
+657. Modules & Services
+658. Loading Services Differently
+659. Useful Resources & Links
+660. Module Introduction
+661. Starting Setup & Why We Want Standalone Components
+662. Building a First Standalone Component
+663. Standalone Components Are Now Stable
+664. Standalone Directives & Connecting Building Blocks
+665. Migrating Another Component
+666. A Standalone Root Component
+667. Services & Standalone Components
+668. Routing with Standalone Components
+669. Lazy Loading
+670. Summary
+                                            </div>
+671. Module Introduction
+672. Signals: What & Why?
+673. Creating a New Signal
+674. Updating a Signal Value
+675. Reading & Outputting a Signal Value
+676. Signal Updating: set(), update() & mutate()
+677. Important: Signals are NOT Finished Yet!
+678. Signals: What's To Come?
+679. Computed Values & Effects
+680. Module Summary
+681. Module Introduction
+682. What Is NgRx?
+683. Understanding NgRx & Its Building Blocks
+684. Project Setup & Installing NgRx
+685. Adding a First Reducer & Store Setup
+686. An Alternative Way Of Creating Reducers
+687. Reading Data From The Store
+688. Introducing Actions & State Changing Reducers
+689. Dispatching Actions
+690. Attaching Data To Actions
+691. Handling Actions Without createReducer
+692. An Alternative Way Of Defining Actions
+693. Time To Practice: A Second Action
+694. Exploring Selectors
+695. Introducing Effects
+696. Installing the Effects Package
+697. Defining a First Effect
+698. The Old @Effect Decorator & Registering Effects
+699. Using Store Data In Effects
+700. Adding a Second Effect
+701. Summary
+                                            </div>
+702. NgRx - The Old Syntax
+703. Making Animations Work with Angular 4+
+704. Introduction
+705. Setting up the Starting Project
+706. Animations Triggers and State
+707. Switching between States
+708. Transitions
+709. Advanced Transitions
+710. Transition Phases
+711. The "void" State
+712. Using Keyframes for Animations
+713. Grouping Transitions
+714. Using Animation Callbacks
+715. Module Introduction
+716. Adding Service Workers
+717. Caching Assets for Offline Use
+718. Caching Dynamic Assets & URLs
+719. Further Links & Resources
+720. About this Section
+721. Introduction
+722. Why Unit Tests?
+723. Analyzing the Testing Setup (as created by the CLI)
+724. Running Tests (with the CLI)
+725. Adding a Component and some fitting Tests
+726. Testing Dependencies: Components and Services
+727. Simulating Async Tasks
+728. Using "fakeAsync" and "tick"
+729. Isolated vs Non-Isolated Tests
+730. Further Resources & Where to Go Next
+731. Module Introduction
+732. A Closer Look at "ng new"
+733. IDE & Project Setup
+734. Understanding the Config Files
+735. Important CLI Commands
+736. The "angular.json" File - A Closer Look
+737. Angular Schematics - An Introduction
+738. The "ng add" Command
+739. Using Custom "ng generate" Schematics
+740. Smooth Updating of Projects with "ng update"
+741. Simplified Deployment with "ng deploy"
+742. Understanding "Differential Loading"
+743. Managing Multiple Projects in One Folder
+744. Angular Libraries - An Introduction
+745. Wrap Up
+                                            </div>
+746. Module Introduction
+747. What & Why?
+748. Installing & Using TypeScript
+749. Base Types & Primitives
+750. Array & Object Types
+751. Type Inference
+752. Working with Union Types
+753. Assigning Type Aliases
+754. Diving into Functions & Function Types
+755. Understanding Generics
+756. Classes & TypeScript
+757. Working with Interfaces
+758. Configuring the TypeScript Compiler
+759. Module Resources

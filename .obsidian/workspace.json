@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/MARL/VR.md",
+                "file": "AI/MARLVR/GLSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VR"
+              "title": "GLSL"
             }
           }
         ],
@@ -186,11 +186,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "803087f8532681aa",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
     "Health/Backend/Infra.md",
-    "AI/MARL/VR.md",
-    "AI/MARL",
+    "AI/MARLVR/GLSL.md",
+    "AI/MARLVR",
     "Health/Backend/AWS-infra-draft.svg",
     "Geopolytics/Untitled.md",
     "Geopolytics",
