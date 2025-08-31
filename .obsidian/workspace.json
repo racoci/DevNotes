@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Narrativas/O Ciclo da Pena.md",
+                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O Ciclo da Pena"
+              "title": "0. Node.js, Express, MongoDB & More"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 294.5124969482422
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -171,8 +171,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
+    "Infra/IaC/Udemy",
+    "Infra/IaC/Infrastructure as Code - Fundamentals/AWS Skill Builder Course Completion Certificate.pdf",
+    "Infra/IaC/Infrastructure as Code - Fundamentals/1 Introduction to IaC for Amazon Connect.md",
+    "Narrativas/O Ciclo da Pena.md",
     "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md",
     "Pasted image 20250621210119.png",
     "Testes unitários e de integração.md",
@@ -201,12 +206,10 @@
     "Health/Geral.md",
     "Health/Não confirmado 350506.crdownload",
     "Health/HL7 FHIR/RNDS.md",
-    "Health/Não confirmado 903676.crdownload",
     "Health/Entidade-Relacionamento.md",
     "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
     "Health/HL7 FHIR/Aplicação.md",
-    "Health/HL7 FHIR",
     "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
     "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
@@ -214,10 +217,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.16 Conclusão.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.13 Troubleshooting da aula.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.12 Links da aula.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.11 Removendo o projeto.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.09 Últimas considerações.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.13 Troubleshooting da aula.md"
   ]
 }
