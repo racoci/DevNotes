@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "GLSL"
             }
+          },
+          {
+            "id": "009bee0904067dd0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +198,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "009bee0904067dd0",
   "lastOpenFiles": [
     "Health/Backend/Infra.md",
     "AI/MARLVR/GLSL.md",
