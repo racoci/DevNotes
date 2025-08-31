@@ -11,12 +11,14 @@
             "id": "d831c7c57115c50e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250621210119.png"
+                "file": "Narrativas/O Ciclo da Pena.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250621210119"
+              "icon": "lucide-file",
+              "title": "O Ciclo da Pena"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 441.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -169,8 +171,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d831c7c57115c50e",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
+    "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md",
+    "Pasted image 20250621210119.png",
+    "Testes unitários e de integração.md",
     "Security/Youtube Channels.md",
     "Geopolytics/Alasca.md",
     "AI/MARLVR/GLSL.md",
@@ -192,7 +197,6 @@
     "Health/Fluxos-2025-08-14-00-47-31.png",
     "Health/Fluxos-2025-08-14-00-47-29.png",
     "Health/Fluxos-2025-08-14-00-47-26.png",
-    "Health/Fluxos-2025-08-14-00-47-24.png",
     "plantuml-mit-1.2025.4.jar",
     "Health/Geral.md",
     "Health/Não confirmado 350506.crdownload",
@@ -202,7 +206,6 @@
     "Health/HL7 FHIR/Exemplo Android.md",
     "Health/HL7 FHIR/HL7 FHIR.md",
     "Health/HL7 FHIR/Aplicação.md",
-    "Testes unitários e de integração.md",
     "Health/HL7 FHIR",
     "AI/Simmulations/Psychological Models/TCC + OCC + Yoga.md",
     "AI/Simmulations/Psychological Models/Lacan/Esquema Geral do Inconciente.md",
@@ -215,7 +218,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.12 Links da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.11 Removendo o projeto.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.09 Últimas considerações.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.08 Tratando o caso de erro.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.09 Últimas considerações.md"
   ]
 }

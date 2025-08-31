@@ -29,7 +29,6 @@ Packet Tracer - Logical and Physical Mode Exploration
 This Packet Tracer Tutored Activity (PTTA) has features that provide hints throughout the activity, at the level that you specify. You can practice your troubleshooting skills with minimal or as much guidance as you need.
 
 In this Packet Tracer activity, you will complete the following objectives:
-
 - Part 1: Investigate the Bottom Toolbar
 - Part 2: Investigate Devices in a Wiring Closet
 - Part 3: Connect End Devices to Networking Devices
