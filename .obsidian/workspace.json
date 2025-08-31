@@ -171,10 +171,20 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d831c7c57115c50e",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/8. Persisting Data with TypeORM",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/7. Big Project Time",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/6. Nest Architecture - Organizing Code with Modules",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/5. Nest Architecture - Services and Repositories",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Untitled.canvas",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/4. Validating Request Data with Pipes",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/3. Generating Projects with the Nest CLI",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/2. The Basics of Nest",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here/Untitled",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
     "Infra/IaC/Udemy",
     "Infra/IaC/Infrastructure as Code - Fundamentals/AWS Skill Builder Course Completion Certificate.pdf",
@@ -187,16 +197,10 @@
     "Geopolytics/Alasca.md",
     "AI/MARLVR/GLSL.md",
     "Health/Backend/Infra.md",
-    "AI/MARLVR",
     "Health/Backend/AWS-infra-draft.svg",
-    "Geopolytics",
     "Health/Backend/AWS-Infra-draft.png",
-    "Health/Backend/Não confirmado 328148.crdownload",
-    "Health/Backend/Não confirmado 843695.crdownload",
     "Health/Arquitetura 2.png",
-    "Health/Não confirmado 56710.crdownload",
     "Health/Fluxos.md",
-    "Health/Backend",
     "Health/Fluxos-2025-08-14-00-47-07.png",
     "Health/Arquitetura.md",
     "Health/Fluxos-2025-08-14-00-47-36.png",
@@ -204,9 +208,7 @@
     "Health/Fluxos-2025-08-14-00-47-31.png",
     "Health/Fluxos-2025-08-14-00-47-29.png",
     "Health/Fluxos-2025-08-14-00-47-26.png",
-    "plantuml-mit-1.2025.4.jar",
     "Health/Geral.md",
-    "Health/Não confirmado 350506.crdownload",
     "Health/HL7 FHIR/RNDS.md",
     "Health/Entidade-Relacionamento.md",
     "Health/HL7 FHIR/Exemplo Android.md",
@@ -217,7 +219,6 @@
     "AI/Simmulations/Taxonomia 120/Big5 - 30/Correspondance.md",
     "AI/Reinforcement Learning/Reinforcement Learning.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.16 Conclusão.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md"
   ]
 }
