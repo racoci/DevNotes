@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
+                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "0. Node.js, Express, MongoDB & More"
             }
           }
         ]
@@ -171,23 +171,22 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/8. Persisting Data with TypeORM",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/7. Big Project Time",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/6. Nest Architecture - Organizing Code with Modules",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/5. Nest Architecture - Services and Repositories",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Untitled.canvas",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/4. Validating Request Data with Pipes",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/3. Generating Projects with the Nest CLI",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/2. The Basics of Nest",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here/Untitled",
     "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/1. Get Started Here",
-    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
     "Infra/IaC/Udemy",
-    "Infra/IaC/Infrastructure as Code - Fundamentals/AWS Skill Builder Course Completion Certificate.pdf",
     "Infra/IaC/Infrastructure as Code - Fundamentals/1 Introduction to IaC for Amazon Connect.md",
     "Narrativas/O Ciclo da Pena.md",
     "Security/Cisco/Defesa de rede - PUC Minas Coração Eucarístico/First Time in This Course.md",
