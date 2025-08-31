@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
+                "file": "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Node.js, Express, MongoDB & More"
+              "title": "Index"
             }
           }
         ]
@@ -173,6 +173,8 @@
   },
   "active": "d831c7c57115c50e",
   "lastOpenFiles": [
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/0. Node.js, Express, MongoDB & More.md",
+    "Backend/Node JS/Udemy Node.js, Express, MongoDB & More/Index.md",
     "Infra/IaC/Infrastructure as Code - Fundamentals/0 Description.md",
     "Infra/IaC/Udemy",
     "Infra/IaC/Infrastructure as Code - Fundamentals/AWS Skill Builder Course Completion Certificate.pdf",
@@ -216,7 +218,6 @@
     "AI/Reinforcement Learning/Reinforcement Learning.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.16 Conclusão.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.15 O que aprendemos.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.13 Troubleshooting da aula.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.14 Projeto final do curso.md"
   ]
 }

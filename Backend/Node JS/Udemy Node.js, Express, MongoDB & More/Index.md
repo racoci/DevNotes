@@ -1,0 +1,263 @@
+### Section 1: Get Started Here!
+- 1. How to Get Help
+- 2. Join Our Community!
+- 3. Course Resources `nest-diagrams.zip`
+### Section 2: The Basics of Nest
+- 4. Project Setup `4-project.zip`
+- 5. TypeScript Configuration `5-typescript.zip`
+- 6. Creating a Controller `6-creating.zip`
+- 7. Starting Up a Nest App `7-starting.zip`
+- 8. File Naming Conventions `8-file-naming`
+- 9. Routing Decorators `9-routing.zip`
+### Section 3: Generating Projects with the Nest CLI
+- 10. App Setup `10-app.zip`
+- 11. Using the Nest CLI to Generate Files `11-using-nest`
+- 12. More on Generating Files `12-more.zip`
+- 13. Adding Routing Logic `13-adding-routing`
+- 14. [Optional] Postman Setup
+- 15. [Optional] VSCode REST Client Extension `15-vscode.zip`
+### Section 4: Validating Request Data with Pipes
+- 16. Accessing Request Data with Decorators `16-accessing.zip`
+- 17. Installing Extra Required Libraries
+- 18. Using Pipes for Validation `18-using-pipes`
+- 19. Adding Validation Rules `19-adding.zip`
+- 20. Behind the Scenes of Validation
+- 21. How Type Info is Preserved
+### Section 5: Nest Architecture: Services and Repositories
+- 22. Services and Repositories
+- 23. Implementing a Repository `23-implementing.zip`
+- 24. Reading and Writing to a Storage File `014-msg.zip`
+- 25. Implementing a Service `015-msg.zip`
+- 26. Manual Testing of the Controller
+- 27. Reporting Errors with Exceptions `27-reporting.zip`
+- 28. Understanding Inversion of Control
+- 29. Introduction to Dependency Injection
+- 30. Refactoring to Use Dependency Injection `30-refactoring.zip`
+- 31. Few More Notes on DI
+### Section 6: Nest Architecture: Organizing Code with Modules
+- 32. Project Overview
+- 33. Generating a Few Files `33-generating.zip`
+- 34. Setting Up DI Between Modules `34-setting-up`
+- 35. More on DI Between Modules `35-more.zip`
+- 36. Consuming Multiple Modules `36-consuming.zip`
+- 37. Modules Wrapup
+### Section 7: Big Project Time!
+- 38. App Overview
+- 39. API Design
+- 40. Module Design!
+- 41. Generating Modules, Controllers, and Services `41-generating.zip`
+### Section 8: Persisting Data with TypeORM
+- 42. Persistent Data with Nest `42-persistent.zip`
+- 43. Setting Up a Database Connection `43-setting-up`
+- 44. Creating an Entity and Repository `44-creating.zip`
+- 45. Viewing a DB's Contents `45-viewing.zip`
+- 46. Understanding TypeORM Decorators
+- 47. One Quick Note on Repositories
+- 48. A Few Extra Routes
+- 49. Setting Up Body Validation `49-body-validation`
+- 50. Manual Route Testing `50-manual.zip`
+### Section 9: Creating and Saving User Data
+- 51. Creating and Saving a User `51-creating.zip`
+- 52. Quick Breather and Review
+- 53. More on Create vs Save `53-more.zip`
+- 54. Required Update for find and findOne Methods
+- 55. Querying for Data `55-querying.zip`
+- 56. Updating Data
+- 57. Removing Users `57-removing.zip`
+- 58. Finding and Filtering Records `58-finding.zip`
+- 59. Removing Records
+- 60. Updating Records `60-updating.zip`
+- 61. A Few Notes on Exceptions `61-few-notes`
+### Section 10: Custom Data Serialization
+- 62. Excluding Response Properties `62-excluding.zip`
+- 63. Solution to Serialization
+- 64. How to Build Interceptors `64-how-to`
+- 65. Serialization in the Interceptor `65-serialization.zip`
+- 66. Customizing the Interceptor's DTO `66-customizing.zip`
+- 67. Wrapping the Interceptor in  `67-wrapping.zip`
+- 68. Controller-Wide Serialization `68-controller-wide`
+- 69. A Bit of Type Safety Around Serialize `69-a-bit`
+### Section 11: Authentication From Scratch
+- 70. Authentication Overview
+- 71. Reminder on Service Setup `71-reminder.zip`
+- 72. Implementing Signup Functionality `72-implementing.zip`
+- 73. [Optional] Understanding Passwor
+- 74. Salting and Hashing the Password `74-salting.zip`
+- 75. Creating a User `75-creating-user`
+- 76. Handling User Sign In `76-handling.zip`
+- 77. Setting up Sessions `77-setting.zip`
+- 78. Changing and Fetching Session Data `78-changing.zip`
+- 79. Signing in a User `79-signing-in`
+- 80. Getting the Current User `80-getting-current`
+- 81. Signing Out a User `81-signing-out`
+- 82. Two Automation Tools
+- 83. Custom Param Decorators `83-custom.zip`
+- 84. Why a Decorator and Interceptor `84-why.zip`
+- 85. Communicating from Interceptor to Decorator `85-communicating.zip`
+- 86. Small Fix for CurrentUserInterceptor `87-connecting.zip`
+- 88. Globally Scoped Interceptors `88-globally.zip`
+- 89. Preventing Access with Authentication Guards `89-preventing.zip`
+### Section 12: Getting Started with Unit Testing
+- 90. Testing Overview
+- 91. Testing Setup
+- 92. Yes, Testing is Confusing `92-yes.zip`
+- 93. Getting TypeScript to Help With Mocks `93-getting.zip`
+- 94. Quick Note to Help Speed Up Your Tests
+- 95. Improving File Layout `95-improving.zip`
+- 96. Ensuring Password Gets Hashed `96-ensuring.zip`
+- 97. Refactor 'Emai
+- 98. Changing Mock Implementations `98-changing.zip`
+- 99. Refactor
+- 100. Testing the Signin Flow `100-testing-signin`
+- 101. Refactor
+- 102. Checking Password Comparison `102-checking.zip`
+- 103. More Intelligent Mocks `103-more-intelligent`
+- 104. Refactor 3 Mocks to Address Jest Breakin
+- 105. Refactoring to Use Intelligent Mocks `105-refactoring.zip`
+- 106. Unit Testing a Controller `106-unit-testing`
+- 107. More Mock Implementations `107-more-mock`
+- 108. Refactor 'User id i
+- 109. Not Super Effective Tests `109-not-super`
+- 110. Testing the Signin Method `110-testing.zip`
+### Section 13: Integration Testing
+- 111. Getting Started with End to End Testing
+- 112. Creating an End to End Test `112-creating.zip`
+- 113. App Setup Issues in Spec Files `113-app.zip`
+- 114. Applying a Globally Scoped Pipe `114-applying-pipe`
+- 115. Applying a Globally Scoped Middleware `115-applying-middleware`
+- 116. Solving Failures Around Repeat Test Runs
+- 117. Creating Separate Test and Dev Databases `117-creating.zip`
+### Section 14: Managing App Configuration
+- 118. Understanding Dotenv
+- 119. Applying Dotenv for Config `119-applying.zip`
+- 120. Specifying the Runtime Environment `120-specifying.zip`
+- 121. Solving a SQLite Error `121-solving.zip`
+- 122. It Works! `122-it-works`
+- 123. A Followup Test `123-follow-up`
+### Section 15: Relations with TypeORM
+- 124. Back to Reports
+- 125. Adding Properties to Reports `125-adding.zip`
+- 126. A DTO for Report Creation `126-dto.zip`
+- 127. Receiving Report Creation Requests
+- 128. Saving a Report with the Reports Service `128-saving.zip`
+- 129. Testing Report Creation `129-testing.zip`
+- 130. Building Associations
+- 131. Types of Associations
+- 132. The ManyToOne and OneToMany Decorators `132-manytoone.zip`
+- 133. Important Note About Deleting Database - Do No
+- 134. More on Decorators
+- 135. Setting up the Association `135-setting.zip`
+- 136. Formatting the Report Response
+- 137. Transforming Properties with a DTO `137-transforming.zip`
+### Section 16: A Basic Permissions System
+- 138. Adding in Report Approval `138-adding.zip`
+- 139. Required Update for changeApproval Method
+- 140. Testing Report Approval `140-testing.zip`
+- 141. Authorization vs Authentication
+- 142. Adding an Authorization Guard `142-adding.zip`
+- 143. The Guard Doesn't Work?! `143-doesnt-work`
+- 144. Middlewares, Guards, and Interceptors
+- 145. Assigning CurrentUser with a Middleware `145-assigning.zip`
+- 146. Fixing a Type Definition Error `146-fixing.zip`
+- 147. Validating Query String Values `147-validating.zip`
+- 148. Transforming Query String Data `148-transforming.zip`
+- 149. How Will We Generate an Estimate
+### Section 17: Query Builders with TypeORM
+- 150. Creating a Query Builder `150-creating.zip`
+- 151. Writing a Query to Produce the Estimate `151-writing.zip`
+- 152. Testing the Estimate Logic `152-testing.zip`
+### Section 18: Production Deployment
+- 153. The Path to Production
+- 154. Providing the Cookie Key `107-car.zip`
+- 155. Understanding the Synchronize Flag
+- 156. The Dangers of Synchronize
+- 157. The Theory Behind Migrations
+- 158. Headaches with Config Management
+- 159. TypeORM and Nest Config is Great
+- 160. Env-Specific Database Config `113-car.zip`
+- 161. Installing the TypeORM CLI `114-car.zip`
+- 162. Generating and Running Migrations `115-car.zip`
+- 163. Required Migration Update for Production
+- 164. Running Migrations During E2E Tests `116-car.zip`
+- 165. Production DB Config
+- 166. Heroku CLI Setup Instructions
+- 167. Heroku Specific Project Config
+- 168. Deploying the App - (Final Lecture)
+### Section 19: [Bonus] Appendix: TypeScript
+- 169. How to Get Help
+- 170. TypeScript Overview
+- 171. Environment Setup
+- 172. Important Update About ts-node and Axios
+- 173. A First App
+- 174. Executing TypeScript Code `7-executing.zip`
+- 175. One Quick Change `8-quick-change`
+- 176. Catching Errors with TypeScript `9-catching-errors`
+- 177. Catching More Errors! `10-more-errors`
+- 178. Course Overview
+- 179. Types
+- 180. More on Types
+- 181. Examples of Types `14-examples.zip`
+- 182. Where Do We Use Types?
+- 183. Type Annotations and Inference
+- 184. Annotations with Variables `17-annotations.zip`
+- 185. Object Literal Annotations `18-object-literal`
+- 186. Annotations Around Functions `19-around-functions`
+- 187. Understanding Inference
+- 188. The Any Type `21-any-type`
+- 189. Fixing the "Any" Type `22-fixing.zip`
+- 190. Delayed Initialization `23-delayed.zip`
+- 191. When Inference Doesn't Work `24-when-inference`
+- 192. More Annotations Around Functions `25-more-functions`
+- 193. Inference Around Functions `26-inference.zip`
+- 194. Annotations for Anonymous Functions `27-annotations-anonymous`
+- 195. Void and Never `28-void-and`
+- 196. Destructuring with Annotations `29-destructuring.zip`
+- 197. Annotations Around Objects `30-annotations-objects`
+- 198. Arrays in TypeScript `31-arrays.zip`
+- 199. Why Typed Arrays? `32-why-typed`
+- 200. Multiple Types in Arrays `33-multiple.zip`
+- 201. When to Use Typed Arrays
+- 202. Tuples in TypeScript
+- 203. Tuples in Action `36-tuples-action`
+- 204. Why Tuples? `37-why-tuples`
+- 205. Interfaces
+- 206. Long Type Annotations `39-long-type`
+- 207. Fixing Annotations with Interfaces `40-fixing.zip`
+- 208. Syntax Around Interfaces `41-syntax.zip`
+- 209. Functions In Interfaces `42-functions.zip`
+- 210. Code Reuse with Interfaces `43-code-reuse`
+- 211. General Plan with Interfaces
+- 212. Classes `45-classes.zip`
+- 213. Basic Inheritance `46-basic.zip`
+- 214. Class Method Modifiers `47-instance-method`
+- 215. Fields in Classes `48-fields-classes`
+- 216. Fields with Inheritance `49-fields-inheritance`
+- 217. Where to Use Classes
+- 218. App Overview
+- 219. Updated Parcel Instructions
+- 220. Bundling with Parcel
+- 221. Project Structure `55-project.zip`
+- 222. IMPORTANT Info About Faker Installation
+- 223. Generating Random Data
+- 224. Type Definition Files `58-type-definitions`
+- 225. Using Type Definition Files `59-using-type`
+- 226. Export Statements in TypeScript `60-export.zip`
+- 227. Defining a Company `61-defining.zip`
+- 228. Important Note About Google Maps Key
+- 229. Adding Google Maps Support `63-adding-google`
+- 230. Required Update for New @types Library
+- 231. Google Maps Integration wit `65-google-maps`
+- 232. Exploring Type Definition Files `66-exploring.zip`
+- 233. Hiding Functionality
+- 234. Why Use Private Modifiers? Here's Why `68-private.zip`
+- 235. Adding Markers `69-markers.zip`
+- 236. Duplicate Code `70-duplicate.zip`
+- 237. One Possible Solution `71-one.zip`
+- 238. Restricting Access with Interfaces `72-restricting.zip`
+- 239. Implicit Type Checks `73-implicit.zip`
+- 240. Showing Popup Windows `74-showing.zip`
+- 241. Updating Interface Definitions `75-updating.zip`
+- 242. Optional Implements Clauses `76-optional.zip`
+- 243. App Wrapup
+### Section 20: Bonus!
+- 244. Bonus!
