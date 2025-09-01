@@ -3,14 +3,16 @@
 
 """
 Organiza um curso (Udemy) a partir de um Index.md com a estrutura:
+
 ### Section X: Título
-1. Nome da Aula `2min`
+N. Nome da Aula `Xmin`
 - Recurso 1
 - Recurso 2
-2. Outra Aula `5min`
-...
+Assignment N: Título do Assignment
+N+1. Outra Aula `Ymin`
+- Recurso ...
 
-Cria pasta por seção e por aula, com normalização amigável a Windows e Linux,
+Cria pastas por seção e por aula (com normalização amigável a Windows e Linux),
 e cria "0. Index.md" em cada nível quando não existirem.
 """
 
@@ -18,9 +20,9 @@ import logging
 import re
 import sys
 from pathlib import Path
+from typing import Optional
 import unicodedata
 import html
-from typing import Optional
 
 # ---------------------- Configuração de Logging ---------------------- #
 def setup_logging():
@@ -36,7 +38,7 @@ def setup_logging():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
 
-    # Opcional: também registrar em arquivo
+    # Também registrar em arquivo
     fh = logging.FileHandler("organiza_udemy.log", encoding="utf-8")
     fh.setLevel(logging.INFO)
     fh.setFormatter(formatter)
@@ -50,8 +52,7 @@ WINDOWS_RESERVED_NAMES = {
     *(f"LPT{i}" for i in range(1, 10)),
 }
 
-INVALID_CHARS = r'<>:"/\\|?*\0'  # inválidos no Windows
-INVALID_REGEX = re.compile(r'[<>:"/\\|?\*\x00]')
+INVALID_REGEX = re.compile(r'[<>:"/\\|?\*\x00]')  # inválidos no Windows
 
 def normalize_name(name: str) -> str:
     """
@@ -60,11 +61,13 @@ def normalize_name(name: str) -> str:
     - Substitui & por ' and '
     - Troca ':' por ' - '
     - Remove/ajusta caracteres inválidos < > : " / \ | ? *
-    - Remove backticks ` e exclamação ! (ex do usuário)
-    - Colapsa espaços múltiplos
+    - Remove backticks ` e exclamação !
+    - Substitui / \ | por '-'
+    - Substitui aspas duplas por simples
+    - Colapsa espaços múltiplos e hifens duplicados
     - Remove pontos/espaços no início/fim e ponto no final (Windows)
     - Evita nomes reservados (Windows): adiciona '_'
-    - Limita tamanho razoável (240 chars)
+    - Limita tamanho para 240 chars
     """
     if not isinstance(name, str):
         name = str(name)
@@ -80,16 +83,16 @@ def normalize_name(name: str) -> str:
     name = name.replace("`", "")
     name = name.replace("!", "")
 
-    # Substitui barras por hífen
+    # Substitui barras e pipe por hífen
     name = name.replace("/", "-").replace("\\", "-").replace("|", "-")
 
     # Substitui aspas duplas por simples
     name = name.replace('"', "'")
 
-    # Remove os outros inválidos pelo regex
+    # Remove caracteres inválidos
     name = INVALID_REGEX.sub("", name)
 
-    # Normaliza unicode (evita compatibilidade ruim)
+    # Normaliza unicode
     name = unicodedata.normalize("NFKC", name)
 
     # Colapsa espaços múltiplos e hifens duplicados
@@ -108,7 +111,6 @@ def normalize_name(name: str) -> str:
     if base_upper in WINDOWS_RESERVED_NAMES:
         name = name + "_"
 
-    # Evitar nomes muito grandes (NTFS normalmente suporta 255)
     if len(name) > 240:
         name = name[:240].rstrip()
 
@@ -117,24 +119,38 @@ def normalize_name(name: str) -> str:
 
 # ---------------------- Parsing do Index.md ---------------------- #
 SECTION_HEADER_RE = re.compile(r"^\s*#{3}\s+(.*\S)\s*$")  # ### Section 1: Título
-LESSON_LINE_RE = re.compile(
-    r"^\s*(\d+)\.\s+(.*?)\s*`(\d+\s*min)`\s*$", re.IGNORECASE
+
+# Aula com duração: "331. Module Introduction `1min`"
+LESSON_WITH_DURATION_RE = re.compile(
+    r"^\s*(\d+)\.\s+(.*?)\s*`(\d+\s*min)`\s*$",
+    re.IGNORECASE,
 )
+
+# Assignment sem duração: "Assignment 1: Practicing Components"
+ASSIGNMENT_RE = re.compile(
+    r"^\s*Assignment\s+(\d+):\s+(.*\S)\s*$",
+    re.IGNORECASE,
+)
+
 BULLET_RE = re.compile(r"^\s*-\s+(.*\S)\s*$")
 
 class Lesson:
-    def __init__(self, raw_line: str, number: int, title: str, duration: str, line_no: int):
+    def __init__(self, raw_line: str, number: int, title: str, duration: Optional[str], line_no: int):
         self.raw_line = raw_line
         self.number = number
         self.title = title
-        self.duration = duration
+        self.duration = duration  # pode ser None (Assignments)
         self.resources = []  # list[str]
         self.line_no = line_no
 
     @property
     def folder_basename(self) -> str:
-        # Nome da pasta até o primeiro backtick do raw_line (já foi garantido no formato)
-        before_tick = self.raw_line.split("`", 1)[0].strip()
+        # Nome da pasta até o primeiro backtick, se houver; senão, linha inteira
+        raw = self.raw_line.strip()
+        if "`" in raw:
+            before_tick = raw.split("`", 1)[0].strip()
+        else:
+            before_tick = raw
         return normalize_name(before_tick)
 
 class Section:
@@ -145,8 +161,7 @@ class Section:
 
     @property
     def folder_basename(self) -> str:
-        # Usar exatamente o header como base de pasta, normalizado
-        # Ex: "Section 1: Getting Started" -> "Section 1 - Getting Started"
+        # Usar o header, normalizado
         return normalize_name(self.header_text)
 
 
@@ -161,8 +176,8 @@ def find_index_file(base_dir: Path) -> Optional[Path]:
 def parse_index_file(index_path: Path):
     errors = []
     sections = []
-    current_section = None
-    current_lesson = None
+    current_section: Optional[Section] = None
+    current_lesson: Optional[Lesson] = None
 
     logging.info(f"Lendo arquivo de índice: {index_path}")
 
@@ -171,16 +186,16 @@ def parse_index_file(index_path: Path):
 
     for i, raw in enumerate(lines, start=1):
         line = raw.rstrip("\n")
+
         if not line.strip():
-            # Linhas em branco são permitidas, mas encerram sequência de bullets
-            current_lesson_resources_block = False
+            # Linha em branco: apenas ignora (mantém current_lesson)
             continue
 
         # Cabeçalho de seção (### ...)
         m_sec = SECTION_HEADER_RE.match(line)
         if m_sec:
             header_text = m_sec.group(1).strip()
-            # Validar que começa com "Section" (como descrito)
+            # Validar que começa com "Section"
             if not header_text.lower().startswith("section"):
                 errors.append(
                     f"Linha {i}: Header de nível 3 não inicia com 'Section': {line!r}"
@@ -191,30 +206,50 @@ def parse_index_file(index_path: Path):
             logging.info(f"Seção detectada (linha {i}): {header_text}")
             continue
 
-        # Aula (N. Título `Xmin`)
-        m_less = LESSON_LINE_RE.match(line)
-        if m_less:
+        # Aula com duração (N. ... `Xmin`)
+        m_less_dur = LESSON_WITH_DURATION_RE.match(line)
+        if m_less_dur:
             if current_section is None:
                 errors.append(
                     f"Linha {i}: Aula encontrada fora de uma seção: {line!r}"
                 )
-                # Mesmo assim tenta criar seção "Sem Seção" para não perder conteúdo
                 if sections and sections[-1].header_text == "Sem Seção":
                     current_section = sections[-1]
                 else:
                     current_section = Section("Sem Seção", i)
                     sections.append(current_section)
 
-            number = int(m_less.group(1))
-            title = m_less.group(2).strip()
-            duration = m_less.group(3).replace(" ", "").lower()  # normaliza `2min`
+            number = int(m_less_dur.group(1))
+            title = m_less_dur.group(2).strip()
+            duration = m_less_dur.group(3).replace(" ", "").lower()  # normaliza `2min`
             lesson = Lesson(raw_line=line.strip(), number=number, title=title, duration=duration, line_no=i)
             current_section.lessons.append(lesson)
             current_lesson = lesson
-            logging.info(f"Aula detectada (linha {i}): {lesson.raw_line}")
+            logging.info(f"Aula (com duração) detectada (linha {i}): {lesson.raw_line}")
             continue
 
-        # Recurso (bullet) - deve vir após uma aula
+        # Assignment sem duração
+        m_assign = ASSIGNMENT_RE.match(line)
+        if m_assign:
+            if current_section is None:
+                errors.append(
+                    f"Linha {i}: Assignment encontrado fora de uma seção: {line!r}"
+                )
+                if sections and sections[-1].header_text == "Sem Seção":
+                    current_section = sections[-1]
+                else:
+                    current_section = Section("Sem Seção", i)
+                    sections.append(current_section)
+
+            number = int(m_assign.group(1))
+            title = m_assign.group(2).strip()
+            lesson = Lesson(raw_line=line.strip(), number=number, title=title, duration=None, line_no=i)
+            current_section.lessons.append(lesson)
+            current_lesson = lesson
+            logging.info(f"Assignment (sem duração) detectado (linha {i}): {lesson.raw_line}")
+            continue
+
+        # Recurso (bullet) - deve vir após uma aula/assignment
         m_bul = BULLET_RE.match(line)
         if m_bul:
             if current_lesson is None:
@@ -243,7 +278,8 @@ def ensure_dir(p: Path):
 
 def ensure_file(p: Path, content: str):
     if not p.exists():
-        p.write_text(content, encoding="utf-8", newline="\n")
+        # Path.write_text não aceita newline=...
+        p.write_text(content, encoding="utf-8")
         logging.info(f"[CREATE FILE] {p}")
     else:
         logging.info(f"[EXISTS FILE] {p}")
@@ -259,7 +295,7 @@ def write_section_index(section_dir: Path, section: Section):
     else:
         lines.append("\n## Aulas\n")
         for lesson in section.lessons:
-            # mostrar exatamente a linha da aula como estava no índice raiz
+            # Mostrar exatamente a linha da aula como estava no índice raiz
             lines.append(f"- {lesson.raw_line}\n")
 
     content = "".join(lines)
@@ -272,7 +308,10 @@ def write_lesson_index(lesson_dir: Path, lesson: Lesson):
     """
     lines = []
     lines.append(f"# {lesson.number}. {lesson.title}\n")
-    lines.append(f"\n> Duração: `{lesson.duration}`\n\n")
+    if lesson.duration:
+        lines.append(f"\n> Duração: `{lesson.duration}`\n\n")
+    else:
+        lines.append(f"\n> Duração: (não informada)\n\n")
 
     if lesson.resources:
         lines.append("## Recursos\n")
@@ -320,7 +359,7 @@ def main():
 
     if parse_errors:
         logging.info("Processo finalizado COM ERROS (ver acima e em organiza_udemy.log).")
-        # Mantém exit code 0 para não interromper CI/CD se não desejado; ajuste para 2 se quiser falhar:
+        # Se preferir falhar o processo em caso de erro de formatação:
         # sys.exit(2)
     else:
         logging.info("Processo finalizado sem erros de formatação.")
