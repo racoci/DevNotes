@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Udemy-Angular/Index.md",
+                "file": "Frontend/Udemy-Angular/0. Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "0. Index"
             }
           }
         ],
@@ -186,10 +186,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "48eef2bf20daeaf4",
+  "active": "136b65c4bb4a1d44",
   "lastOpenFiles": [
     "Health/Backend/AWS-Infra-draft.png",
-    "Frontend/Udemy-Angular/Index.md",
+    "Frontend/Udemy-Angular/0. Index.md",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/HL7 FHIR/RNDS.md",
     "conflict-files-obsidian-git.md",
