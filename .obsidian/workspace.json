@@ -25,12 +25,14 @@
             "id": "48eef2bf20daeaf4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Health/Backend/AWS-Infra-draft.png"
+                "file": "Frontend/Udemy-Angular/Index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "AWS-Infra-draft"
+              "icon": "lucide-file",
+              "title": "Index"
             }
           }
         ],
@@ -184,8 +186,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
+    "Health/Backend/AWS-Infra-draft.png",
+    "Frontend/Udemy-Angular/Index.md",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/HL7 FHIR/RNDS.md",
     "conflict-files-obsidian-git.md",
@@ -208,7 +212,6 @@
     "Health/Fluxos-2025-08-14-00-47-24.png",
     "Health/Fluxos-2025-08-14-00-47-22.png",
     "Health/Fluxos-2025-08-14-00-47-20.png",
-    "Health/Fluxos-2025-08-14-00-47-18.png",
     "Health/Entidade-Relacionamento.md",
     "Health/Backend/Infra.md",
     "Health/Backend",
@@ -230,7 +233,6 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.13 Troubleshooting da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.12 Links da aula.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.11 Removendo o projeto.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.09 Últimas considerações.md"
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md"
   ]
 }
