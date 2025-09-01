@@ -1,0 +1,1065 @@
+2025-09-01 11:46:15 | INFO    | Procurando por '0. Index.md' ou 'Index.md' em: /home/racoci/Projects/DevNotes/Frontend/Udemy-Angular
+2025-09-01 11:46:15 | INFO    | Lendo arquivo de índice: /home/racoci/Projects/DevNotes/Frontend/Udemy-Angular/0. Index.md
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1): Section 1: Getting Started
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 2): 1. Welcome To The Course! `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 3): 2. What Exactly Is Angular? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 4): 3. Why Would You Use Angular? `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 5): 4. Angular's Evolution & Stability `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 6): 5. Creating A New Angular Project `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 7): Angular CLI
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 8): 6. Setting Up An Angular Development Environment `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 9): 7. About This Course `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 10): Take the "old" course
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 11): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 12): 8. Course Setup & Resources `2min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 14): Section 2: Angular Essentials - Components, Templates, Services & More
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 15): 9. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 16): 10. A New Starting Project & Analyzing The Project Structure `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 17): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 18): 11. Understanding Components & How Content Ends Up On The Screen `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 19): 12. Creating a First Custom Component `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 20): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 21): 13. [Optional] JavaScript Refresher: Classes, Properties & More `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 22): 14. Configuring the Custom Component `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 23): 15. Using the Custom Component `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 24): 16. Styling the Header Component & Adding An Image `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 25): header.component.css
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 26): styles.css
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 27): index.html
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 28): task-management-logo.png
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 29): 17. Managing & Creating Components with the Angular CLI `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 30): 18. Styling & Using Our Next Custom Component `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 31): user.component.css
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 32): app.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 33): 19. Preparing User Data (To Output Dynamic Content) `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 34): dummy-users.ts
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 35): users.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 36): 20. Storing Data in a Component Class `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 37): 21. Outputting Dynamic Content with String Interpolation `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 38): 22. Property Binding & Outputting Computed Values `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 39): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 40): 23. Attribute Binding `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 41): 24. Using Getters For Computed Values `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 42): 25. Listening to Events with Event Binding `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 43): 26. Managing State & Changing Data `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 44): 27. A Look Behind The Scenes Of Angular's Change Detection Mechanism `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 45): 28. Introducing Signals `13min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 46): 29. We Need More Flexible Components! `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 47): 30. Defining Component Inputs `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 48): 31. Required & Optional Inputs `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 49): 32. Using Signal Inputs `14min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 50): 33. We Need Custom Events! `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 51): 34. Working with Outputs & Emitting Data `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 52): 35. Using the output() Function `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 53): 36. Adding Extra Type Information To EventEmitter `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 54): 37. Exercise: Create a Configurable Component `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 55): 38. TypeScript: Working With Potentially Undefined Values & Union Types `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 56): 39. Accepting Objects As Inputs & Adding Appropriate Typings `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 57): 40. TypeScript: Type Aliases & Interfaces `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 58): type vs interface
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 59): 41. Outputting List Content `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 60): 42. Outputting Conditional Content `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 61): 43. Legacy Angular: Using ngFor & ngIf `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 62): 44. Adding More Components to the Demo App `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 63): tasks.component.css
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 64): task.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 65): 45. Outputting User-specific Tasks `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 66): Dummy Tasks
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 67): 46. Outputting Task Data in the Task Component `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 68): 47. Storing Data Models in Separate Files `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 69): 48. Dynamic CSS Styling with Class Bindings `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 70): 49. More Component Communication: Deleting Tasks `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 71): 50. Creating & Conditionally Rendering Another Component `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 72): 51. Managing The "New Task" Dialog `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 73): new-task.component.html
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 74): new-task.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 75): 52. Using Directives & Two-Way-Binding `11min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 76): 53. Signals & Two-Way-Binding `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 77): 54. Handling Form Submission `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 78): 55. Using the Submitted Data `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 79): 56. Content Projection with ng-content `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 80): 57. Transforming Template Data with Pipes `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 81): 58. Getting Started with Services `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 82): 59. Getting Started with Dependency Injection `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 83): 60. More Service Usage & Alternative Dependency Injection Mechanism `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 84): 61. Time to Practice: Services `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 85): 62. Using localStorage for Data Storage `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 86): 63. Module Summary `9min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 88): Section 3: Angular Essentials - Working with Modules
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 89): 64. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 90): 65. A First Introduction To Angular Modules (NgModule) `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 91): Starting Project
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 92): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 93): 66. Angular 19, Standalone Components & Modules `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 94): 67. Creating a First Empty Module `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 95): 68. Bootstrapping Apps with Angular Modules `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 96): 69. Declaring & Using Components `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 97): 70. A First Summary `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 98): 71. Migrating All Components To Use Modules `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 99): 72. Creating & Using Shared Modules `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 100): 73. Creating More Complex Module-based App Structures `7min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 102): Section 4: Angular Essentials - Time To Practice
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 103): 74. Module Introduction & Starting Project `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 104): Attachments / Style Files
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 105): Starting Project
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 106): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 107): 75. Exercise Hints `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 108): 76. Adding a Header Component With An Image `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 109): header.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 110): 77. Adding a User Input Component `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 111): 78. Handling Form Submission `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 112): 79. Extracting Values with Two-Way-Binding `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 113): 80. Calculating the Annual Investment Data `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 114): 81. Cross-Component Communication with Outputs `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 115): 82. Creating & Using a Data Model `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 116): 83. Passing Data from Parent to Child with Inputs `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 117): 84. Outputting Data in a Table `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 118): 85. Formatting Output with a Pipe `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 119): 86. Using Signals & Resetting The Form After Submission `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 120): 87. Using a Service for Cross-Component Communication `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 121): 88. Using Signals in Services `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 122): 89. Migrating to Angular Modules `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 123): 90. Module Summary `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 125): Section 5: Debugging Angular Apps
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 126): 91. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 127): 92. Understanding Error Messages & Fixing Errors `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 128): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 129): 93. Debugging Logical Errors with the Browser DevTools & Breakpoints `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 130): 94. Exploring the Angular DevTools `4min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 132): Section 6: Components & Templates - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 133): 95. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 134): 96. Starting Project & An Opportunity For Smaller Components? `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 135): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 136): 97. When & How To Split Up Components `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 137): 98. Splitting A Component Into Multiple Components `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 138): 99. Creating Reusable Components `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 139): 100. Component Inputs: Repetition `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 140): 101. Property Binding: Repetition `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 141): 102. Using Content Projection & ng-content `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 142): 103. Adding Forms to Components `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 143): new-ticket.component.html
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 144): Updated styles.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 145): 104. A Possible, But Not Ideal Way Of Extending Built-in Elements `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 146): 105. Extending Built-in Elements with Custom Components via Attribute Selectors `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 147): Component Selectors
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 148): 106. Supporting Content Projection with Multiple Slots `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 149): 107. Exploring Advanced Content Projection `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 150): 108. Defining Content Projection Fallbacks `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 151): 109. Multi-Element Custom Components & Content Projection `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 152): 110. Scoping CSS Styles to Components `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 153): Style Files
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 154): 111. Understanding & Configuring View Encapsulation `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 155): 112. Making Sense of Component Host Elements `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 156): button.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 157): 113. Using Host Elements Like Regular Elements `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 158): 114. Interacting With Host Elements From Inside Components `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 159): 115. When (Not) To Rely On Host Elements `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 160): 116. Interacting with Host Elements via @HostListener & @HostBinding `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 161): 117. Accessing Host Elements Programmatically `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 162): 118. Class Bindings: Repetition `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 163): 119. There's More Than One Way Of Binding CSS Classes Dynamically `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 164): 120. A Closer Look At Dynamic Inline Style Binding `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 165): 121. Manipulating State & Using Literal Values `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 166): 122. Introducing the Component Lifecycle: ngOnInit `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 167): Angular Component Lifecycle
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 168): 123. Implementing Lifecycle Interfaces `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 169): 124. Component Lifecycle - A Deep Dive `15min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 170): Angular Component Lifecycle
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 171): Lifecycle Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 172): 125. Component Cleanup with ngOnDestroy `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 173): 126. Component Cleanup with DestroyRef `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 174): 127. Handling Form Submissions: Repetition `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 175): 128. Working with Template Variables `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 176): More HTMLInputElement
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 177): 129. Extracting Input Values via Template Variables `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 178): 130. Template Variables & Component Instances `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 179): 131. Getting Access to Template Elements via ViewChild `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 180): 132. Using The viewChild Signal Function `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 181): 133. ViewChild vs ContentChild `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 182): 134. A Closer Look at Decorator-based Queries & Lifecycle Hooks `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 183): 135. The afterRender and afterNextRender Lifecycle Functions `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 184): 136. Making Sense of Signal Effects `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 185): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 186): 137. Signal Effects Cleanup Functions `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 187): 138. TypeScript & Type Models: Repetition `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 188): 139. Component Outputs: Repetition `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 189): 140. A Closer Look At Template For Loops `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 190): 141. Revisiting Inputs & Signals `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 191): ticket.component.html
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 192): ticket.component.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 193): 142. Updating Signal Values `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 194): 143. Cross-Component Communication & State Management `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 195): 144. Configuring Component Inputs & Outputs `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 196): 145. Two-Way Binding: Repetition `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 197): 146. Setting Up Custom Two-Way Binding `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 198): Two Way Binding Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 199): 147. An Easier Way of Setting Up Custom Two-Way Binding `4min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 201): Section 7: Enhancing Elements with Directives - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 202): 148. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 203): 149. Understanding Directives `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 204): 150. The Starting Project `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 205): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 206): 151. Analyzing a Built-in Attribute Directive: ngModel `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 207): 152. Analyzing a Built-in Structural Directive: ngIf `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 208): 153. Getting Started with Custom Directives `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 209): 154. Using Attribute Directives To Change Element Behavior `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 210): 155. Working with Inputs in Custom Directives `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 211): 156. Directives & Dependency Injection `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 212): 157. Building Another Directive `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 213): 158. Building a Custom Structural Directive `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 214): 159. Structural Directives & Syntactic Sugar `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 215): 160. Host Directives & Composition `8min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 217): Section 8: Transforming Values with Pipes - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 218): 161. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 219): 162. Making Sense of Pipes `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 220): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 221): 163. Using Built-in Pipes `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 222): 164. More Built-in Pipes Examples `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 223): 165. Building a First Custom Pipe `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 224): 166. Using Custom Pipes to Perform Custom Transformations `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 225): 167. Accepting Parameters in Custom Pipes `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 226): 168. Chaining Pipes & Being Aware of Limitations `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 227): 169. Building a Pipe That Sorts Items `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 228): 170. Understanding How Pipes Are Executed `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 229): Reference vs Primitive Values
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 230): 171. Pure & Impure Pipes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 231): 172. Pipe Limitations & When Not To Use Them `3min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 233): Section 9: Understanding Services & Dependency Injection - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 234): 173. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 235): 174. The Starting Project & The Need For A Centralized Service `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 236): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 237): 175. Creating a Service `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 238): 176. How NOT To Provide A Service `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 239): 177. Using Angular's Dependency Injection Mechanism `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 240): 178. Using The Alternative Dependency Injection Syntax `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 241): 179. Outsourcing & Reusing Logic with Services `11min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 242): 180. Angular Has Multiple Injectors! `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 243): 181. There Are Multiple Ways Of Providing a Service `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 244): 182. Providing Services via the Element Injector `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 245): 183. Understanding the Element Injector's Behavior `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 246): 184. Injecting Services Into Services `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 247): 185. Analyzing Dependency Injection with the Angular DevTools `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 248): 186. Using Custom DI Tokens & Providers `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 249): 187. Preparing A Non-Class Value For Injection `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 250): 188. Injecting Other Values (NOT Services) `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 251): 189. Angular Modules (NgModule) & Dependency Injection `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 252): NgModules Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 253): 190. Working with Services Without Using Signals `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 254): No Signals Project
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 256): Section 10: Making Sense of Change Detection - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 257): 191. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 258): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 259): 192. Analyzing the Starting Project `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 260): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 261): 193. Understanding How Angular Performs Change Detection `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 262): 194. Change Detection During Development: ExpressionChangedAfterChecked Errors `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 263): 195. Writing Efficient Template Bindings `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 264): 196. Avoiding Zone Pollution `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 265): 197. Using the OnPush Strategy `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 266): 198. Understanding the OnPush Strategy `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 267): 199. Working with OnPush & Signals `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 268): 200. Using Signals for Sharing Data Across Components (with OnPush) `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 269): messages.service.ts
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 270): 201. The Problem With OnPush, Cross-Component Data & Not Using Signals `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 271): 202. Triggering Change Detection Manually & Using RxJS Subjects `11min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 272): 203. Introducing The async Pipe `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 273): 204. Going Zoneless! `13min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 275): Section 11: Working with RxJS (Observables) - Deep Dive
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 276): 205. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 277): 206. What Are Observables & What Is RxJS? `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 278): 207. Creating & Using an Observable `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 279): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 280): 208. Working with RxJS Operators `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 281): 209. Working with Signals `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 282): 210. Signals vs Observables `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 283): 211. Converting Signals To Observables `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 284): 212. Converting Observables To Signals `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 285): 213. Deep Dive: Creating & Using A Custom Observable From Scratch `12min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 286): 214. Module Summary `3min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 288): Section 12: Sending HTTP Requests & Handling Responses
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 290): Section 13: Handling User Input & Working with Forms (Template-driven & Reactive)
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 291): 238. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 292): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 293): 239. Template-driven vs Reactive Forms `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 294): 240. Template-driven: Registering Form Controls `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 295): 241. Getting Access to the Angular-managed Form `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 296): 242. Extracting User Input Values `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 297): 243. Validating Input with Form Validation Directives `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 298): 244. Using the Form Validation Status To Provide User Feedback `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 299): 245. Adding Validation Styles `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 300): styles.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 301): 246. Interacting With The Underlying Form Object In The Component `13min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 302): 247. Updating Form Values Programmatically `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 303): 248. Reactive Forms: Getting Started `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 304): login.component.ts
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 305): login.component.html
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 306): 249. Syncing Reactive Form Definition & Template `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 307): 250. Handling Form Submission (Reactive Forms) `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 308): 251. Adding Validators To Reactive Forms `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 309): 252. Building Custom Validators `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 310): Building Custom Angular Form Validation Directives
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 311): 253. Creating & Using Async Validators `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 312): 254. Interacting with the Form Programmatically `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 313): 255. Exercise: Problem `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 314): signup.component.html
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 315): 256. Exercise: Solution `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 316): 257. Connecting & Registering Inputs For A Complex Form `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 317): 258. Working with Nested Form Groups `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 318): 259. Working with Form Arrays `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 319): 260. Practice: Adding More Validation `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 320): 261. Creating Multi-Input Validators / Form Group Validators `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 321): Updated styles.css
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 322): 262. Module Summary `2min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 324): Section 14: Routing & Building Multi-page Single Page Applications
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 325): 263. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 326): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 327): 264. What Is Routing? `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 328): 265. Enabling Routing & Adding a First Route `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 329): 266. Rendering Routes `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 330): 267. Registering Multiple Routes `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 331): 268. Adding Links The Right Way `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 332): 269. Styling Active Navigation Links `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 333): 270. Setting Up & Navigating To Dynamic Routes `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 334): 271. Extracting Dynamic Route Parameters via Inputs `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 335): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 336): 272. Extracting Dynamic Route Parameters via @Input() `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 337): 273. Extracting Dynamic Route Parameters via Observables `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 338): 274. Working with Nested Routes `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 339): 275. Route Links & Relative Links `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 340): 276. Accessing Parent Route Data From Inside Nested Routes `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 341): 277. Loading Data Based On Route Parameters In Child Routes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 342): 278. Link Shortcuts & Programmatic Navigation `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 343): 279. Adding A "Not Found" Route `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 344): Not Found Component
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 345): 280. Redirecting Users `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 346): 281. Splitting Route Definitions Across Multiple Files `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 347): 282. Activated Route vs Activated Route Snapshot `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 348): 283. Setting Query Parameters `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 349): 284. Extracting Query Parameters via Inputs `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 350): 285. Extracting Query Parameters via Observables `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 351): 286. Using Query Parameters For Data Manipulation `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 352): 287. Adding Static Data To Routes `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 353): 288. Resolving Route-related Dynamic Data `11min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 354): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 355): 289. Optional: Class-based Resolvers `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 356): 290. Accessing Route Data In Components `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 357): 291. Controlling Route Resolver Execution `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 358): users.routes.ts
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 359): tasks.component.ts
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 360): 292. Setting & Resolving Titles `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 361): 293. Introducing Route Guards `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 362): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 363): 294. Optional: Class-based Guards `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 364): 295. Making Sense of The CanDeactivate Guard `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 365): 296. Improving The CanDeactivate Logic `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 366): 297. Reloading Pages via the Angular Router & Configuring Programmatic Navigation `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 367): Finished Project with NgModules
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 369): Section 15: Code Splitting & Deferrable Views
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 370): 298. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 371): 299. What Is Lazy Loading / Code Splitting? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 372): 300. Introducing Route-based Lazy Loading `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 373): Starting Project
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 374): 301. Implementing Route-based Lazy Loading `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 375): 302. Lazy Loading Entire Route Groups `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 376): 303. Using Lazy Loading & Routing to Lazy-load Services `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 377): 304. Introducing Deferrable Views `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 378): Deferrable Views Starting Project
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 379): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 380): 305. Defer & Hot Module Reloading `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 381): 306. Defer Loading Until Viewport Visibility `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 382): Deferrable Views Docs
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 383): 307. Deferrable Views: Using Other Triggers `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 384): 308. Prefetching Lazy-loaded Code `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 385): 309. Deferrable Views: Summary `2min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 387): Section 16: Deploying Angular Apps - CSR, SSR, SGA
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 388): 310. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 389): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 390): 311. The Starting Project `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 391): 01-starting-project.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 392): 312. Preparing a Project For Deployment: Building It For Production `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 393): 313. Building SPAs: Pros & Cons `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 394): 314. SPAs: Deployment Example `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 395): 315. Using "ng add", "ng deploy" & Angular's Built-in Deployment Support `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 396): Angular CLI Deployment
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 397): 316. Server-side Rendering (SSR) Introduction `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 398): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 399): 317. SSR & Angular 20+ `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 400): deployment angular 20.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 401): 318. Setting Up SSR For An Angular App `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 402): 319. Building and Service an SSR App `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 403): 320. Authoring SSR-ready Code (Beware of Pitfalls!) `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 404): 321. SSR and Client-Server Mismatches `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 405): tasks.component.ts
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 406): users.routes.ts
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 407): 322. Static Site Generation (SSG) Introduction `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 408): 323. Configuring & Using SSG `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 409): 324. Deployment Methods - A Summary `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 410): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 411): 325. SSR & SSG Deployment Example `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 413): Section 17: Course Roundup & Next Steps
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 414): 326. Course Roundup `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 415): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 416): 327. Bonus: More Content! `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 417): 328. About The Rest Of This Course `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 418): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 419): 329. Where To Go Next? `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 421): Section 18: The Basics [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 423): 330. About This Section `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 424): project-template.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 425): 331. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 426): 332. How an Angular App gets Loaded and Started `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 427): 333. Components are Important! `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 428): 334. Creating a New Component `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 429): 335. Understanding the Role of AppModule and Component Declaration `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 430): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 431): 336. Working with Standalone Components `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 432): 337. Using Custom Components `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 433): 338. Creating Components with the CLI & Nesting Components `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 434): 339. Working with Component Templates `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 435): 340. Working with Component Styles `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 436): 341. Fully Understanding the Component Selector `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 437): basics-components.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 438): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 440): 342. [OPTIONAL] Assignment Solution `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 441): basics-assignment-1-solution.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 442): 343. What is Databinding? `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 443): 344. String Interpolation `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 444): 345. Property Binding `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 445): 346. Property Binding vs String Interpolation `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 446): 347. Event Binding `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 447): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 448): 348. Bindable Properties and Events `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 449): 349. Passing and Using Data with Event Binding `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 450): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 451): 350. Important: FormsModule is Required for Two-Way-Binding! `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 452): 351. Two-Way-Databinding `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 453): 352. Combining all Forms of Databinding `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 454): basics-databinding.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 455): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 457): 353. [OPTIONAL] Assignment Solution `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 458): basics-assignment-2-solution.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 459): 354. Understanding Directives `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 460): 355. Using ngIf to Output Data Conditionally `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 461): 356. Enhancing ngIf with an Else Condition `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 462): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 463): 357. Angular 17: Alternative "if" Syntax `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 464): 358. Styling Elements Dynamically with ngStyle `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 465): 359. Applying CSS Classes Dynamically with ngClass `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 466): 360. Outputting Lists with ngFor `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 467): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 468): 361. Angular 17: Alternative "for" Syntax `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 469): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 471): 362. [OPTIONAL] Assignment Solution `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 472): basics-assignment-3-solution.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 473): 363. Getting the Index when using ngFor `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 474): basics-components.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 475): basics-databinding.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 476): basics-ngfor-addition.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 477): basics-directives.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 479): Section 19: Course Project - The Basics [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 481): 364. About This Section `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 482): 365. Project Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 483): 366. Planning the App `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 484): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 485): 367. Creating a New App Correctly `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 486): 368. Setting up the Application `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 487): course-project-starting-project.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 488): 369. Creating the Components `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 489): 370. Using the Components `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 490): 371. Adding a Navigation Bar `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 491): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 492): 372. Alternative Non-Collapsable Navigation Bar `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 493): 373. Creating a "Recipe" Model `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 494): 374. Adding Content to the Recipes Components `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 495): 375. Outputting a List of Recipes with ngFor `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 496): 376. Displaying Recipe Details `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 497): 377. Working on the ShoppingListComponent `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 498): 378. Creating an "Ingredient" Model `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 499): 379. Creating and Outputting the Shopping List `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 500): 380. Adding a Shopping List Edit Section `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 501): 381. Wrap Up & Next Steps `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 502): course-project-cmp-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 504): Section 20: Debugging [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 505): 382. Understanding Angular Error Messages `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 506): debugging.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 507): 383. Debugging Code in the Browser Using Sourcemaps `6min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 509): Section 21: Components & Databinding Deep Dive [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 510): 384. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 511): cmp-databinding-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 512): 385. Splitting Apps into Components `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 513): 386. Property & Event Binding Overview `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 514): 387. Binding to Custom Properties `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 515): 388. Assigning an Alias to Custom Properties `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 516): 389. Binding to Custom Events `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 517): 390. Assigning an Alias to Custom Events `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 518): 391. Custom Property and Event Binding Summary `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 519): 392. Understanding View Encapsulation `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 520): 393. More on View Encapsulation `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 521): 394. Using Local References in Templates `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 522): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 523): 395. @ViewChild() in Angular 8+ `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 524): 396. Getting Access to the Template & DOM with @ViewChild `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 525): 397. Projecting Content into Components with ng-content `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 526): 398. Understanding the Component Lifecycle `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 527): lifecycle.pdf
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 528): 399. Seeing Lifecycle Hooks in Action `12min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 529): 400. Lifecycle Hooks and Template Access `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 530): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 531): 401. @ContentChild() in Angular 8+ `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 532): 402. Getting Access to ng-content with @ContentChild `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 533): 403. Wrap Up `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 534): cmp-databinding-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 535): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 537): 404. [OPTIONAL] Assignment Solution `12min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 538): cmp-databinding-assignment-solution.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 540): Section 22: Course Project - Components & Databinding [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 541): 405. Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 542): course-project-cmp-final.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 543): 406. Adding Navigation with Event Binding and ngIf `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 544): 407. Passing Recipe Data with Property Binding `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 545): 408. Passing Data with Event and Property Binding (Combined) `11min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 546): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 547): 409. Make sure you have FormsModule added! `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 548): 410. Allowing the User to Add Ingredients to the Shopping List `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 549): course-project-cmp-databinding-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 551): Section 23: Directives Deep Dive [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 552): 411. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 553): directives-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 554): 412. ngFor and ngIf Recap `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 555): directives-final.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 556): 413. ngClass and ngStyle Recap `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 557): 414. Creating a Basic Attribute Directive `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 558): 415. Using the Renderer to build a Better Attribute Directive `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 559): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 560): 416. More about the Renderer `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 561): 417. Using HostListener to Listen to Host Events `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 562): 418. Using HostBinding to Bind to Host Properties `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 563): 419. Binding to Directive Properties `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 564): 420. What Happens behind the Scenes on Structural Directives `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 565): 421. Building a Structural Directive `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 566): 422. Understanding ngSwitch `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 567): directives-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 569): Section 24: Course Project - Directives [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 570): 423. Building and Using a Dropdown Directive `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 571): course-project-directives-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 572): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 573): 424. Closing the Dropdown From Anywhere `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 575): Section 25: Using Services & Dependency Injection [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 576): 425. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 577): services-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 578): 426. Why would you Need Services? `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 579): services-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 580): 427. Creating a Logging Service `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 581): 428. Injecting the Logging Service into Components `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 582): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 583): 429. Alternative Injection Syntax `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 584): 430. Creating a Data Service `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 585): 431. Understanding the Hierarchical Injector `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 586): 432. How many Instances of Service Should It Be? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 587): 433. Injecting Services into Services `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 588): 434. Using Services for Cross-Component Communication `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 589): services-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 590): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 591): 435. A Different Way Of Injecting Services `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 592): services-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 593): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 595): 436. [OPTIONAL] Assignment Solution `10min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 596): services-assignment-solution.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 598): Section 26: Course Project - Services & Dependency Injection [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 599): 437. Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 600): course-project-directives-final.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 601): 438. Setting up the Services `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 602): course-project-directives-final.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 603): 439. Managing Recipes in a Recipe Service `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 604): 440. Using a Service for Cross-Component Communication `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 605): 441. Adding the Shopping List Service `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 606): 442. Using Services for Pushing Data from A to B `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 607): 443. Adding Ingredients to Recipes `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 608): 444. Passing Ingredients from Recipes to the Shopping List (via a Service) `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 609): course-project-services-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 611): Section 27: Changing Pages with Routing [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 612): 445. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 613): routing-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 614): 446. Why do we need a Router? `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 615): routing-start.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 616): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 617): 447. Understanding the Example Project `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 618): 448. Setting up and Loading Routes `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 619): 449. Navigating with Router Links `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 620): 450. Understanding Navigation Paths `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 621): 451. Styling Active Router Links `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 622): 452. Navigating Programmatically `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 623): 453. Using Relative Paths in Programmatic Navigation `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 624): 454. Passing Parameters to Routes `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 625): 455. Fetching Route Parameters `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 626): 456. Fetching Route Parameters Reactively `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 627): 457. An Important Note about Route Observables `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 628): 458. Passing Query Parameters and Fragments `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 629): 459. Retrieving Query Parameters and Fragments `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 630): 460. Practicing and some Common Gotchas `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 631): 461. Setting up Child (Nested) Routes `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 632): 462. Using Query Parameters - Practice `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 633): 463. Configuring the Handling of Query Parameters `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 634): 464. Redirecting and Wildcard Routes `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 635): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 636): 465. Important: Redirection Path Matching `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 637): 466. Outsourcing the Route Configuration `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 638): 467. An Introduction to Guards `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 639): 468. Protecting Routes with canActivate `9min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 640): 469. Protecting Child (Nested) Routes with canActivateChild `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 641): 470. Using a Fake Auth Service `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 642): 471. Controlling Navigation with canDeactivate `12min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 643): 472. Passing Static Data to a Route `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 644): 473. Resolving Dynamic Data with the resolve Guard `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 645): 474. Understanding Location Strategies `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 646): 475. Wrap Up `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 647): routing-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 649): Section 28: Course Project - Routing [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 650): 476. Planning the General Structure `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 651): 477. Setting Up Routes `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 652): 478. Adding Navigation to the App `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 653): 479. Marking Active Routes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 654): 480. Fixing Page Reload Issues `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 655): 481. Child Routes: Challenge `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 656): 482. Adding Child Routing Together `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 657): 483. Configuring Route Parameters `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 658): 484. Passing Dynamic Parameters to Links `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 659): 485. Styling Active Recipe Items `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 660): 486. Adding Editing Routes `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 661): 487. Retrieving Route Parameters `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 662): 488. Programmatic Navigation to the Edit Page `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 663): 489. One Note about Route Observables `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 664): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 665): 490. Project Cleanup `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 666): course-project-routing-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 668): Section 29: Understanding Observables [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 669): 491. Module Introduction `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 670): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 671): 492. Install RxJS `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 672): 493. Analyzing Angular Observables `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 673): obs-01-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 674): 494. Getting Closer to the Core of Observables `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 675): 495. Building a Custom Observable `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 676): obs-03-complete-custom-observable.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 677): 496. Errors & Completion `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 678): 497. Observables & You! `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 679): 498. Understanding Operators `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 680): obs-04-operators.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 681): 499. Subjects `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 682): 500. Wrap Up `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 683): obs-05-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 684): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 685): 501. Useful Resources & Links `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 686): obs-01-start.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 687): obs-02-first-custom-observable.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 688): obs-03-complete-custom-observable.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 689): obs-04-operators.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 690): obs-05-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 692): Section 30: Course Project - Observables [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 693): 502. Improving the Reactive Service with Observables (Subjects) `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 694): prj-routing-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 695): prj-obs-01-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 696): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 697): 503. Changed the Subscription Name `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 699): Section 31: Handling Forms in Angular Apps [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 700): 504. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 701): 505. Why do we Need Angular's Help? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 702): 506. Template-Driven (TD) vs Reactive Approach `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 703): 507. An Example Form `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 704): forms-td-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 705): 508. TD: Creating the Form and Registering the Controls `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 706): 509. TD: Submitting and Using the Form `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 707): 510. TD: Understanding Form State `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 708): 511. TD: Accessing the Form with @ViewChild `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 709): 512. TD: Adding Validation to check User Input `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 710): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 711): 513. Built-in Validators & Using HTML5 Validation `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 712): 514. TD: Using the Form State `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 713): 515. TD: Outputting Validation Error Messages `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 714): 516. TD: Set Default Values with ngModel Property Binding `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 715): 517. TD: Using ngModel with Two-Way-Binding `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 716): 518. TD: Grouping Form Controls `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 717): 519. TD: Handling Radio Buttons `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 718): 520. TD: Setting and Patching Form Values `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 719): 521. TD: Using Form Data `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 720): 522. TD: Resetting Forms `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 721): forms-td-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 722): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 724): 523. Introduction to the Reactive Approach `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 725): 524. Reactive: Setup `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 726): forms-reactive-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 727): 525. Reactive: Creating a Form in Code `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 728): 526. Reactive: Syncing HTML and Form `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 729): 527. Reactive: Submitting the Form `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 730): 528. Reactive: Adding Validation `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 731): 529. Reactive: Getting Access to Controls `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 732): 530. Reactive: Grouping Controls `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 733): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 734): 531. Fixing a Bug `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 735): 532. Reactive: Arrays of Form Controls (FormArray) `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 736): 533. Reactive: Creating Custom Validators `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 737): 534. Reactive: Using Error Codes `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 738): 535. Reactive: Creating a Custom Async Validator `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 739): 536. Reactive: Reacting to Status or Value Changes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 740): 537. Reactive: Setting and Patching Values `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 741): forms-reactive-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 742): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 744): 538. [OPTIONAL] Assignment Solution `14min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 745): forms-reactive-assignment-solution.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 747): Section 32: Course Project - Forms [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 748): 539. Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 749): prj-obs-01-finished.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 750): 540. TD: Adding the Shopping List Form `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 751): 541. Adding Validation to the Form `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 752): 542. Allowing the Selection of Items in the List `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 753): 543. Loading the Shopping List Items into the Form `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 754): 544. Updating existing Items `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 755): 545. Resetting the Form `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 756): 546. Allowing the the User to Clear (Cancel) the Form `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 757): 547. Allowing the Deletion of Shopping List Items `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 758): 548. Creating the Template for the (Reactive) Recipe Edit Form `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 759): 549. Creating the Form For Editing Recipes `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 760): 550. Syncing HTML with the Form `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 761): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 762): 551. Fixing a Bug `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 763): 552. Adding Ingredient Controls to a Form Array `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 764): 553. Adding new Ingredient Controls `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 765): 554. Validating User Input `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 766): 555. Submitting the Recipe Edit Form `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 767): 556. Adding a Delete and Clear (Cancel) Functionality `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 768): 557. Redirecting the User (after Deleting a Recipe) `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 769): 558. Adding an Image Preview `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 770): 559. Providing the Recipe Service Correctly `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 771): 560. Deleting Ingredients and Some Finishing Touches `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 772): prj-forms-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 773): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 774): 561. Deleting all Items in a FormArray `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 776): Section 33: Using Pipes to Transform Output [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 777): 562. Introduction & Why Pipes are Useful `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 778): 563. Using Pipes `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 779): pipes-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 780): 564. Parametrizing Pipes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 781): 565. Where to learn more about Pipes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 782): 566. Chaining Multiple Pipes `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 783): 567. Creating a Custom Pipe `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 784): 568. Parametrizing a Custom Pipe `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 785): 569. Example: Creating a Filter Pipe `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 786): 570. Pure and Impure Pipes (or: How to "fix" the Filter Pipe) `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 787): 571. Understanding the "async" Pipe `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 788): pipes-final.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 789): Start
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 792): Section 34: Making Http Requests [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 793): 572. A New IDE `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 794): 573. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 795): http-01-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 796): 574. How Does Angular Interact With Backends? `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 797): Building a REST API
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 798): http-01-start.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 799): Securing JS Code
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 800): 575. The Anatomy of a Http Request `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 801): 576. Backend (Firebase) Setup `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 802): 577. Sending a POST Request `10min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 803): http-02-post-requests.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 804): http-01-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 805): 578. GETting Data `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 806): 579. Using RxJS Operators to Transform Response Data `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 807): http-03-get-and-transform-data.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 808): 580. Using Types with the HttpClient `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 809): 581. Outputting Posts `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 810): 582. Showing a Loading Indicator `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 811): http-04-loading-indicator.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 812): 583. Using a Service for Http Requests `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 813): 584. Services & Components Working Together `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 814): 585. Sending a DELETE Request `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 815): 586. Handling Errors `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 816): 587. Using Subjects for Error Handling `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 817): 588. Using the catchError Operator `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 818): 589. Error Handling & UX `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 819): http-05-handling-errors.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 820): 590. Setting Headers `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 821): http-06-headers.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 822): 591. Adding Query Params `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 823): http-07-query-params.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 824): 592. Observing Different Types of Responses `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 825): 593. Changing the Response Body Type `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 826): 594. Introducing Interceptors `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 827): 595. Manipulating Request Objects `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 828): 596. Response Interceptors `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 829): http-08-interceptor.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 830): 597. Multiple Interceptors `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 831): 598. Wrap Up `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 832): http-09-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 833): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 834): 599. Useful Resources & Links `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 835): http-01-start.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 836): http-02-post-requests.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 837): http-03-get-and-transform-data.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 838): http-04-loading-indicator.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 839): http-05-handling-errors.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 840): http-06-headers.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 841): http-07-query-params.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 842): http-08-interceptor.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 843): http-09-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 845): Section 35: Course Project - Http [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 846): 600. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 847): 601. Backend (Firebase) Setup `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 848): 602. Setting Up the DataStorage Service `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 849): 603. Storing Recipes `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 850): 604. Fetching Recipes `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 851): prj-http-01-save-and-fetch-recipes.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 852): 605. Transforming Response Data `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 853): 606. Resolving Data Before Loading `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 854): 607. Fixing a Bug with the Resolver `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 855): prj-http-02-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 857): Section 36: Authentication & Route Protection in Angular
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 858): 608. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 859): 609. How Authentication Works `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 860): 610. Adding the Auth Page `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 861): auth-01-auth-component.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 862): 611. Switching Between Auth Modes `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 863): 612. Handling Form Input `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 864): auth-02-auth-form.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 865): 613. Preparing the Backend `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 866): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 867): 614. Make sure you got Recipes in your backend! `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 868): 615. Preparing the Signup Request `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 869): 616. Sending the Signup Request `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 870): 617. Adding a Loading Spinner & Error Handling Logic `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 871): auth-03-signup-request.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 872): 618. Improving Error Handling `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 873): 619. Sending Login Requests `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 874): auth-04-added-login.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 875): 620. Login Error Handling `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 876): 621. Creating & Storing the User Data `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 877): 622. Reflecting the Auth State in the UI `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 878): 623. Adding the Token to Outgoing Requests `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 879): 624. Attaching the Token with an Interceptor `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 880): auth-05-added-token-to-requests.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 881): 625. Adding Logout `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 882): auth-06-logout.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 883): 626. Adding Auto-Login `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 884): 627. Adding Auto-Logout `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 885): auth-07-autologin-autologout.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 886): 628. Adding an Auth Guard `11min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 887): 629. Wrap Up `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 888): auth-08-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 889): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 890): 630. Useful Resources & Links `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 891): auth-01-auth-component.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 892): auth-02-auth-form.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 893): auth-03-signup-request.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 894): auth-04-added-login.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 895): auth-05-added-token-to-requests.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 896): auth-06-logout.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 897): auth-07-autologin-autologout.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 898): auth-08-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 900): Section 37: Dynamic Components [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 901): 631. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 902): 632. Adding an Alert Modal Component `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 903): 633. Understanding the Different Approaches `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 904): 634. Using ngIf `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 905): 635. Preparing Programmatic Creation `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 906): 636. Creating a Component Programmatically `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 907): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 908): 637. About entryComponents `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 909): 638. Understanding entryComponents `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 910): 639. Data Binding & Event Binding `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 911): 640. Wrap Up `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 912): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 913): 641. Useful Resources & Links `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 914): dyn-cmp-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 916): Section 38: Angular Modules & Optimizing Angular Apps [Angular < 16]
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 917): 642. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 918): 643. What are Modules? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 919): 644. Analyzing the AppModule `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 920): 645. Getting Started with Feature Modules `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 921): opt-mod-01-feature-module.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 922): 646. Splitting Modules Correctly `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 923): 647. Adding Routes to Feature Modules `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 924): opt-mod-02-routing-module.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 925): 648. Component Declarations `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 926): 649. The ShoppingList Feature Module `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 927): 650. Understanding Shared Modules `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 928): opt-mod-03-shared-module.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 929): 651. Understanding the Core Module `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 930): opt-mod-04-core-module.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 931): 652. Adding an Auth Feature Module `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 932): 653. Understanding Lazy Loading `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 933): 654. Implementing Lazy Loading `12min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 934): opt-mod-05-lazy-loading.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 935): 655. More Lazy Loading `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 936): 656. Preloading Lazy-Loaded Code `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 937): 657. Modules & Services `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 938): 658. Loading Services Differently `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 939): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 940): 659. Useful Resources & Links `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 941): opt-mod-01-feature-module.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 942): opt-mod-02-routing-module.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 943): opt-mod-03-shared-module.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 944): opt-mod-04-core-module.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 945): opt-mod-05-lazy-loading.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 946): opt-mod-06-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 948): Section 39: Standalone Components
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 949): 660. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 950): 661. Starting Setup & Why We Want Standalone Components `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 951): 01-starting-project.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 952): 662. Building a First Standalone Component `10min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 953): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 954): 663. Standalone Components Are Now Stable `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 955): 664. Standalone Directives & Connecting Building Blocks `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 956): 665. Migrating Another Component `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 957): 666. A Standalone Root Component `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 958): 667. Services & Standalone Components `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 959): 02-migrated-cmp.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 960): 668. Routing with Standalone Components `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 961): 03-starting-with-routing.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 962): 669. Lazy Loading `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 963): 670. Summary `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 964): 04-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 966): Section 40: Angular Signals
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 967): 671. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 968): 672. Signals: What & Why? `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 969): 673. Creating a New Signal `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 970): 01 Starting Setup.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 971): 674. Updating a Signal Value `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 972): 675. Reading & Outputting a Signal Value `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 973): 676. Signal Updating: set(), update() & mutate() `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 974): 677. Important: Signals are NOT Finished Yet! `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 975): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 976): 678. Signals: What's To Come? `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 977): 679. Computed Values & Effects `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 978): 680. Module Summary `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 979): 02 Finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 981): Section 41: Bonus: Using NgRx For State Management
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 982): 681. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 983): 682. What Is NgRx? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 984): 683. Understanding NgRx & Its Building Blocks `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 985): 684. Project Setup & Installing NgRx `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 986): 01-starting-setup.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 987): 01-starting-setup-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 988): 685. Adding a First Reducer & Store Setup `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 989): 03-added-first-reducer.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 990): 03-added-first-reducer-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 991): 686. An Alternative Way Of Creating Reducers `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 992): 04-alternative-reducer-syntax.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 993): 04-alternative-reducer-syntax-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 994): 687. Reading Data From The Store `10min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 995): 05-selecting-data-from-store.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 996): 05-selecting-data-from-store-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 997): 688. Introducing Actions & State Changing Reducers `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 998): 689. Dispatching Actions `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 999): 690. Attaching Data To Actions `4min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1000): 06-added-actions.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1001): 691. Handling Actions Without createReducer `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1002): 692. An Alternative Way Of Defining Actions `10min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1003): 07-alternative-syntax.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1004): 07-alternative-syntax-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1005): 693. Time To Practice: A Second Action `5min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1006): 08-practice-second-action.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1007): 08-practice-second-action-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1008): 694. Exploring Selectors `8min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1009): 09-selectors.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1010): 09-selectors-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1011): 695. Introducing Effects `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1012): 696. Installing the Effects Package `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1013): 697. Defining a First Effect `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1014): 10-first-effect.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1015): 10-first-effect-standalone.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1016): 698. The Old @Effect Decorator & Registering Effects `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1017): 699. Using Store Data In Effects `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1018): 700. Adding a Second Effect `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1019): 701. Summary `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1020): 11-intro-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1021): 11-intro-finished-standalone.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1022): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1023): 702. NgRx - The Old Syntax `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1024): code-snapshots.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1025): videos-1.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1026): videos-2.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1028): Section 42: Angular Animations
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1030): 703. Making Animations Work with Angular 4+ `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1031): 704. Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1032): 705. Setting up the Starting Project `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1033): animations-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1034): 706. Animations Triggers and State `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1035): 707. Switching between States `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1036): 708. Transitions `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1037): 709. Advanced Transitions `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1038): 710. Transition Phases `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1039): 711. The "void" State `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1040): 712. Using Keyframes for Animations `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1041): 713. Grouping Transitions `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1042): 714. Using Animation Callbacks `3min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1043): animations-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1045): Section 43: Adding Offline Capabilities with Service Workers
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1046): 715. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1047): ng-pwa-01-start.zip
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1048): 716. Adding Service Workers `13min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1049): 717. Caching Assets for Offline Use `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1050): 718. Caching Dynamic Assets & URLs `7min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1051): ng-pwa-02-finished.zip
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1052): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1053): 719. Further Links & Resources `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1054): ng-pwa-02-finished.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1056): Section 44: A Basic Introduction to Unit Testing in Angular Apps
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1058): 720. About this Section `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1059): 721. Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1060): 722. Why Unit Tests? `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1061): 723. Analyzing the Testing Setup (as created by the CLI) `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1062): 724. Running Tests (with the CLI) `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1063): 725. Adding a Component and some fitting Tests `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1064): 726. Testing Dependencies: Components and Services `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1065): 727. Simulating Async Tasks `10min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1066): 728. Using "fakeAsync" and "tick" `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1067): 729. Isolated vs Non-Isolated Tests `6min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1068): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1069): 730. Further Resources & Where to Go Next `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1070): testing-final.zip
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1072): Section 45: Angular as a Platform & Closer Look at the CLI
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1073): 731. Module Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1074): 732. A Closer Look at "ng new" `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1075): 733. IDE & Project Setup `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1076): 734. Understanding the Config Files `9min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1077): Getting Started with Git
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1078): 735. Important CLI Commands `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1079): 736. The "angular.json" File - A Closer Look `11min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1080): 737. Angular Schematics - An Introduction `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1081): 738. The "ng add" Command `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1082): 739. Using Custom "ng generate" Schematics `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1083): 740. Smooth Updating of Projects with "ng update" `2min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1084): 741. Simplified Deployment with "ng deploy" `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1085): 742. Understanding "Differential Loading" `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1086): 743. Managing Multiple Projects in One Folder `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1087): 744. Angular Libraries - An Introduction `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1088): 745. Wrap Up `1min`
+2025-09-01 11:46:15 | INFO    | Seção detectada (linha 1090): Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage)
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1091): 746. Module Introduction `1min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1092): 747. What & Why? `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1093): 748. Installing & Using TypeScript `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1094): 749. Base Types & Primitives `4min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1095): 750. Array & Object Types `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1096): 751. Type Inference `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1097): 752. Working with Union Types `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1098): 753. Assigning Type Aliases `3min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1099): 754. Diving into Functions & Function Types `5min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1100): 755. Understanding Generics `7min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1101): 756. Classes & TypeScript `8min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1102): 757. Working with Interfaces `6min`
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1103): 758. Configuring the TypeScript Compiler `2min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1104): Start
+2025-09-01 11:46:15 | INFO    | Aula detectada (linha 1105): 759. Module Resources `1min`
+2025-09-01 11:46:15 | INFO    | Recurso detectado (linha 1106): typescript-intro-01-finished.zip
+2025-09-01 11:46:15 | ERROR   | Foram encontrados problemas de formatação no arquivo de índice:
+2025-09-01 11:46:15 | ERROR   |  - Linha 422: Recurso sem uma aula imediatamente anterior: '- Start'
+2025-09-01 11:46:15 | ERROR   |  - Linha 439: Formato inesperado: 'Assignment 1: Practicing Components'
+2025-09-01 11:46:15 | ERROR   |  - Linha 456: Formato inesperado: 'Assignment 2: Practicing Databinding'
+2025-09-01 11:46:15 | ERROR   |  - Linha 470: Formato inesperado: 'Assignment 3: Practicing Directives'
+2025-09-01 11:46:15 | ERROR   |  - Linha 480: Recurso sem uma aula imediatamente anterior: '- Start'
+2025-09-01 11:46:15 | ERROR   |  - Linha 536: Formato inesperado: 'Assignment 4: Practicing Property & Event Binding and View Encapsulation'
+2025-09-01 11:46:15 | ERROR   |  - Linha 594: Formato inesperado: 'Assignment 5: Practicing Services'
+2025-09-01 11:46:15 | ERROR   |  - Linha 723: Formato inesperado: 'Assignment 6: Practicing Template-Driven Forms'
+2025-09-01 11:46:15 | ERROR   |  - Linha 743: Formato inesperado: 'Assignment 7: Practicing Reactive Forms'
+2025-09-01 11:46:15 | ERROR   |  - Linha 790: Formato inesperado: 'Assignment 8: Practicing Pipes'
+2025-09-01 11:46:15 | ERROR   |  - Linha 1029: Recurso sem uma aula imediatamente anterior: '- Start'
+2025-09-01 11:46:15 | ERROR   |  - Linha 1057: Recurso sem uma aula imediatamente anterior: '- Start'
+2025-09-01 11:46:15 | INFO    | [CREATE DIR] /home/racoci/Projects/DevNotes/Frontend/Udemy-Angular/Section 1 - Getting Started

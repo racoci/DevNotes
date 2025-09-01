@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 import unicodedata
 import html
+from typing import Optional
 
 # ---------------------- Configuração de Logging ---------------------- #
 def setup_logging():
@@ -149,7 +150,7 @@ class Section:
         return normalize_name(self.header_text)
 
 
-def find_index_file(base_dir: Path) -> Path | None:
+def find_index_file(base_dir: Path) -> Optional[Path]:
     for candidate in ("0. Index.md", "Index.md"):
         p = base_dir / candidate
         if p.exists() and p.is_file():
