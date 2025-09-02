@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Udemy-Angular/0. Index.md",
+                "file": "Infra/IaC/IaC - PoC/Sem título.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Index"
+              "title": "Sem título"
             }
           }
         ],
@@ -186,8 +186,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
+    "Frontend/Udemy-Angular/0. Index.md",
+    "Infra/IaC/IaC - PoC/Sem título.md",
+    "Infra/IaC/IaC - PoC",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/759. Module Resources/0. Index.md",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/758. Configuring the TypeScript Compiler/0. Index.md",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/757. Working with Interfaces/0. Index.md",
@@ -211,7 +214,6 @@
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/753. Assigning Type Aliases",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/752. Working with Union Types",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/751. Type Inference",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/750. Array and Object Types",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/0. Index.md",
     "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/745. Wrap Up/0. Index.md",
     "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/744. Angular Libraries - An Introduction/0. Index.md",
@@ -222,8 +224,6 @@
     "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/739. Using Custom 'ng generate' Schematics/0. Index.md",
     "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/738. The 'ng add' Command/0. Index.md",
     "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/737. Angular Schematics - An Introduction/0. Index.md",
-    "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/736. The 'angular.json' File - A Closer Look/0. Index.md",
-    "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/735. Important CLI Commands/0. Index.md",
     "Health/Backend/AWS-Infra-draft.png",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/Interações Gerais.png",
