@@ -1,6 +1,26 @@
 ## Prompt
 
-I'm trying to create a CI-CD pipeline to use for a project of Infrastructure as Code (IaC). In particular, my first task is to build a jenkins capable of deploying itself.
+I'm trying to create a CI-CD pipeline to use for a project of Infrastructure as Code (IaC). 
+In particular, my first task is to build a jenkins capable of deploying itself and the rest of my project.
+The rest of the project is just a static web site
+
+My current project structure is:
+
+```
+./projects/static_web_site
+├── cicd
+│   ├── container
+│   │   ├── docker-compose.yml
+│   │   ├── jcasc.yaml
+│   │   ├── jenkins
+│   │   │   └── Dockerfile
+│   │   ├── plugin.txt
+│   │   └── run-docker.py
+│   └── infra
+│       ├── terraform.tfstate
+│       └── terraform.tfstate.backup
+└── README.md
+```
 
 Initial definitions:
 - I have to use Jenkins to deploy infrastructure using terraform.
@@ -25,54 +45,7 @@ We can do this in steps, so initially, the minimum is to build a Jenkins docker 
 
 The jenkins will also need to have some AWS credentials. I think it's not safe to use my own credentials to do this, but I don't have access to the web console so you'll need to show me just aws cli commands to create those credentials for Jenkins.
 
-## Clarification Questions
-
-
-
-# CI-CD Pipeline for Infrastructure as Code with Jenkins
-
-Thank you for providing detailed requirements. Before I create a comprehensive plan and cost estimation, I need some clarifications to ensure I understand your needs correctly:
-
-## Clarifications Questions
-
-1. **AWS Region**: Which AWS region do you plan to use for deployment?
-
-2. **Jenkins Configuration**: 
-   - What specific Jenkins plugins will you need beyond the basic installation?
-   - Do you need any specific security configurations for Jenkins (SSL, authentication methods)?
-
-3. **Terraform Version**: What version of Terraform should we use?
-
-4. **Resource Specifications**:
-   - What EC2 instance type or size do you prefer for running Jenkins?
-   - Any specific storage requirements for Jenkins?
-
-5. **Network Configuration**:
-   - Should Jenkins be deployed in a new VPC or an existing one?
-   - Any specific subnet requirements?
-
-6. **Security Requirements**:
-   - Should Jenkins be deployed in a private subnet with a load balancer, or directly in a public subnet?
-   - Any specific security group requirements beyond default?
-
-7. **High Availability & Backup**:
-   - Is high availability required for Jenkins?
-   - Do you need a backup strategy for Jenkins configuration and jobs?
-
-8. **Monitoring**:
-   - Should we set up CloudWatch monitoring for Jenkins and the deployed infrastructure?
-
-9. **Budget Constraints**:
-   - Are there any budget constraints I should consider when designing the architecture?
-
-10. **Bitbucket Integration**:
-    - Do you already have Bitbucket credentials or OAuth apps configured for Jenkins integration?
-    - Should the pipeline trigger on all branches or specific ones (like main, develop, etc.)?
-
-11. **Docker Registry**:
-    - Where will the Jenkins Docker image be stored? ECR, Docker Hub, or elsewhere?
-
-## Clarifications Answers
+## Clarifications Q&A
 
 1. **AWS Region**: Which AWS region do you plan to use for deployment?
 
