@@ -130,3 +130,18 @@ We'll use us-east-1, but it should be easy to change this for all resources if n
 	    - I have to use only AWS services so probably ECR
 
 # First Round
+@startuml
+!$AWS_DARK = true
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v20.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/BusinessApplications/all.puml
+!include AWSPuml/Storage/SimpleStorageService.puml
+
+actor "Person" as personAlias
+WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
+SimpleStorageService(storageAlias, "Label", "Technology", "Optional Description")
+
+personAlias --> desktopAlias
+desktopAlias --> storageAlias
+@enduml
