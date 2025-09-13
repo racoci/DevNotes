@@ -25,4 +25,97 @@ We can do this in steps, so initially, the minimum is to build a Jenkins docker 
 
 The jenkins will also need to have some AWS credentials. I think it's not safe to use my own credentials to do this, but I don't have access to the web console so you'll need to show me just aws cli commands to create those credentials for Jenkins.
 
-## Clarif
+## Clarification Questions
+
+
+
+# CI-CD Pipeline for Infrastructure as Code with Jenkins
+
+Thank you for providing detailed requirements. Before I create a comprehensive plan and cost estimation, I need some clarifications to ensure I understand your needs correctly:
+
+## Clarifications Questions
+
+1. **AWS Region**: Which AWS region do you plan to use for deployment?
+
+2. **Jenkins Configuration**: 
+   - What specific Jenkins plugins will you need beyond the basic installation?
+   - Do you need any specific security configurations for Jenkins (SSL, authentication methods)?
+
+3. **Terraform Version**: What version of Terraform should we use?
+
+4. **Resource Specifications**:
+   - What EC2 instance type or size do you prefer for running Jenkins?
+   - Any specific storage requirements for Jenkins?
+
+5. **Network Configuration**:
+   - Should Jenkins be deployed in a new VPC or an existing one?
+   - Any specific subnet requirements?
+
+6. **Security Requirements**:
+   - Should Jenkins be deployed in a private subnet with a load balancer, or directly in a public subnet?
+   - Any specific security group requirements beyond default?
+
+7. **High Availability & Backup**:
+   - Is high availability required for Jenkins?
+   - Do you need a backup strategy for Jenkins configuration and jobs?
+
+8. **Monitoring**:
+   - Should we set up CloudWatch monitoring for Jenkins and the deployed infrastructure?
+
+9. **Budget Constraints**:
+   - Are there any budget constraints I should consider when designing the architecture?
+
+10. **Bitbucket Integration**:
+    - Do you already have Bitbucket credentials or OAuth apps configured for Jenkins integration?
+    - Should the pipeline trigger on all branches or specific ones (like main, develop, etc.)?
+
+11. **Docker Registry**:
+    - Where will the Jenkins Docker image be stored? ECR, Docker Hub, or elsewhere?
+
+## Clarifications Answers
+
+1. **AWS Region**: Which AWS region do you plan to use for deployment?
+
+We'll use us-east-1, but it should be easy to change this for all resources if necessary
+
+2. **Jenkins Configuration**: 
+   - What specific Jenkins plugins will you need beyond the basic installation?
+	   - I don't know the existing plugins. But we'll need to interface with bitbucket and use terraform to do deploys. We already know there'll be an angular front-end, but I'm not sure if that requires a particular plugin to make the deploy.
+   - Do you need any specific security configurations for Jenkins (SSL, authentication methods)?
+	   - I don't know. I need the URL to be https so maybe. Help me here, I'm a newbie
+
+2. **Terraform Version**: What version of Terraform should we use?
+	1. Terraform v1.12.1 on linux_amd64
+
+
+4. **Resource Specifications**:
+   - What EC2 instance type or size do you prefer for running Jenkins?
+	   - The cheapest that can fulfill the required conditions
+   - Any specific storage requirements for Jenkins?
+	   - I don't know. Help me here. Why would we need storage?
+
+5. **Network Configuration**:
+   - Should Jenkins be deployed in a new VPC or an existing one?
+	   - 
+   - Any specific subnet requirements?
+
+6. **Security Requirements**:
+   - Should Jenkins be deployed in a private subnet with a load balancer, or directly in a public subnet?
+   - Any specific security group requirements beyond default?
+
+7. **High Availability & Backup**:
+   - Is high availability required for Jenkins?
+   - Do you need a backup strategy for Jenkins configuration and jobs?
+
+8. **Monitoring**:
+   - Should we set up CloudWatch monitoring for Jenkins and the deployed infrastructure?
+
+9. **Budget Constraints**:
+   - Are there any budget constraints I should consider when designing the architecture?
+
+10. **Bitbucket Integration**:
+    - Do you already have Bitbucket credentials or OAuth apps configured for Jenkins integration?
+    - Should the pipeline trigger on all branches or specific ones (like main, develop, etc.)?
+
+11. **Docker Registry**:
+    - Where will the Jenkins Docker image be stored? ECR, Docker Hub, or elsewhere?
