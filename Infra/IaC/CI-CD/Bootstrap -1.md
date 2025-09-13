@@ -1155,3 +1155,580 @@ pipeline {
 3. Test the pipeline with different changes
 
 This comprehensive plan covers all your requirements and provides a clear path to implement a Jenkins-based CI-CD pipeline for Infrastructure as Code on AWS. The solution is designed to be cost-effective, leveraging AWS Free Tier where possible, and includes the necessary tagging and security considerations.
+
+
+
+##
+
+
+
+
+I'll help you adapt the project structure to fit your current layout. Let's map the components we discussed to your existing directory structure.
+
+## Adapting to Your Project Structure
+
+Here's how we can organize the components within your existing structure:
+
+```
+./projects/static_web_site
+├── cicd
+│   ├── container
+│   │   ├── docker-compose.yml
+│   │   ├── jcasc.yaml
+│   │   ├── jenkins
+│   │   │   └── Dockerfile
+│   │   ├── plugin.txt
+│   │   ├── run-docker.py
+│   │   └── Jenkinsfile
+│   └── infra
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── provider.tf
+│       └── modules/
+│           ├── vpc/
+│           │   ├── main.tf
+│           │   ├── variables.tf
+│           │   └── outputs.tf
+│           ├── ecr/
+│           │   ├── main.tf
+│           │   ├── variables.tf
+│           │   └── outputs.tf
+│           ├── ecs/
+│           │   ├── main.tf
+│           │   ├── variables.tf
+│           │   └── outputs.tf
+│           ├── iam/
+│           │   ├── main.tf
+│           │   ├── variables.tf
+│           │   └── outputs.tf
+│           └── alb/
+│               ├── main.tf
+│               ├── variables.tf
+│               └── outputs.tf
+└── README.md
+```
+
+## Updated Files for Your Structure
+
+### 1. Dockerfile (./projects/static_web_site/cicd/container/jenkins/Dockerfile)
+
+```Dockerfile
+FROM jenkins/jenkins:lts-jdk11
+
+USER root
+# Install required packages
+RUN apt-get update && apt-get install -y \
+    awscli \
+    python3 \
+    python3-pip \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Terraform
+RUN wget https://releases.hashicorp.com/terraform/1.12.1/terraform_1.12.1_linux_amd64.zip
+RUN unzip terraform_1.12.1_linux_amd64.zip
+RUN mv terraform /usr/local/bin/
+RUN rm terraform_1.12.1_linux_amd64.zip
+
+USER jenkins
+# Install Jenkins plugins from plugin.txt
+COPY plugin.txt /usr/share/jenkins/ref/plugins.txt
+RUN jenkins-plugin-cli -f /usr/share/jenkins/ref/plugins.txt
+
+# Copy configuration files
+COPY jcasc.yaml /usr/share/jenkins/ref/jcasc.yaml
+
+EXPOSE 8080 50000
+
+ENTRYPOINT ["sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
+```
+
+### 2. plugin.txt (./projects/static_web_site/cicd/container/plugin.txt)
+
+```
+terraform:1.0.11
+aws-credentials:191.vcb_f183ce37b_7
+workflow-aggregator:596.v8c71c9a_691a_5
+git:5.2.1
+docker-workflow:572.v950f58993843
+configuration-as-code:1850.va_a_8c31d3158b_
+```
+
+### 3. jcasc.yaml (./projects/static_web_site/cicd/container/jcasc.yaml)
+
+```yaml
+jenkins:
+  systemMessage: "Jenkins configured automatically with JCasC"
+  numExecutors: 2
+  mode: NORMAL
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: admin
+          password: admin
+  clouds:
+    - docker:
+        name: "docker"
+        dockerApi:
+          dockerHost:
+            uri: "unix:///var/run/docker.sock"
+        templates:
+          - labelString: "docker-agent"
+            dockerTemplateBase:
+              image: "jenkins/inbound-agent:latest"
+              volumes:
+                - "/var/run/docker.sock:/var/run/docker.sock"
+            remoteFs: "/home/jenkins"
+            connector:
+              attach:
+                user: "jenkins"
+            pullStrategy: PULL_ALWAYS
+            removeVolumes: true
+  tool:
+    terraform:
+      installations:
+        - name: "terraform"
+          properties:
+            - installSource:
+                installers:
+                  - terraformInstaller:
+                      id: "1.12.1"
+```
+
+### 4. docker-compose.yml (./projects/static_web_site/cicd/container/docker-compose.yml)
+
+```yaml
+version: '3.8'
+
+services:
+  jenkins:
+    build: 
+      context: .
+      dockerfile: jenkins/Dockerfile
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+    networks:
+      - jenkins
+
+networks:
+  jenkins:
+    driver: bridge
+
+volumes:
+  jenkins_home:
+```
+
+### 5. run-docker.py (./projects/static_web_site/cicd/container/run-docker.py)
+
+```python
+#!/usr/bin/env python3
+import subprocess
+import sys
+import os
+
+def run_command(command):
+    """Run a shell command and return the output"""
+    try:
+        return subprocess.check_output(command, shell=True, text=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error running command: {e}")
+        sys.exit(1)
+
+def main():
+    # Change to the directory containing this script
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    
+    # Build and run the Jenkins container
+    print("Building Jenkins Docker image...")
+    run_command("docker-compose build")
+    
+    print("Starting Jenkins container...")
+    run_command("docker-compose up -d")
+    
+    print("Jenkins is starting up...")
+    print("You can access it at http://localhost:8080")
+    print("Initial admin credentials: admin/admin")
+
+if __name__ == "__main__":
+    main()
+```
+
+### 6. Jenkinsfile (./projects/static_web_site/cicd/container/Jenkinsfile)
+
+```groovy
+pipeline {
+    agent any
+    
+    environment {
+        AWS_REGION = 'us-east-1'
+        ECR_REPOSITORY = 'jenkins-cicd-jenkins'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://bitbucket.org/your-repo/infrastructure.git'
+            }
+        }
+        
+        stage('Build and Push Docker Image') {
+            steps {
+                script {
+                    // Build the Docker image
+                    docker.build("${ECR_REPOSITORY}:latest", "-f ./projects/static_web_site/cicd/container/jenkins/Dockerfile ./projects/static_web_site/cicd/container")
+                    
+                    // Use Jenkins credentials for AWS
+                    withCredentials([
+                        string(credentialsId: 'aws-access-key-id', variable: 'AWS_ACCESS_KEY_ID'),
+                        string(credentialsId: 'aws-secret-access-key', variable: 'AWS_SECRET_ACCESS_KEY')
+                    ]) {
+                        awsAccount = sh(script: 'aws sts get-caller-identity --query Account --output text', returnStdout: true).trim()
+                        ecrUrl = "${awsAccount}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+                        
+                        sh "aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${ecrUrl}"
+                        sh "docker tag ${ECR_REPOSITORY}:latest ${ecrUrl}/${ECR_REPOSITORY}:latest"
+                        sh "docker push ${ecrUrl}/${ECR_REPOSITORY}:latest"
+                    }
+                }
+            }
+        }
+        
+        stage('Deploy Infrastructure') {
+            steps {
+                dir('./projects/static_web_site/cicd/infra') {
+                    withCredentials([
+                        string(credentialsId: 'aws-access-key-id', variable: 'AWS_ACCESS_KEY_ID'),
+                        string(credentialsId: 'aws-secret-access-key', variable: 'AWS_SECRET_ACCESS_KEY')
+                    ]) {
+                        sh 'terraform init'
+                        sh 'terraform plan -out=tfplan'
+                        sh 'terraform apply -auto-approve tfplan'
+                    }
+                }
+            }
+        }
+        
+        stage('Update Jenkins Service') {
+            steps {
+                script {
+                    withCredentials([
+                        string(credentialsId: 'aws-access-key-id', variable: 'AWS_ACCESS_KEY_ID'),
+                        string(credentialsId: 'aws-secret-access-key', variable: 'AWS_SECRET_ACCESS_KEY')
+                    ]) {
+                        // Force update of ECS service to use new Docker image
+                        sh 'aws ecs update-service --cluster jenkins-cicd-cluster-dev --service jenkins-cicd-service-dev --force-new-deployment'
+                    }
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
+```
+
+### 7. Terraform Configuration (./projects/static_web_site/cicd/infra/)
+
+#### provider.tf
+```hcl
+terraform {
+  required_version = ">= 1.12.1"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = var.aws_region
+}
+```
+
+#### variables.tf
+```hcl
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+  default     = "us-east-1"
+}
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+  default     = "dev"
+}
+
+variable "project_name" {
+  description = "Project name"
+  type        = string
+  default     = "jenkins-cicd"
+}
+
+variable "existing_execution_role_arn" {
+  description = "ARN of existing IAM role for ECS task execution"
+  type        = string
+}
+
+variable "existing_task_role_arn" {
+  description = "ARN of existing IAM role for ECS task"
+  type        = string
+}
+```
+
+#### main.tf
+```hcl
+# Get current timestamp for tags
+locals {
+  timestamp = formatdate("YYYY-MM-DD hh-mm-ss.sss Z", timestamp())
+}
+
+# Common tags
+locals {
+  common_tags = {
+    "GE-IaC-STS-CI-CD-Jenkins-2025" = ""
+    "created-date"                  = local.timestamp
+    "last-updated"                  = local.timestamp
+  }
+}
+
+# Create VPC
+module "vpc" {
+  source         = "./modules/vpc"
+  aws_region     = var.aws_region
+  environment    = var.environment
+  project_name   = var.project_name
+  common_tags    = local.common_tags
+}
+
+# Create ECR repository
+module "ecr" {
+  source         = "./modules/ecr"
+  repository_name = "${var.project_name}-jenkins"
+  common_tags    = local.common_tags
+}
+
+# Create IAM role for ECS (using existing roles)
+module "iam" {
+  source         = "./modules/iam"
+  project_name   = var.project_name
+  ecr_repository_arn = module.ecr.repository_arn
+  existing_execution_role_arn = var.existing_execution_role_arn
+  existing_task_role_arn = var.existing_task_role_arn
+  common_tags    = local.common_tags
+}
+
+# Create ECS cluster and service
+module "ecs" {
+  source         = "./modules/ecs"
+  aws_region     = var.aws_region
+  environment    = var.environment
+  project_name   = var.project_name
+  vpc_id         = module.vpc.vpc_id
+  private_subnets = module.vpc.private_subnets
+  ecr_repository_url = module.ecr.repository_url
+  execution_role_arn = module.iam.execution_role_arn
+  task_role_arn = module.iam.task_role_arn
+  alb_security_group_id = module.alb.alb_security_group_id
+  alb_target_group_arn = module.alb.alb_target_group_arn
+  common_tags    = local.common_tags
+}
+
+# Create Application Load Balancer
+module "alb" {
+  source         = "./modules/alb"
+  aws_region     = var.aws_region
+  environment    = var.environment
+  project_name   = var.project_name
+  vpc_id         = module.vpc.vpc_id
+  public_subnets = module.vpc.public_subnets
+  common_tags    = local.common_tags
+}
+```
+
+#### outputs.tf
+```hcl
+output "jenkins_url" {
+  description = "Public URL for Jenkins"
+  value       = module.alb.alb_dns_name
+}
+
+output "ecr_repository_url" {
+  description = "ECR repository URL"
+  value       = module.ecr.repository_url
+}
+```
+
+### 8. IAM Module (./projects/static_web_site/cicd/infra/modules/iam/)
+
+#### main.tf
+```hcl
+# Create a policy for Jenkins to manage AWS resources
+resource "aws_iam_policy" "jenkins_policy" {
+  name        = "${var.project_name}-jenkins-policy"
+  description = "Policy for Jenkins to manage AWS resources"
+
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Effect = "Allow"
+        Action = [
+          "ec2:Describe*",
+          "ecr:GetAuthorizationToken",
+          "ecr:BatchCheckLayerAvailability",
+          "ecr:GetDownloadUrlForLayer",
+          "ecr:GetRepositoryPolicy",
+          "ecr:DescribeRepositories",
+          "ecr:ListImages",
+          "ecr:DescribeImages",
+          "ecr:BatchGetImage",
+          "logs:CreateLogGroup",
+          "logs:CreateLogStream",
+          "logs:PutLogEvents",
+          "logs:DescribeLogStreams",
+          "s3:*"
+        ]
+        Resource = "*"
+      },
+      {
+        Effect = "Allow"
+        Action = [
+          "ecr:InitiateLayerUpload",
+          "ecr:UploadLayerPart",
+          "ecr:CompleteLayerUpload",
+          "ecr:PutImage"
+        ]
+        Resource = var.ecr_repository_arn
+      }
+    ]
+  })
+
+  tags = merge(var.common_tags, {
+    Name = "${var.project_name}-jenkins-policy"
+  })
+}
+
+# Attach the policy to the existing task role
+resource "aws_iam_role_policy_attachment" "jenkins_policy" {
+  role       = var.existing_task_role_name
+  policy_arn = aws_iam_policy.jenkins_policy.arn
+}
+
+# Extract role name from ARN
+data "aws_iam_role" "existing_task_role" {
+  name = split("/", var.existing_task_role_arn)[1]
+}
+
+# Output the role ARNs for use in other modules
+output "execution_role_arn" {
+  value = var.existing_execution_role_arn
+}
+
+output "task_role_arn" {
+  value = var.existing_task_role_arn
+}
+```
+
+#### variables.tf
+```hcl
+variable "project_name" {
+  description = "Project name"
+  type        = string
+}
+
+variable "ecr_repository_arn" {
+  description = "ARN of the ECR repository"
+  type        = string
+}
+
+variable "existing_execution_role_arn" {
+  description = "ARN of existing IAM role for ECS task execution"
+  type        = string
+}
+
+variable "existing_task_role_arn" {
+  description = "ARN of existing IAM role for ECS task"
+  type        = string
+}
+
+variable "common_tags" {
+  description = "Common tags to apply to resources"
+  type        = map(string)
+}
+```
+
+#### outputs.tf
+```hcl
+output "execution_role_arn" {
+  description = "ARN of the execution role"
+  value       = var.existing_execution_role_arn
+}
+
+output "task_role_arn" {
+  description = "ARN of the task role"
+  value       = var.existing_task_role_arn
+}
+```
+
+## Implementation Steps
+
+1. **Set up the Docker environment**:
+   ```bash
+   cd ./projects/static_web_site/cicd/container
+   chmod +x run-docker.py
+   ./run-docker.py
+   ```
+
+2. **Access Jenkins locally**:
+   - Go to http://localhost:8080
+   - Login with admin/admin
+
+3. **Configure AWS credentials in Jenkins**:
+   - Go to Manage Jenkins > Manage Credentials
+   - Add AWS access key and secret key as separate credentials
+
+4. **Create the Terraform configuration files** as shown above in the `./projects/static_web_site/cicd/infra/` directory
+
+5. **Initialize Terraform**:
+   ```bash
+   cd ./projects/static_web_site/cicd/infra
+   terraform init
+   ```
+
+6. **Create a terraform.tfvars file** with your existing IAM role ARNs:
+   ```hcl
+   existing_execution_role_arn = "arn:aws:iam::123456789012:role/your-execution-role"
+   existing_task_role_arn = "arn:aws:iam::123456789012:role/your-task-role"
+   ```
+
+7. **Plan and apply the Terraform configuration**:
+   ```bash
+   terraform plan
+   terraform apply
+   ```
+
+8. **Push the Jenkins image to ECR**:
+   - Use the Jenkinsfile we created to build and push the image
+   - Or manually build and push using Docker
+
+9. **Access Jenkins via the ALB URL**:
+   - Get the URL from Terraform outputs: `terraform output jenkins_url`
+
+This structure keeps all your CI/CD components organized within the existing project layout while maintaining the functionality we discussed. The Jenkins self-deployment pipeline will be triggered by changes to the appropriate directories in your repository.
