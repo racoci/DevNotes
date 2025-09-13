@@ -17,8 +17,7 @@ Initial definitions:
 - I want a full plan and estimation of costs for the whole architecture before any code.
 - Use plantuml to do any diagrams
 - I need the jenkins to be accessible using a public URL, but I don't have permission to buy any dommain  so we'll have to use some AWS service that provides a public URL by default and I need this URL as one of the outputs of the terraform code
-- Every resource created, deploye
-
+- Every resource created, deployed or updated by this jenkins must include a tag `GE-IaC-STS-CI-CD-Jenkins-2025` and key-value pairs showing the initial created date and last-updated date in the format `2025-09-13 14-03-57.123 UTC` 
 
 Help me build a plan to accomplish all of this and ask me any necessary clarifications. Don't assume anything. I want you to clarify anything I didn't already say before any estimation or plan.
 
@@ -26,4 +25,4 @@ We can do this in steps, so initially, the minimum is to build a Jenkins docker 
 
 The jenkins will also need to have some AWS credentials. I think it's not safe to use my own credentials to do this, but I don't have access to the web console so you'll need to show me just aws cli commands to create those credentials for Jenkins.
 
-
+## Clarif
