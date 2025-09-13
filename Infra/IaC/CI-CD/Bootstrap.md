@@ -12,5 +12,13 @@ Initial definitions:
 - I use python version 3.8.10
 - I use Docker version 28.1.1, build 4eba377
 - I want the jenkins to run inside a docker on aws so I can test it locally first
-- I'm working on a shared bitbucket git repository so I need to track changes 
+- I'm working on a shared bitbucket git repository so I need to track changes for deploy only inside a particular directory and only in some particular branches, but I want this to be configurable
+- I want the jenkins docker infrastructure to be managed by job inside the same jenkins so I'll need one of the jobs to be a self-deploy
+- I want a full plan and estimation of costs for the whole architecture before any code.
+- Use plantuml to do any diagrams
+- I need the jenkins to be accessible using a public URL, but I don't have permission to buy any dommain  so we'll have to use some AWS service that provides a public URL by default and I need this URL as one of the outputs of the terraform code
+- 
+
+
+Help me build a plan to accomplish all of this and ask me any necessary clarifications. Don't assume anything. I want 
 
