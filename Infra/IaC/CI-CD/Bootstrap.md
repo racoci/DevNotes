@@ -96,26 +96,35 @@ We'll use us-east-1, but it should be easy to change this for all resources if n
 
 5. **Network Configuration**:
    - Should Jenkins be deployed in a new VPC or an existing one?
-	   - 
+	   - Assume there's no current infra. We are starting from scratch
    - Any specific subnet requirements?
+	   - I don't know. What are some common requirements? Why would we need anything in particular?
 
 6. **Security Requirements**:
    - Should Jenkins be deployed in a private subnet with a load balancer, or directly in a public subnet?
+	   - The cheapest option that is able to fulfill the requirements
    - Any specific security group requirements beyond default?
+	   - I don't know. Give suggestions. What kind of requirements do you thing might be necesary?
 
 7. **High Availability & Backup**:
    - Is high availability required for Jenkins?
+	   - No it'll be run very sporadically. This is a toy project.
    - Do you need a backup strategy for Jenkins configuration and jobs?
+	   - I guess. But I don't really know. Why is this usually required?
 
 8. **Monitoring**:
    - Should we set up CloudWatch monitoring for Jenkins and the deployed infrastructure?
 
 9. **Budget Constraints**:
    - Are there any budget constraints I should consider when designing the architecture?
+	   - Yes, try to spend the minimum possible. This is not a real project. It's for studying purposes so I have no budget. Try to keep everything you can inside free-tier.
 
 10. **Bitbucket Integration**:
     - Do you already have Bitbucket credentials or OAuth apps configured for Jenkins integration?
+	    - Maybe but I don't know how to check this. Anyway we can let this for a next phase. We first need an working instance of Jenkins deployed, so any bitbucket configuration we can leave to a next step.
     - Should the pipeline trigger on all branches or specific ones (like main, develop, etc.)?
+	    - Just specific ones. This should be configurable. But let's first build a pipeline that's only manually trigerable
 
 11. **Docker Registry**:
     - Where will the Jenkins Docker image be stored? ECR, Docker Hub, or elsewhere?
+	    - I have to use on
