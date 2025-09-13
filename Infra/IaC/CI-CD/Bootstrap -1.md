@@ -127,4 +127,6 @@ We'll use us-east-1, but it should be easy to change this for all resources if n
 
 11. **Docker Registry**:
     - Where will the Jenkins Docker image be stored? ECR, Docker Hub, or elsewhere?
-	    - I have to use on
+	    - I have to use only AWS services so probably ECR
+
+# First Round
