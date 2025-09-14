@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 214.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -186,7 +186,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "48eef2bf20daeaf4",
   "lastOpenFiles": [
     "Infra/IaC/IaC - PoC/Sem título.md",
     "Infra/IaC/CI-CD/Bootstrap -1.md",
