@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
+                "file": "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Como instalar o Node.js no Windows, Linux e macOS"
-            }
-          },
-          {
-            "id": "48eef2bf20daeaf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infra/IaC/CI-CD/Bootstrap -1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bootstrap -1"
-            }
-          },
-          {
-            "id": "0e9e4598b63a8d38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem título.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "4.10 Identificando a função de envio de e-mails no código"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AluraMais",
+                "query": "Uma empresa de tecnologia, está desenvolvendo um sistema de mensagens internas utilizando a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 323.5
   },
   "right": {
     "id": "ed5c23ef13420e73",
@@ -200,8 +171,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "0e9e4598b63a8d38",
+  "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.13  Fluxo de cadastro e a classe FetchError.md",
+    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.09 Configurando o Timeout da Fila FIFO e Função Lambda.md",
+    "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
     "Infra/IaC/CI-CD/Bootstrap -1.md",
     "Sem título.md",
     "Infra/IaC/IaC - PoC/Sem título.md",
@@ -235,9 +209,6 @@
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/755. Understanding Generics",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/754. Diving into Functions and Function Types",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/0. Index.md",
-    "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/745. Wrap Up/0. Index.md",
-    "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/744. Angular Libraries - An Introduction/0. Index.md",
-    "Frontend/Udemy-Angular/Section 45 - Angular as a Platform and Closer Look at the CLI/743. Managing Multiple Projects in One Folder/0. Index.md",
     "Health/Backend/AWS-Infra-draft.png",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/Interações Gerais.png",
