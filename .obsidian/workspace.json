@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.03 Para saber mais - mais sobre NoSQL.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.09 Criando um schema.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.03 Para saber mais - mais sobre NoSQL"
+              "title": "3.09 Criando um schema"
             }
           }
         ]
@@ -173,8 +173,14 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.02 Bancos de dados.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.08 Criando models e schemas.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.09 Criando um schema.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.07 Conectando MongoDB e API.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.06 Para saber mais - tipos de servidores.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.05 Para saber mais -criação do banco no Atlas.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.04 Criando coleção no MongoDB.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.03 Para saber mais - mais sobre NoSQL.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.02 Bancos de dados.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.01 Projeto da aula anterior.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.14 O que aprendemos?.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados",
@@ -197,13 +203,7 @@
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/3 Manejando filas/3.09 Configurando o Timeout da Fila FIFO e Função Lambda.md",
     "Backend/Node JS/Express/1 API REST/1.3 Como instalar o Node.js no Windows, Linux e macOS.md",
     "Infra/IaC/CI-CD/Bootstrap -1.md",
-    "Sem título.md",
-    "Infra/IaC/IaC - PoC/Sem título.md",
-    "Infra/IaC/CI-CD/Jenkins.md",
     "Infra/IaC/CI-CD",
-    "Infra/IaC/Angular Pipeline/Initial Draft.md",
-    "Infra/IaC/Readings/🌟 API Gateway vs Load Balancer vs Reverse Proxy.md",
-    "AI/3D World/HunyuanWorld-Voyager.md",
     "Infra/IaC/Readings",
     "AI/3D World",
     "Infra/IaC/IaC - PoC",
