@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/Sem título.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/Sem título.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,8 +173,13 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.02 Criando controller para livro.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/Sem título.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.01 Projeto da aula anterior.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.14 O que aprendemos?.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.13 Para saber mais - Troubleshooting.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.12 Para saber mais - links da aula.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/Sem título.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.11 Faça como eu fiz - revisando a criação de models.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.10 Acessando a coleção livros.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.09 Criando um schema.md",
@@ -196,10 +201,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.07 Buscando e atualizando livros.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.06 Criando registros com POST.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.05 Criando a rota livros.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04 Para saber mais - partes da requisição e resposta.md",
-    "AI/MARLVR/GLSL.md",
-    "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
     "Scripts/make_segments.py",
     "Scripts/extract_metadata.sh",
     "Scripts/download_video.py",
@@ -208,7 +209,6 @@
     "AI/3D World",
     "Infra/IaC/IaC - PoC",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/759. Module Resources",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/758. Configuring the TypeScript Compiler",
     "Health/Backend/AWS-Infra-draft.png",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/Interações Gerais.png",
