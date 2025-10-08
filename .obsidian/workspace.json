@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/MARLVR/GLSL.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.10 Para saber mais - métodos HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GLSL"
+              "title": "2.10 Para saber mais - métodos HTTP"
             }
           }
         ]
@@ -173,6 +173,14 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.09 Para saber mais - O CRUD.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.10 Para saber mais - métodos HTTP.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.08 Deletando livros.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.07 Buscando e atualizando livros.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.06 Criando registros com POST.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.05 Criando a rota livros.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.04 Para saber mais - partes da requisição e resposta.md",
+    "AI/MARLVR/GLSL.md",
     "Backend/Node JS/Serverless/3 Conectando serviços utilizando o serviço de mensageria da AWS/4 Adicionando serviço de e-mail/4.10 Identificando a função de envio de e-mails no código.md",
     "Scripts/make_segments.py",
     "Scripts/extract_metadata.sh",
@@ -198,14 +206,6 @@
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/756. Classes and TypeScript/0. Index.md",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/755. Understanding Generics/0. Index.md",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/754. Diving into Functions and Function Types/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/753. Assigning Type Aliases/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/752. Working with Union Types/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/751. Type Inference/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/750. Array and Object Types/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/749. Base Types and Primitives/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/748. Installing and Using TypeScript/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/747. What and Why/0. Index.md",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/746. Module Introduction/0. Index.md",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/759. Module Resources",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/758. Configuring the TypeScript Compiler",
     "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/757. Working with Interfaces",
