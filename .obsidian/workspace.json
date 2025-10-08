@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/Sem título.md",
+                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.08 Definindo as rotas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "4.08 Definindo as rotas"
             }
           }
         ]
@@ -173,8 +173,13 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.07 Controller DELETE.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.08 Definindo as rotas.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.06 Controller PUT.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.05 Para saber mais -bloco try-catch.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.04 Controller POST.md",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.03 Para saber mais - sobre models e controllers.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.02 Criando controller para livro.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/Sem título.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.01 Projeto da aula anterior.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.14 O que aprendemos?.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API",
@@ -195,12 +200,7 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.02 Bancos de dados.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.03 Para saber mais - mais sobre NoSQL.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.04 Criando coleção no MongoDB.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.05 Para saber mais -criação do banco no Atlas.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.07 Conectando MongoDB e API.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.08 Criando models e schemas.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.07 Buscando e atualizando livros.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.06 Criando registros com POST.md",
     "Scripts/make_segments.py",
     "Scripts/extract_metadata.sh",
     "Scripts/download_video.py",
