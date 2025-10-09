@@ -418,4 +418,21 @@ The other options are not the primary methods for this specific use case:
 - **Amazon GuardDuty:** GuardDuty is a threat detection service, not a direct access control mechanism for EFS.
 - **Network ACL (network access control list):** While network ACLs can control traffic at the subnet level, security groups are a more granular and common method for controlling traffic to and from specific instances.
 
-# Question 
+# Question 19
+
+A leading video streaming service delivers billions of hours of content from Amazon Simple Storage Service (Amazon S3) to customers around the world. Amazon S3 also serves as the data lake for its big data analytics solution. The data lake has a staging zone where intermediary query results are kept only for 24 hours. These results are also heavily referenced by other parts of the analytics pipeline.
+
+Which of the following is the MOST cost-effective strategy for storing this intermediary query data?
+
+Store the intermediary query results in Amazon S3 Glacier Instant Retrieval storage class
+Store the intermediary query results in Amazon S3 Standard-Infrequent Access storage class
+Store the intermediary query results in Amazon S3 Standard storage class
+Store the intermediary query results in Amazon S3 One Zone-Infrequent Access storage class
+
+Answer: **Store the intermediary query results in Amazon S3 Standard storage class**
+
+The question describes a scenario where intermediary query results are stored for a short period (24 hours) and are "heavily referenced by other parts of the analytics pipeline." This implies a need for frequent, low-latency access to the data.
+
+- **Amazon S3 Standard** is designed for frequently accessed data with low latency and high throughput. This makes it the most suitable and cost-effective option for data that is heavily referenced and needed immediately.
+- **Amazon S3 Standard-Infrequent Access** and **Amazon S3 One Zone-Infrequent Access** are designed for data that is accessed less frequently but requires rapid access when needed. The "heavily referenced" requirement makes these less ideal.
+- **Amazon S3 Glacier Instant Retrieval** is for long-term archives that are accessed rarely, but with retrieval in milliseconds. The primary use case is for archival data, not for heavily referenced, short-term data.
