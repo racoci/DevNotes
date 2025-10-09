@@ -350,3 +350,22 @@ The problem requires a solution for a live leaderboard that needs high availabil
 - Amazon RDS for Aurora is a relational database and is not an in-memory data store.
 - Amazon DynamoDB alone does not have an in-memory cache, and while it's fast, DAX is needed to meet the low-latency requirement of a live leaderboard.
 - Amazon Neptune is a graph database service and is not the most appropriate choice for a leaderboard application, which is typically a key-value or sorted set data structure.
+
+# Question 16
+
+A healthcare company uses its on-premises infrastructure to run legacy applications that require specialized customizations to the underlying Oracle database as well as its host operating system (OS). The company also wants to improve the availability of the Oracle database layer. The company has hired you as an AWS Certified Solutions Architect - Associate to build a solution on AWS that meets these requirements while minimizing the underlying infrastructure maintenance effort.
+
+Which of the following options represents the best solution for this use case?
+
+- Deploy the Oracle database layer on multiple Amazon EC2 instances spread across two Availability Zones (AZs). This deployment configuration guarantees high availability and also allows the Database Administrator (DBA) to access and customize the database environment and the underlying operating system
+- Leverage cross AZ read-replica configuration of Amazon RDS for Oracle that allows the Database Administrator (DBA) to access and customize the database environment and the underlying operating system
+- Leverage multi-AZ configuration of Amazon RDS for Oracle that allows the Database Administrator (DBA) to access and customize the database environment and the underlying operating system
+- Leverage multi-AZ configuration of Amazon RDS Custom for Oracle that allows the Database Administrator (DBA) to access and customize the database environment and the underlying operating system
+
+Answer: **Leverage multi-AZ configuration of Amazon RDS Custom for Oracle that allows the Database Administrator (DBA) to access and customize the database environment and the underlying operating system**
+
+The problem requires a solution that provides high availability and allows the Database Administrator (DBA) to access and customize both the database environment and the underlying operating system.
+
+- **Amazon EC2** provides full control over the operating system and database, but requires the user to manage the high availability setup, which conflicts with the goal of minimizing infrastructure maintenance effort.
+- **Amazon RDS for Oracle** provides high availability through a Multi-AZ configuration but is a managed service that does not allow the DBA to access and customize the underlying operating system.
+- **Amazon RDS Custom for Oracle** is a managed database service for legacy, custom, and packaged applications that require access to the underlying operating system and database environment. It combines the automation of a managed service with the flexibility to customize the environment, making it the best fit for this use case.
