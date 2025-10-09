@@ -282,3 +282,47 @@ Answer: **Use an Amazon Aurora Global Database for the games table and use Amaz
 The problem states that the application connects to an Amazon Aurora database. To make the `games` table globally accessible while keeping the `users` and `games_played` tables regional, the best solution is to use an Amazon Aurora Global Database for the `games` table. This allows for a single database to span multiple regions. The `users` and `games_played` tables can remain in a regional Amazon Aurora database, which is already in use, thus requiring minimal application refactoring.
 
 # Question 13
+
+The DevOps team at an e-commerce company wants to perform some maintenance work on a specific Amazon EC2 instance that is part of an Auto Scaling group using a step scaling policy. The team is facing a maintenance challenge - every time the team deploys a maintenance patch, the instance health check status shows as out of service for a few minutes. This causes the Auto Scaling group to provision another replacement instance immediately.
+
+As a solutions architect, which are the MOST time/resource efficient steps that you would recommend so that the maintenance work can be completed at the earliest? (Select two)
+
+- Suspend the `ReplaceUnhealthy` process type for the Auto Scaling group and apply the maintenance patch to the instance. Once the instance is ready, you can manually set the instance's health status back to healthy and activate the `ReplaceUnhealthy` process type again
+- Put the instance into the Standby state and then update the instance by applying the maintenance patch. Once the instance is ready, you can exit the Standby state and then return the instance to service
+- Take a snapshot of the instance, create a new Amazon Machine Image (AMI) and then launch a new instance using this AMI. Apply the maintenance patch to this new instance and then add it back to the Auto Scaling Group by using the manual scaling policy. Terminate the earlier instance that had the maintenance issue
+- Suspend the ScheduledActions process type for the Auto Scaling group and apply the maintenance patch to the instance. Once the instance is ready, you can you can manually set the instance's health status back to healthy and activate the ScheduledActions process type again
+- Delete the Auto Scaling group and apply the maintenance fix to the given instance. Create a new Auto Scaling group and add all the instances again using the manual scaling policy
+
+The problem describes a scenario where an Amazon EC2 instance within an Auto Scaling group needs maintenance, but the group's health checks are causing a new instance to be launched every time the maintained instance is temporarily unhealthy. The goal is to find the most time/resource-efficient ways to perform the maintenance.
+
+The two most efficient solutions are to temporarily stop the Auto Scaling group from replacing the instance or to put the instance into a "Standby" state.
+
+Answer:
+
+- Suspend the `ReplaceUnhealthy` process type for the Auto Scaling group and apply the maintenance patch to the instance. Once the instance is ready, you can manually set the instance's health status back to healthy and activate the `ReplaceUnhealthy` process type again
+- Put the instance into the Standby state and then update the instance by applying the maintenance patch. Once the instance is ready, you can exit the Standby state and then return the instance to service
+
+# Question 14
+
+A news network uses Amazon Simple Storage Service (Amazon S3) to aggregate the raw video footage from its reporting teams across the US. The news network has recently expanded into new geographies in Europe and Asia. The technical teams at the overseas branch offices have reported huge delays in uploading large video files to the destination Amazon S3 bucket.
+
+Which of the following are the MOST cost-effective options to improve the file upload speed into Amazon S3 (Select two)
+
+- Use AWS Global Accelerator for faster file uploads into the destination Amazon S3 bucket
+- Use multipart uploads for faster file uploads into the destination Amazon S3 bucket
+- Use Amazon S3 Transfer Acceleration (Amazon S3TA) to enable faster file uploads into the destination S3 bucket
+- Create multiple AWS Direct Connect connections between the AWS Cloud and branch offices in Europe and Asia. Use the direct connect connections for faster file uploads into Amazon S3
+- Create multiple AWS Site-to-Site VPN connections between the AWS Cloud and branch offices in Europe and Asia. Use these VPN connections for faster file uploads into Amazon S3
+
+
+The most cost-effective options to improve file upload speed into Amazon S3 for the described scenario are using Amazon S3 Transfer Acceleration and multipart uploads. The correct options are:
+
+- **Use multipart uploads for faster file uploads into the destination Amazon S3 bucket**
+- **Use Amazon S3 Transfer Acceleration (Amazon S3TA) to enable faster file uploads into the destination S3 bucket**
+
+Explanation
+
+- **Amazon S3 Transfer Acceleration (S3TA)** uses Amazon CloudFront's globally distributed edge locations to accelerate uploads to an S3 bucket. Data is uploaded to the nearest edge location and then transferred to the S3 bucket over an optimized network path. This is a cost-effective solution for a global user base. 
+- **Multipart uploads** allow a large file to be broken into smaller parts, which can be uploaded in parallel. This can significantly improve upload speed, especially for large files, and is a standard feature of S3.
+- **AWS Direct Connect** and **AWS Site-to-Site VPN** are not the most cost-effective options. Direct Connect is expensive and takes a long time to provision. VPN connections can also be costly and may not provide the same level of performance as S3 Transfer Acceleration. 
+- **AWS Global Accelerator** is primarily used to improve the availability and performance of applications by routing traffic to the nearest healthy endpoint, but S3 Transfer Acceleration is the service specifically designed to accelerate uploads to S3 buckets.
