@@ -124,3 +124,119 @@ Explanation: The problem requires a solution that provides a code-free interface
 - **Amazon AppFlow** is designed to move and transform data between SaaS applications and AWS services, not for general-purpose data preparation and profiling within a data lake.
 - **AWS Glue DataBrew** is a visual data preparation tool that allows users to clean and normalize data without writing code. It offers features like data profiling, lineage tracking through "recipes," and easy sharing of these recipes, which directly addresses all the requirements in the problem.
 
+# Question 7:
+
+A logistics company is building a multi-tier application to track the location of its trucks during peak operating hours. The company wants these data points to be accessible in real-time in its analytics platform via a REST API. The company has hired you as an AWS Certified Solutions Architect Associate to build a multi-tier solution to store and retrieve this location data for analysis.
+
+Which of the following options addresses the given use case?
+
+Leverage Amazon API Gateway with Amazon Kinesis Data Analytics
+Leverage Amazon Athena with Amazon S3
+Leverage Amazon QuickSight with Amazon Redshift
+Leverage Amazon API Gateway with AWS Lambda
+
+Answer: **Leverage Amazon API Gateway with AWS Lambda**
+
+The problem describes a multi-tier application for tracking truck locations in real-time, with data accessible via a REST API. This is a classic serverless use case.
+
+- **Amazon API Gateway** is a managed service that allows you to create, publish, maintain, monitor, and secure REST and WebSocket APIs at any scale. It acts as the "front door" for applications to access data, business logic, or functionality from your backend services.
+- **AWS Lambda** is a serverless, event-driven compute service that lets you run code without provisioning or managing servers. It can be triggered by various AWS services, including API Gateway, to execute business logic.
+
+Together, API Gateway and Lambda provide a scalable and cost-effective solution for building a real-time, multi-tier application that can handle the incoming location data and serve it via a REST API without the need to manage any servers.
+
+# Question 8:
+The IT department at a consulting firm is conducting a training workshop for new developers. As part of an evaluation exercise on Amazon S3, the new developers were asked to identify the invalid storage class lifecycle transitions for objects stored on Amazon S3.
+Can you spot the INVALID lifecycle transitions from the options below? (Select two)
+- Amazon S3 Standard-IA => Amazon S3 One Zone-IA
+- Amazon S3 Standard => Amazon S3 Intelligent-Tiering
+- Amazon S3 Intelligent-Tiering => Amazon S3 Standard
+- Amazon S3 One Zone-IA => Amazon S3 Standard-IA
+- Amazon S3 Standard-IA => Amazon S3 Intelligent-Tiering
+
+The two invalid lifecycle transitions are:
+
+- **Amazon S3 Standard-IA => Amazon S3 One Zone-IA**
+- **Amazon S3 Standard-IA => Amazon S3 Intelligent-Tiering**
+
+The Amazon S3 storage class lifecycle transitions have specific rules. Objects can be transitioned from a more frequently accessed storage class to a less frequently accessed one, but not the other way around. Additionally, some transitions between specific classes are not allowed.
+
+- **Amazon S3 Standard-IA => Amazon S3 One Zone-IA**: This is an invalid transition because you cannot transition from a storage class with high availability (Standard-IA) to a storage class with lower availability (One Zone-IA).
+- **Amazon S3 Standard-IA => Amazon S3 Intelligent-Tiering**: This is an invalid transition because you cannot transition an object from a storage class that is already "infrequent access" to the Intelligent-Tiering class, which is designed to automatically move objects between frequent and infrequent access tiers.
+
+# Question 9:
+A gaming company is looking at improving the availability and performance of its global flagship application which utilizes User Datagram Protocol and needs to support fast regional failover in case an AWS Region goes down. The company wants to continue using its own custom Domain Name System (DNS) service.
+Which of the following AWS services represents the best solution for this use-case?
+AWS Global Accelerator
+Amazon CloudFront
+Amazon Route 53
+AWS Elastic Load Balancing (ELB)
+
+Answer: **(a) AWS Global Accelerator**
+
+AWS Global Accelerator is a networking service that uses the AWS global network to improve the availability and performance of applications for global users. It routes traffic to the optimal healthy endpoint based on performance and user location. This service is particularly suitable for this use case because it supports User Datagram Protocol (UDP) traffic, which is mentioned in the problem description. It also provides instant failover to the next best endpoint if an application fails, which addresses the need for fast regional failover.
+
+
+# Question 10:
+
+A development team requires permissions to list an Amazon S3 bucket and delete objects from that bucket. A systems administrator has created the following IAM policy to provide access to the bucket and applied that policy to the group. The group is not able to delete objects in the bucket. The company follows the principle of least privilege.
+
+```
+    "Version": "2021-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "s3:ListBucket",
+                "s3:DeleteObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::example-bucket"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+```
+
+Which statement should a solutions architect add to the policy to address this issue?
+
+{
+"Action": [
+"s3:*Object"
+1,
+"Resource": [
+"arn:aws:s3::: example-bucket/*"
+1,
+"Effect": "Allow"
+}
+{
+"Action": [
+"s3:DeleteObject"
+],
+"Resource": [
+"arn:aws:s3::: example-bucket/*"
+],
+"Effect": "Allow"
+}
+{
+"Action": [
+"s3:*"
+1,
+"Resource": [
+"arn:aws:s3::: example-bucket/*"
+1,
+"Effect": "Allow"
+}
+{
+"Action": [
+],
+"s3:DeleteObject"
+"Resource": [
+"arn:aws:s3::: example-bucket*"
+],
+"Effect": "Allow"
+}
+
+The correct option is the second one.
+
+The original policy allows the `s3:DeleteObject` action, but the `Resource` is specified as `arn:aws:s3:::example-bucket`. This resource ARN refers to the bucket itself, not the objects within it. To allow actions on objects inside a bucket, the resource ARN must include a wildcard (`/*`) at the end. The second option correctly specifies the resource as `arn:aws:s3:::example-bucket/*`, which allows the `s3:DeleteObject` action on all objects within the bucket. This also adheres to the principle of least privilege by only granting the necessary permission to delete objects, rather than all possible s3 actions.
+
+Answer: **(b) The second option from the top**
