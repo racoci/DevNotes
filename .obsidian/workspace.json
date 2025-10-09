@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.08 Definindo as rotas.md",
+                "file": "Infra/Certificate/Solutions Architect Associate/Practice Test 1/AWS Certified Solution Architect Associate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.08 Definindo as rotas"
+              "title": "AWS Certified Solution Architect Associate"
             }
           }
         ]
@@ -173,8 +173,12 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.07 Controller DELETE.md",
+    "Infra/Certificate/Solutions Architect Associate/Practice Test 1",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.08 Definindo as rotas.md",
+    "Infra/Certificate/Solutions Architect Associate/Practice Test 1/AWS Certified Solution Architect Associate.md",
+    "Infra/Certificate/Solutions Architect Associate",
+    "Infra/Certificate",
+    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.07 Controller DELETE.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.06 Controller PUT.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.05 Para saber mais -bloco try-catch.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/4 Evoluindo a API/4.04 Controller POST.md",
@@ -198,8 +202,6 @@
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/2 Express e primeiras rotas/2.14 O que aprendemos?.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.01 Projeto da aula anterior.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.02 Bancos de dados.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.03 Para saber mais - mais sobre NoSQL.md",
-    "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados/3.04 Criando coleção no MongoDB.md",
     "Backend/Node JS/Express/1 API REST/1.4 Criando uma API Rest com Express e MongoDB/3 Persistindo dados",
     "Scripts/make_segments.py",
     "Scripts/extract_metadata.sh",
@@ -207,8 +209,6 @@
     "Infra/IaC/CI-CD",
     "Infra/IaC/Readings",
     "AI/3D World",
-    "Infra/IaC/IaC - PoC",
-    "Frontend/Udemy-Angular/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/759. Module Resources",
     "Health/Backend/AWS-Infra-draft.png",
     "Health/Backend/AWS-infra-draft.svg",
     "Health/Interações Gerais.png",
