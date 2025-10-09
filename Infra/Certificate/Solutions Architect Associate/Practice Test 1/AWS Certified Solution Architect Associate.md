@@ -326,3 +326,27 @@ Explanation
 - **Multipart uploads** allow a large file to be broken into smaller parts, which can be uploaded in parallel. This can significantly improve upload speed, especially for large files, and is a standard feature of S3.
 - **AWS Direct Connect** and **AWS Site-to-Site VPN** are not the most cost-effective options. Direct Connect is expensive and takes a long time to provision. VPN connections can also be costly and may not provide the same level of performance as S3 Transfer Acceleration. 
 - **AWS Global Accelerator** is primarily used to improve the availability and performance of applications by routing traffic to the nearest healthy endpoint, but S3 Transfer Acceleration is the service specifically designed to accelerate uploads to S3 buckets.
+
+# Question 15
+
+The engineering team at an in-home fitness company is evaluating multiple in-memory data stores with the ability to power its on-demand, live leaderboard. The company's leaderboard requires high availability, low latency, and real-time processing to deliver customizable user data for the community of users working out together virtually from the comfort of their home.
+
+As a solutions architect, which of the following solutions would you recommend? (Select two)
+
+- Power the on-demand, live leaderboard using Amazon RDS for Aurora as it meets the in-memory, high availability, low latency requirements
+- Power the on-demand, live leaderboard using Amazon DynamoDB as it meets the in-memory, high availability, low latency requirements
+- Power the on-demand, live leaderboard using Amazon Neptune as it meets the in-memory, high availability, low latency requirements
+- Power the on-demand, live leaderboard using Amazon DynamoDB with DynamoDB Accelerator (DAX) as it meets the in-memory, high availability, low latency requirements
+- Power the on-demand, live leaderboard using Amazon ElastiCache for Redis as it meets the in-memory, high availability, low latency requirements
+
+Answer: **Power the on-demand, live leaderboard using Amazon DynamoDB with DynamoDB Accelerator (DAX) as it meets the in-memory, high availability, low latency requirements** and **Power the on-demand, live leaderboard using Amazon ElastiCache for Redis as it meets the in-memory, high availability, low latency requirements**.
+
+Explanation
+
+The problem requires a solution for a live leaderboard that needs high availability, low latency, and real-time processing.
+
+- **Amazon ElastiCache for Redis** is an in-memory data store that provides sub-millisecond latency, high availability, and real-time processing, making it suitable for live leaderboards.
+- **Amazon DynamoDB with DynamoDB Accelerator (DAX)** is a NoSQL database service with an in-memory cache that provides fast, low-latency access to data, which is ideal for high-read, low-latency applications like a live leaderboard.
+- Amazon RDS for Aurora is a relational database and is not an in-memory data store.
+- Amazon DynamoDB alone does not have an in-memory cache, and while it's fast, DAX is needed to meet the low-latency requirement of a live leaderboard.
+- Amazon Neptune is a graph database service and is not the most appropriate choice for a leaderboard application, which is typically a key-value or sorted set data structure.
