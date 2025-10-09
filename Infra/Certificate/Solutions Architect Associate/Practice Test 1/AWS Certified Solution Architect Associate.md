@@ -369,3 +369,53 @@ The problem requires a solution that provides high availability and allows the D
 - **Amazon EC2** provides full control over the operating system and database, but requires the user to manage the high availability setup, which conflicts with the goal of minimizing infrastructure maintenance effort.
 - **Amazon RDS for Oracle** provides high availability through a Multi-AZ configuration but is a managed service that does not allow the DBA to access and customize the underlying operating system.
 - **Amazon RDS Custom for Oracle** is a managed database service for legacy, custom, and packaged applications that require access to the underlying operating system and database environment. It combines the automation of a managed service with the flexibility to customize the environment, making it the best fit for this use case.
+
+# Question 17
+
+A biotechnology firm runs genomics data analysis workloads using AWS Lambda functions deployed inside a VPC in their central AWS account. The input data for these workloads consists of large files stored in an Amazon Elastic File System (Amazon EFS) that resides in a separate AWS account managed by a research partner. The firm wants the Lambda function in their account to access the shared EFS storage directly. The access pattern and file volume are expected to grow as additional research datasets are added over time, so the solution must be scalable and cost-efficient, and should require minimal operational overhead.
+
+Which solution best meets these requirements in the MOST cost-effective way?
+
+- Package the genomic input data as a Lambda layer and publish it in the research partner's account. Share the layer across accounts by modifying its resource policy and attach the layer to the Lambda function in the central account to access the data during execution
+- Use Amazon EFS resource policies to allow cross-account access to the file system from the central account. Attach the EFS mount target to a shared VPC or peered VPC, and mount the file system in the Lambda function configuration using an EFS access point
+- Create a second Lambda function in the research partner's account that mounts the EFS file system locally. Have the main Lambda function in the central account invoke this secondary Lambda via Amazon API Gateway for data access and computation. Use IAM cross-account permissions to allow invocation
+- Set up an Amazon S3 bucket in the research partner's account and periodically copy EFS contents into the bucket using scheduled AWS DataSync jobs. Use Amazon S3 Access Points to expose the data to the Lambda function in the central account, allowing access via S3 API calls instead of file system mounts
+
+Answer: **Use Amazon EFS resource policies to allow cross-account access to the file system from the central account.** **Attach the EFS mount target to a shared VPC or peered VPC, and mount the file system in the Lambda function configuration using an EFS access point**
+
+The most cost-effective and scalable solution is to use Amazon EFS resource policies and VPC peering. This approach allows the Lambda function in the central AWS account to directly access the EFS file system in the research partner's account.
+
+- **Option 1** is not ideal because Lambda layers have a size limit of 250 MB, which is too small for large genomic datasets.
+- **Option 3** is inefficient and introduces additional costs and latency by invoking a second Lambda function through an API Gateway.
+- **Option 4** is less cost-effective and creates additional operational overhead by requiring scheduled DataSync jobs to copy data between EFS and S3.
+
+
+# Question 18
+
+A company has moved its business critical data to Amazon Elastic File System (Amazon EFS) which will be accessed by multiple Amazon EC2 instances.
+
+As an AWS Certified Solutions Architect - Associate, which of the following would you recommend to exercise access control such that only the permitted Amazon EC2 instances can read from the Amazon EFS file system? (Select two)
+
+- Use VPC security groups to control the network traffic to and from your file system
+- Set up the IAM policy root credentials to control and configure the clients accessing the Amazon EFS file system
+- Use Amazon GuardDuty to curb unwanted access to Amazon EFS file system
+- Use network access control list (network ACL) to control the network traffic to and from your Amazon EC2 instance
+- Use an IAM policy to control access for clients who can mount your file system with the required permissions
+
+The correct options are:
+
+- **Use VPC security groups to control the network traffic to and from your file system**
+- **Use an IAM policy to control access for clients who can mount your file system with the required permissions**
+
+**Explanation:**
+
+- **VPC Security Groups:** Security groups act as a virtual firewall for your Amazon EC2 instances to control incoming and outgoing traffic. By configuring a security group for your Amazon EFS file system, you can specify which EC2 instances are allowed to connect to it. This provides a network-level access control.
+- **IAM Policies:** IAM (Identity and Access Management) policies allow you to define permissions for users, groups, and roles. By creating an IAM policy, you can specify which clients (in this case, the EC2 instances) have the authority to mount the EFS file system and what actions they can perform (e.g., read, write). This provides an identity-based access control.
+
+The other options are not the primary methods for this specific use case:
+
+- **IAM policy root credentials:** Using root credentials is not a best practice for day-to-day operations due to the high level of permissions.
+- **Amazon GuardDuty:** GuardDuty is a threat detection service, not a direct access control mechanism for EFS.
+- **Network ACL (network access control list):** While network ACLs can control traffic at the subnet level, security groups are a more granular and common method for controlling traffic to and from specific instances.
+
+# Question 
