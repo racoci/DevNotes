@@ -197,46 +197,75 @@ A development team requires permissions to list an Amazon S3 bucket and delete o
 ```
 
 Which statement should a solutions architect add to the policy to address this issue?
+a)
+```
+{
+    "Action": [
+        "s3:*Object"
+    ],
+    "Resource": [
+        "arn:aws:s3::: example-bucket/*"
+    ],
+    "Effect": "Allow"
+}
+```
+b)
+```
+{
+    "Action": [
+        "s3:DeleteObject"
+    ],
+    "Resource": [
+        "arn:aws:s3::: example-bucket/*"
+    ],
+    "Effect": "Allow"
+}
+```
+c)
 
+```
 {
-"Action": [
-"s3:*Object"
-1,
-"Resource": [
-"arn:aws:s3::: example-bucket/*"
-1,
-"Effect": "Allow"
+    "Action": [
+        "s3:*"
+    ],
+    "Resource": [
+        "arn:aws:s3::: example-bucket/*"
+    ],
+    "Effect": "Allow"
 }
+```
+d)
+```
 {
-"Action": [
-"s3:DeleteObject"
-],
-"Resource": [
-"arn:aws:s3::: example-bucket/*"
-],
-"Effect": "Allow"
+    "Action": [
+        "s3: DeleteObject"
+    ],
+    "Resource": [
+        "arn:aws:s3::: example-bucket*"
+    ],
+    "Effect": "Allow"
 }
-{
-"Action": [
-"s3:*"
-1,
-"Resource": [
-"arn:aws:s3::: example-bucket/*"
-1,
-"Effect": "Allow"
-}
-{
-"Action": [
-],
-"s3:DeleteObject"
-"Resource": [
-"arn:aws:s3::: example-bucket*"
-],
-"Effect": "Allow"
-}
-
+```
 The correct option is the second one.
 
 The original policy allows the `s3:DeleteObject` action, but the `Resource` is specified as `arn:aws:s3:::example-bucket`. This resource ARN refers to the bucket itself, not the objects within it. To allow actions on objects inside a bucket, the resource ARN must include a wildcard (`/*`) at the end. The second option correctly specifies the resource as `arn:aws:s3:::example-bucket/*`, which allows the `s3:DeleteObject` action on all objects within the bucket. This also adheres to the principle of least privilege by only granting the necessary permission to delete objects, rather than all possible s3 actions.
 
 Answer: **(b) The second option from the top**
+
+# Question 11:
+
+A retail company has developed a REST API which is deployed in an Auto Scaling group behind an Application Load Balancer. The REST API stores the user data in Amazon DynamoDB and any static content, such as images, are served via Amazon Simple Storage Service (Amazon S3). On analyzing the usage trends, it is found that 90% of the read requests are for commonly accessed data across all users.
+As a Solutions Architect, which of the following would you suggest as the MOST efficient solution to improve the application performance?
+- Enable ElastiCache Redis for DynamoDB and ElastiCache Memcached for Amazon S3
+- Enable Amazon DynamoDB Accelerator (DAX) for Amazon DynamoDB and Amazon CloudFront for Amazon S3
+- Enable ElastiCache Redis for DynamoDB and Amazon CloudFront for Amazon S3
+- Enable Amazon DynamoDB Accelerator (DAX) for Amazon DynamoDB and ElastiCache Memcached for Amazon S3
+
+Answer: **Enable Amazon DynamoDB Accelerator (DAX) for Amazon DynamoDB and Amazon CloudFront for Amazon S3**
+
+The problem describes an application with two key components: user data stored in Amazon DynamoDB and static content (images) in Amazon S3. The primary performance bottleneck is identified as a high volume of read requests (90%) for commonly accessed data.
+
+- **For Amazon DynamoDB:** Amazon DynamoDB Accelerator (DAX) is a caching service specifically designed for DynamoDB. It provides an in-memory cache that significantly reduces response times for read-heavy workloads, which is an ideal solution for the scenario described.
+- **For Amazon S3:** Amazon CloudFront is a content delivery network (CDN) that caches static content, such as images, at edge locations around the world. This reduces latency and improves performance for users by serving content from a location closer to them.
+
+Combining these two services directly addresses the performance issues for both the user data and the static content, making it the most efficient solution.
