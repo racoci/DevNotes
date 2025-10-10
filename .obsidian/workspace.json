@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/84. Outputting Data in a Table/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,9 +173,16 @@
   },
   "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/83. Passing Data from Parent to Child with Inputs/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/81. Cross-Component Communication with Outputs/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/80. Calculating the Annual Investment Data/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/79. Extracting Values with Two-Way-Binding/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/78. Handling Form Submission/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/77. Adding a User Input Component/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/76. Adding a Header Component With An Image/0. Index.md",
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/0. Index.md",
     "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/01-starting-project.zip",
     "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/75. Exercise Hints/0. Index.md",
-    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/0. Index.md",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/0. Index.md",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/73. Creating More Complex Module-based App Structures/0. Index.md",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/72. Creating and Using Shared Modules/0. Index.md",
@@ -196,7 +203,6 @@
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/app/shared/card/card.component.css",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/app/tasks/new-task/new-task.component.ts",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/app/tasks/new-task/new-task.component.html",
-    "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/app/tasks/new-task/new-task.component.css",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-6.jpg",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-5.jpg",
     "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-4.jpg",
@@ -211,12 +217,6 @@
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/61. Time to Practice - Services/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/60. More Service Usage and Alternative Dependency Injection Mechanism/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/59. Getting Started with Dependency Injection/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/58. Getting Started with Services/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/57. Transforming Template Data with Pipes/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/56. Content Projection with ng-content/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/55. Using the Submitted Data/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/54. Handling Form Submission/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/53. Signals and Two-Way-Binding/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-4.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-5.jpg"
   ]
