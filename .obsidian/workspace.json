@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Udemy/Section 02/Sem título.md",
+                "file": "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/51. Managing The 'New Task' Dialog/0. Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "0. Index"
             }
           }
         ]
@@ -173,6 +173,22 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/44. Adding More Components to the Demo App/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/40. TypeScript - Type Aliases and Interfaces/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-4.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-5.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-6.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-3.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-2.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-1.jpg",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users.zip",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/18. Styling and Using Our Next Custom Component/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/10. A New Starting Project and Analyzing The Project Structure/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/16. Styling the Header Component and Adding An Image/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/16. Styling the Header Component and Adding An Image/Resources",
+    "Frontend/Angular/Udemy/Udemy/Section 02/Sem título.md",
     "Frontend/Angular/Udemy/Udemy/Section 01/Sem título.md",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/logo-ub-inverted.svg",
     "Frontend/Angular/Udemy/Section 46 - Bonus - TypeScript Introduction (for Angular 2 Usage)/0. Index.md",
@@ -184,9 +200,6 @@
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shopping-list/store/shopping-list.actions.ts",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shopping-list/shopping-edit/shopping-edit.component.ts",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shopping-list/shopping-edit/shopping-edit.component.html",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shopping-list/shopping-edit/shopping-edit.component.css",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shared/placeholder/placeholder.directive.ts",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/src/app/shared/loading-spinner/loading-spinner.component.ts",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-finished-modern/ngrx-08-finished-modern/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-08-auth-finished/ngrx-08-auth-finished/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-07-auth-finished-modern/ngrx-07-auth-finished/README.md",
@@ -203,20 +216,8 @@
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-01-first-reducer-modern/ngrx-01-first-reducer/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-01-first-reducer/ngrx-01-first-reducer/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-00-starting-project/ngrx-00-starting-project/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/testing-final/testing-final/README.md",
-    "Frontend/Angular/Udemy/Udemy/Section 44/730/730.md",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/udemy-logo.png",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/thumb-sprites.jpg",
-    "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg",
-    "Frontend/Angular/Udemy/Udemy/Section 02/Sem título.md",
-    "Frontend/Angular/Udemy/Udemy/Section 00/Index.md",
-    "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/190. Working with Services Without Using Signals/0. Index.md",
-    "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/189. Angular Modules (NgModule) and Dependency Injection/0. Index.md",
-    "Frontend/Angular/Udemy-Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/udemy-logo.png",
-    "Frontend/Angular/Udemy-Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/thumb-sprites.jpg",
-    "Frontend/Angular/Udemy-Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg",
-    "Frontend/Angular/Udemy-Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/logo-ub-inverted.svg",
-    "Frontend/Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg",
-    "Frontend/Angular/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/thumb-sprites.jpg"
+    "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg"
   ]
 }
