@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/693. Time To Practice - A Second Action/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,6 +173,18 @@
   },
   "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/701. Summary/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/701. Summary/Pasted image 20251010181655.png",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/681. Module Introduction/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/700. Adding a Second Effect/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/699. Using Store Data In Effects/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/698. The Old @Effect Decorator and Registering Effects/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/697. Defining a First Effect/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/696. Installing the Effects Package/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/695. Introducing Effects/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/694. Exploring Selectors/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/693. Time To Practice - A Second Action/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/692. An Alternative Way Of Defining Actions/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/691. Handling Actions Without createReducer/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/690. Attaching Data To Actions/0. Index.md",
@@ -184,8 +196,6 @@
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/683. Understanding NgRx and Its Building Blocks/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/682. What Is NgRx/0. Index.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/681. Module Introduction/0. Index.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store.zip",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store-modern.zip",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-03-added-actions-modern.zip",
@@ -207,17 +217,6 @@
     "Frontend/Angular/Udemy/Udemy/Metadata/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg",
     "Frontend/Angular/Udemy/Udemy/Metadata/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/logo-ub-inverted.svg",
     "Frontend/Angular/Udemy/Udemy/Metadata/Index.md",
-    "Frontend/Angular/Udemy/Section 44 - A Basic Introduction to Unit Testing in Angular Apps/730. Further Resources and Where to Go Next/testing-final/testing-final/README.md",
-    "Frontend/Angular/Udemy/Section 44 - A Basic Introduction to Unit Testing in Angular Apps/testing-final/testing-final/README.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/ng-pwa-02-finished/ng-pwa-02-finished/src/assets/icons/icon-96x96.png",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/ng-pwa-02-finished/ng-pwa-02-finished/src/assets/icons/icon-72x72.png",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/ng-pwa-02-finished/ng-pwa-02-finished/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/714. Using Animation Callbacks/animations-finished/animations-finished/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/705. Setting up the Starting Project/animations-start/animations-start/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/713. Grouping Transitions/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/712. Using Keyframes for Animations/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/711. The 'void' State/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/710. Transition Phases/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/709. Advanced Transitions/0. Index.md"
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/ng-pwa-02-finished/ng-pwa-02-finished/src/assets/icons/icon-96x96.png"
   ]
 }
