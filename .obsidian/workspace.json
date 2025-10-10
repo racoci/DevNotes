@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/84. Outputting Data in a Table/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/83. Passing Data from Parent to Child with Inputs/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,6 +173,7 @@
   },
   "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/84. Outputting Data in a Table/0. Index.md",
     "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/83. Passing Data from Parent to Child with Inputs/0. Index.md",
     "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/81. Cross-Component Communication with Outputs/0. Index.md",
     "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/80. Calculating the Annual Investment Data/0. Index.md",
@@ -216,7 +217,6 @@
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/62. Using localStorage for Data Storage/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/61. Time to Practice - Services/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/60. More Service Usage and Alternative Dependency Injection Mechanism/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/59. Getting Started with Dependency Injection/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-4.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-5.jpg"
   ]
