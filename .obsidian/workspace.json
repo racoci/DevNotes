@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/51. Managing The 'New Task' Dialog/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,6 +173,9 @@
   },
   "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/66. Angular 19, Standalone Components and Modules/0. Index.md",
+    "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/51. Managing The 'New Task' Dialog/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/44. Adding More Components to the Demo App/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/40. TypeScript - Type Aliases and Interfaces/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/0. Index.md",
@@ -213,9 +216,6 @@
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-03-added-actions/ngrx-03-added-actions/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-02-added-store-modern/ngrx-02-added-store/README.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-02-added-store/ngrx-02-added-store/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-01-first-reducer-modern/ngrx-01-first-reducer/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-01-first-reducer/ngrx-01-first-reducer/README.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/Resources/code-snapshots/code-snapshots/ngrx-00-starting-project/ngrx-00-starting-project/README.md",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/udemy-logo.png",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/thumb-sprites.jpg",
     "Frontend/Angular/Udemy/Udemy/Section 00/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg"
