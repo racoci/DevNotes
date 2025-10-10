@@ -1,1 +1,0 @@
-https://github.com/mschwarzmueller/angular-complete-guide-course-resources/tree/main
