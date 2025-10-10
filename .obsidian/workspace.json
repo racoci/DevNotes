@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,8 +171,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/719. Further Links and Resources/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/717. Caching Assets for Offline Use/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/716. Adding Service Workers/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/0. Index.md",
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/README.md",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/post/post.component.ts",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/post/post.component.spec.ts",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/post/post.component.html",
@@ -183,8 +190,6 @@
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/post",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/app.module.ts",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/app.component.ts",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/src/app/app.component.spec.ts",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/715. Module Introduction/ng-pwa-01-start/ng-pwa-01-start/README.md",
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/190. Working with Services Without Using Signals/0. Index.md",
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/189. Angular Modules (NgModule) and Dependency Injection/0. Index.md",
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/188. Injecting Other Values (NOT Services)/0. Index.md",
@@ -204,11 +209,6 @@
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/174. The Starting Project and The Need For A Centralized Service/0. Index.md",
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/173. Module Introduction/0. Index.md",
     "Frontend/Angular/Udemy/Section 09 - Understanding Services and Dependency Injection - Deep Dive/0. Index.md",
-    "Frontend/Angular/Udemy/Section 08 - Transforming Values with Pipes - Deep Dive/172. Pipe Limitations and When Not To Use Them/0. Index.md",
-    "Frontend/Angular/Udemy/Section 08 - Transforming Values with Pipes - Deep Dive/171. Pure and Impure Pipes/0. Index.md",
-    "Frontend/Angular/Udemy/Section 08 - Transforming Values with Pipes - Deep Dive/170. Understanding How Pipes Are Executed/0. Index.md",
-    "Frontend/Angular/Udemy/Section 08 - Transforming Values with Pipes - Deep Dive/169. Building a Pipe That Sorts Items/0. Index.md",
-    "Frontend/Angular/Udemy/Section 08 - Transforming Values with Pipes - Deep Dive/168. Chaining Pipes and Being Aware of Limitations/0. Index.md",
     "Frontend/Angular/Udemy/Section 03 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-6.jpg",
     "Frontend/Angular/Udemy/Section 03 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-5.jpg",
     "Frontend/Angular/Udemy/Section 03 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/01-starting-project/src/assets/users/user-4.jpg",
