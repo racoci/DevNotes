@@ -1,0 +1,291 @@
+{
+    "count": 813,
+    "next": null,
+    "previous": "https://institutoeldorado.udemy.com/api-2.0/courses/756150/subscriber-curriculum-items/?caching_intent=True&curriculum_types=chapter%2Clecture%2Cpractice%2Cquiz%2Crole-play&fields%5Basset%5D=title%2Cfilename%2Casset_type%2Cstatus%2Ctime_estimation%2Cis_external&fields%5Bchapter%5D=title%2Cobject_index%2Cis_published%2Csort_order&fields%5Blecture%5D=title%2Cobject_index%2Cis_published%2Csort_order%2Ccreated%2Casset%2Csupplementary_assets%2Cis_free&fields%5Bpractice%5D=title%2Cobject_index%2Cis_published%2Csort_order&fields%5Bquiz%5D=title%2Cobject_index%2Cis_published%2Csort_order%2Ctype&page=4&page_size=200",
+    "results": [
+        {
+            "_class": "lecture",
+            "id": 26105540,
+            "title": "What & Why?",
+            "created": "2021-04-20T09:58:06Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986546,
+                "asset_type": "Video",
+                "title": "typescript-intro-02-what-and-why.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-02-what-and-why.mp4",
+                "time_estimation": 392
+            },
+            "sort_order": 18,
+            "object_index": 747,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26106246,
+            "title": "Installing & Using TypeScript",
+            "created": "2021-04-20T10:49:32Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986564,
+                "asset_type": "Video",
+                "title": "typescript-intro-03-installing-and-using-typescript.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-03-installing-and-using-typescript.mp4",
+                "time_estimation": 382
+            },
+            "sort_order": 17,
+            "object_index": 748,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105546,
+            "title": "Base Types & Primitives",
+            "created": "2021-04-20T09:58:13Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986552,
+                "asset_type": "Video",
+                "title": "typescript-intro-04-base-types-primitive-types.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-04-base-types-primitive-types.mp4",
+                "time_estimation": 235
+            },
+            "sort_order": 16,
+            "object_index": 749,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105552,
+            "title": "Array & Object Types",
+            "created": "2021-04-20T09:58:25Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986544,
+                "asset_type": "Video",
+                "title": "typescript-intro-05-array-and-object-types.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-05-array-and-object-types.mp4",
+                "time_estimation": 333
+            },
+            "sort_order": 15,
+            "object_index": 750,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105556,
+            "title": "Type Inference",
+            "created": "2021-04-20T09:58:35Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986554,
+                "asset_type": "Video",
+                "title": "typescript-intro-06-type-inference.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-06-type-inference.mp4",
+                "time_estimation": 167
+            },
+            "sort_order": 14,
+            "object_index": 751,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105562,
+            "title": "Working with Union Types",
+            "created": "2021-04-20T09:58:43Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986548,
+                "asset_type": "Video",
+                "title": "typescript-intro-07-union-types.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-07-union-types.mp4",
+                "time_estimation": 168
+            },
+            "sort_order": 13,
+            "object_index": 752,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105568,
+            "title": "Assigning Type Aliases",
+            "created": "2021-04-20T09:58:52Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986560,
+                "asset_type": "Video",
+                "title": "typescript-intro-08-type-aliases.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-08-type-aliases.mp4",
+                "time_estimation": 162
+            },
+            "sort_order": 12,
+            "object_index": 753,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105572,
+            "title": "Diving into Functions & Function Types",
+            "created": "2021-04-20T09:58:58Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986550,
+                "asset_type": "Video",
+                "title": "typescript-intro-09-functions-and-types.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-09-functions-and-types.mp4",
+                "time_estimation": 312
+            },
+            "sort_order": 11,
+            "object_index": 754,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105576,
+            "title": "Understanding Generics",
+            "created": "2021-04-20T09:59:07Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986566,
+                "asset_type": "Video",
+                "title": "typescript-intro-10-generics.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-10-generics.mp4",
+                "time_estimation": 440
+            },
+            "sort_order": 10,
+            "object_index": 755,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105580,
+            "title": "Classes & TypeScript",
+            "created": "2021-04-20T09:59:14Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986562,
+                "asset_type": "Video",
+                "title": "typescript-intro-11-classes.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-11-classes.mp4",
+                "time_estimation": 478
+            },
+            "sort_order": 9,
+            "object_index": 756,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105582,
+            "title": "Working with Interfaces",
+            "created": "2021-04-20T09:59:23Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986556,
+                "asset_type": "Video",
+                "title": "typescript-intro-12-interfaces.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-12-interfaces.mp4",
+                "time_estimation": 336
+            },
+            "sort_order": 8,
+            "object_index": 757,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26105586,
+            "title": "Configuring the TypeScript Compiler",
+            "created": "2021-04-20T09:59:30Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32986558,
+                "asset_type": "Video",
+                "title": "typescript-intro-13-the-tsconfig-file.mp4",
+                "status": 1,
+                "is_external": false,
+                "filename": "typescript-intro-13-the-tsconfig-file.mp4",
+                "time_estimation": 149
+            },
+            "sort_order": 7,
+            "object_index": 758,
+            "supplementary_assets": []
+        },
+        {
+            "_class": "lecture",
+            "id": 26106360,
+            "title": "Module Resources",
+            "created": "2021-04-20T10:54:33Z",
+            "is_published": true,
+            "is_free": false,
+            "asset": {
+                "_class": "asset",
+                "id": 32987932,
+                "asset_type": "Article",
+                "title": "",
+                "status": 1,
+                "is_external": false,
+                "filename": "",
+                "time_estimation": 7
+            },
+            "sort_order": 6,
+            "object_index": 759,
+            "supplementary_assets": [
+                {
+                    "_class": "asset",
+                    "id": 32988034,
+                    "asset_type": "File",
+                    "is_external": false,
+                    "filename": "typescript-intro-01-finished.zip",
+                    "status": 1,
+                    "time_estimation": 0,
+                    "title": "typescript-intro-01-finished.zip"
+                }
+            ]
+        }
+    ]
+}
