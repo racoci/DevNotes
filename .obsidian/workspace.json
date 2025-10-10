@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/681. Module Introduction/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/693. Time To Practice - A Second Action/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,6 +173,18 @@
   },
   "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/692. An Alternative Way Of Defining Actions/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/691. Handling Actions Without createReducer/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/690. Attaching Data To Actions/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/689. Dispatching Actions/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/688. Introducing Actions and State Changing Reducers/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/687. Reading Data From The Store/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/686. An Alternative Way Of Creating Reducers/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/685. Adding a First Reducer and Store Setup/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/684. Project Setup and Installing NgRx/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/683. Understanding NgRx and Its Building Blocks/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/682. What Is NgRx/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/681. Module Introduction/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store.zip",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store-modern.zip",
@@ -206,18 +218,6 @@
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/712. Using Keyframes for Animations/0. Index.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/711. The 'void' State/0. Index.md",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/710. Transition Phases/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/709. Advanced Transitions/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/708. Transitions/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/706. Animations Triggers and State/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/707. Switching between States/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/705. Setting up the Starting Project/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/704. Introduction/0. Index.md",
-    "Frontend/Angular/Udemy/Section 42 - Angular Animations/703. Making Animations Work with Angular 4+/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/719. Further Links and Resources/ng-pwa-02-finished/ng-pwa-02-finished/README.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/ng-pwa-02-finished/ng-pwa-02-finished/README.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/716. Adding Service Workers/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/719. Further Links and Resources/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/0. Index.md"
+    "Frontend/Angular/Udemy/Section 42 - Angular Animations/709. Advanced Transitions/0. Index.md"
   ]
 }
