@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e353b769dfaf6311",
+        "id": "473f050a83cb3a7a",
         "type": "tabs",
         "children": [
           {
-            "id": "c71cb84a48af6abe",
+            "id": "1cf3d5a74686f5e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/13. [Optional] JavaScript Refresher - Classes, Properties and More/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/21. Outputting Dynamic Content with String Interpolation/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,18 +171,27 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "c71cb84a48af6abe",
+  "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/20. Storing Data in a Component Class/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/18. Styling and Using Our Next Custom Component/0. Index.md",
+    "Frontend/Angular/Udemy/Section.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/17. Managing and Creating Components with the Angular CLI/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/16. Styling the Header Component and Adding An Image/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/15. Using the Custom Component/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/14. Configuring the Custom Component/0. Index.md",
+    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/13. [Optional] JavaScript Refresher - Classes, Properties and More/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/12. Creating a First Custom Component/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/11. Understanding Components and How Content Ends Up On The Screen/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/4. Angular's Evolution and Stability/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/5. Creating A New Angular Project/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/7. About This Course/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/10. A New Starting Project and Analyzing The Project Structure/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/9. Module Introduction/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/8. Course Setup and Resources/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/0. Index.md",
-    "Frontend/Angular/Udemy/Section 1 - Getting Started/7. About This Course/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/6. Setting Up An Angular Development Environment/0. Index.md",
-    "Frontend/Angular/Udemy/Section 1 - Getting Started/5. Creating A New Angular Project/0. Index.md",
-    "Frontend/Angular/Udemy/Section 1 - Getting Started/4. Angular's Evolution and Stability/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/3. Why Would You Use Angular/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/2. What Exactly Is Angular/0. Index.md",
     "Frontend/Angular/Udemy/Section 1 - Getting Started/1. Welcome To The Course/0. Index.md",
@@ -192,15 +201,6 @@
     "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/0. Index.md",
     "Frontend/Angular/Udemy/Udemy/Section 00/curriculum_items.json",
     "Frontend/Angular/Udemy/Udemy/Section 00/index.json",
-    "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/190. Working with Services Without Using Signals/0. Index.md",
-    "Frontend/Angular/Udemy/Section 10 - Making Sense of Change Detection - Deep Dive/191. Module Introduction/0. Index.md",
-    "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/189. Angular Modules (NgModule) and Dependency Injection/0. Index.md",
-    "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/174. The Starting Project and The Need For A Centralized Service/0. Index.md",
-    "Frontend/Angular/Udemy/Section 8 - Transforming Values with Pipes - Deep Dive/170. Understanding How Pipes Are Executed/0. Index.md",
-    "Frontend/Angular/Udemy/Section 7 - Enhancing Elements with Directives - Deep Dive/150. The Starting Project/0. Index.md",
-    "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/146. Setting Up Custom Two-Way Binding/0. Index.md",
-    "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/141. Revisiting Inputs and Signals/0. Index.md",
-    "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/128. Working with Template Variables/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-4.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-5.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-6.jpg",
