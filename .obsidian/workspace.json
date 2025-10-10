@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 1 - Getting Started/7. About This Course/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,8 +171,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "136b65c4bb4a1d44",
+  "active": "c71cb84a48af6abe",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/6. Setting Up An Angular Development Environment/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/5. Creating A New Angular Project/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/4. Angular's Evolution and Stability/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/3. Why Would You Use Angular/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/2. What Exactly Is Angular/0. Index.md",
+    "Frontend/Angular/Udemy/Section 1 - Getting Started/1. Welcome To The Course/0. Index.md",
+    "Frontend/Angular/Udemy/0. Index.md",
     "Frontend/Angular/Udemy/0. Index vtt.md",
     "Frontend/Angular/Udemy/0. Index (copy).md",
     "Frontend/Angular/Udemy/Section 9 - Understanding Services and Dependency Injection - Deep Dive/0. Index.md",
@@ -194,13 +201,6 @@
     "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/105. Extending Built-in Elements with Custom Components via Attribute Selectors/0. Index.md",
     "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/103. Adding Forms to Components/0. Index.md",
     "Frontend/Angular/Udemy/Section 6 - Components and Templates - Deep Dive/96. Starting Project and An Opportunity For Smaller Components/0. Index.md",
-    "Frontend/Angular/Udemy/Section 5 - Debugging Angular Apps/92. Understanding Error Messages and Fixing Errors/0. Index.md",
-    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/76. Adding a Header Component With An Image/0. Index.md",
-    "Frontend/Angular/Udemy/Section 4 - Angular Essentials - Time To Practice/74. Module Introduction and Starting Project/0. Index.md",
-    "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/66. Angular 19, Standalone Components and Modules/0. Index.md",
-    "Frontend/Angular/Udemy/Section 3 - Angular Essentials - Working with Modules/65. A First Introduction To Angular Modules (NgModule)/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/51. Managing The 'New Task' Dialog/0. Index.md",
-    "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/44. Adding More Components to the Demo App/0. Index.md",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-4.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-5.jpg",
     "Frontend/Angular/Udemy/Section 2 - Angular Essentials - Components, Templates, Services and More/19. Preparing User Data (To Output Dynamic Content)/users/user-6.jpg",
