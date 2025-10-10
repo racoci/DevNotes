@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/0. Index.md",
+                "file": "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/681. Module Introduction/0. Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,17 +173,18 @@
   },
   "active": "1cf3d5a74686f5e0",
   "lastOpenFiles": [
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/0. Index.md",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-02-added-store-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-03-added-actions-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-08-finished-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-07-auth-finished-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-08-auth-finished.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-01-first-reducer-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-03-added-actions.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-05-auth-without-effects-modern.zip",
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/code-snapshots/code-snapshots/ngrx-05-auth-without-effects.zip",
     "Frontend/Angular/Udemy/Section 42 - Angular Animations/714. Using Animation Callbacks/0. Index.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-43-wrap-up.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-42-cleanup-work.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-41-storing-recipes-via-effects.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-40-update-delete-and-add-recipe.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-39-fixing-the-auth-redirect.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-38-fetching-recipes-and-using-the-resolver.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-37-fetching-recipe-detail-data.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-36-getting-started-with-ngrx-for-recipes.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-35-the-router-store.mp4",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/702. NgRx - The Old Syntax/videos-2/ngrx-34-using-the-store-devtools.mp4",
     "Frontend/Angular/Udemy/Metadata/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/udemy-logo.png",
     "Frontend/Angular/Udemy/Metadata/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/thumb-sprites.jpg",
     "Frontend/Angular/Udemy/Metadata/Course_ Angular - The Complete Guide (2025 Edition) _ Udemy Business_files/powered_by_logo.svg",
@@ -217,7 +218,6 @@
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/718. Caching Dynamic Assets and URLs/ng-pwa-02-finished/ng-pwa-02-finished/README.md",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/716. Adding Service Workers/0. Index.md",
     "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/719. Further Links and Resources/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/0. Index.md",
-    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/717. Caching Assets for Offline Use/0. Index.md"
+    "Frontend/Angular/Udemy/Section 43 - Adding Offline Capabilities with Service Workers/0. Index.md"
   ]
 }
