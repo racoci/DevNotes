@@ -429,8 +429,6 @@ Here’s a concise comment you can post on the task:
 - Assume all associations and related data should be included.
 - We have access to the AWS environment, so infrastructure details can be verified internally.
 
----
-
 # Clarification Questions
 
 ## Entities & Associations
