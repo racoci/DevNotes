@@ -1,5 +1,4 @@
-I have the following task that I need to work on. 
-However I feel there is too much information missing. 
+I have the following task that I need to work on. However I feel there is too much information missing. 
 Can you help me ask some questions for clarification of the actual demmand? 
 
 Investigate ways to migrate the data of one or more users between environments and regions. Below are some examples of usage for this requirement:
