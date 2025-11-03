@@ -441,28 +441,28 @@ Here’s a concise comment you can post on the task:
 
 ## Environment & Region
 
-- **2.1.2** Are there **schema differences** or **feature flag mismatches** between environments? If yes, how should we handle them?
-- **2.2.2** For region moves, do we need to ensure **all data types** (DB, files, logs, backups) stay in-region?
-- **2.2.3** Are there **encryption/key management** constraints (e.g., keys must remain in-country)?
+-  Are there **schema differences** or **feature flag mismatches** between environments? If yes, how should we handle them?
+- For region moves, do we need to ensure **all data types** (DB, files, logs, backups) stay in-region?
+- Are there **encryption/key management** constraints (e.g., keys must remain in-country)?
 
-**Identity & Access**
+## **Identity & Access**
 
-- **3.1.1** Should we preserve **user IDs** or generate new ones in the target environment?
-- **3.1.2** Do we need to migrate **authentication factors** (passwords, MFA, API tokens)?
-- **3.2.1** Should roles and permissions be **replicated exactly** or **remapped** for the target environment?
+- Should we preserve **user IDs** or generate new ones in the target environment?
+- Do we need to migrate **authentication factors** (passwords, MFA, API tokens)?
+-  Should roles and permissions be **replicated exactly** or **remapped** for the target environment?
 
-**Tenancy Handling**
+## **Tenancy Handling**
 
 - **3.3.1** If the system is multi-tenant (e.g., one company with multiple users), when copying a user, should we also copy their **company/tenant**?
 - **3.3.2** If the company was already copied, should subsequent users join the **existing copied company** or create a **new one**?
 - **3.3.3** How do we handle **unique identifiers** to avoid collisions (e.g., prefix names, generate new IDs)?
 
-**Compliance & Privacy**
+## **Compliance & Privacy**
 
 - **6.1.1** For copies to non-production, is **PII masking** required? If yes, what fields and rules?
 - **6.2.1** Are there any **legal or regulatory frameworks** we must comply with (GDPR, LGPD, etc.)?
 
-**Operational**
+## **Operational**
 
 - **7.1.1** What are the **volume expectations** (number of users, data size)?
 - **7.1.2** Any **downtime constraints** or **SLA requirements**?
