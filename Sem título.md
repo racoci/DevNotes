@@ -302,11 +302,18 @@ Some questions I think I can already answer from the context I have, so I'll ans
 2.1.2 This one we should keep, perhaps even break into more questions to get even more details  
 2.2.1 Keep, but we can also check this by ourselves so no need to clarify. You should assume I have access to check somethings  
 2.2.2 Break into more questions to get more details  
-2.2.3 Break into more questions to get more details  
+2.2.3 Break into more questions to get more details 
+
+
 3.1.1 Keep or break into more questions to get more details  
 3.1.2 Keep or break into more questions to get more details  
 3.2.1 Keep or break into more questions to get more details  
 3.2.2 Keep or break into more questions to get more details  
 3.2.1 Break into more questions to get more details  
 3.2.2​ ‌Break into more questions to get more details 
-3.3.1 This question is confusing. What do you mean by multi-tenant data. Explain these terms add examples if necessary to make the questiu
+3.3.1 This question is confusing. What do you mean by multi-tenant data. Explain these terms add examples if necessary to make the question clearer
+3.3.2 ‌Break into more questions to get more details 
+3.3.3 This question is confusing. Explain these terms add examples if necessary to make the question clearer.
+
+4.1 No questions were asked
+4.2 
