@@ -325,3 +325,92 @@ Some questions I think I can already answer from the context I have, so I'll ans
 
 4.3.1 Break into more questions to get more details 
 4.3.2 
+
+
+
+
+
+
+
+
+
+
+Got it! I’ll keep it simple, structured, and add tags like `1.1.1` for traceability. I’ll also incorporate your comments and make the confusing questions clearer with examples. Here’s a **refined, prioritized list of clarification questions**:
+
+---
+
+### **1. Objectives & Scope**
+
+**1.1.1** Which scenarios must be supported? (e.g., copy for troubleshooting, move for dogfooding, region migration for compliance)  
+**1.1.2** Should the solution support both **one-time migrations** and **repeatable workflows**?  
+**1.1.3** What does “success” look like for each scenario? (e.g., user fully functional in target environment, associations intact)
+
+---
+
+### **2. Entities & Associations**
+
+**1.2.1** When migrating/copying, should we include only the **user** or also their **organization/company/tenant**?  
+**1.2.2** If the company has already been copied, should new users from that company join the **same copied company** or create a **new one**?  
+**1.2.3** Should we also copy **associated data** (e.g., tasks, forms, files, messages)? If yes, which associations are mandatory?
+
+---
+
+### **3. Move vs Copy Semantics**
+
+**1.3.1** Confirm: No data loss is allowed during migration. ✅  
+**1.3.2** Confirm: Original account remains unchanged after copy. ✅  
+**1.3.3** For copies to non-production environments, do we need **data masking/anonymization** for privacy or compliance? If yes, what rules apply?
+
+---
+
+### **4. Environment & Region**
+
+**2.1.1** Which environments are involved? (Assume all: dev, staging, beta, prod) ✅  
+**2.1.2** Are there **schema differences** or **feature flag mismatches** between environments? If yes, how should we handle them?  
+**2.2.2** For region moves, do we need to ensure **all data types** (DB, files, logs, backups) stay in-region?  
+**2.2.3** Are there **encryption/key management** constraints (e.g., keys must remain in-country)?
+
+---
+
+### **5. Identity & Access**
+
+**3.1.1** Should we preserve **user IDs** or generate new ones in the target environment?  
+**3.1.2** Do we need to migrate **authentication factors** (passwords, MFA, API tokens)?  
+**3.2.1** Should roles and permissions be **replicated exactly** or **remapped** for the target environment?  
+**3.2.2** For non-production copies, should permissions be **restricted**?
+
+---
+
+### **6. Tenancy Handling (Clarified)**
+
+**3.3.1** If the system is **multi-tenant** (one company can have multiple users), when copying a user, should we also copy their **tenant/company**?  
+_Example:_ If User A belongs to Company X, and we copy User A, do we also copy Company X?  
+**3.3.2** If Company X was already copied, should User B from Company X join the **existing copied Company X** or create a **new Company X** in target?  
+**3.3.3** How do we handle **unique identifiers** for tenants and users to avoid collisions? (e.g., prefix names, generate new IDs)
+
+---
+
+### **7. Compliance & Privacy**
+
+**6.1.1** For copies to non-production, is **PII masking** required? If yes, what fields and what masking rules?  
+**6.2.1** Are there any **legal or regulatory frameworks** we must comply with (GDPR, LGPD, etc.)?  
+**6.3.1** Do we need an **audit trail** for migration actions?
+
+---
+
+### **8. Operational**
+
+**7.1.1** What are the **volume expectations** (number of users, data size)?  
+**7.1.2** Any **downtime constraints** or **SLA requirements**?  
+**7.2.1** Who approves and validates migrations?  
+**7.3.1** Should the solution be **API-based**, **UI-based**, or **script-driven**?
+
+---
+
+✅ This is now **shorter, clearer, and tagged** for easy reference.  
+✅ I added examples where terms were confusing (multi-tenant, associations).  
+✅ I kept only the most critical questions and grouped them logically.
+
+---
+
+Do you want me to **turn this into a clean one-page checklist** (with Yes/No and short text fields) so you can send it to stakeholders? Or should I **prepare a discovery template with sections for answers**?
