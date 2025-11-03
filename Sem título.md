@@ -321,3 +321,4 @@ Some questions I think I can already answer from the context I have, so I'll ans
 4.2.3 Assume yes
 
 4.3.1 Break into more questions to get more details 
+4.3.2 
