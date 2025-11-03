@@ -420,13 +420,13 @@ Here’s a concise comment you can post on the task:
 
 ---
 
-### **Assumptions so far**
+# Assumptions so far
 
-- **1.1.1** All scenarios mentioned (copy for troubleshooting, move for dogfooding, region migration for compliance) should be supported.
-- **1.1.2** The solution should be flexible enough to handle both **one-time migrations** and **repeatable workflows**.
-- **1.3.1 & 1.3.2** No data loss is allowed, and the original account must remain unchanged after a copy.
-- **2.1.1** All environments (dev, staging, beta, prod) are in scope.
-- **4.2.1–4.2.3** Assume all associations and related data should be included.
+- All scenarios mentioned (copy for troubleshooting, move for dogfooding, region migration for compliance) should be supported.
+- The solution should be flexible enough to handle both **one-time migrations** and **repeatable workflows**.
+- No data loss is allowed, and the original account must remain unchanged after a copy.
+- All environments (dev, staging, beta, prod) are in scope.
+- Assume all associations and related data should be included.
 - We have access to the AWS environment, so infrastructure details can be verified internally.
 
 ---
