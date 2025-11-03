@@ -435,9 +435,9 @@ Here’s a concise comment you can post on the task:
 
 ## Entities & Associations
 
-- **1.2.1** When migrating/copying, should we include only the **user** or also their **organization/company/tenant**?
-- **1.2.2** If the company has already been copied, should new users from that company join the **same copied company** or create a **new one**?
-- **1.2.3** Which associated data must be included (e.g., tasks, forms, files, messages)?
+- When migrating/copying, should we include only the **user** or also their **organization/company/tenant**?
+- If the company has already been copied, should new users from that company join the **same copied company** or create a **new one**?
+- Which associated data must be included (e.g., tasks, forms, files, messages)?
 
 ## Environment & Region
 
@@ -449,24 +449,24 @@ Here’s a concise comment you can post on the task:
 
 - Should we preserve **user IDs** or generate new ones in the target environment?
 - Do we need to migrate **authentication factors** (passwords, MFA, API tokens)?
--  Should roles and permissions be **replicated exactly** or **remapped** for the target environment?
+- Should roles and permissions be **replicated exactly** or **remapped** for the target environment?
 
 ## **Tenancy Handling**
 
-- **3.3.1** If the system is multi-tenant (e.g., one company with multiple users), when copying a user, should we also copy their **company/tenant**?
-- **3.3.2** If the company was already copied, should subsequent users join the **existing copied company** or create a **new one**?
-- **3.3.3** How do we handle **unique identifiers** to avoid collisions (e.g., prefix names, generate new IDs)?
+- If the system is multi-tenant (e.g., one company with multiple users), when copying a user, should we also copy their **company/tenant**?
+- If the company was already copied, should subsequent users join the **existing copied company** or create a **new one**?
+- How do we handle **unique identifiers** to avoid collisions (e.g., prefix names, generate new IDs)?
 
 ## **Compliance & Privacy**
 
-- **6.1.1** For copies to non-production, is **PII masking** required? If yes, what fields and rules?
-- **6.2.1** Are there any **legal or regulatory frameworks** we must comply with (GDPR, LGPD, etc.)?
+- For copies to non-production, is **PII masking** required? If yes, what fields and rules?
+- Are there any **legal or regulatory frameworks** we must comply with (GDPR, LGPD, etc.)?
 
 ## **Operational**
 
-- **7.1.1** What are the **volume expectations** (number of users, data size)?
-- **7.1.2** Any **downtime constraints** or **SLA requirements**?
-- **7.3.1** Should the solution be **API-based**, **UI-based**, or **script-driven**?
+- What are the **volume expectations** (number of users, data size)?
+- Any **downtime constraints** or **SLA requirements**?
+- Should the solution be **API-based**, **UI-based**, or **script-driven**?
 
 ---
 
