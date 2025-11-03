@@ -307,6 +307,6 @@ Some questions I think I can already answer from the context I have, so I'll ans
 3.1.2 Keep or break into more questions to get more details  
 3.2.1 Keep or break into more questions to get more details  
 3.2.2 Keep or break into more questions to get more details  
-3.2.1 Should roles, permissions, entitlements, and feature flags be replicated exactly or remapped by environment?  
-  
-​‌
+3.2.1 Break into more questions to get more details  
+3.2.2​ ‌Break into more questions to get more details 
+3.3.1 This question is confusing. What do you mean by multi-tenant data. Explain these terms add examples if necessary to make the questiu
