@@ -414,3 +414,60 @@ _Example:_ If User A belongs to Company X, and we copy User A, do we also copy C
 ---
 
 Do you want me to **turn this into a clean one-page checklist** (with Yes/No and short text fields) so you can send it to stakeholders? Or should I **prepare a discovery template with sections for answers**?
+
+
+Here’s a concise comment you can post on the task:
+
+---
+
+### **Assumptions so far**
+
+- **1.1.1** All scenarios mentioned (copy for troubleshooting, move for dogfooding, region migration for compliance) should be supported.
+- **1.1.2** The solution should be flexible enough to handle both **one-time migrations** and **repeatable workflows**.
+- **1.3.1 & 1.3.2** No data loss is allowed, and the original account must remain unchanged after a copy.
+- **2.1.1** All environments (dev, staging, beta, prod) are in scope.
+- **4.2.1–4.2.3** Assume all associations and related data should be included.
+- We have access to the AWS environment, so infrastructure details can be verified internally.
+
+---
+
+### **Clarification Questions**
+
+**Entities & Associations**
+
+- **1.2.1** When migrating/copying, should we include only the **user** or also their **organization/company/tenant**?
+- **1.2.2** If the company has already been copied, should new users from that company join the **same copied company** or create a **new one**?
+- **1.2.3** Which associated data must be included (e.g., tasks, forms, files, messages)?
+
+**Environment & Region**
+
+- **2.1.2** Are there **schema differences** or **feature flag mismatches** between environments? If yes, how should we handle them?
+- **2.2.2** For region moves, do we need to ensure **all data types** (DB, files, logs, backups) stay in-region?
+- **2.2.3** Are there **encryption/key management** constraints (e.g., keys must remain in-country)?
+
+**Identity & Access**
+
+- **3.1.1** Should we preserve **user IDs** or generate new ones in the target environment?
+- **3.1.2** Do we need to migrate **authentication factors** (passwords, MFA, API tokens)?
+- **3.2.1** Should roles and permissions be **replicated exactly** or **remapped** for the target environment?
+
+**Tenancy Handling**
+
+- **3.3.1** If the system is multi-tenant (e.g., one company with multiple users), when copying a user, should we also copy their **company/tenant**?
+- **3.3.2** If the company was already copied, should subsequent users join the **existing copied company** or create a **new one**?
+- **3.3.3** How do we handle **unique identifiers** to avoid collisions (e.g., prefix names, generate new IDs)?
+
+**Compliance & Privacy**
+
+- **6.1.1** For copies to non-production, is **PII masking** required? If yes, what fields and rules?
+- **6.2.1** Are there any **legal or regulatory frameworks** we must comply with (GDPR, LGPD, etc.)?
+
+**Operational**
+
+- **7.1.1** What are the **volume expectations** (number of users, data size)?
+- **7.1.2** Any **downtime constraints** or **SLA requirements**?
+- **7.3.1** Should the solution be **API-based**, **UI-based**, or **script-driven**?
+
+---
+
+Would you like me to **format this as a ready-to-post Markdown comment for Jira or GitHub** (with bullet points and tags) or **turn it into a stakeholder questionnaire template**?
