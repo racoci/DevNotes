@@ -316,4 +316,6 @@ Some questions I think I can already answer from the context I have, so I'll ans
 3.3.3 This question is confusing. Explain these terms add examples if necessary to make the question clearer.
 
 4.1 No questions were asked
-4.2 
+4.2.1 Assume all
+4.2.2 Assume yes
+4.2.3 
