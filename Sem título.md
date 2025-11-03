@@ -288,16 +288,19 @@ I can condense this into a clean form and a ready-to-run **migration runbook** (
 
 
 Let's add a tag to all questions like 1.1.1, etc.  
-Some questions I think I can already answer from the context I have, so I'll answer so you can make more specific questions:  
+
+Some questions I think I can already answer from the context I have, so I'll answer so you can make more specific questions: 
+
 1.1.1 Preferably all of them  
 1.1.2 We need to be flexible, so we should study a way to be compatible with both one-time and repeatable workflow  
 1.1.3 That one we should probably keep  
-1.2.1 That one we should probably keep and also ask how to generalize between projects  
+1.2.1 That one we should probably keep and also ask how to generalize between projects 
 1.2.2 Keep and also ask how to generalize between different projects  
 1.2.3 Keep and also ask how to generalize between different projects  
 1.3.1 This is very clear in the description. No data should be lost  
-1.3.2 Also clear in the description, nothing should change in the original account  
+1.3.2 Also clear in the description, nothing should change in the original account 
 1.3.3 Why would it need to be masked or anonymized?  
+
 2.1.1 Assume all  
 2.1.2 This one we should keep, perhaps even break into more questions to get even more details  
 2.2.1 Keep, but we can also check this by ourselves so no need to clarify. You should assume I have access to check somethings  
