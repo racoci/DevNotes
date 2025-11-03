@@ -431,15 +431,15 @@ Here’s a concise comment you can post on the task:
 
 ---
 
-### **Clarification Questions**
+# Clarification Questions
 
-**Entities & Associations**
+## Entities & Associations
 
 - **1.2.1** When migrating/copying, should we include only the **user** or also their **organization/company/tenant**?
 - **1.2.2** If the company has already been copied, should new users from that company join the **same copied company** or create a **new one**?
 - **1.2.3** Which associated data must be included (e.g., tasks, forms, files, messages)?
 
-**Environment & Region**
+## Environment & Region
 
 - **2.1.2** Are there **schema differences** or **feature flag mismatches** between environments? If yes, how should we handle them?
 - **2.2.2** For region moves, do we need to ensure **all data types** (DB, files, logs, backups) stay in-region?
