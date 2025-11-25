@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Sem título"
             }
+          },
+          {
+            "id": "bbe167613432e78a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sem título 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,9 +186,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "744c5e6035371ff4",
+  "active": "bbe167613432e78a",
   "lastOpenFiles": [
     "Sem título.md",
+    "Sem título 1.md",
     "Infra/IaC/Predictability/Predictive Cloud Infrastructure.md",
     "Infra/IaC/Readings/🌟 API Gateway vs Load Balancer vs Reverse Proxy.md",
     "Infra/IaC/Predictability",
@@ -217,7 +233,6 @@
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/695. Introducing Effects/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/694. Exploring Selectors/0. Index.md",
     "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/693. Time To Practice - A Second Action/0. Index.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/692. An Alternative Way Of Defining Actions/0. Index.md",
-    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/691. Handling Actions Without createReducer/0. Index.md"
+    "Frontend/Angular/Udemy/Section 41 - Bonus - Using NgRx For State Management/692. An Alternative Way Of Defining Actions/0. Index.md"
   ]
 }
