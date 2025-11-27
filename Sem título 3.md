@@ -84,4 +84,10 @@ As I have sent before (in the other issue), my current sequence of events is:
 11-26 12:32:35.576  7424  7648 D NovaSonic: Sending valid json event: {"event": {"sessionEnd": {}}}
 ```
 
-The message at 11-26 12:31:35.468 is the contentEnd
+The message at 11-26 12:31:35.468 is the contentEnd of the system prompt. This would never be the issue at this point because we would have a validation error before that.
+
+## About issue 3
+Thanks for pointing that out, his could be an issue in the future, but at the point we are I'm not even receiving back the audioOutput event as can be seen by the logs.
+
+## About issue 4
+T
