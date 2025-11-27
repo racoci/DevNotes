@@ -4,32 +4,31 @@ About the issues you have mentioned. I did some tests and it doesn't seeen any o
 ## About the first issue
 I tested two sequential approaches: Building the request first using the class channel as stream:
 ```kotlin
-suspend fun translateOnce(pcm16kMonoBytes: ByteArray): ByteArray = withContext(Dispatchers.IO) {
-    bedrock?.invokeModelWithBidirectionalStream(
-        InvokeModelWithBidirectionalStreamRequest {
-            this.modelId = "amazon.nova-sonic-v1:0"
-            this.body = inputParts.consumeAsFlow()
-        }
-    ) { response ->
-        response.body.also { responseBody ->
-            Log.d(TAG, "Response received: $response with body $responseBody")
-        }?.onEach { out: InvokeModelWithBidirectionalStreamOutput ->
-            handleAudioOutput(out)
-        }?.apply {
-            collect()
-        }
-    }
-
-    Log.d(TAG, "After invokeModelWithBidirectionalStream")
-    
-    startSession()
-    sendSystemPrompt()
-    sendAudioChunk(pcm16kMonoBytes)
-    endSession()  // <-- ADDED: Properly close the session
-
-    Log.d(TAG, "Before invokeModelWithBidirectionalStream")
-    
-    audioOut.toByteArray()
+suspend fun translateOnce(pcm16kMonoBytes: ByteArray): ByteArray = withContext(Dispatchers.IO) {  
+    Log.d(TAG, "Before invokeModelWithBidirectionalStream")  
+  
+    bedrock?.invokeModelWithBidirectionalStream(  
+        InvokeModelWithBidirectionalStreamRequest {  
+            this.modelId = "amazon.nova-sonic-v1:0"  
+            this.body = inputParts.consumeAsFlow()  
+        }  
+    ) { response ->  
+        response.body.also { responseBody ->  
+            Log.d(TAG, "Response received: $response with body $responseBody")  
+        }?.onEach { out: InvokeModelWithBidirectionalStreamOutput ->  
+            handleAudioOutput(out)  
+        }?.apply {  
+            collect()  
+        }  
+    }  
+    Log.d(TAG, "After invokeModelWithBidirectionalStream")  
+  
+    startSession()  
+    sendSystemPrompt()  
+    sendAudioChunk(pcm16kMonoBytes)  
+    endSession()  // <-- ADDED: Properly close the session  
+  
+    audioOut.toByteArray()  
 }
 ```
 This did not work because the suspend call to  invokeModelWithBidirectionalStream blocks the corroutine so the other calls to startSession, sendSystemPrompt, etc.  never happen. 
