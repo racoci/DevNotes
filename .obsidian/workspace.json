@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,10 +228,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9fab0e02990374c8",
+  "active": "9e6bbbc651d8c4fa",
   "lastOpenFiles": [
-    "Sem título 2.md",
     "Sem título 3.md",
+    "Sem título 2.md",
     "Handling output events with the bidirectional API.md",
     "Sem título 1.md",
     "Sem título.md",
