@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 2.md",
+                "file": "Handling output events with the bidirectional API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título 2"
+              "title": "Handling output events with the bidirectional API"
             }
           }
         ],
@@ -203,7 +203,7 @@
   "active": "2e654e4e724bb2fb",
   "lastOpenFiles": [
     "Sem título 1.md",
-    "Sem título 2.md",
+    "Handling output events with the bidirectional API.md",
     "Sem título.md",
     "Infra/IaC/Predictability/Predictive Cloud Infrastructure.md",
     "Infra/IaC/Readings/🌟 API Gateway vs Load Balancer vs Reverse Proxy.md",
