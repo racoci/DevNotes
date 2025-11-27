@@ -86,8 +86,8 @@ As I have sent before (in the other issue), my current sequence of events is:
 
 The message at 11-26 12:31:35.468 is the contentEnd of the system prompt. This would never be the issue at this point because we would have a validation error before that.
 
-## About issue 3
-Thanks for pointing that out, his could be an issue in the future, but at the point we are I'm not even receiving back the audioOutput event as can be seen by the logs.
+## About issues 3 and 4
+Thanks for pointing that out, this could be an issue in the future, but at the point we are I'm not even receiving back the audioOutput. I'll fix the sampleRate of the playback once I have something back to test with.
 
 ## About issue 4
-T
+Thanks for pointing that out, this could be an issue in the future, but at the point we are I'm not even receiving back the audioOutput event as can be seen by the logs. I'll fix this parsing once I have something back being sent by the API.
